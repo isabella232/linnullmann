@@ -1,7 +1,7 @@
  #note that we are using bundle and compass is called in a gemfile in the project root
  # Require any additional compass plugins here.
 # -----------------------------------------------------------------------------
-require 'singularitygs'
+# require 'singularitygs'
 require 'sass-globbing'
 
 # Set this to the root of your project when deployed:
