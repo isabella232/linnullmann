@@ -2,13 +2,13 @@
 // ------------------------------------------------------------
 @import "libs/required";
 @import "libs/reset";
-@import "libs/settings";
+@import "settings";
 @import "libs/mixins";
 // @import "libs/placeholders";
 
 // Use SASS globbing to import all _.scss files in the module folder.
 // These should be independent modules that follow the BEM/SMACSS way
-//@import "modules/*";
+@import "modules/*";
 
 
 
@@ -48,8 +48,8 @@ a {
  @import "add-ons/module-typeset"; 			// Specific typesetting
 // @import "add-ons/grid"; 					// Grid system
 //
- //@import "add-ons/article"; 					// Grid system
-// @import "add-ons/navigation-side"; 					// Grid system
+ @import "add-ons/article"; 					// Grid system
+ @import "add-ons/navigation-side"; 					// Grid system
 //
 
 /* ::Print */

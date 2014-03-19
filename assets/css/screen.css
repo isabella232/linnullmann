@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, .footnotes li, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -68,6 +68,18 @@ textarea {
   resize: vertical;
 }
 
+h1 {
+  color: #062029;
+}
+
+h3 {
+  color: #262626;
+}
+
+h4, .list h5 {
+  color: #262626;
+}
+
 /* ::Base styles */
 /* ------------------------------------------------------------ */
 html {
@@ -118,7 +130,7 @@ a:not(> img) {
   font-family: 'Open Sans', sans-serif, sans-serif;
 }
 
-.font-var {
+.font-var, aside.sidebar-right, small, .footnotes li {
   font-family: Georgia, serif;
 }
 
@@ -182,12 +194,12 @@ em, i, q {
   line-height: 1.2222222em;
 }
 
-.as-blockquote, .as-blockquote--typeset, .is-typeset blockquote {
+.as-blockquote, .as-blockquote--typeset, .is-typeset blockquote, blockquote {
   font-size: 2em;
   line-height: 1.2375em;
   line-height: normal;
 }
-.as-blockquote p, .as-blockquote--typeset p, .is-typeset blockquote p {
+.as-blockquote p, .as-blockquote--typeset p, .is-typeset blockquote p, blockquote p {
   margin: 0;
   font-style: italic;
 }
@@ -244,8 +256,206 @@ em, i, q {
   list-style-type: decimal;
 }
 
-.as-blockquote--typeset, .is-typeset blockquote {
+.as-blockquote--typeset, .is-typeset blockquote, blockquote {
   margin: 0.825em 0;
+}
+
+article.hentry {
+  padding: 1.5rem;
+  margin: auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+@media screen and (min-width: 600px) {
+  article.hentry {
+    padding: 2rem 7rem;
+  }
+}
+article.hentry header {
+  margin-bottom: .5em;
+}
+article.hentry img {
+  max-width: 100%;
+}
+article.hentry p:first-child,
+article.hentry h1 + p,
+article.hentry h2 + p,
+article.hentry h3 + p,
+article.hentry h4 + p,
+article.hentry h5 + p,
+article.hentry h6 + p,
+article.hentry hr + p {
+  text-indent: 0;
+}
+article.hentry p {
+  text-indent: 1.5rem;
+}
+
+aside.sidebar-right {
+  font-size: 14px;
+}
+
+small, .footnotes li {
+  font-size: 0.75em;
+  line-height: 1.4666667em;
+}
+
+@media screen and (min-width: 420px) {
+  .content img:first-child {
+    float: left;
+    margin: .5em 1.4em 1.5em 0;
+  }
+}
+.content img:first-child object, .content img:first-child embed, .content img:first-child iframe {
+  max-width: 100% !important;
+}
+
+article.dev p {
+  margin-bottom: 1.25em;
+  text-indent: 0;
+}
+
+hr {
+  margin: 1em auto;
+  border: 0;
+  border-top: 1px solid #EEEEEE;
+}
+
+.screen-reader-text {
+  /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+sup, sub {
+  font-size: 0.75em;
+  line-height: 1.4666667em;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.4em;
+}
+
+.sharing {
+  margin-top: 4em;
+}
+
+.content {
+  min-width: 0;
+  margin-left: 0;
+}
+@media screen and (min-width: 900px) {
+  .content {
+    min-width: 420px;
+    margin-left: 34%;
+  }
+}
+
+.sidebar-left {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: static;
+  color: #777;
+}
+.sidebar-left a {
+  color: #505050;
+}
+@media screen and (min-width: 900px) {
+  .sidebar-left {
+    width: 34%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.content {
+  margin-right: 0;
+}
+@media screen and (min-width: 1100px) {
+  .content {
+    margin-right: 20%;
+  }
+}
+
+.sidebar-right {
+  overflow: hidden;
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  position: static;
+}
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+  .sidebar-right {
+    margin-left: 34%;
+    width: 66%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .sidebar-right {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.sidebar-left {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #062029;
+  text-align: center !important;
+  color: #cccccc;
+  /* Sidebar nav */
+}
+.sidebar-left .sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+.sidebar-left .sidebar-nav-item {
+  display: block;
+  padding-top: .35em;
+  padding-bottom: .35em;
+}
+.sidebar-left .sidebar-nav-item:hover,
+.sidebar-left .sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-left .sidebar-nav-item.active a {
+  color: #787878;
+}
+.sidebar-left hr {
+  margin: 1em auto;
+  border-top: 1px solid #082a36;
+}
+
+.sidebar-right {
+  text-align: left;
+  padding: 2em 7em 4em 2em;
+  background-color: white;
+  color: #555555;
+}
+@media screen and (min-width: 1100px) {
+  .sidebar-right {
+    padding: 2em 3em;
+  }
+  .sidebar-right section:first-child {
+    margin-top: 37% !important;
+  }
+  .sidebar-right section:last-child {
+    margin-bottom: 10% !important;
+  }
 }
 
 /* ::Print */
