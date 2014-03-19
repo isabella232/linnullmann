@@ -4,11 +4,11 @@
 @import "libs/reset";
 @import "libs/settings";
 @import "libs/mixins";
-@import "libs/placeholders";
+// @import "libs/placeholders";
 
 // Use SASS globbing to import all _.scss files in the module folder.
 // These should be independent modules that follow the BEM/SMACSS way
-@import "modules/*";
+//@import "modules/*";
 
 
 
@@ -17,6 +17,7 @@
 
 html {
 	font-size: 100%;
+	@include debug-vertical-alignment;
 	@include respond-to-max(768px, $IE9: false) { // Stop at precise width, as we're talking about devices
 		-webkit-text-size-adjust: 100%;	// Stops text scaling in iOS.
 	}
@@ -42,21 +43,21 @@ a {
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 
-@import "libs/typography"; 					// Base level typography
-@import "libs/forms";						// Forms
-@import "add-ons/module-typeset"; 			// Specific typesetting
-@import "add-ons/grid"; 					// Grid system
-
-@import "add-ons/article"; 					// Grid system
-@import "add-ons/navigation-side"; 					// Grid system
-
+ @import "libs/typography"; 					// Base level typography
+// @import "libs/forms";						// Forms
+ @import "add-ons/module-typeset"; 			// Specific typesetting
+// @import "add-ons/grid"; 					// Grid system
+//
+ //@import "add-ons/article"; 					// Grid system
+// @import "add-ons/navigation-side"; 					// Grid system
+//
 
 /* ::Print */
 /* ------------------------------------------------------------ */
 
-@media print {
-	body {
-		@include adjust-leading-to(2);
-		font-size: percentage(10 / 16);
-	}
-}
+// @media print {
+// 	body {
+// 		@include adjust-leading-to(2);
+// 		font-size: percentage(10 / 16);
+// 	}
+// }
