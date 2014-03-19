@@ -1,0 +1,42 @@
+// Reference widths from settings file
+.respond-to(@media-min) {
+
+
+        @media screen and (min-width: @media-min) {
+            @content;
+        }
+
+}
+
+.respond-to-max(@media-max) {
+    @if @IE9 == true {
+        .lt-ie9 & {
+            @content;
+        }
+        @media screen and (max-width: @media-max - 1px)  {
+            @content;
+        }
+    }
+    @else {
+        @media screen and (max-width: @media-max - 1px) {
+            @content;
+        }
+    }
+}
+
+
+.respond-to-min-max(@media-min, @media-max) {
+    @if @IE9 == true {
+        .lt-ie9 & {
+            @content;
+        }
+        @media screen and (min-width: @media-min) and (max-width: @media-max)  {
+            @content;
+        }
+    }
+    @else {
+         @media screen and (min-width: @media-min) and (max-width: @media-max) {
+            @content;
+        }
+    }
+}

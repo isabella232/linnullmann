@@ -1,6 +1,6 @@
 baseurl: http://linnullman.pubspringdev1.com
-sitename: 'Jekyll Starter'
-description: 'A base Jekyll theme'
+sitename: 'Linn Ullmann'
+description: 'official author site'
 # do not include  https://github.com/...
 repo: 'budparr/jekyll-starter'
 branch: master
