@@ -40,6 +40,13 @@ a {
 	}
 }
 
+footer#content-info {
+	background-color: #000;
+}
+
+footer ul li{display:inline;}
+
+hr {visibility:none;}
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 
@@ -49,7 +56,9 @@ a {
 // @import "add-ons/grid"; 					// Grid system
 //
  @import "add-ons/article"; 					// Grid system
- @import "add-ons/navigation-side"; 					// Grid system
+@import "add-ons/footer-sticky"; 					// Grid system
+@import "add-ons/background-img"; 	
+ //@import "add-ons/navigation-side"; 					// Grid system
 //
 
 /* ::Print */
