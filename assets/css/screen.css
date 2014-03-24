@@ -452,6 +452,8 @@ img.bg {
   padding-top: 7%;
 }
 .sidebar-left header p {
+  max-width: 400px;
+  margin: auto;
   font-size: 94%;
   line-height: 1.6;
 }

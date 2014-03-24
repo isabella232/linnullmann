@@ -45,6 +45,7 @@ $sidebar-right-background: #000;
         color: #777;
 
 
+    // headers style the top portion of the sidebar on this project
         header {
           height:$splash-height;
           max-height:$splash-height;
@@ -54,6 +55,8 @@ $sidebar-right-background: #000;
         }
 
         header p {
+          max-width:400px;
+          margin:auto;
           font-size:94%;
           line-height:1.6;
         }
