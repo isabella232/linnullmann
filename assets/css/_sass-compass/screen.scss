@@ -67,11 +67,11 @@ footer ul li {
 //
 @import "add-ons/article"; 					// Grid system
 @import "add-ons/section"; 					// Grid system
-@import "add-ons/footer-sticky"; 					// Grid system
+//@import "add-ons/footer-sticky"; 					// Grid system
 @import "add-ons/background-img";
 @import "add-ons/navigation-side"; 					// Grid system
 @import "add-ons/background-img";
-
+@import "add-ons/buttons";
 //
 
 .sidebar-left p {
@@ -86,6 +86,10 @@ footer ul li {
 
 nav {
 	padding-top:2em;
+}
+
+body.home article img {
+	max-height:200px;
 }
 /* ::Print */
 /* ------------------------------------------------------------ */
