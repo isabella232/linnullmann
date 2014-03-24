@@ -27,6 +27,8 @@ body {
 	@extend .font-body;
 	background: $body-color;
 	color: $base-color;
+	//background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_52d5b2dfdf619_1.JPG) repeat center center;
+
 }
 
 a {
@@ -40,27 +42,51 @@ a {
 	}
 }
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300);
+
 footer#content-info {
 	background-color: #000;
 }
 
-footer ul li{display:inline;}
+footer ul li {
+	display:inline;
+}
 
-hr {visibility:none;}
+.sharing {
+	margin-top: 4em;
+}
+
+
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 
- @import "libs/typography"; 					// Base level typography
+@import "libs/typography"; 					// Base level typography
 // @import "libs/forms";						// Forms
- @import "add-ons/module-typeset"; 			// Specific typesetting
+@import "add-ons/module-typeset"; 			// Specific typesetting
 // @import "add-ons/grid"; 					// Grid system
 //
- @import "add-ons/article"; 					// Grid system
+@import "add-ons/article"; 					// Grid system
+@import "add-ons/section"; 					// Grid system
 @import "add-ons/footer-sticky"; 					// Grid system
-@import "add-ons/background-img"; 	
- //@import "add-ons/navigation-side"; 					// Grid system
+@import "add-ons/background-img";
+@import "add-ons/navigation-side"; 					// Grid system
+@import "add-ons/background-img";
+
 //
 
+.sidebar-left p {
+	text-align: center;
+	padding: 2em;
+}
+
+.splash {
+	height: $splash-height;
+	max-height:$splash-height;
+}
+
+nav {
+	padding-top:2em;
+}
 /* ::Print */
 /* ------------------------------------------------------------ */
 

@@ -7,7 +7,7 @@
 // Fonts
 // ------------------------------------------------------------
 
-.font-body 					{  font-family: 'Open Sans', sans-serif, sans-serif; }
+.font-body 					{  font-family: Lato, 'Open Sans', sans-serif, sans-serif; }
 .font-var 					{  font-family: Georgia, serif; }
 
 
@@ -21,3 +21,33 @@ ol 													{ @include nobullet; }
 li 													{ line-height: inherit; }
 strong, b 											{ font-weight: 700; }
 em, i, q 											{ font-style: italic; }
+
+nav {
+  font-weight:300;
+  text-transform:lowercase;
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+sup, sub {
+  @include adjust-font-size-to($kappa);
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+sub { top: 0.4em; }
+
+.footnotes li {
+@extend small;
+
+}
+
+small {
+ //@extend .as-heading__smallest;
+ @include adjust-font-size-to($kappa);
+ @extend .font-var;
+}

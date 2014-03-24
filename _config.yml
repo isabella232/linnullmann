@@ -1,6 +1,6 @@
 baseurl: http://linnullman.pubspringdev1.com
 sitename: 'Linn Ullmann'
-description: 'official author site'
+description: 'award winning novelist and journalist'
 # do not include  https://github.com/...
 repo: 'budparr/jekyll-starter'
 branch: master
@@ -30,7 +30,7 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 production: false
 use_pure_css: false
 use_jquery: false
-include_font_awesome: false
+include_font_awesome: true
 include_addthis_sharing: false
 
 # options (data)
@@ -42,4 +42,4 @@ simple_form_api_token:
 
 # options (social)
 # facebook_id:
-twitter_id: budparr
+twitter_id: 

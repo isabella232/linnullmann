@@ -1,20 +1,16 @@
 <aside class="sidebar-left">
+  <header>
   <h1><a href="{{site.baseurl}}">{{site.sitename}}</a></h1>
-  <p>{{site.description}}</p>
-  <hr />  
+  <!-- <p>site.description</p> -->
+  
+  <p>“An elegant stylist with an original voice she is especially good at capturing moments of poignancy, often with a trace of gallows of humor” <br />
+
+<em>— New York Times Book Review</em>
+</p>
+
+   </header>
   {% include nav/navigation.html %}
-  <hr />
-  {% if site.facebook_id %}
-    <a href="https://www.facebook.com/{{site.facebook_id}}">
-      <span class="screen-reader-text">Facebook</span>
-      <i class="fa fa-facebook-square fa-lg icon-facebook-squared"></i>
-    </a>
-  {% endif %}
-  {% if site.twitter_id %}
-    <a href="https://twitter.com/{{site.twitter_id}}">
-      <span class="screen-reader-text">Twitter</span>
-      <i class="fa fa-twitter-square fa-lg icon-twitter-squared"></i>
-    </a>
-  {% endif %}
+  
+ 
 </aside>
 <!-- /aside left -->    

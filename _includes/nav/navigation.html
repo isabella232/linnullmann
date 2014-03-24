@@ -1,10 +1,28 @@
+<nav>
 <ul class="nav">
   <a href="/"><li class="sidebar-nav-item">home</li></a>
-{% for links in site.data.navigation %}
-	<a href="/{{links.slug}}/">
-		<li id="{{links.slug}}" class="sidebar-nav-item{% if page.url contains /links.slug/  %} active{% endif %}">
-			{{links.name}}
+{% for links in site.pages %}
+{% if links.show_in_menu == true %}
+	<a href="{{links.url}}">
+		<li id="{{links.url}}" class="sidebar-nav-item{% if page.url contains /links.url/  %} active{% endif %}">
+			{{links.title}}
 		</li>
 	</a>	
+	{% endif %}
 {% endfor %}
 </ul>
+
+
+ {% if site.facebook_id %}
+    <a href="https://www.facebook.com/{{site.facebook_id}}">
+      <span class="screen-reader-text">Facebook</span>
+      <i class="fa fa-facebook-square fa-lg icon-facebook-squared"></i>
+    </a>
+  {% endif %}
+  {% if site.twitter_id %}
+    <a href="https://twitter.com/{{site.twitter_id}}">
+      <span class="screen-reader-text">Twitter</span>
+      <i class="fa fa-twitter-square fa-lg icon-twitter-squared"></i>
+    </a>
+  {% endif %}
+  </nav>

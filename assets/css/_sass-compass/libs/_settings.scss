@@ -8,6 +8,12 @@
 // :: Spacing
 // ------------------------------------------------------------
 
+//SITE
+
+$splash-height: 400px;
+$splash-color: #999;
+$splash-color-background:#554f45;
+
 
 // ------------------------------------------------------------
 // :: Breakpoints
@@ -50,12 +56,12 @@ $kind-of-blue: blue;
 // Be descriptive without being specific.
 // This allows for consistency project to project, and easy changing
 
-$body-color 						: #fff;
+$body-color 						: $macy-grey;
 $base-color							: $macy-grey;
 $heading-color						: $jack-black;
 $hightlight-color 					: $betty-blue;
 
-$action								: $agent-orange;
+$action								: $base-color;
 $action-respond						: $al-green;
 
 
