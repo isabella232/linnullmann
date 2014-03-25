@@ -17,7 +17,7 @@
 
 html {
 	font-size: 100%;
-	@include debug-vertical-alignment;
+	//@include debug-vertical-alignment;
 	@include respond-to-max(768px, $IE9: false) { // Stop at precise width, as we're talking about devices
 		-webkit-text-size-adjust: 100%;	// Stops text scaling in iOS.
 	}
@@ -68,11 +68,9 @@ footer ul li {
 @import "add-ons/article"; 					// Grid system
 @import "add-ons/section"; 					// Grid system
 //@import "add-ons/footer-sticky"; 					// Grid system
-@import "add-ons/background-img";
 @import "add-ons/navigation-side"; 					// Grid system
-@import "add-ons/background-img";
 @import "add-ons/buttons";
-//
+
 
 .sidebar-left p {
 	text-align: center;
@@ -88,9 +86,21 @@ nav {
 	padding-top:2em;
 }
 
-body.home article img {
-	max-height:200px;
+
+@mixin shadow-light {
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
 }
+
+
+body.home article img {
+	max-height: 200px;
+	@include shadow-light;
+}
+
+
+
 /* ::Print */
 /* ------------------------------------------------------------ */
 

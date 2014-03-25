@@ -1,15 +1,15 @@
 
 $red:   #E0645C;
 $dark:  #444444;
-$light: transparent;
+$light: #999999;
+$transparent: transparent;
 $blue:  #2DB6CF;
 $green: #46b98a;
-$white: #ececec;
+$white: #FFFFFF;
 .button {
   border: 0 none;
-  border:1px solid #444;
   border-radius: 2px 2px 2px 2px;
-  color: #ececec;
+  color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-family: Arial,sans-serif;
@@ -20,9 +20,9 @@ $white: #ececec;
   margin-top: 10px;
   padding: 7px 10px;
   text-transform: none;
-  transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
   width: 16.795%; /* auto */
   text-align: center; /* DELETE WHEN WIDTH AUTO */
   &.red {
@@ -44,6 +44,15 @@ $white: #ececec;
   &.light {
     background: none repeat scroll 0 0 $light;
     color: $white;
+    &:hover {
+      background: none repeat scroll 0 0 $dark;
+      color: $white;
+    }
+  }
+  &.transparent {
+    background: none repeat scroll 0 0 $transparent;
+    color: $white;
+    border:1px solid $dark;
     &:hover {
       background: none repeat scroll 0 0 $dark;
       color: $white;

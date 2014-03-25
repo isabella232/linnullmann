@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: /en/contact/
 published: true
 show_in_menu: true
 sharing: false

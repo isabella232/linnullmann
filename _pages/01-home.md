@@ -1,14 +1,15 @@
 ---
 layout: alt
 permalink: /
-sidebar_include: "snippets/article-latest.html"
+include: "books/books-list-covers.html"
 sharing: false
 published: true
+class: dev
 category: home
 tite: Home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
-[![The Cold Spring](/assets/img/cover/the-cold-song-M.jpg)](/books/2014/04/01/the-cold-song/)**Linn Ullmann** is an award winning novelist and journalist and the author of five novels: [*Before You Sleep*](), [*Stella Descending*](), [*Grace*](), [*A Blessed Child*]() and [*Det Dyrebare*]() (Norwegian title)
+**Linn Ullmann** is an award winning novelist and journalist and the author of five novels: [*Before You Sleep*](), [*Stella Descending*](), [*Grace*](), [*A Blessed Child*]() and [*Det Dyrebare*]() (Norwegian title)
 
 Her latest novel *Det Dyrebare* was launched in Norway in November 2011 and became the bestselling Norwegian novel that year in the category literary fiction and was named one of the best books of the Year in Norway by several leading newspapers and critics.
 

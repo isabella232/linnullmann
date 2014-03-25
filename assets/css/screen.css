@@ -95,16 +95,6 @@ hr {
 /* ------------------------------------------------------------ */
 html {
   font-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -webkit-background-size: 100% 1.5em;
-  -moz-background-size: 100% 1.5em;
-  -o-background-size: 100% 1.5em;
-  background-size: 100% 1.5em;
-  background-position: left top;
 }
 @media screen and (max-width: 767px) {
   html {
@@ -340,9 +330,6 @@ article.hentry h6 + p,
 article.hentry hr + p {
   text-indent: 0;
 }
-article.hentry p {
-  text-indent: 1.5rem;
-}
 article.hentry .dev p {
   margin-bottom: 1.25em;
   text-indent: 0;
@@ -385,28 +372,6 @@ a .quote-small {
   color: #ddd;
 }
 
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -9999999;
-}
-
-@media screen and (max-width: 1024px) {
-  /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;
-    /* 50% */
-  }
-}
 .content {
   min-width: 0;
   margin-left: 0;
@@ -501,33 +466,10 @@ img.bg {
   border-top: 1px solid #082a36;
 }
 
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -9999999;
-}
-
-@media screen and (max-width: 1024px) {
-  /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;
-    /* 50% */
-  }
-}
 .button {
   border: 0 none;
-  border: 1px solid #444;
   border-radius: 2px 2px 2px 2px;
-  color: #ececec;
+  color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-family: Arial,sans-serif;
@@ -538,9 +480,9 @@ img.bg {
   margin-top: 10px;
   padding: 7px 10px;
   text-transform: none;
-  transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
   width: 16.795%;
   /* auto */
   text-align: center;
@@ -548,43 +490,52 @@ img.bg {
 }
 .button.red {
   background: none repeat scroll 0 0 #e0645c;
-  color: #ececec;
+  color: white;
 }
 .button.red:hover {
-  background: none repeat scroll 0 0 transparent;
-  color: #ececec;
+  background: none repeat scroll 0 0 #999999;
+  color: white;
 }
 .button.dark {
   background: none repeat scroll 0 0 #444444;
-  color: #ececec;
+  color: white;
 }
 .button.dark:hover {
   background: none repeat scroll 0 0 #2db6cf;
-  color: #ececec;
+  color: white;
 }
 .button.light {
-  background: none repeat scroll 0 0 transparent;
-  color: #ececec;
+  background: none repeat scroll 0 0 #999999;
+  color: white;
 }
 .button.light:hover {
   background: none repeat scroll 0 0 #444444;
-  color: #ececec;
+  color: white;
+}
+.button.transparent {
+  background: none repeat scroll 0 0 transparent;
+  color: white;
+  border: 1px solid #444444;
+}
+.button.transparent:hover {
+  background: none repeat scroll 0 0 #444444;
+  color: white;
 }
 .button.green {
   background: none repeat scroll 0 0 #46b98a;
-  color: #ececec;
+  color: white;
 }
 .button.green:hover {
   background: none repeat scroll 0 0 #444444;
-  color: #ececec;
+  color: white;
 }
 .button.blue {
   background: none repeat scroll 0 0 #2db6cf;
-  color: #ececec;
+  color: white;
 }
 .button.blue:hover {
   background: none repeat scroll 0 0 #444444;
-  color: #ececec;
+  color: white;
 }
 
 .sidebar-left p {
@@ -603,6 +554,9 @@ nav {
 
 body.home article img {
   max-height: 200px;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* ::Print */
