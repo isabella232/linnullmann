@@ -1,0 +1,5 @@
+{% for cover in site.categories.books limit:4 %}
+	<a href="{{cover.url}}">
+		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2.2em;">
+	</a>
+{% endfor %}
