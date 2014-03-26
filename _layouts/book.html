@@ -12,7 +12,7 @@ section: book
 
   {% for link in site.categories.books limit:19 %}
     
-
+{% unless link.category contains 'Non-fiction' %}
 
 
 
@@ -30,7 +30,7 @@ section: book
       
 
 
-
+{% endunless %}
 
 
     
