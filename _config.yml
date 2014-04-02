@@ -2,8 +2,8 @@ baseurl: http://linnullman.pubspringdev1.com
 sitename: 'Linn Ullmann'
 description: 'award winning novelist and journalist'
 # do not include  https://github.com/...
-repo: 'budparr/jekyll-starter'
-branch: master
+repo: 'sonnetmedia/linnullmann'
+branch: gh-pages
 default_author: "Bud Parr"
 
 #Jekyll Options
@@ -17,7 +17,7 @@ permalink:  pretty
 # markdown: kramdown
 markdown: redcarpet
 redcarpet:
-  extensions: ['autolink', 'smart', 'tables']
+  extensions: ['autolink', 'smart']
 # pygments: true
 #Pages - store all pages in the _pages directory
 include: ['_pages']
