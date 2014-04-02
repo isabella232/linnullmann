@@ -1,0 +1,10 @@
+$panel_background_color: #EEE;
+
+.panel {
+background-color: $panel_background_color;
+padding: 1em;
+border: 1px solid darken($panel_background_color, 7%);
+
+margin: 2em 0;
+@include adjust-font-size-to($kappa);
+}

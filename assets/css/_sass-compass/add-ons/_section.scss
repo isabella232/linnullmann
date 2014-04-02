@@ -1,18 +1,18 @@
   section {
     //padding: 1.5rem;
     margin:auto;
-    max-width: $d-vp;
+   // max-width: $d-vp;
     //min-height: $c-vp;
     overflow: hidden;
 
-    @include respond-to($c-vp, $IE9: false) {
+  //  @include respond-to($c-vp, $IE9: false) {
     //padding: 2rem 7rem;
-    }
+    //}
 
   }
 
   a section.title-only {
-    padding: 1em 1em .5em 1em;
+    padding: 1em 1em .5em 4em;
     border-bottom:1px solid #eee;
   }
 

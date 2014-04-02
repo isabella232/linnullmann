@@ -1,0 +1,13 @@
+{% for link in site.categories.books limit:20 %}
+	{% if link.name == page.next_book %}
+		<a href="{{link.url}}">
+					<i class="icon-left-circled"></i> 
+		</a>
+	{% endif %}
+	{% if link.name == page.previous_book %}
+		<a href="{{link.url}}">
+			<i class="icon-right-circled"></i>
+		</a>
+	{% endif %}
+	
+{% endfor %}

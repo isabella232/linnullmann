@@ -2,15 +2,9 @@
 layout: default
 section: books
 ---
-{% for page in site.categories.books %} 
-<a href="{{page.url}}">
-  <section class="is-typeset title-only">
-    <header>
-      <h1 class="page-title bigtitle">
-        {% if page.title %}{{page.title}} {% endif %}
-      </h1>
-
-    </header>
-  </section>
-  </a>
-{% endfor %}
+{% if page.include %}
+	  {% include {{page.include}} %}
+	{% endif %}
+<article class="hentry">
+	{{content}}
+</article>

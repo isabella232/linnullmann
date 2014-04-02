@@ -2,7 +2,7 @@
   <body class="{{page.category | replace: ' ','-' | downcase}}{{page.categories | first}}">
     <div class="wrapperf">
       {% include nav/nav-side.html %}
-      <div class="content is-typeset">
+      <div class="content is-typeset{% if page.splash_image %} content_splash{% endif %}">
         {{content}}
       </div>
 <!--        include nav/nav-side-right.html  -->

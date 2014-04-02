@@ -1,0 +1,65 @@
+$splash-height: 400px !default;
+$splash-color: #999 !default;
+$splash-color-background:#554f45 !default;
+.splash {
+	//margin-top: $navigation-height * -1;
+  height: $splash-height;
+  max-height:$splash-height;
+  width: 100%;
+  background-color: $splash-color-background;
+//The following items fix our image so that we can use the parallax effect//dependency for the parallax effect
+  
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.content_splash {
+	margin-top: $splash-height;
+	background-color: white;
+}
+
+
+
+.splash_book {
+height: $splash-height;
+  max-height:$splash-height;
+  width: 100%;
+  background-color: $splash-color-background;
+  padding: 2em 4em;
+  float: left;
+  overflow: hidden;
+
+}
+
+.splash_book img{
+max-height: 330px;
+	@include shadow-light;
+	@include transform(rotate(-3deg));
+	margin-right: 20px;
+float: left;
+}
+
+.splash_book .quote {
+	font-size: 1.4rem;
+}
+article .quote {
+	font-size: 1rem;
+
+}
+
+blockquote {
+	//@extend .font-var;
+}
+blockquote small {
+	font-size: .9rem;
+	@extend .font-body;
+}
+
+blockquote.review .quote p:before {content:'“';font-family: Georgia;}
+blockquote.review .quote p:after {content:'”';font-family: Georgia;}
+blockquote.review .quote p {margin-bottom: .25em;}
+blockquote.review  small p:before {content:'— '; display: inline;}
+
+

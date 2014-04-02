@@ -47,11 +47,19 @@
 	h3			{ @extend .as-heading__medium; 		@extend .as-heading__medium--typeset; } 	
 	h4 			{ @extend .as-heading__normal; 		@extend .as-heading__normal--typeset; }  	
 	h5			{ @extend .as-heading__small; 		@extend .as-heading__small--typeset; } 	
-	h6			{ @extend .as-heading__smallest; 	@extend .as-heading__smallest--typeset; }  	
+	h6			{ @extend .as-heading__smallest; 	//@extend .as-heading__smallest--typeset; 
+	}  	
 	p 			{ @extend .as-para--typeset; }
 	ol			{ @extend .as-ordered-list--typeset; }
 	ul 			{ @extend .as-unordered-list--typeset; }
 	li 			{ @extend .as-list--typeset; }
 	blockquote 	{ @extend .as-blockquote--typeset; }
+}
+
+.h6 {font-weight: 500;
+@extend h6;
+margin-bottom: 0;
+color: #292929;
+line-height: 1;
 }
 

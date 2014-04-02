@@ -63,5 +63,12 @@
     {% if site.production == true %}
       {% include global/analytics.html %}
     {% endif %}
+{% if page.english %}
+<link rel="prefetch" href="{{site.baseurl}}/{{page.english}}/" />
+{% endif %}
+{% if page.norsk %}
+<link rel="prefetch" href="{{site.baseurl}}/{{page.norsk}}/" />
+{% endif %}
+
 
   </head>

@@ -2,81 +2,40 @@
 layout: default
 section: book
 ---
-<section class="page-layout">
-
-
-
-
-
-{% assign count = '0' %}
-
-  {% for link in site.categories.books limit:19 %}
-    
-{% unless link.category contains 'Non-fiction' %}
-
-
-
-
-
-
-      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-    
-      
-        
-
-        <a href="{{link.url}}">{{link.title}} {{count}}</a><br />
-
-
-      
-
-
-{% endunless %}
-
-
-    
-
-
-
-    
-  {% endfor %}
-
-
-<hr /><hr />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <header>
-        <h1 class="page-title">
-            {% if page.title %} {{page.title}}  {% endif %}
-        </h1>
-    </header>
-    
-                {% include books/related-review.html show="1" %}
-                {% include books/cover-meta.html %}
-                {% include books/buy_links.html %}
-                {% include books/title.html %}
-    
+{% if page.url contains '/en/' %}
+  {% assign language = 'en' %}
+{% endif %}
+<section class='splash_book' style="width:100%;">
+  {% include books/cover.html %}
+  {% include books/related-review.html show="1" language="language" %}
 </section>
+<article class="hentry page-layout">
+  <header>
+    <hr />
+      <h5 style="display:inline;">{{page.category}}</h5>
+        <div style="text-align:right;float:right;display:inline;">{% include books/prev-next.html %}</div>
+    <hr />
+    <h1 class="page-title">
+      {% if page.title %} {{page.title}} {% endif %}
+    </h1>
+    <h2>{% if page.subtitle %} {{page.subtitle}}  {% endif %}</h2>
+  </header>
+  {{content}}
+  <hr />
+  <div class="book-covers row">
+    {% for fgn_covers in page.covers %}
+      <img src="/assets/img/cover/{{fgn_covers}}" class="cover-image-editions">
+    {% endfor %}
+  </div>
+  <div class="panel">
+    {% if page.published  %}<h5>Published In</h5>{{page.published | array_to_sentence_string }}<br /><br />{% endif %}
+    {% if page.rights %}<h5>Rights Sold To</h5> {{page.rights}}<br /><br />{% endif %}
+    {% if page.world_rights %}{{page.world_rights | markdownify }}{% endif %}
+  </div>
+  <div class="row">
+    <h3>Praise for {{page.title}}</h3>
+    {% include books/related-reviews.html language="language" %}
+  </div>
+</article>
+<h3 style="margin-left:2.5em;">Other Books</h3>
+{% include books/books-list-titles.html %}

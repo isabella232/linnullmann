@@ -7,8 +7,8 @@
 // Fonts
 // ------------------------------------------------------------
 
-.font-body 					{  font-family: Lato, 'Open Sans', sans-serif, sans-serif; }
-.font-var 					{  font-family: Georgia, serif; }
+.font-body 					{  font-family: 'Open Sans', sans-serif, sans-serif; }
+.font-var 					{  font-family: Lato, Georgia, serif; }
 
 
 // ------------------------------------------------------------
@@ -30,6 +30,8 @@ nav {
   font-weight:300;
   text-transform:lowercase;
 }
+
+
 
 .screen-reader-text { /* Reusable, toolbox kind of class */
   position: absolute;
@@ -53,5 +55,5 @@ sub { top: 0.4em; }
 small {
  //@extend .as-heading__smallest;
  @include adjust-font-size-to($kappa);
- @extend .font-var;
+ //@extend .font-var;
 }

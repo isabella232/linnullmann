@@ -55,11 +55,16 @@ footer ul li {
 .sharing {
 	margin-top: 4em;
 }
+@mixin shadow-light {
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+}
 
 
 /* ::Import styles */
 /* ------------------------------------------------------------ */
-
+@import "compass/utilities/tables/scaffolding";
 @import "libs/typography"; 					// Base level typography
 // @import "libs/forms";						// Forms
 @import "add-ons/module-typeset"; 			// Specific typesetting
@@ -70,36 +75,50 @@ footer ul li {
 //@import "add-ons/footer-sticky"; 					// Grid system
 @import "add-ons/navigation-side"; 					// Grid system
 @import "add-ons/buttons";
-
-
+@import "add-ons/page-splash";
+@import "add-ons/font-icons";
+@import "add-ons/code";
+@import "add-ons/panel";
 .sidebar-left p {
 	text-align: center;
 	padding: 2em;
 }
 
-.splash {
-	height: $splash-height;
-	max-height:$splash-height;
-}
 
 nav {
 	padding-top:2em;
 }
 
-
-@mixin shadow-light {
-	-moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
-	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
-	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.40);
+.row {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	@include clearfix;
 }
 
 
 body.home article img {
+	//allows us to use smaller cover images on the homepage
 	max-height: 200px;
 	@include shadow-light;
 }
+.img {@include shadow-light;}
+.cover-image-editions {
+max-height:120px;
+float:left;
+margin-right:1em;
+@include shadow-light;
+}
 
 
+.listings {
+  table {
+    @include table-scaffolding;
+  }
+}
+.right, td.right {
+	text-align: right;
+}
 
 /* ::Print */
 /* ------------------------------------------------------------ */
