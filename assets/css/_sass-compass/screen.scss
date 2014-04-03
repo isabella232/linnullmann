@@ -144,6 +144,17 @@ img.cover-image-editions:hover  {
 	text-align: right;
 }
 
+
+.cover-4 {
+	display: none;
+}
+@include respond-to($e-vp, $IE9: false) {
+.cover-4 {
+	display: block;
+}
+  
+}
+
 /* ::Print */
 /* ------------------------------------------------------------ */
 

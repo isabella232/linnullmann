@@ -1,9 +1,17 @@
 
+{% assign count = '0' %}
+
+
+
+
+
+
 {% if page.url contains '/en/' %}
 <div class="row">
 {% for cover in site.categories.books limit:4 %}
+		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:1em;">
+		<img src="/assets/img/cover/{{cover.cover_image}}" class="cover-{{count}}" style="margin-right:1em;">
 	</a>
 {% endfor %}
 </div>
@@ -12,8 +20,9 @@
 {% else %}
 <div class="row">
 {% for cover in site.categories.boker limit:4 %}
+		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:1em;">
+		<img src="/assets/img/cover/{{cover.cover_image}}" class="cover-{{count}}"  style="margin-right:1em;">
 	</a>
 {% endfor %}
 </div>
