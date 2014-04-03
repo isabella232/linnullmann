@@ -1,37 +1,29 @@
 <nav>
-<ul class="nav">
-
-
-
-{% if page.url contains '/en/' %}
-  <a href="/en/"><li class="sidebar-nav-item">home</li></a>
-  {% for page in site.pages %}
-    {% if page.url contains '/en/'  %}
-      {% if page.show_in_menu == true  %}
-        <a href="{{page.url}}">
-          <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
-        </a>  
-      {% endif %}
+  <ul class="nav">
+    {% if page.url contains '/en/' %}
+      <a href="/en/"><li class="sidebar-nav-item">home</li></a>
+      {% for page in site.pages %}
+        {% if page.url contains '/en/'  %}
+          {% if page.show_in_menu == true  %}
+            <a href="{{page.url}}">
+              <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
+            </a>  
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% else %}{% comment %}If EN isn't in URL serve up the 'unless' case{% endcomment %}
+      <a href="/"><li class="sidebar-nav-item">hjem</li></a>
+      {% for page in site.pages %}
+        {% unless page.url contains '/en/'  %}
+          {% if page.show_in_menu == true  %}
+            <a href="{{page.url}}">
+              <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
+            </a>  
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
     {% endif %}
-  {% endfor %}
-{% else %}
-  <a href="/"><li class="sidebar-nav-item">hjem</li></a>
-  {% for page in site.pages %}
-    {% unless page.url contains '/en/'  %}
-      {% if page.show_in_menu == true  %}
-        <a href="{{page.url}}">
-          <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
-        </a>  
-      {% endif %}
-    {% endunless %}
-  {% endfor %}
-{% endif %}
-
-
-
-</ul>
-
-
+  </ul>
  {% if site.facebook_id %}
     <a href="https://www.facebook.com/{{site.facebook_id}}">
       <span class="screen-reader-text">Facebook</span>
@@ -44,16 +36,9 @@
       <i class="fa fa-twitter-square fa-lg icon-twitter-squared"></i>
     </a>
   {% endif %}
-
-
-<div class="button-group" style="margin-top:3em;">
-
-
-
-<a href="{% if page.english %}/en/{{page.english}}/{% else %}/en/{% endif %}" ><div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">Eng</div></a>
-
-
-<a href="{% if page.norsk %}/{{page.norsk}}/{% else %}/{% endif %}" ><div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">Nor</div></a>
-</div>
-
-  </nav>
+  {% comment %}Toggle between languages{% endcomment %}
+  <div class="button-group" style="margin-top:3em;">
+    <a href="{% if page.english %}/en/{{page.english}}/{% else %}/en/{% endif %}" ><div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">Eng</div></a>
+    <a href="{% if page.norsk %}/{{page.norsk}}/{% else %}/{% endif %}" ><div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">Nor</div></a>
+  </div>
+</nav>
