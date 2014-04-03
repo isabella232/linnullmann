@@ -5,7 +5,7 @@ section: book
 {% if page.url contains '/en/' %}
   {% assign language = 'en' %}
 {% endif %}
-<section class='splash_book' style="width:100%;">
+<section class='splash_book'>
   {% include books/cover.html %}
   {% include books/related-review.html show="1" language="language" %}
 </section>
@@ -44,5 +44,7 @@ section: book
     {% include books/related-reviews.html language="language" %}
   </div>
 </article>
+<div class="row">
 <h3 style="margin-left:2.5em;">Other Books</h3>
 {% include books/books-list-titles.html %}
+</div>

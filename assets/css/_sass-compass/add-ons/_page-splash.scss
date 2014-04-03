@@ -38,7 +38,7 @@ $splash-color-background:#554f45 !default;
 .splash_book, .splash_books {
   height: $splash-height;
   max-height:$splash-height;
-  width: 100%;
+  //width: 100%;
   background-color: $splash-color-background;
   padding: 2em 4em;
   float: left;
