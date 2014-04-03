@@ -6,14 +6,20 @@ $splash-color-background:#554f45 !default;
 .splash {
 	//margin-top: $navigation-height * -1;
 
-height: auto;
-
-    @include respond-to($sidebar-left-breakpoint, $IE9: false) {
         height: $splash-height;
+
+          
+
+display: none;
+
+        @include respond-to($d-vp, $IE9: false) {
+display: block;
+
+            position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
         }
-
-  
-
 
 
   max-height:$splash-height;
@@ -23,15 +29,19 @@ height: auto;
   background-color: $splash-color-background;
 //The following items fix our image so that we can use the parallax effect//dependency for the parallax effect
   
-  position: fixed;
-  top:0;
-  left:0;
-  z-index: -1;
+
 }
 
 .content_splash {
-	margin-top: $splash-height;
+	margin-top: 0;
 	background-color: white;
+
+@include respond-to($d-vp, $IE9: false) {
+margin-top: $splash-height;
+
+
+}
+
 }
 
 
