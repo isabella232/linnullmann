@@ -32,9 +32,9 @@
 	
 // Set rhythm for paragraphs and lists
 .as-para--typeset 						{ margin: 0 0 rhythm(2, $para) 0; }
-.as-list--typeset 						{ margin: 0 0 rhythm(2, $para) 0; }
+.as-list--typeset 						{ margin: 0 0 rhythm(1, $kappa) 0; }
 
-.as-unordered-list--typeset 			{ @extend .as-list--typeset; margin-left: 1em; @include unordered; }
+.as-unordered-list--typeset 			{ @extend .as-list--typeset;  @include unordered; }
 .as-ordered-list--typeset 				{ @extend .as-unordered-list--typeset; @include ordered; }
 .as-blockquote--typeset 				{ @extend .as-blockquote; margin: rhythm(6, $quote) 0; }
 
@@ -52,7 +52,7 @@
 	p 			{ @extend .as-para--typeset; }
 	ol			{ @extend .as-ordered-list--typeset; }
 	ul 			{ @extend .as-unordered-list--typeset; }
-	li 			{ @extend .as-list--typeset; }
+	li 			{ @extend .as-list--typeset;}
 	blockquote 	{ @extend .as-blockquote--typeset; }
 }
 

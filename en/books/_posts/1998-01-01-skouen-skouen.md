@@ -2,7 +2,8 @@
 title: "Profession: Director. Arne Skouen and his films"
 subtitle: Norwegian Film Institute Publications Series No. 8
 name: skouen-skouen
-layout: book
+norsk: boker/1998/03/31/skouen
+layout: book-alt
 category: Non-fiction
 isbn:
 isbn_digital:
@@ -10,6 +11,11 @@ cover_image: skouen-skouen-L.jpg
 publisher:  Knopf Doubleday
 next_book: before-you-sleep
 previous_book: men-jeg-bor-her-ennaa
+published:
+- Norwegian
+- English
+- French
+- German
 ---
 Arne Skouen is a name that evokes associations. Since the 1930s he has worked as a journalist, author, dramatist, columnist, and of course film director. Starting in 1949 and for the next two decades he directed and wrote the screenplays for seventeen full-length films, many of which had a major influence on Norwegian film. His films include Street Kids, Fire in the Night!, Nine Lives, Cold Tracks, About Tilla, and An-Magritt. In 1991 Nine Lives was proclaimed the best Norwegian film, and it is one of the few films from Norway to be nominated for an Oscar.
 

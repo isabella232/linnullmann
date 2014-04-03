@@ -103,11 +103,39 @@ body.home article img {
 	@include shadow-light;
 }
 .img {@include shadow-light;}
-.cover-image-editions {
+
+img.cover-image-editions {
 max-height:120px;
 float:left;
 margin-right:1em;
 @include shadow-light;
+margin-bottom: 2em;
+overflow: visible;
+}
+.book-covers {
+	z-index: 50;
+	overflow: visible;
+}
+img.cover-image-editions:hover  {
+	-webkit-transform: scale(3.0);
+  -moz-transform: scale(3.0);
+  -o-transform: scale(3.0);
+  transform: scale(3.0);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  z-index: 50;
+
+}
+
+.splash_book .book-cover:hover {
+	-webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  z-index: 500;
+  overflow: visible;
 }
 
 

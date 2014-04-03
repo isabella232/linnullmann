@@ -1,13 +1,34 @@
-{% for link in site.categories.books limit:20 %}
-	{% if link.name == page.next_book %}
-		<a href="{{link.url}}">
-					<i class="icon-left-circled"></i> 
-		</a>
-	{% endif %}
-	{% if link.name == page.previous_book %}
-		<a href="{{link.url}}">
-			<i class="icon-right-circled"></i>
-		</a>
-	{% endif %}
-	
-{% endfor %}
+
+{% if page.url contains '/en/' %}
+
+		{% for link in site.categories.books %}
+			{% if link.name == page.next_book %}
+				<a href="{{link.url}}">
+							<i class="icon-left-circled"></i> 
+				</a>
+			{% endif %}
+			{% if link.name == page.previous_book %}
+				<a href="{{link.url}}">
+					<i class="icon-right-circled"></i>
+				</a>
+			{% endif %}
+			
+		{% endfor %}
+
+{% else %}
+
+		{% for link in site.categories.boker %}
+			{% if link.name == page.next_book %}
+				<a href="{{link.url}}">
+							<i class="icon-left-circled"></i> 
+				</a>
+			{% endif %}
+			{% if link.name == page.previous_book %}
+				<a href="{{link.url}}">
+					<i class="icon-right-circled"></i>
+				</a>
+			{% endif %}
+			
+		{% endfor %}
+
+{% endif %}

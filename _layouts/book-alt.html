@@ -1,0 +1,23 @@
+---
+layout: default
+section: book-alt
+---
+{% if page.url contains '/en/' %}
+  {% assign language = 'en' %}
+{% endif %}
+<article class="hentry page-layout">
+  <header>
+    <hr />
+      <h5 style="display:inline;">{{page.category}}</h5>
+        <div style="text-align:right;float:right;display:inline;">{% include books/prev-next.html %}</div>
+    <hr />
+    <h1 class="page-title">
+      {% if page.title %} {{page.title}} {% endif %}
+    </h1>
+    <h2>{% if page.subtitle %} {{page.subtitle}}  {% endif %}</h2>
+  </header>
+  {% include books/cover.html %}  {{content}}
+  <hr />
+</article>
+<h3 style="margin-left:2.5em;">Other Books</h3>
+{% include books/books-list-titles.html %}

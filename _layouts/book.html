@@ -22,18 +22,25 @@ section: book
   </header>
   {{content}}
   <hr />
+  <h3>Editions</h3>
   <div class="book-covers row">
     {% for fgn_covers in page.covers %}
       <img src="/assets/img/cover/{{fgn_covers}}" class="cover-image-editions">
     {% endfor %}
   </div>
-  <div class="panel">
-    {% if page.published  %}<h5>Published In</h5>{{page.published | array_to_sentence_string }}<br /><br />{% endif %}
+  <div class="panel row">
+    
+    {% if page.published  %}
+      {% if page.url contains '/en/' %}<h5>Published In</h5>{% else %}<h5>Utgitt i</h5>{% endif %}
+      {{page.published | array_to_sentence_string }}<br /><br />{% endif %}
+
     {% if page.rights %}<h5>Rights Sold To</h5> {{page.rights}}<br /><br />{% endif %}
+    {% if page.meta %}{{page.meta}}<br /><br />{% endif %}
     {% if page.world_rights %}{{page.world_rights | markdownify }}{% endif %}
   </div>
+  <hr />
   <div class="row">
-    <h3>Praise for {{page.title}}</h3>
+    <h3>Praise for <em>{{page.title}}</em></h3>
     {% include books/related-reviews.html language="language" %}
   </div>
 </article>

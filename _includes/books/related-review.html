@@ -1,5 +1,7 @@
 {% assign count = '0' %}
 {% assign show_count = {{include.show}} %}
+
+{% if page.url contains '/en/' %}
   {% for review in site.data.reviews-en %}  
     {% if page.name == review.book %}
     {% if  review.featured == true %}
@@ -10,3 +12,15 @@
     {% endif %}
     {% endif %}
   {% endfor %}
+{% else %}
+{% for review in site.data.reviews %}  
+    {% if page.name == review.book %}
+    {% if  review.featured == true %}
+      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+      <div{% if count > show_count %} style="display:none;"{% endif %}>
+        {% include books/format-reviews.html %}
+      </div>
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+ {% endif %} 

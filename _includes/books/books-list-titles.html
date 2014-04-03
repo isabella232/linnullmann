@@ -7,7 +7,7 @@
   <section class="is-typeset title-only">
     <header>
       <h1 class="page-title bigtitle">
-        {% if post.title %}{{post.title}} {% endif %}
+        {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}</small> {% endif %}
       </h1>
 
     </header>
@@ -29,7 +29,7 @@
   <section class="is-typeset title-only">
     <header>
       <h1 class="page-title bigtitle">
-        {% if post.title %}{{post.title}} {% endif %}
+        {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}</small>{% endif %}
       </h1>
 
     </header>

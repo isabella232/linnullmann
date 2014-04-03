@@ -10,8 +10,10 @@ splash_image: LU-2012-Hampus_Lundgren-full-1600x563.jpg
 # splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 sharing: false
 ---
+
 [Klikk her for portretter](/portretter/)
 
+---
 Linn  Ullmann (f. 1966) er utdannet ved New York University der hun studerte engelsk  litteratur. Da hun debuterte med den kritikerroste romanen *Før du sovner* i 1998, var hun allerede etablert som en toneangivende kritiker og  kulturjournalist i Norge. Hennes andre roman *Når jeg er hos deg* ble  utgitt I 2001, fulgt opp av romanen *Nåde* i 2002 . 
 
 For  *Nåde* ble  Linn Ullmann tildelt Den norske  leserprisen, boken ble også kåret til en av årets ti beste romaner av danske  Weekendavisen. I 2007 ble *Nåde* nominert til The Independent Foreign  Fiction Prize i Storbritannia, og i mars 2007 hadde Riksteatret premiere på den  dramatiserte versjonen av romanen. 
