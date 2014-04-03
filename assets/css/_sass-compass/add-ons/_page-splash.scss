@@ -1,10 +1,24 @@
 $splash-height: 400px !default;
 $splash-color: #999 !default;
 $splash-color-background:#554f45 !default;
+
+
 .splash {
 	//margin-top: $navigation-height * -1;
-  height: $splash-height;
+
+height: auto;
+
+    @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+        height: $splash-height;
+        }
+
+  
+
+
+
   max-height:$splash-height;
+
+  
   width: 100%;
   background-color: $splash-color-background;
 //The following items fix our image so that we can use the parallax effect//dependency for the parallax effect

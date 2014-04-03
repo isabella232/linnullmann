@@ -64,20 +64,16 @@ footer ul li {
 
 /* ::Import styles */
 /* ------------------------------------------------------------ */
-@import "compass/utilities/tables/scaffolding";
 @import "libs/typography"; 					// Base level typography
-// @import "libs/forms";						// Forms
+
 @import "add-ons/module-typeset"; 			// Specific typesetting
-// @import "add-ons/grid"; 					// Grid system
-//
 @import "add-ons/article"; 					// Grid system
 @import "add-ons/section"; 					// Grid system
-//@import "add-ons/footer-sticky"; 					// Grid system
 @import "add-ons/navigation-side"; 					// Grid system
 @import "add-ons/buttons";
 @import "add-ons/page-splash";
 @import "add-ons/font-icons";
-@import "add-ons/code";
+//@import "add-ons/code";
 @import "add-ons/panel";
 .sidebar-left p {
 	text-align: center;
@@ -151,9 +147,9 @@ img.cover-image-editions:hover  {
 /* ::Print */
 /* ------------------------------------------------------------ */
 
-// @media print {
-// 	body {
-// 		@include adjust-leading-to(2);
-// 		font-size: percentage(10 / 16);
-// 	}
-// }
+@media print {
+	body {
+		@include adjust-leading-to(2);
+		font-size: percentage(10 / 16);
+	}
+}

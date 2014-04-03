@@ -47,11 +47,29 @@ $sidebar-right-background: #000;
 
     // headers style the top portion of the sidebar on this project
         header {
-          height:$splash-height;
+          height:auto;
           max-height:$splash-height;
           background-color: #554f45;//$splash-color-background;
           color: $splash-color;
-          padding-top:7%;
+          padding-top:3%;
+          padding-bottom: 3%;
+
+          .quote {display: none;}
+
+
+            @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+
+
+              padding-top:7%;
+          padding-bottom: 0;
+
+                        height:$splash-height;
+
+          .quote {display: block;}
+
+        }
+
+
         }
 
         header p {
@@ -182,9 +200,16 @@ $sidebar-right-background: #000;
                 list-style: none;
               }
               .sidebar-nav-item {
-                display: block;
+                display: inline;
                 padding-top: .35em;
                 padding-bottom: .35em;
+                margin-left: 1em;
+
+@include respond-to($sidebar-left-breakpoint, $IE9: false) {
+          display: block;
+          margin-left: 0;
+        }
+
               }
               .sidebar-nav-item:hover,
               .sidebar-nav-item:focus {

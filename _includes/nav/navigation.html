@@ -37,7 +37,7 @@
     </a>
   {% endif %}
   {% comment %}Toggle between languages{% endcomment %}
-  <div class="button-group" style="margin-top:3em;">
+  <div class="button-group">
     <a href="{% if page.english %}/en/{{page.english}}/{% else %}/en/{% endif %}" ><div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">Eng</div></a>
     <a href="{% if page.norsk %}/{{page.norsk}}/{% else %}/{% endif %}" ><div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">Nor</div></a>
   </div>

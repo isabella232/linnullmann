@@ -1,11 +1,11 @@
 /*
-Syntax error: Undefined mixin 'shadow-light'.
-        on line 38 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss, in `shadow-light'
-        from line 38 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss
+Syntax error: Undefined mixin 'respond-to'.
+        on line 11 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss, in `respond-to'
+        from line 11 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss
 
 Backtrace:
-/Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss:38:in `shadow-light'
-/Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss:38
+/Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss:11:in `respond-to'
+/Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss:11
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -80,4 +80,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'shadow-light'.\A         on line 38 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss, in `shadow-light'\A         from line 38 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss"; }
+  content: "Syntax error: Undefined mixin 'respond-to'.\A         on line 11 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss, in `respond-to'\A         from line 11 of /Users/budparr/Documents/github/linnullmann.no/assets/css/_sass-compass/add-ons/page-splash.scss"; }

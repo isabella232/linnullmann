@@ -1,21 +1,22 @@
-<div class="row">
-{% if page.url contains '/en/' %}
 
+{% if page.url contains '/en/' %}
+<div class="row">
 {% for cover in site.categories.books limit:4 %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2.2em;">
+		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2em;">
 	</a>
 {% endfor %}
-<h5><a href="/books/">click here to see all books</a></h5>
+</div>
+<h5><a href="/en/books/">click here to see all books</a></h5>
 
 {% else %}
-
+<div class="row">
 {% for cover in site.categories.boker limit:4 %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2.2em;">
+		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2em;">
 	</a>
 {% endfor %}
+</div>
 <h5><a href="/boker/">Klikk her for å se alle bøker</a></h5>
 
 {% endif %}
-</div>
