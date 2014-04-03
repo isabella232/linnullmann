@@ -1,8 +1,8 @@
 ---
 layout: list
-title: "Intervjuer"
-permalink: /nyheter/
-english: news
+title: "Interviews"
+permalink: /en/interviews/
+norsk: intervjuer
 include: "snippets/interviews.html"
 sharing: false
 show_in_menu: true

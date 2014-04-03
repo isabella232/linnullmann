@@ -1,26 +1,24 @@
 <nav>
   <ul class="nav">
     {% if page.url contains '/en/' %}
-      <a href="/en/"><li class="sidebar-nav-item">home</li></a>
-      {% for page in site.pages %}
-        {% if page.permalink contains '/en/'  %}
-          {% if page.show_in_menu == true  %}
-            <a href="{{page.url}}">
-              <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
-            </a>  
-          {% endif %}
-        {% endif %}
+      <li class="sidebar-nav-item{% if page.url == '/en/'  %} active{% endif %}"><a href="/en/">Home</a></li>
+      {% for item in site.data.navigation %}  
+      {% assign slug = {{item.name-en | replace: ' ','-' | downcase}} %}
+        <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
+          <a href="/en/{{slug}}">
+            {{item.name-en}}
+          </a>
+        </li>
       {% endfor %}
-    {% else %}{% comment %}If EN isn't in URL serve up the 'unless' case{% endcomment %}
-      <a href="/"><li class="sidebar-nav-item">hjem</li></a>
-      {% for page in site.pages %}
-        {% unless page.permalink contains '/en/'  %}
-          {% if page.show_in_menu == true  %}
-            <a href="{{page.url}}">
-              <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
-            </a>  
-          {% endif %}
-        {% endunless %}
+    {% else %}
+      <li class="sidebar-nav-item{% if page.url == '/'  %} active{% endif %}"><a href="/">Hjem</a></li>
+      {% for item in site.data.navigation %}  
+      {% assign slug = {{item.name | replace: ' ','-' | downcase}} %}
+        <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
+          <a href="/{{slug}}/">
+            {{item.name}}
+          </a>
+        </li>
       {% endfor %}
     {% endif %}
   </ul>
