@@ -9,7 +9,7 @@ $splash-color-background:#554f45 !default;
         height: $splash-height;
 
           
-
+overflow: visible;
 display: none;
 
         @include respond-to($d-vp, $IE9: false) {
@@ -79,6 +79,16 @@ blockquote {
 blockquote small {
 	font-size: .9rem;
 	@extend .font-body;
+}
+
+.splash_book blockquote.review {display: none;
+
+@include respond-to($c-vp, $IE9: false) {
+display: block;
+
+
+}
+
 }
 
 blockquote.review .quote p:before {content:'“';font-family: Georgia;}
