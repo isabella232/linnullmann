@@ -194,6 +194,12 @@ $sidebar-right-background: #000;
         background: $sidebar-left-background;
         color: $sidebar-color;
 
+        .button-group{
+margin-top: 1.5em;
+margin-bottom: 1em;
+
+        }
+
               /* Sidebar nav */
               .sidebar-nav {
                 padding-left: 0;

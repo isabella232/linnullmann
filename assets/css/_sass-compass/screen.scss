@@ -95,7 +95,7 @@ nav {
 
 body.home article img {
 	//allows us to use smaller cover images on the homepage
-	max-height: 200px;
+	max-height: 180px;
 	@include shadow-light;
 }
 .img {@include shadow-light;}
