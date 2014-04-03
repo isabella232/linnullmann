@@ -3,7 +3,7 @@
     {% if page.url contains '/en/' %}
       <a href="/en/"><li class="sidebar-nav-item">home</li></a>
       {% for page in site.pages %}
-        {% if page.url contains '/en/'  %}
+        {% if page.permalink contains '/en/'  %}
           {% if page.show_in_menu == true  %}
             <a href="{{page.url}}">
               <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
@@ -14,7 +14,7 @@
     {% else %}{% comment %}If EN isn't in URL serve up the 'unless' case{% endcomment %}
       <a href="/"><li class="sidebar-nav-item">hjem</li></a>
       {% for page in site.pages %}
-        {% unless page.url contains '/en/'  %}
+        {% unless page.permalink contains '/en/'  %}
           {% if page.show_in_menu == true  %}
             <a href="{{page.url}}">
               <li id="{{page.url}}" class="sidebar-nav-item{% if page.url contains /page.url/  %} active{% endif %}">{{page.title}}</li>
