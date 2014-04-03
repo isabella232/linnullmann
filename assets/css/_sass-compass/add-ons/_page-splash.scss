@@ -35,7 +35,7 @@ $splash-color-background:#554f45 !default;
       }
   }
 
-.splash_book {
+.splash_book, .splash_books {
   height: $splash-height;
   max-height:$splash-height;
   width: 100%;
@@ -43,6 +43,21 @@ $splash-color-background:#554f45 !default;
   padding: 2em 4em;
   float: left;
   overflow: hidden;
+
+}
+
+.splash_books {
+
+  padding-top: 7%;
+  display: none;
+  @include respond-to($c-vp, $IE9: false) {
+    display: block;
+
+
+  }
+
+
+
 
 }
 
@@ -78,6 +93,27 @@ display: block;
   }
 
 }
+
+//
+
+.splash_books img {
+  margin-right:1em;
+  max-height:150px;
+  @include shadow-light;
+  @include transform(rotate(-3deg));
+
+   @include respond-to($e-vp, $IE9: false) {
+
+  margin-right:2em;
+  max-height:200px;
+}
+}
+
+ 
+
+
+//
+
 
 blockquote.review .quote p:before {content:'“';font-family: Georgia;}
 blockquote.review .quote p:after {content:'”';font-family: Georgia;}

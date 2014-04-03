@@ -2,6 +2,12 @@
 layout: default
 section: books
 ---
+	  
+<section class='splash_books' style="width:100%;">
+	  {% include books/books-list-covers-all.html %}
+	 </section>
+
+
 {% if page.include %}
 	  {% include {{page.include}} %}
 	{% endif %}
