@@ -1,3 +1,5 @@
+//Also includes some blockquote styling for quotes in the splash area
+
 $splash-height: 400px !default;
 $splash-color: #999 !default;
 $splash-color-background:#554f45 !default;
@@ -5,49 +7,36 @@ $splash-color-background:#554f45 !default;
 
 .splash {
 	//margin-top: $navigation-height * -1;
+  height: $splash-height;
+  overflow: visible;
+  display: none;
 
-        height: $splash-height;
-
-          
-overflow: visible;
-display: none;
-
-        @include respond-to($d-vp, $IE9: false) {
-display: block;
-
-            position: fixed;
-  top:0;
-  left:0;
-  z-index: -1;
-        }
-
-
-  max-height:$splash-height;
-
-  
-  width: 100%;
-  background-color: $splash-color-background;
-//The following items fix our image so that we can use the parallax effect//dependency for the parallax effect
-  
-
+    @include respond-to($d-vp, $IE9: false) {
+      display: block;
+      //The following items fix our image so that we can use 
+      // the parallax effect//dependency for the parallax effect
+      position: fixed;
+      top:0;
+      left:0;
+        z-index: -1;
+      }
+    max-height:$splash-height;
+    width: 100%;
+    background-color: $splash-color-background;
 }
 
 .content_splash {
 	margin-top: 0;
 	background-color: white;
+    
+    @include respond-to($d-vp, $IE9: false) {
+      margin-top: $splash-height;
 
-@include respond-to($d-vp, $IE9: false) {
-margin-top: $splash-height;
-
-
-}
-
-}
-
-
+      }
+  }
 
 .splash_book {
-height: $splash-height;
+  height: $splash-height;
   max-height:$splash-height;
   width: 100%;
   background-color: $splash-color-background;
@@ -86,8 +75,7 @@ blockquote small {
 @include respond-to($c-vp, $IE9: false) {
 display: block;
 
-
-}
+  }
 
 }
 

@@ -195,12 +195,23 @@ $sidebar-right-background: #000;
         color: $sidebar-color;
 
         .button-group{
-margin-top: 1.5em;
-margin-bottom: 1em;
-
+          margin-top: 1.5em;
+          margin-bottom: 1em;
         }
 
               /* Sidebar nav */
+
+ul.nav li a {
+  display: inline-block;
+
+  @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+display: block;
+
+  }
+}
+
+
+
               .sidebar-nav {
                 padding-left: 0;
                 list-style: none;
