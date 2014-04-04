@@ -1,7 +1,7 @@
 ---
 layout: list
 title: "News & Interviews"
-permalink: /en/news-interviews/
+permalink: /en/news/
 norsk: nyheter
 include: "snippets/interviews.html"
 sharing: false
