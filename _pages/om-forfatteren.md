@@ -6,8 +6,7 @@ permalink: /om-forfatteren/
 english: about
 published: true
 show_in_menu: true
-splash_image: LU-2012-Hampus_Lundgren-full-1600x563.jpg
-# splash_image: ullmann_linn_agnete_brun-1200x400.jpg
+splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 sharing: false
 ---
 

@@ -2,9 +2,16 @@
 layout: default
 section: alt
 ---
+
+{% comment %}
 {% if page.splash_image %}
 <div class='col12 splash' style="width:100%;background-image:url({{site.baseurl}}/assets/img/{{page.splash_image}});background-position:100% 20%;"></div>
 {% endif %}
+{% endcomment %}
+{% if page.splash_image %}
+{% include global/page-splash.html %}
+  {% endif %}
+
 <article class="hentry">
 	{% if page.include %}
 	  {% include {{page.include}} %}

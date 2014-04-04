@@ -5,12 +5,14 @@ permalink: /en/about/
 norsk: om-forfatteren
 published: true
 show_in_menu: true
-splash_image: LU-2012-Hampus_Lundgren-full-1600x563.jpg
+splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 # splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 sharing: false
 ---
 
 [click here for images](/en/portraits/)
+
+---
 
 **Linn Ullmann** (born 1966) is a graduate of New York University, where she studied English literature and began work on her Ph.D. When her first and critically acclaimed novel *Before You Sleep* was published in 1998, she was already known as an influential literary critic. Her second novel, *Stella Descending* was published in 2001 and her third novel *Grace* was published in 2002. For *Grace* Linn Ullmann received the literary award The Reader’s Prize in Norway and *Grace* was named one of the top ten novels that year by the prestigious newspaper *Weekendavisen* in Denmark. In 2007, *Grace* was longlisted for the Independent Foreign Fiction Prize in the United Kingdom, and in March the same year, the Norwegian theater Riksteatret played a successful run of the theatrical play *Grace*, based on the novel.
 
