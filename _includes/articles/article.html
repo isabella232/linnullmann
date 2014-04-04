@@ -19,8 +19,7 @@
   </header>
 {% comment %}Content Below{% endcomment %}
   <div class="entry-content prose">
-
-    {{page.category}}
+    {% comment %}{{page.category}} remove for this site{% endcomment %}
     {{ content }}
     {% if page.include %}
       {% include {{page.include}} %}
