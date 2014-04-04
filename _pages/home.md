@@ -16,7 +16,7 @@ splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 
 _From the internationally best-selling author Linn Ullmann, hailed as a “an elegant stylist with an original voice” (*New York Times Book Review*) comes this taut, brilliantly acute novel of a family who when faced with tragedy must confront their guilt, their longings, and their losses._
 
-[See News for Interviews and Events.](/en/news/)
+[Interviews and Events.](/en/news/)
 
 
 

@@ -30,7 +30,7 @@
 			<br />
 				<small>
 				{% if item.summary %}
-					{{item.summary}}
+					{{item.summary | markdownify }}
 				{% endif %}
 				</small>
 			</div>
