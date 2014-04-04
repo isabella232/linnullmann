@@ -4,11 +4,11 @@
 <div class="column-item">
 	<h2 class="h6" style="display:inline;">
 		{% if item.link_to_original %}
-			<a href="{{item.link_to_original}}">{{item.title}} </a>
+			<a href="{{item.link_to_original}}">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
 		{% elsif item.file %}
-			<a href="/assets/files/{{item.file}}">{{item.title}} </a>
+			<a href="/assets/files/{{item.file}}">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
 		{% else %}
-			{{item.title}}
+			{{item.title | markdownify }}
 		{% endif %} {% comment %}<small>({{item.language}})</small>{% endcomment %}
  	</h2>
 		<div class="item">
