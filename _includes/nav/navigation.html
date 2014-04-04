@@ -3,7 +3,7 @@
     {% if page.url contains '/en/' %}
       <li class="sidebar-nav-item{% if page.url == '/en/'  %} active{% endif %}"><a href="/en/">Home</a></li>
       {% for item in site.data.navigation %}  
-      {% assign slug = {{item.name-en | replace: ' ','-' | downcase}} %}
+      {% assign slug = {{item.slug-en}} %}
         <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
           <a href="/en/{{slug}}">
             {{item.name-en}}
@@ -13,7 +13,7 @@
     {% else %}
       <li class="sidebar-nav-item{% if page.url == '/'  %} active{% endif %}"><a href="/">Hjem</a></li>
       {% for item in site.data.navigation %}  
-      {% assign slug = {{item.name | replace: ' ','-' | downcase}} %}
+      {% assign slug = {{item.slug}} %}
         <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
           <a href="/{{slug}}/">
             {{item.name}}
