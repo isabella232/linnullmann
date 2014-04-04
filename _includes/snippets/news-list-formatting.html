@@ -4,9 +4,9 @@
 <div class="column-item">
 	<h2 class="h6" style="display:inline;">
 		{% if item.link_to_original %}
-			<a href="{{item.link_to_original}}">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
+			<a href="{{item.link_to_original}}" target="_blank">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
 		{% elsif item.file %}
-			<a href="/assets/files/{{item.file}}">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
+			<a href="/assets/files/{{item.file}}" target="_blank">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
 		{% else %}
 			{{item.title | markdownify }}
 		{% endif %} {% comment %}<small>({{item.language}})</small>{% endcomment %}
