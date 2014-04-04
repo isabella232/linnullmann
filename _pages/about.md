@@ -22,6 +22,10 @@ Linn Ullmann is co-founder (2009) and former Artistic Director of the internatio
 
 In 2011 she served on the jury for the main competition at the 2011 Cannes Film Festival alongside Robert De Niro, Jude Law and Uma Thurman.
 
-Ullmann's fifth novel, [Det dyrebare](index.php?id=5&sid=1) (Norwegian title), is currently published in Norway, Denmark and Sweden, and rights have so far been sold to eight countries.
+Ullmann's fifth novel, *The Cold Song* (*Det dyrebare* Norwegian title), is currently published in Norway, Denmark and Sweden, and rights have so far been sold to eight countries.
 
-Linn Ullmann is married to [Niels Fredrik Dahl](http://en.wikipedia.org/wiki/Niels_Fredrik_Dahl "Niels   Fredrik Dahl"), a novelist, playwright and poet. She has two children and lives in Oslo.
+Linn Ullmann lives in Oslo with her husband [Niels Fredrik Dahl](http://en.wikipedia.org/wiki/Niels_Fredrik_Dahl), a novelist, playwright and poet. Linn Ullmann has two children, Hanna and Halfdan, and two step children, Dagny and Kasper. She also has a dog named Charlie.
+
+
+
+

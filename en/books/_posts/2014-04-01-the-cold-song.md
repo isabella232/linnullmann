@@ -16,7 +16,9 @@ published:
  - Finland
  - Hungary
  - Germany
-
+ - Italy
+ - The Netherlands
+ 
 rights: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
 
 world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
