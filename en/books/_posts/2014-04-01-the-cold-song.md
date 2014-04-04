@@ -37,28 +37,4 @@ Siri and Jon’s marriage is loving but difficult, and troubled by painful secre
 
 In this novel about life and love, rendered like a thriller, Ullmann captures a constellation of characters as complex as they are paradoxical—neither fully guilty nor fully innocent."
 
-### Reviews
-
-- [The 20 Best Books of the Year, *The Independent*, 19 December 2008](/assets/files/20-best-Independent-19-12-2008.pdf)  
-- [*Times Literary Supplement*, 19 December 2008](/assets/files/TLS-19-12-2008.pdf)  
-- [*Washington Post*, 10 December 2008](/assets/files/Washington-Post-10-12-2008.pdf)  
-- [*Anniston Star*, 14 September 2008](/assets/files/Anniston-Star-14-09-2008.pdf)  
-- [*The Independent*, 5 September 2008](http://www.independent.co.uk/arts-entertainment/books/reviews/a-blessed-child-by-linn-ullmann-trans-sarah-death-919292.html)  
-- [*Time Out London*, 2 September 2008](/assets/files/Time-Out-London-02-09-2008.pdf)  
-- [*The Scotsman*, 30 August 2008](/assets/files/Scotsman-30-08-2008.pdf)  
-- [*International Herald Tribune*, 19 August 2008](/assets/files/International-Herald-Tribune-19-08-2008.pdf)  
-- [*New York Times*, 15 August 2008](http://www.nytimes.com/2008/08/17/books/review/DErasmo-t.html?_r=2)  
-- [*Literary Review*, August 2008](/assets/files/Literary-Review-aug-2008.pdf)  
-- [*Mslexia*, 1 July 2008](/assets/files/Mslexia-01-07-2008.pdf)  
-- [*Jyllands-Posten* (DK), translated, 20 April 2006](/assets/files/Jyllands-Posten-EN-20-04-2006.pdf)  
-- [*Berlingske Tidende* (DK), translated, 15 April 2006](/assets/files/Berlingske-Tidende-EN-15-04-2006.pdf)  
-  
-### Interviews
-- [*Irish Times*, 13 September 2008](/assets/files/Irish-Times-13-09-2008.pdf)  
-- [*Untitled Books*, 1 August 2008](http://www.untitledbooks.com/features/how/linn-ullmann/)  
-- [*Politiken*, 29 April 2006](/assets/files/Politiken-29-04-2006.pdf)  
-- [*Berlingske Tidende*, 15 April 2006](/assets/files/Berlingske-15-04-2006.pdf)  
-  
-  
-
 
