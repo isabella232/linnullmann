@@ -18,7 +18,10 @@ section: book
     <h1 class="page-title">
       {% if page.title %} {{page.title}} {% endif %}
     </h1>
-    <h2>{% if page.subtitle %} {{page.subtitle}}  {% endif %}</h2>
+    {% if page.subtitle %}<h2>{{page.subtitle}}</h2>{% endif %}
+    {% if page.translator %}
+    <h5>{% if page.url contains '/en/' %}Translated by {% else %}Oversatt av {% endif %}{{page.translator}}</h5>
+    {% endif %}
   </header>
   {{content}}
   <hr />
