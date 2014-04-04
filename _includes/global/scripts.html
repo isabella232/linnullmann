@@ -5,7 +5,10 @@
 {% endif %}
 <script>
 //opens non-local links in new window
+window.onload=function(){
 $('a:not([href^="{{site.baseurl}}"]):not([href^="#"]):not([href^="/"])').attr("target","_blank");
+};
+
 </script>
 
 {%  if page.url contains '/journalism/' %}
