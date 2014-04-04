@@ -93,11 +93,23 @@ nav {
 }
 
 
-body.home article img {
+body.home article img, .books-list-covers img {
 	//allows us to use smaller cover images on the homepage
-	max-height: 180px;
 	@include shadow-light;
 }
+
+body.home article img {
+	max-height: 240px;
+}
+
+
+.books-list-covers img{
+max-height: 180px;
+}
+article.hentry hr {
+	clear: both;
+}
+
 .img {@include shadow-light;}
 
 img.cover-image-editions {

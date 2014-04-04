@@ -1,11 +1,6 @@
 
 {% assign count = '0' %}
-
-
-
-
-
-
+<div class="books-list-covers">
 {% if page.url contains '/en/' %}
 <div class="row">
 {% for cover in site.categories.books limit:4 %}
@@ -29,3 +24,5 @@
 <h5><a href="/boker/">Klikk her for å se alle bøker</a></h5>
 
 {% endif %}
+
+</div>
