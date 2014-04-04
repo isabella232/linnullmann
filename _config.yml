@@ -35,7 +35,7 @@ include_font_awesome: true
 include_addthis_sharing: false
 
 # options (data)
-google_analytics_id: UA-XXXXXXX-X
+google_analytics_id: UA-365683-21
 disqus_id:
 addthis_id:
 # CONTACT FORM http://getsimpleform.com/

@@ -40,7 +40,7 @@ section: book
   </div>
   <hr />
   <div class="row">
-    <h3>Praise for <em>{{page.title}}</em></h3>
+    <h3>{% if page.url contains '/en/' %}Praise for {% else %}Skrevet om {% endif %}<em>{{page.title}}</em></h3>
     {% include books/related-reviews.html language="language" %}
   </div>
 </article>
