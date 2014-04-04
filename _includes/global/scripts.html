@@ -2,6 +2,10 @@
 	<!-- scripts -->
 	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{site.baseurl}}/assets/js/jquery.min.js" }}"><\/script>')</script>
+<script>
+//opens non-local links in new window
+$('a:not([href^="{{site.baseurl}}"]):not([href^="#"]):not([href^="/"])').attr("target","_blank");
+</script>
 {% endif %}
 {%  if page.url contains '/journalism/' %}
 	{% include scripts/list.js %}
