@@ -13,7 +13,7 @@ splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 
 Her latest novel *The Cold Song* was launched in Norway in November 2011 and became the bestselling Norwegian novel that year in the category literary fiction and was named one of the best books of the Year in Norway by several leading newspapers and critics.
 
-[*The Cold Song*]() is so far published in Norway, Denmark, Sweden, Finland, Hungary and was published by Luchterhand in Germany in April 2013. The German title is *Das Verschwiegene* . The novel is presently under translation to French, Spanish, Estonian, Italian, Dutch and English and will be published in the United States by Other Press in the spring of 2014. 
+[*The Cold Song*](/en/books/2014/04/01/the-cold-song/) is so far published in Norway, Denmark, Sweden, Finland, Hungary and was published by Luchterhand in Germany in April 2013. The German title is *Das Verschwiegene* . The novel is presently under translation to French, Spanish, Estonian, Italian, Dutch and English and will be published in the United States by Other Press in the spring of 2014. 
 
 Linn Ullmann's previous novels are published throughout Europe and the United States and are translated into more than fifteen languages. She grew up in Norway, Sweden and USA and is a graduate of New York University. She co-founded the international artist residency foundation The Bergman Estate on Fårö and was also the foundation's first artistic director. 
 
