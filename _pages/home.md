@@ -2,7 +2,7 @@
 layout: page
 permalink: /en/
 # include: "books/books-list-covers.html"
-include: "snippets/news-list-short.html"
+include: "snippets/news-list-featured.html"
 sharing: false
 published: true
 class: dev

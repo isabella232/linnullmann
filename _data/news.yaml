@@ -1,40 +1,8 @@
 - 
- title: "*The New York Times* on *The Cold Song*: 'Every page, every line, seems to glisten with vapors of sumptuous, intoxicating unease'"
- date: 2014-04-04
- link_to_original: "http://nyti.ms/QLLmfI"
- language: english
-
--
- title: "*The Cold Song* has been chosen by independent booksellers as an Indie Next Pick for May"
- date: 2014-04-04
+ title: "Indie Next pick for May"
+ summary: "The Cold Song has been selected as an Indie Next pick by independent booksellers"
+ date: 2014-05-01
  link_to_original: "http://www.otherpress.com/news/cold-song-indie-next-pick/"
- language: english
-
--
- title: "Appearing at the PEN World Voices Festival, May 2014"
- summary: "I'll be appearing at several events at this years festival"
- date: 2014-04-04
- link_to_original: "http://worldvoices.pen.org/"
- language: 
- - english
- - norsk
-
--
- title: "Video from Louisiana literature festival in Denmark"
- summary: "Interviewed by Marc-Christoph Wagner at Louisiana Literature 2012"
- date: 2014-04-03
- link_to_original: http://channel.louisiana.dk/video/linn-ullmann-we-all-try-make-life-work
- language: 
-  - english
-  - norsk
-
--
- title: "A Conversation with Linn Ullmann"
- summary: A video discussing *The Cold Song*
- date: 2014-03-04
- language: english
- link_to_original: http://www.otherpress.com/features/conversation-linn-ullmann/
-
 -
  title: "Event: May 1st, 6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
  summary: "Festival authors Elaine Brum, Alona Kimhi, Andres Neuman, Fracesc Seres, and Linn Ullmann (The Cold Song, Other Press 2014) will speak  on books they admire and how and why it has influenced their writing. Chosen to reflect Baruch’s international and diverse student body, each of the authors will read from their selected work, then engage in discussion with the audience."
@@ -55,13 +23,73 @@
  date: 2014-05-03
  language: english
  link_to_original: "http://worldvoices.pen.org/"
+- 
+ title: New York Times Editor’s Choice
+ summary: The Cold Song has been named an “Editor’s Choice” by the Sunday Book Review
+ date: 2014-04-13
+ link_to_original:
+
+- 
+ title: "*The New York Times* on *The Cold Song*: 'Every page, every line, seems to glisten with vapors of sumptuous, intoxicating unease'"
+ date: 2014-04-06
+ summary: Review in the April 6, 2014 Sunday Book Review
+ link_to_original: "http://nyti.ms/QLLmfI"
+ language: english
+ featured: true
+
+-
+ title: "*The Cold Song* has been chosen by independent booksellers as an Indie Next Pick for May"
+ date: 2014-04-04
+ link_to_original: "http://www.otherpress.com/news/cold-song-indie-next-pick/"
+ language: english
+ featured: true
+
+-
+ title: "Appearing at the PEN World Voices Festival, May 2014"
+ summary: "I'll be appearing at several events at this years festival"
+ date: 2014-04-04
+ link_to_original: "http://worldvoices.pen.org/"
+ featured: true
+ language: 
+ - english
+ - norsk
+
+-
+ title: "Amazon’s Best Books of the Month"
+ summary: "The Cold Song has been named one of the Best Books of the Month in Mystery/Thriller/Suspense by Amazon.com"
+ date: 2014-04-01
+ link_to_original: "http://www.amazon.com/b/ref=s9_dnav_bw_BoMTS_b?_encoding=UTF8&node=4919322011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-4&pf_rd_r=171ZGD245F6Q2D71Z7B6&pf_rd_t=101&pf_rd_p=1769219362&pf_rd_i=390919011"
+ language: english
+
+-
+ title: "A Conversation with Linn Ullmann"
+ summary: A video discussing *The Cold Song*
+ date: 2014-03-04
+ language: english
+ link_to_original: http://www.otherpress.com/features/conversation-linn-ullmann/
+
+- 
+ title: "Interview in Tweed’s Magazine"
+ summary: "An conversation with Linn Ullmann about The Cold Song"
+ date: 2014-03-28
+ link_to_original: "http://tweedsmag.org/interview-linn-ullmann/"
+ language: english
 
 -
  title: Downloadable Poster
  summary: "My publisher, Other Press, put together this poster for bookselleers."
  file: The-Cold-Song-NYTBR-poster.pdf
  language: english
+ date: 2014-03-27
+
+-
+ title: "Video from Louisiana literature festival in Denmark"
+ summary: "Interviewed by Marc-Christoph Wagner at Louisiana Literature 2012"
  date: 2014-04-03
+ link_to_original: http://channel.louisiana.dk/video/linn-ullmann-we-all-try-make-life-work
+ language: 
+  - english
+  - norsk
 
 -
  title: Klassekampen

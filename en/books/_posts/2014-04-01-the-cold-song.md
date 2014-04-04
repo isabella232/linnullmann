@@ -31,6 +31,9 @@ covers:
 - det-dyrebare-hu-hb-L.jpg
 - det-dyrebare-de-hb-L.jpg
 ---
+
+***The Cold Song* has been chosen by independent booksellers as an Indie Next Pick**
+
 From the internationally best-selling author Linn Ullmann, hailed as a “an elegant stylist with an original voice” (New York Times Book Review) comes this taut, brilliantly acute novel of a family who when faced with tragedy must confront their guilt, their longings, and their losses.
 
 Siri Brodal, a chef and restaurant owner, is married to Jon Dreyer, a famous novelist plagued by writer’s block. Siri and Jon have two daughters, and together they spend their summers on the coast of Norway, in a mansion belonging to Jenny Brodal, Siri’s stylish and unforgiving mother.
