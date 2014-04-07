@@ -1,6 +1,6 @@
 baseurl: http://www.linnullmann.no
 sitename: 'Linn Ullmann'
-description: 'award winning novelist and journalist'
+description: 'Linn Ullmann is an award winning novelist and journalist and the author of five novels: Before You Sleep, Stella Descending, Grace, A Blessed Child and The Cold Song.'
 # do not include  https://github.com/...
 repo: 'sonnetmedia/linnullmann'
 branch: gh-pages
