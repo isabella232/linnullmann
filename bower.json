@@ -21,8 +21,6 @@
   "dependencies": {
         "jquery": "latest",
         "respond": "latest",
-        "bootstrap-sass-official": "latest",
         "html5shiv": "latest",
-        "typeplate": "latest"
     }
 }
