@@ -1,9 +1,10 @@
-      <!-- TODO: add og, twitter card -->
+      
     {% comment %}
+    <!-- TODO: add og, twitter card -->
       http://ogp.me/
     {% endcomment %}
 
-    <meta name="description" content="{% if page.tagline %}{{page.tagline}}{% endif %}">
+    <meta name="description" content="{% if page.tagline %}{{page.tagline}}{% else %}{{site.description}}{% endif %}">
 
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
@@ -18,11 +19,11 @@
 
 <!-- Here’s the final snippet of code with the appropriate meta data: -->
 
-<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ site.sitename }}" property="og:site_name">
 {% if page.title %}
   <meta content="{{ page.title }}" property="og:title">
 {% else %}
-  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{ site.sitename }}" property="og:title">
 {% endif %}
 {% if page.title %}
   <meta content="article" property="og:type">
@@ -41,10 +42,10 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{site.baseurl}}/about/" property="article:author">
 {% endif %}
-{% if page.image %}
-  <meta content="{{site.baseurl}}/assets/img/posts/{{ page.image }}" property="og:image">
+{% if page.cover_image %}
+  <meta content="{{site.baseurl}}/assets/img/cover/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="{{site.baseurl}}/assets/img/logo-high-resolution.png" property="og:image">
+  <meta content="{{site.baseurl}}/assets/img/LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
