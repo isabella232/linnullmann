@@ -31,7 +31,7 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 production: true
 use_pure_css: false
 use_jquery: false
-include_font_awesome: true
+include_font_awesome: false
 include_addthis_sharing: false
 
 # options (data)
