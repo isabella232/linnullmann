@@ -1,6 +1,6 @@
 ---
 layout: list
-title: "Nyheter, hendelser og intervjuer"
+title: "Nyheter, opplesninger og samtaler"
 permalink: /nyheter/
 english: news
 include: "snippets/news-list.html"

@@ -7,8 +7,8 @@
 		{% endif %}
 	{% endfor %}
 {% else %}
-	{% for item in site.data.news limit:3 %}
-		{% if item.language contains 'norsk' %}
+	{% for item in site.data.news %}
+		{% if item.language contains 'norsk' and item.featured == true %}
 			{% if item.featured %}
 				{% include snippets/news-list-formatting.html %}
 		{% endif %}
