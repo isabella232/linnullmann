@@ -3,13 +3,18 @@
  summary: "U.S. Vogue interviewed me about my novel *The Cold Song*"
  date: 2014-04-09
  link_to_original: "http://www.vogue.com/culture/article/linn-ullmann-novel-the-cold-song/#1"
- language: english
+ language: 
+ - english
+ - norsk
  featured: true
- 
+
 - 
  title: "Indie Next pick for May"
  summary: "The Cold Song has been selected as an Indie Next pick by independent booksellers"
  date: 2014-05-01
+ language: 
+ - english
+ - norsk
  link_to_original: "http://www.otherpress.com/news/cold-song-indie-next-pick/"
 -
  title: "Event: May 1st, 6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
@@ -42,7 +47,9 @@
  date: 2014-04-06
  summary: Review in the April 6, 2014 Sunday Book Review
  link_to_original: "http://nyti.ms/QLLmfI"
- language: english
+ language: 
+ - english
+ - norsk
  featured: true
 
 -
