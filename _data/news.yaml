@@ -1,10 +1,3 @@
--
- title: "*The Cold Song* is an Amazon.com Best Book of the Month in Mystery, Thriller & Suspence"
- date: 2014-04-09
- link_to_original: "http://www.amazon.com/b/ref=s9_dnav_bw_BoMTS_b?_encoding=UTF8&node=4919322011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-4&pf_rd_r=171ZGD245F6Q2D71Z7B6&pf_rd_t=101&pf_rd_p=1769219362&pf_rd_i=390919011"
- language: english
- featured: true
-
 - 
  title: "*Vogue* Interview"
  summary: "U.S. Vogue interviewed me about my novel *The Cold Song*"
@@ -23,26 +16,7 @@
  - english
  - norsk
  link_to_original: "http://www.otherpress.com/news/cold-song-indie-next-pick/"
--
- title: "Event: May 1st, 6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
- summary: "Festival authors Elaine Brum, Alona Kimhi, Andres Neuman, Fracesc Seres, and Linn Ullmann (The Cold Song, Other Press 2014) will speak  on books they admire and how and why it has influenced their writing. Chosen to reflect Baruch’s international and diverse student body, each of the authors will read from their selected work, then engage in discussion with the audience."
- date: 2014-05-01
- language: english
- link_to_original: "http://worldvoices.pen.org/"
 
--
- title: "Event: May 2nd, 8pm - PEN World Voices Festival: Literary Quartet: Two on Two"
- summary: "Notable editors Christopher Bollen and Brigid Hughes have a knack for identifying (and then publishing) first-rate literature. At this exciting session, they will speak with writers well known in their home countries who are beginning to make a splash here. Don’t miss the chance to hear Germany’s Maxim Leo, Israel’s Alona Kimhi, Bangladesh’s Zia Haider Rahman, and Norway’s Linn Ullman discuss craft, life, and what they’re working on now."
- date: 2014-05-02
- language: english
- link_to_original: "http://worldvoices.pen.org/"
-
-- 
- title: "Event: May 3rd, 8pm - PEN World Voices Festival: Babette's Feast 2.0"
- summary: "A panel with Suzanne Brogger, Francine Prose, Tea Obreht, Sjon, and  Judith Thurman.  "
- date: 2014-05-03
- language: english
- link_to_original: "http://worldvoices.pen.org/"
 - 
  title: New York Times Editor’s Choice
  summary: The Cold Song has been named an “Editor’s Choice” by the Sunday Book Review
@@ -79,11 +53,11 @@
  - norsk
 
 -
- title: "Amazon’s Best Books of the Month"
- summary: "The Cold Song has been named one of the Best Books of the Month in Mystery/Thriller/Suspense by Amazon.com"
+ title: "*The Cold Song* is an Amazon.com Best Book of the Month in Mystery, Thriller & Suspence"
  date: 2014-04-01
  link_to_original: "http://www.amazon.com/b/ref=s9_dnav_bw_BoMTS_b?_encoding=UTF8&node=4919322011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-4&pf_rd_r=171ZGD245F6Q2D71Z7B6&pf_rd_t=101&pf_rd_p=1769219362&pf_rd_i=390919011"
  language: english
+ featured: true
 
 -
  title: "A Conversation with Linn Ullmann"
