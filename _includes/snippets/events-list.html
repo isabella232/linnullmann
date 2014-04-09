@@ -1,15 +1,13 @@
-{% include snippets/events-list.html %}
-<hr />
 <div class="row">
 	<div class="column-wrapper">
 {% if page.url contains 'en' %}
-	{% for item in site.data.news  %}
+	{% for item in site.data.events reversed %}
 		{% if item.language contains 'english' %}
 			{% include snippets/news-list-formatting.html %}
 		{% endif %}
 	{% endfor %}
 {% else %}
-	{% for item in site.data.news  %}
+	{% for item in site.data.events reversed %}
 		{% if item.language contains 'norsk' %}
 			{% include snippets/news-list-formatting.html %}
 		{% endif %}
