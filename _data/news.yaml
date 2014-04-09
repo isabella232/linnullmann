@@ -56,7 +56,9 @@
  title: "*The Cold Song* has been chosen by independent booksellers as an Indie Next Pick for May"
  date: 2014-04-04
  link_to_original: "http://www.otherpress.com/news/cold-song-indie-next-pick/"
- language: english
+ language: 
+ - english
+ - norsk
  featured: true
 
 -
