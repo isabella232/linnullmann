@@ -1,3 +1,14 @@
+
+{% if page.url contains '/en/' %}
+	{% assign title = item.title  | markdownify | remove: '<p>' | remove: '</p>'  %}
+{% else %}
+	{% if item.title_norsk %}
+		{% assign title = item.title_norsk  | markdownify | remove: '<p>' | remove: '</p>'  %}
+	{% else %}
+		{% assign title = item.title  | markdownify | remove: '<p>' | remove: '</p>'  %}
+	{% endif %}
+{% endif %}
+
 <div class="item-wrapper">
 <div class="column-date">
 	<small>{{item.date | date: "%Y-%b-%d" }}</small> 
@@ -5,11 +16,11 @@
 <div class="column-item">
 	<h2 class="h6" style="display:inline;">
 		{% if item.link_to_original %}
-			<a href="{{item.link_to_original}}" target="_blank">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
+			<a href="{{item.link_to_original}}" target="_blank">{{title}}</a>
 		{% elsif item.file %}
-			<a href="/assets/files/{{item.file}}" target="_blank">{{item.title  | markdownify | remove: '<p>' | remove: '</p>' }} </a>
+			<a href="/assets/files/{{item.file}}" target="_blank">{{title}}</a>
 		{% else %}
-			{{item.title | markdownify }}
+			{{title}}
 		{% endif %} {% comment %}<small>({{item.language}})</small>{% endcomment %}
  	</h2>
 		<div class="item">
