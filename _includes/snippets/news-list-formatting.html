@@ -1,3 +1,7 @@
+{% comment %}
+TODO: make the switch between en/norsk more efficient (prob. just use title/title_norks, to determine placement instead of language field)
+{% endcomment %}
+
 
 {% if page.url contains '/en/' %}
 	{% assign title = item.title  | markdownify | remove: '<p>' | remove: '</p>'  %}
