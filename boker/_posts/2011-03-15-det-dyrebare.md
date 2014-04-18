@@ -40,6 +40,7 @@ Milles forsvinning og uvissheten om hva som skjedde, preger alle som var berørt
 
 ### Nyheter
 
+- [*Det Dyrebare* ble utgitt i USA på forlaget Other Press i april 2014](http://www.oktober.no/Forsidenyheter/Glitrende-omtale-av-Linn-Ullmanns-Det-dyrebare-i-The-New-York-Times)
 - [*Linn Ullmanns Det dyrebare nå solgt til ti land*, pressemelding fra Oktober forlag, 19. oktober 2012](http://oktober.no/Forsidenyheter/Linn-Ullmanns-Det-dyrebare-naa-ti-land)
 - [*Linn Ullmanns Det dyrebare får strålende kritikker i Sverige*, pressemelding fra Oktober forlag, 25. september 2012](http://oktober.no/Nyheter/Linn-Ullmanns-Det-dyrebare-straalende-kritikker-i-Sverige)  
 - [*Linn Ullmann roses i Danmark og Sverige*, pressemelding fra Oktober forlag, 19. desember 2011](http://oktober.no/nor/forsidenyheter/linn_ullmann_roses_i_danmark_og_sverige)  
