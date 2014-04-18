@@ -52,11 +52,11 @@
  - english
  - norsk
 
--
- title: "A Conversation with Claire Messud on the international Stage in Stockholm on April 14th"
- title_norsk: "Linn Ullmann i samtale med Claire Messud i Stockholm"
- date: 2014-04-14
- link_to_original: "http://kulturhusetstadsteatern.se/Litteratur/Evenemang/Claire-Messud/"
- language: 
- - english
- - norsk
+# -
+ # title: "A Conversation with Claire Messud on the international Stage in Stockholm on April 14th"
+ # title_norsk: "Linn Ullmann i samtale med Claire Messud i Stockholm"
+ # date: 2014-04-14
+ # link_to_original: "http://kulturhusetstadsteatern.se/Litteratur/Evenemang/Claire-Messud/"
+ # language: 
+ # - english
+ # - norsk
