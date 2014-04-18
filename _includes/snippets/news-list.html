@@ -3,16 +3,12 @@
 <div class="row">
 	<div class="column-wrapper">
 {% if page.url contains 'en' %}
-<h3 style="padding-left:3em;">News & Interviews</h3>
-<hr />
 	{% for item in site.data.news  %}
 		{% if item.language contains 'english' %}
 			{% include snippets/news-list-formatting.html %}
 		{% endif %}
 	{% endfor %}
 {% else %}
-<h3 style="padding-left:3em;">Nyheter, opplesninger</h3>
-<hr />
 	{% for item in site.data.news  %}
 		{% if item.language contains 'norsk' %}
 			{% include snippets/news-list-formatting.html %}
