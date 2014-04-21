@@ -15,19 +15,22 @@ TODO: add headings? or other dilineation
 {% endif %}
 
 <div class="item-wrapper">
-<div class="column-date">
-	<small>{{item.date | date: "%Y-%b-%d" }}</small> 
-</div>
-<div class="column-item">
-	<h2 class="h6" style="display:inline;">
+<ul class="column-item-list">
+	<li class="h6f" style="margin-bottom:4px;">
 		{% if item.link_to_original %}
 			<a href="{{item.link_to_original}}" target="_blank">{{title}}</a>
-		{% elsif item.file %}
+		
+
+		{% elsif item.file || item.file-en %}
 			<a href="/assets/files/{{item.file}}" target="_blank">{{title}}</a>
+		
+
+
 		{% else %}
 			{{title}}
 		{% endif %} {% comment %}<small>({{item.language}})</small>{% endcomment %}
- 	</h2>
+		<small>{{item.date | date: "%Y-%b-%d" }}</small> 
+ 	
 		<div class="item">
 		{% if item.link_to_original %}
 			<small>
@@ -44,12 +47,6 @@ TODO: add headings? or other dilineation
 			</small>
 		{% endif %}
 	</div>
-<br />
-	<small>
-	{% if item.summary %}
-		{{item.summary | markdownify }}
-	{% endif %}
-	</small>
-</div>
-<hr />
+</li>
+</ul>
 </div>

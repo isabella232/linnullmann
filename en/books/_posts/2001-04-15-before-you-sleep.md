@@ -84,7 +84,3 @@ Through the sublimely unreliable voice of its narrator Karin, *Before You Sleep*
 
 - [*New Statesman*, 3 April 2000](/assets/files/New-Statesman-03-04-2000.pdf)  
 - [*New York Times*, 10 October 1999](http://www.nytimes.com/1999/10/10/books/more-cries-more-whispers.html?emc=eta1)
-
-### Interviews
-
-- [The Observer, 13 February  2000](http://www.guardian.co.uk/books/2000/feb/13/fiction)

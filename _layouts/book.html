@@ -16,34 +16,36 @@ section: book
       <h5 style="display:inline;">{{page.category}}</h5>
         <div style="text-align:right;float:right;display:inline;">{% include books/prev-next.html %}</div>
     <hr />
-    <h1 class="page-title">
-      {% if page.title %} {{page.title}} {% endif %}
-    </h1>
-    {% if page.subtitle %}<h2>{{page.subtitle}}</h2>{% endif %}
-    {% if page.translator %}
-    <h5>{% if page.url contains '/en/' %}Translated by {% else %}Oversatt av {% endif %}{{page.translator}}</h5>
-    {% endif %}
+      <h1 class="page-title">
+        {% if page.title %} {{page.title}} {% endif %}
+      </h1>
+      {% if page.subtitle %}<h2>{{page.subtitle}}</h2>{% endif %}
+      {% if page.translator %}
+        <h5>{% if page.url contains '/en/' %}Translated by {% else %}Oversatt av {% endif %}{{page.translator}}</h5>
+      {% endif %}
   </header>
   {{content}}
-  {% include snippets/news-list-book-page.html show="10" language="language" %}
   <hr />
-  <h3>Editions</h3>
-  <div class="book-covers row">
-    {% for fgn_covers in page.covers %}
-      <img src="/assets/img/cover/{{fgn_covers}}" class="cover-image-editions">
-    {% endfor %}
-  </div>
-  <div class="panel row">
-    
-    {% if page.published  %}
-      {% if page.url contains '/en/' %}<h5>Published In</h5>{% else %}<h5>Utgitt i</h5>{% endif %}
-      {{page.published | array_to_sentence_string }}<br /><br />{% endif %}
-
-    {% if page.rights %}<h5>Rights Sold To</h5> {{page.rights}}<br /><br />{% endif %}
-    {% if page.meta %}{{page.meta}}<br /><br />{% endif %}
-    {% if page.world_rights %}{{page.world_rights | markdownify }}{% endif %}
-  </div>
+  {% include snippets/news-list-book-page.html show="20" language="language" %}
+  {% if page.covers %}
+    <h3>Editions</h3>
+    <div class="book-covers row">
+      {% for fgn_covers in page.covers %}
+        <img src="/assets/img/cover/{{fgn_covers}}" class="cover-image-editions">
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if page.published || page.rights || page.world_rights %}
+    <div class="panel row">
+      {% if page.published  %}
+        {% if page.url contains '/en/' %}<h5>Published In</h5>{% else %}<h5>Utgitt i</h5>{% endif %}
+          {{page.published | array_to_sentence_string }}<br /><br />{% endif %}
+        {% if page.rights %}<h5>Rights Sold To</h5> {{page.rights}}<br /><br />{% endif %}
+        {% if page.meta %}{{page.meta}}<br /><br />{% endif %}
+        {% if page.world_rights %}{{page.world_rights | markdownify }}{% endif %}
+    </div>
   <hr />
+  {% endif %}
   <div class="row">
     <h3 id="reviews">{% if page.url contains '/en/' %}Praise for {% else %}Skrevet om {% endif %}<em>{{page.title}}</em></h3>
     {% include books/related-reviews.html language="language" %}

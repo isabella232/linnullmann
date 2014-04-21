@@ -11,15 +11,15 @@
  - english
  - norsk
  featured: true
- book: the-cold-song
- book: det-dyrebare
+ book: 
+ - the-cold-song
+ - det-dyrebare
 
 - 
  title: New York Times Editor’s Choice
  summary: The Cold Song has been named an “Editor’s Choice” by the Sunday Book Review
  date: 2014-04-13
  link_to_original:
- book: the-cold-song
 
 - 
  title: "*The New York Times* on *The Cold Song*: 'Every page, every line, seems to glisten with vapors of sumptuous, intoxicating unease'"
@@ -69,22 +69,29 @@
  summary: "An conversation with Linn Ullmann about The Cold Song"
  date: 2014-03-28
  link_to_original: "http://tweedsmag.org/interview-linn-ullmann/"
- language: english
+ book: the-cold-song
 
 -
  title: "Video from Louisiana literature festival in Denmark"
  summary: "Interviewed by Marc-Christoph Wagner at Louisiana Literature 2012"
  date: 2014-04-03
  link_to_original: http://channel.louisiana.dk/video/linn-ullmann-we-all-try-make-life-work
+ book: 
+ - the-cold-song
+ - det-dyrebare
  language: 
   - english
   - norsk
 
 -
  title: Klassekampen
- file: Klassekampen-Bokmagasinet-26-11-2011-english.pdf
+ file: "Klassekampen-Bokmagasinet-26-11-2011.pdf"
+ file-en: "Klassekampen-Bokmagasinet-26-11-2011-english.pdf"
  link_to_original:
  date: 2011-11-26
+ book: 
+ - the-cold-song
+ - det-dyrebare
  language: 
   - norsk
 
@@ -94,14 +101,9 @@
  link_to_original: http://www.untitledbooks.com/features/how/linn-ullmann/
  date: 2008-08-01
  language: english
-
--
- title: "Politiken"
- file: Politiken-29-04-2006.pdf
- link_to_original:
- date: 2006-04-29
- book: a-blessed-child
- language: norsk
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
 
 -
  title: "Berlingske Tidende"
@@ -116,18 +118,12 @@
  file: Independent-27-01-2006.pdf
  link_to_original:
  date: 2006-012-07
- book: grace
+ book: 
+  - grace
+  - nade
  language: english
  
 
--
- title: "The Scotsman"
- file: Scotsman-19-08-2004.pdf
- link_to_original:
- date: 2004-08-19
- book: stella-descending
- language: english
- 
 -
  title: "The Observer"
  link_to_original: "http://www.guardian.co.uk/books/2000/feb/13/fiction"
@@ -140,7 +136,8 @@
  date: 2012-11-04
  book: det-dyrebare
  language: norsk
-
+ book: 
+  - det-dyrebare
 -
  title: VI
  file: VI-sept-2012.pdf
@@ -158,9 +155,15 @@
 - 
  title: Politiken
  file: Politiken-19-5-2012.pdf
- date: 2012-0519
+ date: 2012-05-19
  book: det-dyrebare
  language: norsk
+
+-
+ title: Bornholms Tidende
+ date: 2012-05-12
+ file: Bornholms-Tidende-12-5-2012.pdf
+ book: det-dyrebare
 
 - 
  title: Berglingske Tidende
@@ -196,24 +199,45 @@
  date: 2011-11-26
  book: det-dyrebare
  language: norsk
- 
+
+-
+ title: Irish Times
+ date: 2008-09-13
+ file: Irish-Times-13-09-2008.pdf
+
 - 
  title: Politiken
  file: Politiken-DK-29-04-2006.pdf 
+ file-en: Politiken-29-04-2006.pdf
  date: 2006-04-29
- 
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
+
 - 
  title: Berlingske Tidende
  file: Berlingske-DK-15-04-2006.pdf
+ file-en: Berlingske-15-04-2006.pdf
  date: 2006-04-15
- book: a-blessed-child
- 
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
+
 - 
  title: Jyllands-Posten
  file: Jyllandsposten-29-04-2006.pdf
  date: 2006-04-29
- book: a-blessed-child
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
  
+- 
+ title: The Herald
+ date: 2006-01-28
+ file: Herald-28-01-2006.pdf
+ book: 
+  - grace
+  - nade
 - 
  title: The Independent
  file: Independent-27-01-2006.pdf
@@ -224,51 +248,74 @@
  title: Klassekampen
  file: Klassekampen-28-10-2005.pdf
  date: 2005-10-28
- book: a-blessed-child
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
  
 - 
  title: Aftenposten
  file: Aftenposten-27-10-2005.pdf
  date: 2005-10-27
- book: a-blessed-child
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
  
 - 
  title: Adresseavisen
  file: Adresseavisen-25-10-2005.pdf
  date: 2005-10-25
- book: a-blessed-child
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
+
  
 - 
  title: "Dagbladet- Magasinet"
  file: Dagbladet-Magasinet-22-10-2005.pdf
  date: 2005-10-22
- book: a-blessed-child
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
+
  
 - 
  title: "Dagsavisen bokbilag"
  file: Dagsavisen-bokhosten-2005.pdf
  date: 2005-10-01
- book: a-blessed-child
- 
+ book: 
+  - a-blessed-child
+  - et-velsignet-barn
+
 - 
  title: "The Scotsman"
- file: stella-descending/Scotsman-19-08-2004.pdf 
+ file: Scotsman-19-08-2004.pdf 
  date: 2004-08-19
- book: stella-descending
+ book: 
+  - stella-descending
+  - nar-jeg-er-hos-deg
+ language: english
  
 - 
  title: "Klassekampen"
  file: Klassekampen-05-10-2001.pdf
  date: 2001-10-05
- book: stella-descending
+ book: 
+  - stella-descending
+  - nar-jeg-er-hos-deg
  
 - 
  title: "The Observer"
  link_to_original: "http://www.guardian.co.uk/books/2000/feb/13/fiction"
  date: 2000-02-13
- 
+ book: 
+  - before-you-sleep
+  - for-du-sovner
+
 - 
  title: "Dagbladet"
  file: Dagbladet-portrett-21-11-1998.pdf
  date: 1998-11-21
- book: before-you-sleep
+ book: 
+  - before-you-sleep
+  - for-du-sovner
+

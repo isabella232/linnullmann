@@ -55,8 +55,3 @@ On a warm summer’s night in Oslo, Martin draws Stella into one of the risky ga
 
 - [*The Age* (Australia), 8 May 2004](/assets/files/Age-08-05-2004.pdf)  
 - [*Daily Telegraph*, 26 January 2004](/assets/files/Telegraph-26-01-2004.pdf)
-
-
-### Interviews
-
-- [*The Scotsman*, 19 August 2004](/assets/files/Scotsman-19-08-2004.pdf)

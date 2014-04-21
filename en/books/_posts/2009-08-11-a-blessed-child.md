@@ -71,11 +71,4 @@ No one assumes responsibility for  what happens that summer, and more than twent
 - [*Mslexia*, 1 July 2008](/assets/files/Mslexia-01-07-2008.pdf)  
 - [*Jyllands-Posten* (DK), translated, 20 April 2006](/assets/files/Jyllands-Posten-EN-20-04-2006.pdf)  
 - [*Berlingske Tidende* (DK), translated, 15 April 2006](/assets/files/Berlingske-Tidende-EN-15-04-2006.pdf)  
-  
-### Interviews
-
-- [*Irish Times*, 13 September 2008](/assets/files/Irish-Times-13-09-2008.pdf)  
-- [*Untitled Books*, 1 August 2008](http://www.untitledbooks.com/features/how/linn-ullmann/)  
-- [*Politiken*, 29 April 2006](/assets/files/Politiken-29-04-2006.pdf)  
-- [*Berlingske Tidende*, 15 April 2006](/assets/files/Berlingske-15-04-2006.pdf)  
 

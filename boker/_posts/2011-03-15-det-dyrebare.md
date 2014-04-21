@@ -72,16 +72,3 @@ Milles forsvinning og uvissheten om hva som skjedde, preger alle som var berørt
 - [*Dagsavisen*, 24. desember 2011](/assets/files/Dagsavisen-24-11-2011.pdf)  
 - [*Bokklubben medlemsblad*, Nr. 25/2011](/assets/files/Bokklubben-presentasjon-2011.pdf)  
 
-### Intervjuer
-
-- [Samtiden, nr. 4 2012](/assets/files/Samtiden-nr-4-2012.pdf)  
-- [VI (Sverige), September 2012](/assets/files/VI-sept-2012.pdf)  
-- [Dagens Nyheter (Sverige), 24. juni 2012](/assets/files/Dagens-Nyheter-24-6-2012.pdf)  
-- [Politiken (Danmark), 19. mai 2012](/assets/files/Politiken-19-5-2012.pdf)  
-- [Bornholms Tidende, 12. mai 2012](/assets/files/Bornholms-Tidende-12-5-2012.pdf)  
-- [Berglingske Tidende (Danmark), 5. mai 2012](/assets/files/Berlingske-5-5-2012.pdf)  
-- [Tara, januar 2012](/assets/files/tara-januar-2012.pdf)  
-- [*Weekendavisen* (Danmark), 5.-12. januar 2012](/assets/files/Weekendavisen-5-12-1-2012.pdf)  
-- [*Fædrelandsvennen*, 1. desember 2011](/assets/files/Faedrelandsvennen-01-12-2011.pdf)  
-- [*Klassekampen - Bokmagasinet*, 26. november 2011](/assets/files/Klassekampen-Bokmagasinet-26-11-2011.pdf)  
-

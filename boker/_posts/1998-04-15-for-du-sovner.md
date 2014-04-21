@@ -90,9 +90,3 @@ covers:
 - [*Dagbladet*, 23. november 1998](/assets/files/Dagbladet-23-11-1998.pdf)  
 - [*Bergens Tidende*, 23. november 1998](/assets/files/Bergens-tidende-23-11-1998.pdf)  
 - [*Dagens Næringsliv*, 23. november 1998](/assets/files/DN-23-11-1998.pdf)  
-
-
-### Intervjuer
-
-- [*The Observer*, 13. februar 2000](http://www.guardian.co.uk/books/2000/feb/13/fiction)
-- [*Dagbladet*, 21. november 1998](/assets/files/Dagbladet-portrett-21-11-1998.pdf)
