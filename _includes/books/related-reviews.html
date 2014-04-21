@@ -6,34 +6,10 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-  {% for review in site.data.reviews-en %}  
-    {% if page.name == review.book %}
-      {% if forloop.first %}
-        <hr />
-          <h4>End of the year best book mentions</h4>
-        <hr />
-      {% endif %}
-      {% if  review.category == 'best' %}{% comment %}Just show end of year best lists{% endcomment %}
-        {% include books/format-reviews.html %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
 {% else %} {% comment %}ELSE SHOW NON ENGLISH REVIEWS{% endcomment %}
   {% for review in site.data.reviews %}  
     {% if page.name == review.book %}
       {% if  review.featured != true and review.category != 'best' %}
-        {% include books/format-reviews.html %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-  {% for review in site.data.reviews %}  
-    {% if page.name == review.book %}
-      {% if forloop.first %}
-        <hr />
-          <h4>End of the year best book mentions</h4>
-        <hr />
-      {% endif %}
-      {% if  review.category == 'best' %}
         {% include books/format-reviews.html %}
       {% endif %}
     {% endif %}
