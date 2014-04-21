@@ -1,3 +1,7 @@
+# language determines which news page an item shows up
+# book determines which book page an item show ups on.
+# featured 'true' determines which items show up on the home page
+
 - 
  title: "*Vogue* Interview"
  summary: "U.S. Vogue interviewed me about my novel *The Cold Song*"
@@ -7,12 +11,15 @@
  - english
  - norsk
  featured: true
+ book: the-cold-song
+ book: det-dyrebare
 
 - 
  title: New York Times Editor’s Choice
  summary: The Cold Song has been named an “Editor’s Choice” by the Sunday Book Review
  date: 2014-04-13
  link_to_original:
+ book: the-cold-song
 
 - 
  title: "*The New York Times* on *The Cold Song*: 'Every page, every line, seems to glisten with vapors of sumptuous, intoxicating unease'"
@@ -65,13 +72,6 @@
  language: english
 
 -
- title: Downloadable Poster
- summary: "My publisher, Other Press, put together this poster for bookselleers."
- file: The-Cold-Song-NYTBR-poster.pdf
- language: english
- date: 2014-03-27
-
--
  title: "Video from Louisiana literature festival in Denmark"
  summary: "Interviewed by Marc-Christoph Wagner at Louisiana Literature 2012"
  date: 2014-04-03
@@ -86,7 +86,7 @@
  link_to_original:
  date: 2011-11-26
  language: 
-  - english
+  - norsk
 
 -
  title: "Untitled Books"
@@ -101,7 +101,7 @@
  link_to_original:
  date: 2006-04-29
  book: a-blessed-child
- language: english
+ language: norsk
 
 -
  title: "Berlingske Tidende"

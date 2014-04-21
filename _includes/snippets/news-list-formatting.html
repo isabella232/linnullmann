@@ -21,11 +21,11 @@ TODO: add headings? or other dilineation
 <div class="column-item">
 	<h2 class="h6" style="display:inline;">
 		{% if item.link_to_original %}
-			<a href="{{item.link_to_original}}" target="_blank">{{title}}</a>
+			<a href="{{item.link_to_original}}" target="_blank">{{title}}</a> - count {{count}}
 		{% elsif item.file %}
-			<a href="/assets/files/{{item.file}}" target="_blank">{{title}}</a>
+			<a href="/assets/files/{{item.file}}" target="_blank">{{title}}</a> - count {{count}}
 		{% else %}
-			{{title}}
+			{{title}} - count {{count}}
 		{% endif %} {% comment %}<small>({{item.language}})</small>{% endcomment %}
  	</h2>
 		<div class="item">
