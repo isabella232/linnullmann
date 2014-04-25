@@ -2,6 +2,19 @@
 # book determines which book page an item show ups on.
 # featured 'true' determines which items show up on the home page
 
+-
+ title: "*The Atlantic* Interview"
+ date: 2014-04-23
+ link_to_original: "http://www.theatlantic.com/entertainment/archive/2014/04/why-every-good-story-needs-a-good-setting/361110/"
+ summary: "Before You Can Write a Good Plot, You Need to Write a Good Place"
+ language: 
+ - english
+ - norsk
+ featured: true
+ book: 
+ - the-cold-song
+ - det-dyrebare
+
 - 
  title: "*Vogue* Interview"
  summary: "U.S. Vogue interviewed me about my novel *The Cold Song*"
