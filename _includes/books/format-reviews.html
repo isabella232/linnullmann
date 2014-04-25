@@ -1,7 +1,5 @@
 <blockquote class="review" {% if post.link_to_original %}cite='{{ review.link_to_original }}'{% endif %}>
- <p class="quote"><span>“</span>{{ review.quote | markdownify | remove: '<p>' | remove: '</p>' | | strip_newlines }}<span>”</span></p>
-{% if review.source %}<small style="font-size:.8rem;margin-top:4px;display:block;">— {{review.source | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}{% if review.link_to_original %} <a href="{{ review.link_to_original }}"> <i class="icon-link-ext"></i></a>{% endif %}{% endif %}
-{% if page.url == "/reviews/" or page.url == '' %}
+ <p class="quote"><span>“</span>{{ review.quote | markdownify | remove: '<p>' | remove: '</p>' | | strip_newlines }}<span>”</span></p>{% if review.source %}<small>— {% if review.link_to_original %}<a href="{{ review.link_to_original }}">{{review.source | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} <i class="icon-link-ext"></i></a>{% else %}{{review.source | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}{% endif %}{% if page.url == "/reviews/" or page.url == '' %}
   on
   {% for page in site.categories.book %} 
     {% if review.book == page.name %}
@@ -10,4 +8,5 @@
 	 {% endfor %}
   {% endif %}
 	</small>
+	{% endif %}
 </blockquote>

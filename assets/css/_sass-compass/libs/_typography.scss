@@ -40,6 +40,16 @@ font-family: Georgia, "Times New Roman", serif;
 
 }
 
+blockquote.review small{
+  font-size:.8rem;
+  margin-top:4px;
+  display:block;
+}
+
+blockquote.review small i {
+  font-size:.65rem;
+}
+
 .screen-reader-text { /* Reusable, toolbox kind of class */
   position: absolute;
   top: -9999px;

@@ -39,11 +39,7 @@ blockquote {
 // //  content:"— ";
 //}
 
-blockquote.review p, p.quote {display:inline;} 
+blockquote.review p {display:inline;} 
 //This is not optimal, inline could cause problems, but need this to make mdash stay on line with the source.
 blockquote.review .quote p:before {content:'“';}
 blockquote.review .quote p:after {content:'”';}
-
-blockquote.review small, bpny {
-	font-size: 70%;
-}
