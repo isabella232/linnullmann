@@ -19,6 +19,7 @@ prose:
     - robots.txt
     - _config.yml
     - _prose.yml
+    - /api
     - /assets
     - /_layouts
     - /_includes
