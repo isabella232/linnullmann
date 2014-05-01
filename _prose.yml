@@ -36,6 +36,9 @@ prose:
       field:
         element: 'hidden'
         value: 'page'
+    - name: 'class'
+      field:
+        element: 'hidden'
     - name: 'title'
       field:
         element: 'text'
