@@ -55,7 +55,7 @@ prose:
         label: 'snippet'
     - name: 'norsk'
       field:
-        label: 'Norwegian Page Slug'
+        label: 'Norwegian Page Slug (English Pages only)'
         element: 'text'
         help: 'add the page slug (permalink name) of the Norwegian version of the page. e.g. om-forfatteren'
     - name: 'splash_image'
