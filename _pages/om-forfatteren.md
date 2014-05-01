@@ -5,9 +5,7 @@ title: Om forfatteren
 permalink: /om-forfatteren/
 english: about
 published: true
-show_in_menu: true
 splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
-sharing: false
 ---
 
 [Klikk her for portretter](/portretter/)

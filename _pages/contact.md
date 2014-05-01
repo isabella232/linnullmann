@@ -4,8 +4,6 @@ title: Contact
 permalink: /en/contact/
 norsk: kontakt
 published: true
-show_in_menu: true
-sharing: false
 class: dev
 ---
 ##### For UK and translation rights queries:

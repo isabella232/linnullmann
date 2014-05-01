@@ -4,10 +4,8 @@ title: About
 permalink: /en/about/
 norsk: om-forfatteren
 published: true
-show_in_menu: true
 splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 # splash_image: ullmann_linn_agnete_brun-1200x400.jpg
-sharing: false
 ---
 
 [click here for images](/en/portraits/)

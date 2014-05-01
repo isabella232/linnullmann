@@ -2,9 +2,7 @@
 layout: page
 language: no
 permalink: /
-# include: "books/books-list-covers.html"
 include: "snippets/news-list-featured.html"
-sharing: false
 published: true
 class: dev
 category: home

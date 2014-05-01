@@ -4,8 +4,6 @@ title: Kontakt
 permalink: /kontakt/
 english: contact
 published: true
-show_in_menu: true
-sharing: false
 class: dev
 ---
 ##### Norsk forlegger
