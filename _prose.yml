@@ -31,6 +31,11 @@ prose:
        element: 'text'
        label: 'Title'
        placeholder: 'Put your title here'
+    - name: 'name'
+      field:
+       element: 'text'
+       label: 'Slug'
+       help: 'This is an identifier - essentially the title, but in lower case with dashes betweeen words. e.g. the-cold-song'
    _pages:
     - name: 'layout'
       field:
