@@ -53,9 +53,13 @@ prose:
         element: 'hidden'
         help: 'for developer use only'
         label: 'snippet'
+    - name: 'norsk'
+      field:
+        label: 'Norwegian Page Slug'
+        element: 'text'
+        help: 'add the page slug (permalink name) of the Norwegian version of the page. e.g. om-forfatteren'
     - name: 'splash_image'
       field:
         label: 'Splash Image'
         element: 'text'
-        label: 'Add filename of an image to go across the top of this page'
-        help: 'The image should be at least 1600px wide and not more than 400px'
+        help: 'Add filename of an image to go across the top of this page. The image should be at least 1600px wide and not more than 400px'
