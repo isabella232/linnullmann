@@ -31,7 +31,7 @@ prose:
        element: 'text'
        label: 'Title'
        placeholder: 'Put your title here'
-  _pages:
+   _pages:
     - name: 'layout'
       field:
         element: 'hidden'
