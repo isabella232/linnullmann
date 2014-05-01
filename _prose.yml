@@ -46,11 +46,11 @@ prose:
       field:
         element: 'text'
         label: 'Link'
-        help: '/page-name/'
+        help: '/page-name/  -must have the slahes'
     - name: 'include'
       field:
         label: 'Include Snippet'
-        element: 'text'
+        element: 'hidden'
         help: 'for developer use only'
         label: 'snippet'
     - name: 'sharing'
@@ -59,3 +59,9 @@ prose:
         label: 'Add Sharing Buttons to this page?'
         help: 'Check if you want sharing buttons to show up on the page.'
         value: 'false'
+    - name: 'splash_image'
+      field:
+        label: 'Splash Image'
+        element: 'text'
+        label: 'Add filename of an image to go across the top of this page'
+        help: 'The image should be at least 1600px wide and not more than 400px'
