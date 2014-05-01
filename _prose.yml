@@ -1,6 +1,6 @@
 #configuration options for http://prose.io editor
 prose:
-  siteurl: 'http://jekyll-starter.pubspringdev1.com/'
+  siteurl: 'http://www.linnullmann.no'
   media: 'assets/img'
   ignore:
     - .gitignore
@@ -12,6 +12,10 @@ prose:
     - readme.md
     - gemfile
     - Gemfile.lock
+    - .bowerrc
+    - Gruntfile.js
+    - bower.json
+    - package.json
     - robots.txt
     - _config.yml
     - _prose.yml
