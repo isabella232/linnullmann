@@ -17,23 +17,17 @@
 	{% endif %}			
 {% endfor %}
 
+<script>
+document.body.onkeyup = function(e){
 
-   <script>
-    document.body.onkeyup = function(e){
-
-{% for link in books %}
-
-
-
-	{% if link.name == page.next_book %}
-		if (e.keyCode == '37') { window.location = '{{link.url}}'; }
-	{% endif %}
-	{% if link.name == page.previous_book %}
-		if (e.keyCode == '39') { window.location = '{{link.url}}'; }
-	{% endif %}			
-{% endfor %}
-
-
+	{% for link in books %}
+		{% if link.name == page.next_book %}
+			if (e.keyCode == '37') { window.location = '{{link.url}}'; }
+		{% endif %}
+		{% if link.name == page.previous_book %}
+			if (e.keyCode == '39') { window.location = '{{link.url}}'; }
+		{% endif %}			
+	{% endfor %}
 };
-  </script>
+</script>
 
