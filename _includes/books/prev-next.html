@@ -1,34 +1,39 @@
-
 {% if page.url contains '/en/' %}
-
-		{% for link in site.categories.books %}
-			{% if link.name == page.next_book %}
-				<a href="{{link.url}}">
-							<i class="icon-left-circled"></i> 
-				</a>
-			{% endif %}
-			{% if link.name == page.previous_book %}
-				<a href="{{link.url}}">
-					<i class="icon-right-circled"></i>
-				</a>
-			{% endif %}
-			
-		{% endfor %}
-
+	{% assign books  = site.categories.books %}
 {% else %}
-
-		{% for link in site.categories.boker %}
-			{% if link.name == page.next_book %}
-				<a href="{{link.url}}">
-							<i class="icon-left-circled"></i> 
-				</a>
-			{% endif %}
-			{% if link.name == page.previous_book %}
-				<a href="{{link.url}}">
-					<i class="icon-right-circled"></i>
-				</a>
-			{% endif %}
-			
-		{% endfor %}
-
+	{% assign books = site.categories.boker %}
 {% endif %}
+
+{% for link in books %}
+	{% if link.name == page.next_book %}
+		<a href="{{link.url}}">
+			<i class="icon-left-circled"></i> 
+		</a>
+	{% endif %}
+	{% if link.name == page.previous_book %}
+		<a href="{{link.url}}">
+			<i class="icon-right-circled"></i>
+		</a>
+	{% endif %}			
+{% endfor %}
+
+
+   <script>
+    document.body.onkeyup = function(e){
+
+{% for link in books %}
+
+
+
+	{% if link.name == page.next_book %}
+		if (e.keyCode == '37') { window.location = '{{link.url}}'; }
+	{% endif %}
+	{% if link.name == page.previous_book %}
+		if (e.keyCode == '39') { window.location = '{{link.url}}'; }
+	{% endif %}			
+{% endfor %}
+
+
+};
+  </script>
+

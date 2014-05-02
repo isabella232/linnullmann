@@ -11,3 +11,11 @@ $('a:not([href^="{{site.baseurl}}"]):not([href^="#"]):not([href^="/"])').attr("t
 
 </script>
 <script src="{{site.baseurl}}/assets/js/concatenated-scripts.js"></script>
+
+
+{% if page.url contains '/en/' %}
+	{% assign url  = site.categories.books %}
+{% else %}
+	{% assign url = site.categories.boker %}
+{% endif %}
+
