@@ -8,6 +8,15 @@
  - norsk
 
 -
+ title: "7pm Speaking with Marisha Pessl at the house of Literature in Oslo"
+ title_norsk: "7pm Linn Ullmann i samtale med Marisha Pessl på Litteraturhuset i Oslo"
+ date: 2014-05-14
+ link_to_original: http://www.litteraturhuset.no/program/2014/05/horror.html
+ language: 
+ - english
+ - norsk
+
+-
  title: "A conversation with Donna Tartt at the international stage in Malmö on May 13th"
  title_norsk: "Linn Ullmann i samtale med Donna Tartt i Malmö"
  date: 2014-05-13
@@ -16,47 +25,26 @@
  - english
  - norsk
 
-- 
+-
  title: "8pm - PEN World Voices Festival: Babette's Feast 2.0"
- # summary: "A panel with Suzanne Brogger, Francine Prose, Tea Obreht, Sjon, and  Judith Thurman.  "
  date: 2014-05-03
  language: 
  - english
  - norsk
  link_to_original: "http://worldvoices.pen.org/"
 
+- 
+ title: "3pm - Signing at McNally Jackson Books"
+ date: 2014-05-03
+ language: 
+ - english
+ link_to_original: "http://mcnallyjackson.com/event"
+
 -
  title: "8pm - PEN World Voices Festival: Literary Quartet: Two on Two"
- # summary: "Notable editors Christopher Bollen and Brigid Hughes have a knack for identifying (and then publishing) first-rate literature. At this exciting session, they will speak with writers well known in their home countries who are beginning to make a splash here. Don’t miss the chance to hear Germany’s Maxim Leo, Israel’s Alona Kimhi, Bangladesh’s Zia Haider Rahman, and Norway’s Linn Ullman discuss craft, life, and what they’re working on now."
  date: 2014-05-02
  language: 
  - english
  - norsk
  link_to_original: "http://worldvoices.pen.org/"
 
-# -
-#  title: "6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
-#  # summary: "Festival authors Elaine Brum, Alona Kimhi, Andres Neuman, Fracesc Seres, and Linn Ullmann (The Cold Song, Other Press 2014) will speak  on books they admire and how and why it has influenced their writing. Chosen to reflect Baruch’s international and diverse student body, each of the authors will read from their selected work, then engage in discussion with the audience."
-#  date: 2014-05-01
-#  language: 
-#  - english
-#  - norsk
-#  link_to_original: "http://worldvoices.pen.org/"
-
-# -
-#  title: "Q&A and reading at The Norwegian Seaman´s Church in New York"
-#  title_norsk: "Bokbad Sjømannskirken New York"
-#  link_to_original: "http://sjomannskirken.no/new-york/linn-ullmann-meet-the-author/"
-#  date: 2014-04-28
-#  language: 
-#  - english
-#  - norsk
-
-# -
- # title: "A Conversation with Claire Messud on the international Stage in Stockholm on April 14th"
- # title_norsk: "Linn Ullmann i samtale med Claire Messud i Stockholm"
- # date: 2014-04-14
- # link_to_original: "http://kulturhusetstadsteatern.se/Litteratur/Evenemang/Claire-Messud/"
- # language: 
- # - english
- # - norsk

@@ -3,6 +3,18 @@
 # featured 'true' determines which items show up on the home page
 
 -
+ title: "The Diane Rehm Show"
+ date: 2014-04-30
+ link_to_original: "http://thedianerehmshow.org/shows/2014-04-30/linn-ullmann-cold-song"
+ language: 
+ - english
+ - norsk
+ featured: true
+ book: 
+ - the-cold-song
+ - det-dyrebare
+
+-
  title: "*The Atlantic* Interview"
  date: 2014-04-23
  link_to_original: "http://www.theatlantic.com/entertainment/archive/2014/04/why-every-good-story-needs-a-good-setting/361110/"
@@ -14,7 +26,7 @@
  book: 
  - the-cold-song
  - det-dyrebare
-
+ 
 - 
  title: "*Vogue* Interview"
  summary: "U.S. Vogue interviewed me about my novel *The Cold Song*"
@@ -37,7 +49,7 @@
 - 
  title: "*The New York Times* on *The Cold Song*: 'Every page, every line, seems to glisten with vapors of sumptuous, intoxicating unease'"
  date: 2014-04-06
- summary: Review in the April 6, 2014 Sunday Book Review
+ summary: "Review in the April 6, 2014 Sunday Book Review"
  link_to_original: "http://nyti.ms/QLLmfI"
  language: 
  - english
@@ -228,15 +240,6 @@
   - et-velsignet-barn
 
 - 
- title: Berlingske Tidende
- file: Berlingske-DK-15-04-2006.pdf
- file-en: Berlingske-15-04-2006.pdf
- date: 2006-04-15
- book: 
-  - a-blessed-child
-  - et-velsignet-barn
-
-- 
  title: Jyllands-Posten
  file: Jyllandsposten-29-04-2006.pdf
  date: 2006-04-29
@@ -251,12 +254,6 @@
  book: 
   - grace
   - nade
-- 
- title: The Independent
- file: Independent-27-01-2006.pdf
- date: 2006-01-27
- book: grace
- 
 - 
  title: Klassekampen
  file: Klassekampen-28-10-2005.pdf
@@ -298,15 +295,6 @@
  book: 
   - a-blessed-child
   - et-velsignet-barn
-
-- 
- title: "The Scotsman"
- file: Scotsman-19-08-2004.pdf 
- date: 2004-08-19
- book: 
-  - stella-descending
-  - nar-jeg-er-hos-deg
- language: english
  
 - 
  title: "Klassekampen"
@@ -316,14 +304,6 @@
   - stella-descending
   - nar-jeg-er-hos-deg
  
-- 
- title: "The Observer"
- link_to_original: "http://www.guardian.co.uk/books/2000/feb/13/fiction"
- date: 2000-02-13
- book: 
-  - before-you-sleep
-  - for-du-sovner
-
 - 
  title: "Dagbladet"
  file: Dagbladet-portrett-21-11-1998.pdf
