@@ -34,23 +34,23 @@
  - norsk
  link_to_original: "http://worldvoices.pen.org/"
 
--
- title: "6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
- # summary: "Festival authors Elaine Brum, Alona Kimhi, Andres Neuman, Fracesc Seres, and Linn Ullmann (The Cold Song, Other Press 2014) will speak  on books they admire and how and why it has influenced their writing. Chosen to reflect Baruch’s international and diverse student body, each of the authors will read from their selected work, then engage in discussion with the audience."
- date: 2014-05-01
- language: 
- - english
- - norsk
- link_to_original: "http://worldvoices.pen.org/"
+# -
+#  title: "6pm - PEN World Voices Festival, Resonances: Contemporary Writers on the Classics"
+#  # summary: "Festival authors Elaine Brum, Alona Kimhi, Andres Neuman, Fracesc Seres, and Linn Ullmann (The Cold Song, Other Press 2014) will speak  on books they admire and how and why it has influenced their writing. Chosen to reflect Baruch’s international and diverse student body, each of the authors will read from their selected work, then engage in discussion with the audience."
+#  date: 2014-05-01
+#  language: 
+#  - english
+#  - norsk
+#  link_to_original: "http://worldvoices.pen.org/"
 
--
- title: "Q&A and reading at The Norwegian Seaman´s Church in New York"
- title_norsk: "Bokbad Sjømannskirken New York"
- link_to_original: "http://sjomannskirken.no/new-york/linn-ullmann-meet-the-author/"
- date: 2014-04-28
- language: 
- - english
- - norsk
+# -
+#  title: "Q&A and reading at The Norwegian Seaman´s Church in New York"
+#  title_norsk: "Bokbad Sjømannskirken New York"
+#  link_to_original: "http://sjomannskirken.no/new-york/linn-ullmann-meet-the-author/"
+#  date: 2014-04-28
+#  language: 
+#  - english
+#  - norsk
 
 # -
  # title: "A Conversation with Claire Messud on the international Stage in Stockholm on April 14th"
