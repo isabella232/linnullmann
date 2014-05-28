@@ -1,26 +1,26 @@
--
- title: "A conversation with Julian Barnes at the opening night of the Lillehammer Literary Festival"
- title_norsk: "Linn Ullmann i samtale med Julian Barnes på Lillehammer"
- date: 2014-05-22
- link_to_original: "http://www.litteraturfestival.no/2014/04/linn-ullmann/"
- language: 
- - english
- - norsk
+# -
+#  title: "A conversation with Julian Barnes at the opening night of the Lillehammer Literary Festival"
+#  title_norsk: "Linn Ullmann i samtale med Julian Barnes på Lillehammer"
+#  date: 2014-05-22
+#  link_to_original: "http://www.litteraturfestival.no/2014/04/linn-ullmann/"
+#  language: 
+#  - english
+#  - norsk
 
--
- title: "7pm Speaking with Marisha Pessl at the house of Literature in Oslo"
- title_norsk: "7pm Linn Ullmann i samtale med Marisha Pessl på Litteraturhuset i Oslo"
- date: 2014-05-14
- link_to_original: http://www.litteraturhuset.no/program/2014/05/horror.html
- language: 
- - english
- - norsk
+# -
+#  title: "7pm Speaking with Marisha Pessl at the house of Literature in Oslo"
+#  title_norsk: "7pm Linn Ullmann i samtale med Marisha Pessl på Litteraturhuset i Oslo"
+#  date: 2014-05-14
+#  link_to_original: http://www.litteraturhuset.no/program/2014/05/horror.html
+#  language: 
+#  - english
+#  - norsk
 
--
- title: "A conversation with Donna Tartt at the international stage in Malmö on May 13th"
- title_norsk: "Linn Ullmann i samtale med Donna Tartt i Malmö"
- date: 2014-05-13
- link_to_original: "http://www.malmo.se/Medborgare/Biblioteken/Vara-bibliotek/Stadsbiblioteket/Internationell-forfattarscen/Donna-Tartt.html"
- language: 
- - english
- - norsk
+# -
+#  title: "A conversation with Donna Tartt at the international stage in Malmö on May 13th"
+#  title_norsk: "Linn Ullmann i samtale med Donna Tartt i Malmö"
+#  date: 2014-05-13
+#  link_to_original: "http://www.malmo.se/Medborgare/Biblioteken/Vara-bibliotek/Stadsbiblioteket/Internationell-forfattarscen/Donna-Tartt.html"
+#  language: 
+#  - english
+#  - norsk
