@@ -12,9 +12,10 @@ splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 [![The Cold Song](/assets/img/cover/the-cold-song-L.jpg)](/en/books/2014/04/01/the-cold-song/)
 
 ##### [*The Cold Song*](/en/books/2014/04/01/the-cold-song/), published by Other Press
+
 ##### April, 8th 2014
 
-_From the internationally best-selling author Linn Ullmann, hailed as a “an elegant stylist with an original voice” (*New York Times Book Review*) comes this taut, brilliantly acute novel of a family who when faced with tragedy must confront their guilt, their longings, and their losses._
+_From the internationally best-selling author Linn Ullmann, hailed as a “an elegant stylist with an original voice” (**New York Times Book Review**) comes this taut, brilliantly acute novel of a family who when faced with tragedy must confront their guilt, their longings, and their losses._
 
 [Interviews and Events.](/en/news/)
 

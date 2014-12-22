@@ -1,4 +1,4 @@
-baseurl: http://www.linnullmann.no
+url: http://www.linnullmann.no
 sitename: 'Linn Ullmann'
 description: 'Linn Ullmann is an award winning novelist and journalist and the author of five novels: Before You Sleep, Stella Descending, Grace, A Blessed Child and The Cold Song.'
 # do not include  https://github.com/...
@@ -15,13 +15,10 @@ port: 3575
 permalink:  pretty
 # Dependencies
 # markdown: kramdown
-markdown: redcarpet
-redcarpet:
-  extensions: ['autolink', 'smart']
 # pygments: true
 #Pages - store all pages in the _pages directory
 include: ['_pages']
-relative_permalinks: false # won't need this as of 2.0: Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Also will change exclude directory
+# relative_permalinks: false # won't need this as of 2.0: Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Also will change exclude directory
 exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile', 'bower.json', 'node_modules', 'package.json', 'gruntfile.js', 'Gemfile.lock', 'gemfile']
 
 
@@ -43,4 +40,4 @@ simple_form_api_token:
 
 # options (social)
 # facebook_id:
-twitter_id: 
+twitter_id:

@@ -2,6 +2,18 @@
 # book determines which book page an item show ups on.
 # featured 'true' determines which items show up on the home page
 
+- 
+ title: "*New York Times* 100 Notable books 2014"
+ date: 2014-12-02
+ link_to_original: "http://www.nytimes.com/2014/12/07/books/review/100-notable-books-of-2014.html?_r=2"
+ language: 
+  - english
+  - norsk
+ featured: true
+ book: 
+  - the-cold-song
+  - det-dyrebare
+
 -
  title: "The Diane Rehm Show"
  date: 2014-04-30
