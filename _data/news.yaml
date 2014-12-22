@@ -3,7 +3,7 @@
 # featured 'true' determines which items show up on the home page
 
 - 
- title: "*New York Times* 100 Notable books 2014"
+ title: "*The Cold Song* one of *New York Times* 100 Notable books 2014"
  date: 2014-12-02
  link_to_original: "http://www.nytimes.com/2014/12/07/books/review/100-notable-books-of-2014.html?_r=2"
  language: 
@@ -13,6 +13,31 @@
  book: 
   - the-cold-song
   - det-dyrebare
+
+- 
+ title: "*The Cold Song* one of the 50 Best Independent Fiction and Poetry Books of 2014, *Flavorwire*"
+ date: 2014-11-21
+ link_to_original: "http://flavorwire.com/489889/the-50-best-independent-fiction-and-poetry-books-of-2014/view-all"
+ language: 
+  - english
+  - norsk
+ featured: true
+ book: 
+  - the-cold-song
+  - det-dyrebare
+
+- 
+ title: "*The Cold Song* one of the Best Fiction Books of 2014, *Kirkus Reviews*"
+ date: 2014-11-21
+ link_to_original: "https://www.kirkusreviews.com/issue/best-of-2014/section/fiction/?page=12"
+ language: 
+  - english
+  - norsk
+ featured: true
+ book: 
+  - the-cold-song
+  - det-dyrebare
+
 
 -
  title: "The Diane Rehm Show"
