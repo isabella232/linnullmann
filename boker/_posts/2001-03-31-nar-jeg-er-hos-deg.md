@@ -4,7 +4,7 @@ subtitle:
 name: nar-jeg-er-hos-deg
 english: books/2004/07/13/stella-descending
 layout: book
-category: Skjønnlitteratur
+cat: Skjønnlitteratur
 isbn: 
 isbn_digital: 
 cover_image: stella-descending-no-hb-M.jpg

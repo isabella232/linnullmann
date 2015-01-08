@@ -5,7 +5,7 @@ name: et-velsignet-barn
 english: books/2009/08/11/a-blessed-child
 layout: book
 language: no
-category: Skjønnlitteratur
+cat: Skjønnlitteratur
 isbn: 9780307277817
 isbn_digital:
 cover_image: a-blessed-child-no-pb-2013-M.jpg

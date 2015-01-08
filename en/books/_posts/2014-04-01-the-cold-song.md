@@ -3,7 +3,7 @@ title: "The Cold Song"
 name: the-cold-song
 norsk: boker/2011/03/15/det-dyrebare
 layout: book
-category: Fiction
+cat: Fiction
 translator: "Barbara Haveland"
 isbn: 9781590516676
 isbn_digital: 9781590516683

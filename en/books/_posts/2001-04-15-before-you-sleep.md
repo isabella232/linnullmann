@@ -4,7 +4,7 @@ subtitle:
 name: before-you-sleep
 norsk: boker/1998/04/15/for-du-sovner
 layout: book
-category: Fiction
+cat: Fiction
 isbn: 9780140298338
 cover_image: before-you-sleep-uk-hb-L.jpg
 publisher: Penguin Group

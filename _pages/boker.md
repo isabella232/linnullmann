@@ -1,7 +1,7 @@
 ---
 layout: books
 title: Bøker
-category: books
+cat: books
 permalink: /boker/
 english: books
 include: "books/books-list-titles.html"

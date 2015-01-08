@@ -5,7 +5,7 @@ name: det-dyrebare
 english: books/2014/04/01/the-cold-song
 previous_book: et-velsignet-barn
 layout: book
-category: Skjønnlitteratur
+cat: Skjønnlitteratur
 isbn: 
 isbn_digital: 
 cover_image: det-dyrebare-no-hb-M.jpg

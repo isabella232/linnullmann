@@ -5,7 +5,7 @@ translator: "Barbara Haveland"
 name: stella-descending
 norsk: boker/2001/03/31/nar-jeg-er-hos-deg
 layout: book
-category: Fiction
+cat: Fiction
 isbn: 9781400030941
 isbn_digital: 9780307427953
 cover_image: stella-descending-us-hb-L.jpg

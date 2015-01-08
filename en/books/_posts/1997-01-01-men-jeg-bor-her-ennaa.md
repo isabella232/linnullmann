@@ -4,7 +4,7 @@ subtitle: An anthology of contemporary Norwegian literature
 name: men-jeg-bor-her-ennaa
 norsk: boker/1997/01/01/men-jeg-bor-her-ennaa
 layout: book-alt
-category: Editor
+cat: Editor
 isbn:
 isbn_digital:
 cover_image: men-jeg-bor-her-ennaa-L.jpg

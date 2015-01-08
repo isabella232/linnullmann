@@ -4,7 +4,7 @@ subtitle: Norwegian Film Institute Publications Series No. 8
 name: skouen-skouen
 norsk: boker/1998/03/31/skouen
 layout: book-alt
-category: Non-fiction
+cat: Non-fiction
 isbn:
 isbn_digital:
 cover_image: skouen-skouen-L.jpg

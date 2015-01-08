@@ -5,7 +5,7 @@ name: men-jeg-bor-her-ennaa
 layout: book-alt
 english: books/1997/01/01/men-jeg-bor-her-ennaa
 language: no
-category: Editor
+cat: Editor
 isbn:
 isbn_digital:
 cover_image: men-jeg-bor-her-ennaa-L.jpg

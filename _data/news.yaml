@@ -3,6 +3,18 @@
 # featured 'true' determines which items show up on the home page
 
 - 
+ title: "*The Cold Song* one of *The New Yorker's* James Wood's Favorite Books of the Year."
+ date: 2014-12-22
+ link_to_original: "http://www.newyorker.com/books/page-turner/favorite-books-2014"
+ language: 
+  - english
+  - norsk
+ featured: true
+ book: 
+  - the-cold-song
+  - det-dyrebare
+
+- 
  title: "*The Cold Song* one of *New York Times* 100 Notable books 2014"
  date: 2014-12-02
  link_to_original: "http://www.nytimes.com/2014/12/07/books/review/100-notable-books-of-2014.html?_r=2"

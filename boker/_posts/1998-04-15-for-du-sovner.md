@@ -4,7 +4,7 @@ subtitle:
 name: for-du-sovner
 english: books/2001/04/15/before-you-sleep
 layout: book
-category: Skjønnlitteratur
+cat: Skjønnlitteratur
 isbn: 9780140298338
 cover_image: before-you-sleep-no-hb-M.jpg
 publisher: Penguin Group

@@ -4,7 +4,7 @@ subtitle:
 name: a-blessed-child
 norsk: boker/2005/08/11/et-velsignet-barn
 layout: book
-category: Fiction
+cat: Fiction
 isbn: 9780307277817
 isbn_digital:
 cover_image: a-blessed-child-us-pb-L.jpg
