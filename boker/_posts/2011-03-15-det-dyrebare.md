@@ -8,7 +8,7 @@ layout: book
 cat: Skjønnlitteratur
 isbn: 
 isbn_digital: 
-cover_image: det-dyrebare-no-hb-M.jpg
+cover_image_path: /assets/img/cover/det-dyrebare-no-hb-M.jpg
 publisher:  Knopf Doubleday 
 published:
  - Norway

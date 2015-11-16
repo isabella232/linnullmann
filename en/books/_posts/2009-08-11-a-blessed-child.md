@@ -7,7 +7,7 @@ layout: book
 cat: Fiction
 isbn: 9780307277817
 isbn_digital:
-cover_image: a-blessed-child-us-pb-L.jpg
+cover_image_path: /assets/img/cover/a-blessed-child-us-pb-L.jpg
 publisher: "Knopf Doubleday"
 next_book: the-cold-song
 previous_book: grace

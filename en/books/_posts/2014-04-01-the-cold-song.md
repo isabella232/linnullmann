@@ -7,7 +7,7 @@ cat: Fiction
 translator: "Barbara Haveland"
 isbn: 9781590516676
 isbn_digital: 9781590516683
-cover_image: the-cold-song-M.jpg
+cover_image_path: /assets/img/cover/the-cold-song-M.jpg
 publisher: Other Press
 previous_book: a-blessed-child
 published:
@@ -19,7 +19,7 @@ published:
  - Germany
  - Italy
  - The Netherlands
- 
+
 rights: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
 
 world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"

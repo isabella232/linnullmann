@@ -6,7 +6,7 @@ norsk: boker/1998/04/15/for-du-sovner
 layout: book
 cat: Fiction
 isbn: 9780140298338
-cover_image: before-you-sleep-uk-hb-L.jpg
+cover_image_path: /assets/img/cover/before-you-sleep-uk-hb-L.jpg
 publisher: Penguin Group
 next_book: stella-descending
 previous_book: skouen-skouen

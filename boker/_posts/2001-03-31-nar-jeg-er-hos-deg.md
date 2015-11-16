@@ -7,7 +7,7 @@ layout: book
 cat: Skjønnlitteratur
 isbn: 
 isbn_digital: 
-cover_image: stella-descending-no-hb-M.jpg
+cover_image_path: /assets/img/cover/stella-descending-no-hb-M.jpg
 publisher:  Knopf Doubleday 
 synopsis:
 next_book: nade

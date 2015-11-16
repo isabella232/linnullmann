@@ -8,7 +8,7 @@ language: no
 cat: Skjønnlitteratur
 isbn: 9780307277817
 isbn_digital:
-cover_image: a-blessed-child-no-pb-2013-M.jpg
+cover_image_path: /assets/img/cover/a-blessed-child-no-pb-2013-M.jpg
 publisher: "Knopf Doubleday"
 synopsis:
 next_book: det-dyrebare

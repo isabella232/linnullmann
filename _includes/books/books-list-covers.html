@@ -6,7 +6,7 @@
 {% for cover in site.categories.books limit:4 %}
 		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" class="cover-{{count}}" style="margin-right:1em;">
+		<img src="{{cover.cover_image_path}}" class="cover-{{count}}" style="margin-right:1em;">
 	</a>
 {% endfor %}
 </div>
@@ -17,7 +17,7 @@
 {% for cover in site.categories.boker limit:4 %}
 		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" class="cover-{{count}}"  style="margin-right:1em;">
+		<img src="{{cover.cover_image_path}}" class="cover-{{count}}"  style="margin-right:1em;">
 	</a>
 {% endfor %}
 </div>

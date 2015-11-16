@@ -8,7 +8,7 @@ layout: book
 cat: Fiction
 isbn: 9781400030941
 isbn_digital: 9780307427953
-cover_image: stella-descending-us-hb-L.jpg
+cover_image_path: /assets/img/cover/stella-descending-us-hb-L.jpg
 publisher: Knopf Doubleday
 next_book: grace
 previous_book: before-you-sleep

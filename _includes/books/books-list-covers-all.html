@@ -3,7 +3,7 @@
 <div class="row" style="overflow:visible;margin-top:5%;margin-bottom:auto;">
 {% for cover in site.categories.books limit: '5' %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}">
+		<img src="{{cover.cover_image_path}}">
 	</a>
 {% endfor %}
 </div>
@@ -13,7 +13,7 @@
 <div class="row" style="overflow:visible;margin-top:5%;margin-bottom:auto;">
 {% for cover in site.categories.boker limit: '5' %}
 	<a href="{{cover.url}}">
-		<img src="/assets/img/cover/{{cover.cover_image}}" style="margin-right:2em;max-height:200px;">
+		<img src="{{cover.cover_image_path}}" style="margin-right:2em;max-height:200px;">
 	</a>
 {% endfor %}
 </div>

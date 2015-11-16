@@ -6,7 +6,7 @@ english: books/2001/04/15/before-you-sleep
 layout: book
 cat: Skjønnlitteratur
 isbn: 9780140298338
-cover_image: before-you-sleep-no-hb-M.jpg
+cover_image_path: /assets/img/cover/before-you-sleep-no-hb-M.jpg
 publisher: Penguin Group
 synopsis:
 next_book: nar-jeg-er-hos-deg
