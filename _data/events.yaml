@@ -24,31 +24,31 @@
 #  language:
 #  - english
 #  - norsk
-
-- title: Gravdahl Bokhandel i Hamar
-  date_norsk: Mandag 30. november
-  date: 2015-11-30
-  language:
-    - norsk
-  featured: true
-
-- title: Litterær salong. Haugesund Folkebibliotek. Kl. 2000.
-  date: 2015-11-19T10:00:00.000Z
-  language:
-    - norsk
-  featured: true
-
-- title: "Tanum adventskveld i Oslo kl 1800"
-  date_norsk: "Tirsdag 8. desember"
-  date: 2015-12-08
-  language:
-    - norsk
-  featured: true
-
-- title: "Litteraturhuset i Oslo"
-  date_norsk: Onsdag 9. Desember
-  date: 2015-12-09
-  language:
-    - norsk
-  featured: true
-
+#
+# - title: Gravdahl Bokhandel i Hamar
+#   date_norsk: Mandag 30. november
+#   date: 2015-11-30
+#   language:
+#     - norsk
+#   featured: true
+#
+# - title: Litterær salong. Haugesund Folkebibliotek. Kl. 2000.
+#   date: 2015-11-19T10:00:00.000Z
+#   language:
+#     - norsk
+#   featured: true
+#
+# - title: "Tanum adventskveld i Oslo kl 1800"
+#   date_norsk: "Tirsdag 8. desember"
+#   date: 2015-12-08
+#   language:
+#     - norsk
+#   featured: true
+#
+# - title: "Litteraturhuset i Oslo"
+#   date_norsk: Onsdag 9. Desember
+#   date: 2015-12-09
+#   language:
+#     - norsk
+#   featured: true
+#
