@@ -1,9 +1,10 @@
 - title: Litterær salong. Haugesund Folkebibliotek. Kl. 2000.
-  file: ''
-  date: 1998-11-19T10:00:00.000Z
-  book:
-    - before-you-sleep
-    - for-du-sovner
+  date: 2015-11-19T10:00:00.000Z
+  language:
+    - norsk
+  featured: true
+
+
 - title: "*The Cold Song* one of *The New Yorker's* James Wood's Favorite Books of the Year."
   date: 2014-12-22T00:00:00.000Z
   link_to_original: 'http://www.newyorker.com/books/page-turner/favorite-books-2014'
