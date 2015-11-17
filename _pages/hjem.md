@@ -18,4 +18,4 @@ Linn Ullmann er journalist og forfatter og har skrevet fem romaner: [*F&oslash;r
 
 ---
 
-### V&aring;ren 2014
+### V&aring;ren
