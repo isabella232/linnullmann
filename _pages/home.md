@@ -9,6 +9,11 @@ class: dev
 category: home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
+
+Linn Ullmann&acute;s novel&nbsp;*De urolige*&nbsp;(*The Register of Disquiet*) will be published by forlaget Oktober in Norway on November 21st 2015.
+
+&nbsp;
+
 [![The Cold Song](/assets/img/cover/the-cold-song-L.jpg)](/en/books/2014/04/01/the-cold-song/)
 
 ##### [*The Cold Song*](/en/books/2014/04/01/the-cold-song/), published by Other Press
@@ -17,6 +22,4 @@ splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 
 — [James Wood, *The New Yorker*](http://www.newyorker.com/books/page-turner/favorite-books-2014)
 
-
 ---
-
