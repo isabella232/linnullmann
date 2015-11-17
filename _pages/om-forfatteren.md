@@ -14,4 +14,4 @@ splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 
 <u></u>
 
-<u></u>&nbsp;2014&raquo; i The New Yorker’s Page-Turner Blog
+<u></u>&nbsp;2014&raquo; i *The New Yorker’s*&nbsp;“Page-Turner Blog.”
