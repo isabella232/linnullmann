@@ -18,4 +18,4 @@ Linn Ullmann har skrevet seks romaner: [*F&oslash;r du sovner*](/boker/1998/04/1
 
 ---
 
-### V&aring;ren
+### H&oslash;sten 2015 – vinteren 2016
