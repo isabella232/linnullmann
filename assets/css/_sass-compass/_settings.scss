@@ -58,6 +58,8 @@ $hightlight-color 					: $betty-blue;
 $action								: $agent-orange;
 $action-respond						: $al-green;
 
+$primary: #962F36;
+
 
 // ------------------------------------------------------------
 // :: Typesizes/scale
@@ -106,6 +108,25 @@ $internal-spacing					: 40px; 	// Space internally with fixed measure
 
 
 
+// sidebar-nav
+
+//////////// NEED MAX WIDTH WRAPPER AROURNOUND INTEIRE SITE
+$include-sidebar-right: false !default;
+$include-sidebar-left: true !default;
+
+//These must be in % values to calculate widths
+$sidebar-width: 30% !default;
+$sidebar-right-width: 20% !default;
+$sidebar-left-breakpoint: $d-vp !default;
+$sidebar-right-breakpoint: $e-vp !default;
+
+$sidebar-color-background: $primary;//#062029 !default;
+$sidebar-color: #CCC !default;
+$sidebar-left-background: #101010 ;
+//url(/assets/img/test.jpg) left top repeat-x;// #101010;//url(/assets/img/illustrated-background-pattern.png) repeat center center;//#062029;//transparent;
+$sidebar-right-color-background: transparent;//#fff !default;
+$sidebar-right-color: #555 !default;
+$sidebar-right-background: #000;
 
 
 ///////////////// BOOTSTRAP NAV ////////////////////////////
@@ -113,7 +134,7 @@ $internal-spacing					: 40px; 	// Space internally with fixed measure
 $grid-float-breakpoint: $c-vp;
 $navbar-border-radius: 0;
 $grid-gutter-width: 40px;
-$line-height-computed:24px;
+$line-height-computed:28px;
 $screen-xs-min: $b-vp;
 $font-size-large:20px;
 

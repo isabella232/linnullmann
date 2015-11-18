@@ -1,23 +1,16 @@
 <aside class="sidebar-left">
 	<header>
-		<h1><a href="{% if page.url contains '/en/' %}{{site.baseurl}}/en/{% else %}{{site.baseurl}}{% endif %}">{{site.sitename}}</a></h1>
-
-		
-{% for item in site.data.quote-sidebar limit: '1' %}
-
-		<p class="quote"><span>“</span>{{item.quote}}<span>”</span> <br />
-		<em>— {{item.source}}</em>
-		</p>
-
-
-{% endfor %}
-
-
-
-
-
-
+		<h1>
+			<a href="{% if page.url contains '/en/' %}{{site.baseurl}}/en/{% else %}{{site.baseurl}}{% endif %}">
+				{{site.sitename}}
+			</a>
+		</h1>
+		{% for item in site.data.quote-sidebar limit: '1' %}
+			<p class="quote"><span>“</span>{{item.quote}}<span>”</span> <br />
+				<em>— {{item.source}}</em>
+			</p>
+		{% endfor %}
 	</header>
 	{% include nav/navigation.html %}
 </aside>
-<!-- /aside left -->    
+<!-- /aside left -->

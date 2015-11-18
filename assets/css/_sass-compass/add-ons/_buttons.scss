@@ -53,13 +53,13 @@ $white: #FFFFFF;
   &.transparent {
     background: none repeat scroll 0 0 $transparent;
     color: $white;
-    border:1px solid $dark;
+    border:1px solid darken($light,15%);
     &:hover {
-      background: none repeat scroll 0 0 $dark;
+      background: none repeat scroll 0 0 $light;
       color: $white;
     }
     &.active {
-      color: $dark;
+      color: darken($light,15%);
     }
   }
   &.green {

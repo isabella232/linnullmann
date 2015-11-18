@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 {% include global/head.html %}
   <body class="{{page.category | replace: ' ','-' | downcase}}{{page.categories | first}}">
     <div class="wrapperf">
@@ -5,8 +8,6 @@
       <div class="content is-typeset{% if page.splash_image %} content_splash{% endif %}">
         {{content}}
       </div>
-<!--        include nav/nav-side-right.html  -->
-
     </div>
     {% include global/scripts.html %}
     {% include global/footer.html %}

@@ -5,271 +5,136 @@
 // =============== VARIABLES ===============
 
 
-//////////// NEED MAX WIDTH WRAPPER AROURNOUND INTEIRE SITE
-$include-sidebar-right: false !default;
-$include-sidebar-left: true !default;
-
-//These must be in % values to calculate widths
-$sidebar-width: 30% !default;
-$sidebar-right-width: 20% !default;
-$sidebar-left-breakpoint: $d-vp !default;
-$sidebar-right-breakpoint: $e-vp !default;
-
-$sidebar-color-background: #062029 !default;
-$sidebar-color: #CCC !default;
-$sidebar-left-background: #101010 ;
-//url(/assets/img/test.jpg) left top repeat-x;// #101010;//url(/assets/img/illustrated-background-pattern.png) repeat center center;//#062029;//transparent;
-$sidebar-right-color-background: transparent;//#fff !default;
-$sidebar-right-color: #555 !default;
-$sidebar-right-background: #000;
 
 
 // =============== LEFT SIDEBAR ===============
 
 @if $include-sidebar-left != false {
-    .content {
-        min-width: 0;
-        margin-left: 0;
-
-        @include respond-to($sidebar-left-breakpoint, $IE9: false) {
-          min-width: $b-vp;
-          margin-left:  $sidebar-width;
-        }
+  .content {
+    min-width: 0;
+    margin-left: 0;
+    @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+      min-width: $b-vp;
+      margin-left:  $sidebar-width;
     }
-
-    .sidebar-left {
-      overflow: hidden;
-        width: 100%;
-        height: auto;
-        position: static;
-        color: #777;
-        overflow-y: scroll;
-
-
-    // headers style the top portion of the sidebar on this project
-        header {
-          height:auto;
-          max-height:$splash-height;
-          background-color: #554f45;//$splash-color-background;
-          color: $splash-color;
-          padding-top:3%;
-          padding-bottom: 3%;
-
-          .quote {display: none;}
-
-
-            @include respond-to($sidebar-left-breakpoint, $IE9: false) {
-
-
-              padding-top:7%;
-          padding-bottom: 0;
-
-                        height:$splash-height;
-
-          .quote {display: block;}
-
-        }
-
-
-        }
-
-        header p {
-          max-width:400px;
-          margin:auto;
-          font-size:94%;
-          line-height:1.6;
-        }
-
-        header p em {
-          font-size:80%;
-        }
-
-
-
-
-   h1 {
-    text-transform: uppercase;
-    color: #062029;
-    letter-spacing: 4px;
-    font-size: 3.5em;
-    margin: 0;
-    line-height:1.3;
-    font-weight:300;
-
-    a{
-      color: #062029;
-    }
-
   }
-
-
-
-        a {
-          color: #999;
-        }
-
-
-        @include respond-to($sidebar-left-breakpoint, $IE9: false) {
-          width: $sidebar-width;
-          height: 100%;
-          position: fixed;
-          top: 0;
-          left: 0;
-          overflow: visible;
-          -webkit-overflow-scrolling: touch;
-        }
-    }
-}
-
-@else {
-    .sidebar-left {
-        display:none;
-
-    }
-}
-
-// =============== RIGHT SIDEBAR ===============
-
-@if $include-sidebar-right != false {
-
-
-
-      .content {
-        margin-right: 0;
-        @include respond-to($sidebar-right-breakpoint, $IE9: false) {
-            margin-right:  $sidebar-right-width;
+  .sidebar-left {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: static;
+    color: #777;
+    overflow-y: scroll;
+    // headers style the top portion of the sidebar on this project
+    header {
+      height:auto;
+      max-height:$splash-height;
+      //  background-color: #554f45;//$splash-color-background;
+      background-color:$sidebar-color-background;
+      color:#ccc;//// $splash-color;
+      padding-top:3%;
+      padding-bottom: 3%;
+      .quote {
+        display: none;
+      }
+      @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+        padding-top:7%;
+        padding-bottom: 0;
+        height:$splash-height;
+        .quote {
+          display: block;
         }
       }
-
-      .sidebar-right {
-        overflow: hidden;
-            z-index: 1000;
-        width: 100%;
-        height: auto;
-        position: static;
-
-
-    @include respond-to-min-max($sidebar-left-breakpoint, $sidebar-right-breakpoint, $IE9: false) {
-
-      @if $include-sidebar-left != false {
-          margin-left: $sidebar-width;
-
-            width: 100% - $sidebar-width;
-
-            }
-
-}
-
-
-        @include respond-to($sidebar-right-breakpoint, $IE9: false) {
-          width: $sidebar-right-width;
-          height: 100%;
-          position: fixed;
-          top: 0;
-          right: 0;
-          overflow-y: scroll;
-          -webkit-overflow-scrolling: touch;
-
-
-
-        }
     }
+    header p {
+      max-width:400px;
+      margin:auto;
+      font-size:94%;
+      line-height:1.6;
+    }
+    header p em {
+      font-size:80%;
+    }
+    h1 {
+      text-transform: uppercase;
+      color: #062029;
+      letter-spacing: 4px;
+      font-size: 3.5em;
+      margin: 0;
+      line-height:1.3;
+      font-weight:300;
+      a {
+        color:white;// #062029;
+      }
+    }
+    a {
+      color: #999;
+    }
+    @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+      width: $sidebar-width;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: visible;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
 }
 
 @else {
-    .sidebar-right {
+    .sidebar-left {
         display:none;
+
     }
 }
-
 
 // =============== STYLING ===============
 
 @if $include-sidebar-left != false {
-
-    .sidebar-left {
-
-        text-align: center;
-        padding: 0;
-        background-color: $sidebar-color-background;
-        background: $sidebar-left-background;
-        color: $sidebar-color;
-
-        .button-group{
-          margin-top: 1.5em;
-          margin-bottom: 1em;
-        }
-
-              /* Sidebar nav */
-
-ul.nav li a {
-  display: inline-block;
-
-  @include respond-to($sidebar-left-breakpoint, $IE9: false) {
-display: block;
-
-  }
-}
-
-
-
-              .sidebar-nav {
-                padding-left: 0;
-                list-style: none;
-              }
-              .sidebar-nav-item {
-                display: inline;
-                padding-top: .35em;
-                padding-bottom: .35em;
-                margin-left: 1em;
-
-@include respond-to($sidebar-left-breakpoint, $IE9: false) {
-          display: block;
-          margin-left: 0;
-        }
-
-              }
-              .sidebar-nav-item:hover,
-              .sidebar-nav-item:focus {
-                text-decoration: underline;
-                //background-color: #000;//darken($sidebar-color-background, 25%);
-              }
-              .sidebar-nav-item.active a {
-                //font-weight: bold;
-                color: darken($sidebar-color, 33%);
-              }
-              hr {
-                 margin:1em auto;
-                 border-top: 1px solid lighten($sidebar-color-background, 3%);
-}
+  .sidebar-left {
+    text-align: center;
+    padding: 0;
+    background-color:#111; //$sidebar-color-background;
+    background:darken($sidebar-color-background, 5%);;//#e0e0e0;// #842930;//#842930;//#d9d9d9;//#1e1e1e;//#282828;//$sidebar-left-background;
+    color:#ccc;// $sidebar-color;
+    .button-group {
+      margin-top: 1.5em;
+      margin-bottom: 1em;
     }
-}
-
-@if $include-sidebar-right != false {
-
-
-      .sidebar-right {
-
-
-        text-align: left;
-
-        padding: 2em 7em 4em 2em;
-        background-color: $sidebar-right-color-background;
-        background: $sidebar-right-background;
-        color: $sidebar-right-color;
-
-@include respond-to($sidebar-right-breakpoint, $IE9: false) {
-
-        padding: 2em 3em;
-
-        section:first-child {
-          margin-top: 37% !important;
-        }
-
-        section:last-child {
-          margin-bottom: 10% !important;
-        }
+    /* Sidebar nav */
+    ul.nav li a {
+      display: inline-block;
+      @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+        display: block;
       }
-
+    }
+.sidebar-nav {
+      padding-left: 0;
+      list-style: none;
+    }
+    .sidebar-nav-item {
+      display: inline;
+      padding-top: .35em;
+      padding-bottom: .35em;
+      margin-left: 1em;
+      @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+        display: block;
+        margin-left: 0;
       }
+    }
+    .sidebar-nav-item:hover,
+    .sidebar-nav-item:focus {
+      text-decoration: underline;
+      //background-color: #000;//darken($sidebar-color-background, 25%);
+    }
+    .sidebar-nav-item.active a {
+      //font-weight: bold;
+      color: lighten($sidebar-color, 13%);
+    }
+    hr {
+      margin:1em auto;
+      border-top: 1px solid lighten($sidebar-color-background, 3%);
+    }
+  }
 }
