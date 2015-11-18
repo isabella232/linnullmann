@@ -8,17 +8,6 @@ published: true
 splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 ---
 
-[Klikk her for portretter](/portretter/)
+&nbsp;
 
----
-Linn  Ullmann (f. 1966) er utdannet ved New York University der hun studerte engelsk  litteratur. Da hun debuterte med den kritikerroste romanen *Før du sovner* i 1998, var hun allerede etablert som en toneangivende kritiker og  kulturjournalist i Norge. Hennes andre roman *Når jeg er hos deg* ble  utgitt I 2001, fulgt opp av romanen *Nåde* i 2002 . 
-
-For  *Nåde* ble  Linn Ullmann tildelt Den norske  leserprisen, boken ble også kåret til en av årets ti beste romaner av danske  Weekendavisen. I 2007 ble *Nåde* nominert til The Independent Foreign  Fiction Prize i Storbritannia, og i mars 2007 hadde Riksteatret premiere på den  dramatiserte versjonen av romanen. 
-
-Linn  Ullmanns fjerde roman *Et velsignet barn* utkom høsten 2005, og ble  nominert til Brageprisen. *Et velsignet barn* ble kåret til beste  oversatte roman i avisa The Independent i 2008, og året etter ble romanen  nominert til The Independent Foreign Fiction Prize og til The International  IMPAC Dublin Literary Award i Storbritannia. I 2007 mottok hun Amalie  Skram-prisen for sitt forfatterskap. Alle Linn Ullmanns romaner er utgitt i  store deler av Europa og i USA.
-
-I  2009 var Linn Ullmann med på å stifte kunstner&shy;senteret Bergman&shy;gårdarna på Fårö, hvor hun  også var kunstnerisk leder i oppstartsfasen. Linn Ullmann arbeider som  journalist og kommentator i Aftenposten, og mottok i 2007 Gullpennen for sin  journalistiske virksomhet der.
-
-I 2011 satt Linn Ullmann i hovedjuryen på filmfestivalen i Cannes   ledet av Robert de Niro. I  november 2011 utkom  Linn Ullmanns femte kritikerroste roman *Det dyrebare*.
-
-Linn Ullmann er gift  med forfatteren [Niels Fredrik Dahl](http://no.wikipedia.org/wiki/Niels_Fredrik_Dahl) og har to barn.
+**Linn Ullmann&nbsp;**er en av de mest markante stemmene i nyere skandinavisk litteratur. Hun har tidligere utgitt fem kritikerroste romaner, som blir lest i USA og store deler av Europa. For&nbsp;*N&aring;de&nbsp;*(2002) ble hun tildelt Den norske leserprisen, hun har f&aring;tt Gullpennen for sitt journalistiske virke, og hun har mottatt Amalie Skram-prisen for sitt samlede forfatterskap. Hennes forrige roman,&nbsp;*Det dyrebare*&nbsp;(2011), fikk overstr&oslash;mmende mottagelse og var med p&aring; flere prestisjetunge &laquo;&Aring;rets beste&raquo;-lister b&aring;de i Norge og internasjonalt, blant annet i The New York Times Book Review og Kirkus Reviews, og den var en av James Woods &laquo;Favorite Books of 2014&raquo; i *The New Yorker’s*&nbsp;“Page-Turner Blog.”
