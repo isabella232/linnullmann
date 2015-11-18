@@ -10,7 +10,7 @@ category: home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
 
-![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg)Linn Ullmann&acute;s novel&nbsp;*De urolige*&nbsp;(*The Register of Disquiet*) will be published by forlaget Oktober in Norway on November 21st 2015.
+![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg)Linn Ullmann&acute;s novel&nbsp;[*De urolige*](/boker/2015/11/17/de-urolige/)&nbsp;(*The Register of Disquiet*) will be published by forlaget Oktober in Norway on November 21st 2015.
 
 &nbsp;
 
