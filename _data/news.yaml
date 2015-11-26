@@ -16,42 +16,49 @@
 
 - title: Gravdahl Bokhandel i Hamar
   date_norsk: Mandag 30. november
+  link_to_original: 'http://www.oktober.no/Arrangementer/Linn-Ullmann-paa-Gravdahl-bokhandel-i-Hamar'
   date: 2015-11-30
   language:
     - norsk
   featured: true
 
 - title: "FÆDRELANDSVENNEN gir terningkast seks og skriver: «Denne boka blir stående lenge, som én av de få»"
+  link_to_original: 'uploads/Fædrelandsvennen_24_11_2015_(review).pdf'
   date: 2015-11-24
   language:
     - norsk
   featured: true
 
 - title: "DAGSAVISEN skriver: «en overbevisende og modig roman»"
+  link_to_original:'http://www.dagsavisen.no/kultur/boker/sjarmerende-og-n%C3%A5del%C3%B8st-fra-linn-ullmann-1.470071'
   date: 2015-11-21
   language:
     - norsk
   featured: true
 
 - title: "AFTENPOSTEN skriver: «en av årets sterkeste beretninger»"
+  link_to_original: 'http://www.aftenposten.no/kultur/litteratur/Som-hun-ser-deg-8252272.html'
   date: 2015-11-21
   language:
     - norsk
   featured: true
 
 - title: "VG gir terningkast seks og skriver: «en briljant roman»"
+  link_to_original: 'http://www.vg.no/rampelys/bok/bokanmeldelser/bokanmeldelse-linn-ullmann-de-urolige/a/23565007'
   date: 2015-11-21
   language:
     - norsk
   featured: true
 
 - title: "DAGBLADET gir terningkast seks og skriver: «en sterk leseopplevelse … ‹De urolige› er årets beste roman»"
+  link_to_original: 'http://www.dagbladet.no/tag/linn_ullmann'
   date: 2015-11-21
   language:
     - norsk
   featured: true
 
 - title: "NRK skriver: «Rått og vakkert … ei stor leseoppleving»"
+  link_to_original: 'http://www.nrk.no/kultur/bok/bokmelding-av-de-urolige-av-linn-ullmann-1.12664163'
   date: 2015-11-21
   language:
     - norsk
