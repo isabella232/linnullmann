@@ -1,3 +1,19 @@
+- title: "Litteraturhuset i Oslo"
+  date_norsk: Onsdag 9. Desember
+  link_to_original: 'http://www.litteraturhuset.no/program/2015/12/fortellingenesomutgjoeretliv.html'
+  date: 2015-12-09
+  language:
+    - norsk
+  featured: true
+
+- title: "Tanum adventskveld i Oslo kl 1800"
+  date_norsk: "Tirsdag 8. desember"
+  link_to_original: ' https://www.tanumbokhandel.no/bokhandel/Arrangementer/article.action?contentId=71897'
+  date: 2015-12-08
+  language:
+    - norsk
+  featured: true
+
 - title: Gravdahl Bokhandel i Hamar
   date_norsk: Mandag 30. november
   date: 2015-11-30
@@ -5,26 +21,47 @@
     - norsk
   featured: true
 
-- title: Litterær salong. Haugesund Folkebibliotek. Kl. 2000.
+- title: "FÆDRELANDSVENNEN gir terningkast seks og skriver: «Denne boka blir stående lenge, som én av de få»"
+  date: 2015-11-24
+  language:
+    - norsk
+  featured: true
+
+- title: "DAGSAVISEN skriver: «en overbevisende og modig roman»"
+  date: 2015-11-21
+  language:
+    - norsk
+  featured: true
+
+- title: "AFTENPOSTEN skriver: «en av årets sterkeste beretninger»"
+  date: 2015-11-21
+  language:
+    - norsk
+  featured: true
+
+- title: "VG gir terningkast seks og skriver: «en briljant roman»"
+  date: 2015-11-21
+  language:
+    - norsk
+  featured: true
+
+- title: "DAGBLADET gir terningkast seks og skriver: «en sterk leseopplevelse … ‹De urolige› er årets beste roman»"
+  date: 2015-11-21
+  language:
+    - norsk
+  featured: true
+
+- title: "NRK skriver: «Rått og vakkert … ei stor leseoppleving»"
+  date: 2015-11-21
+  language:
+    - norsk
+  featured: true
+
+- title: "Litterær salong. Haugesund Folkebibliotek. Kl. 2000."
   date: 2015-11-19T10:00:00.000Z
   language:
     - norsk
   featured: true
-
-- title: "Tanum adventskveld i Oslo kl 1800"
-  date_norsk: "Tirsdag 8. desember"
-  date: 2015-12-08
-  language:
-    - norsk
-  featured: true
-
-- title: "Litteraturhuset i Oslo"
-  date_norsk: Onsdag 9. Desember
-  date: 2015-12-09
-  language:
-    - norsk
-  featured: true
-
 
 - title: "*The Cold Song* one of *The New Yorker's* James Wood's Favorite Books of the Year."
   date: 2014-12-22T00:00:00.000Z
@@ -36,6 +73,7 @@
   book:
     - the-cold-song
     - det-dyrebare
+
 - title: '*The Cold Song* one of *New York Times* 100 Notable books 2014'
   date: 2014-12-02T00:00:00.000Z
   link_to_original: 'http://www.nytimes.com/2014/12/07/books/review/100-notable-books-of-2014.html?_r=2'
