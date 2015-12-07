@@ -1,3 +1,91 @@
+-
+  date: 2015-12-19
+  title: Signering på Tanum Byporten i Oslo kl. 15.00–16.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-19
+  title: Signering på Tanum CC-vest i Oslo kl. 13.00–14.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-18
+  title: Signering på Ark Strømmen i Skedsmo kl. 19.00–20.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-18
+  title: Signering på Ark Majorstua i Oslo kl. 17.00–18.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-17
+  title: Signering på Tanum Karl Johan i Oslo
+  link_to_original: https://www.tanumbokhandel.no/bokhandel/Arrangementer/article.action?contentId=72278
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-16
+  title: Signering på Norli Universitetsgata i Oslo kl. 16.00–17.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-16
+  title: Signering på Norli Nye Sandvika i Bærum kl. 14.00–15.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-12
+  title: Signering på Notabene Storo i Oslo kl. 15.00–16.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+-
+  date: 2015-12-10
+  title: Signering på Ark Egertorget i Oslo kl. 16.00–17.00
+  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  language:
+    - norsk
+  featured: true
+
+- title: "Litteraturhuset i Oslo, signering etter arrangementet"
+  date_norsk: Onsdag 9. Desember
+  link_to_original: 'http://www.litteraturhuset.no/program/2015/12/fortellingenesomutgjoeretliv.html'
+  date: 2015-12-09
+  language:
+    - norsk
+  featured: true
+
+- title: "Tanum adventskveld med signering på Tanum Karl Johan i Oslo"
+  date_norsk: "Tirsdag 8. desember"
+  link_to_original: 'https://www.tanumbokhandel.no/bokhandel/Arrangementer/article.action?contentId=71897'
+  date: 2015-12-08
+  language:
+    - norsk
+  featured: true
+
 - title: Linn Ullmanns roman «De urolige» er kortlistet til P2-lytternes romanpris
   date: 2015-11-30
   link_to_original: http://www.nrk.no/kultur/bok/se-kortlisten-til-romanprisen-1.12672060
@@ -8,22 +96,6 @@
 - title: Linn Ullmanns “De urolige” er nr. 1 på Adresseavisens liste over Årets beste bøker - Norsk skjønnlitteratur.
   date: 2015-11-30
   link_to_original: /uploads/2015-11-30-adresseavisen-best-of-the-year.pdf
-  language:
-    - norsk
-  featured: true
-
-- title: "Litteraturhuset i Oslo"
-  date_norsk: Onsdag 9. Desember
-  link_to_original: 'http://www.litteraturhuset.no/program/2015/12/fortellingenesomutgjoeretliv.html'
-  date: 2015-12-09
-  language:
-    - norsk
-  featured: true
-
-- title: "Tanum adventskveld i Oslo kl 1800"
-  date_norsk: "Tirsdag 8. desember"
-  link_to_original: ' https://www.tanumbokhandel.no/bokhandel/Arrangementer/article.action?contentId=71897'
-  date: 2015-12-08
   language:
     - norsk
   featured: true
