@@ -21,6 +21,7 @@ Far og datter sitter med en b&aring;ndopptager mellom seg. Planen var at de skul
 
 ### Anmeldelser
 
+* [*Vårt Land*](http://www.vl.no/kultur/anmeldelse/scener-fra-et-familieliv-1.587753), 13. desember 2015   
 * [*Dag og Tid*](/uploads/2015-11-27-dag-og-tid.pdf), 27. november 2015   
 * [*Klassekampen*](/uploads/2015-11-28-Klassekampen.pdf), 28. november 2015  
 * [*VG*](/uploads/VG_21_11_2015_(review).pdf), 21. november 2015  
