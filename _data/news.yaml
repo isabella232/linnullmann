@@ -1,74 +1,59 @@
 -
-  date: 2015-12-19
-  title: Signering på Tanum Byporten i Oslo kl. 15.00–16.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  date: 2015-12-29
+  title: "STAVANGER AFTENBLAD gir terningkast seks og skriver: «mesterlig … en av årets aller beste bøker»"
+  link_to_original: http://www.aftenbladet.no/kultur/anmeldelser/bokanmeldelser/En-av-arets-beste-utgivelser-3838740.html
   language:
     - norsk
   featured: true
 
 -
-  date: 2015-12-19
-  title: Signering på Tanum CC-vest i Oslo kl. 13.00–14.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
-  language:
-    - norsk
-  featured: true
-
--
-  date: 2015-12-18
-  title: Signering på Ark Strømmen i Skedsmo kl. 19.00–20.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
-  language:
-    - norsk
-  featured: true
-
--
-  date: 2015-12-18
-  title: Signering på Ark Majorstua i Oslo kl. 17.00–18.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  date: 2015-12-22
+  title: "“De urolige” på FÆDRELANDSVENNENs liste over Årets beste bøker 2015"
+  link_to_original: /uploads/faedrelandsvennen_22-12-2015_(Best_of_the_year).pdf
   language:
     - norsk
   featured: true
 
 -
   date: 2015-12-17
-  title: Signering på Tanum Karl Johan i Oslo
-  link_to_original: https://www.tanumbokhandel.no/bokhandel/Arrangementer/article.action?contentId=72278
+  title: "“De urolige” på HAMAR ARBEIDERBLADs liste over Årets beste bøker 2015"
+  link_to_original: /uploads/Hamar_Arbeiderblad_17-12-2015_(Best_of_the_year).pdf
   language:
     - norsk
   featured: true
 
 -
-  date: 2015-12-16
-  title: Signering på Norli Universitetsgata i Oslo kl. 16.00–17.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
-  language:
-    - norsk
-  featured: true
-
--
-  date: 2015-12-16
-  title: Signering på Norli Nye Sandvika i Bærum kl. 14.00–15.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  date: 2015-12-15
+  title: "To anmeldere i DAGBLADET VG har “De urolige” på sin liste over Årets beste bøker 2015"
+  link_to_original: /uploads/Dagbladet_15-12-2015_(Best_of_the_year_2015).pdf
   language:
     - norsk
   featured: true
 
 -
   date: 2015-12-12
-  title: Signering på Notabene Storo i Oslo kl. 15.00–16.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  title: "To anmeldere i VG har “De urolige” på sin liste over Årets beste bøker 2015"
+  link_to_original: /uploads/VG_12-12-2015_(Best_of_the_year_2015).pdf
   language:
     - norsk
   featured: true
 
 -
-  date: 2015-12-10
-  title: Signering på Ark Egertorget i Oslo kl. 16.00–17.00
-  link_to_original: http://www.oktober.no/Arrangementer/Linn-Ullmann-signerer-i-desember-8.-desember-19.-desember
+  date: 2015-12-12
+  title: "To anmeldere i KLASSEKAMPEN VG har “De urolige» på sin liste over Årets beste bøker 2015"
+  link_to_original: /uploads/Klassekampen_12-12-2015_(Best_of_the_year_2015).pdf
   language:
     - norsk
   featured: true
+
+-
+  date: 2015-12-12
+  title: "“De urolige” på  VÅRT LANDs liste over Årets beste bøker 2015"
+  link_to_original: /uploads/Vart_Land_12-12-2015_(Best_of_the_year).pdf
+  language:
+    - norsk
+  featured: true
+
 
 - title: "Litteraturhuset i Oslo, signering etter arrangementet"
   date_norsk: Onsdag 9. Desember
@@ -85,6 +70,15 @@
   language:
     - norsk
   featured: true
+
+-
+  date: 2015-11-30
+  title: “De urolige” på ADRESSEAVISENs liste over Årets beste bøker 2015
+  link_to_original: /uploads/Adresseavisen_30-11-2015_(Best_of_the_year).pdf
+  language:
+    - norsk
+  featured: true
+
 
 - title: Linn Ullmanns roman «De urolige» er kortlistet til P2-lytternes romanpris
   date: 2015-11-30

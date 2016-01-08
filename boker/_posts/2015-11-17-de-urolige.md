@@ -19,8 +19,21 @@ Far og datter sitter med en b&aring;ndopptager mellom seg. Planen var at de skul
 
 ---
 
-### Anmeldelser
+### Kritikernes favoritt i 2015
 
+
+* [*VG*, Årets beste bøker 2015](/uploads/VG_12-12-2015_(Best_of_the_year_2015).pdf)
+* [*KLASSEKAMPEN*, Årets beste bøker 2015](/uploads/Klassekampen_12-12-2015_(Best_of_the_year_2015).pdf)
+* [*VÅRT LAND*, Årets beste bøker 2015](/uploads/Vart_Land_12-12-2015_(Best_of_the_year).pdf)
+* [*DAGBLADET*, Årets beste bøker 2015](/uploads/Dagbladet_15-12-2015_(Best_of_the_year_2015).pdf)
+* [*ADRESSEAVISEN*, Årets beste bøker 2015](/uploads/Adresseavisen_30-11-2015_(Best_of_the_year).pdf)
+* [*FÆDRELANDSVENNEN*, Årets beste bøker 2015](/uploads/faedrelandsvennen_22-12-2015_(Best_of_the_year).pdf)
+* [*HAMAR ARBEIDERBLAD*, Årets beste bøker 2015](/uploads/Hamar_Arbeiderblad_17-12-2015_(Best_of_the_year).pdf)
+
+---
+
+### Anmeldelser
+* [*Stavanger Aftenblad*](http://www.aftenbladet.no/kultur/anmeldelser/bokanmeldelser/En-av-arets-beste-utgivelser-3838740.html), 30. desember 2015   
 * [*Vårt Land*](http://www.vl.no/kultur/anmeldelse/scener-fra-et-familieliv-1.587753), 13. desember 2015   
 * [*Dag og Tid*](/uploads/2015-11-27-dag-og-tid.pdf), 27. november 2015   
 * [*Klassekampen*](/uploads/2015-11-28-Klassekampen.pdf), 28. november 2015  
