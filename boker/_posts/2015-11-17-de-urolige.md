@@ -33,6 +33,10 @@ Far og datter sitter med en b&aring;ndopptager mellom seg. Planen var at de skul
 ---
 
 ### Anmeldelser
+
+
+* [*Trønder-Avisa*](/uploads/Tronder-Avisa_8-1-2016_(review).pdf), 8. januar 2016
+* [*KK*](/uploads/KK_8-1-2016_(review).pdf), Nr. 01/2016
 * [*Stavanger Aftenblad*](http://www.aftenbladet.no/kultur/anmeldelser/bokanmeldelser/En-av-arets-beste-utgivelser-3838740.html), 30. desember 2015   
 * [*Vårt Land*](http://www.vl.no/kultur/anmeldelse/scener-fra-et-familieliv-1.587753), 13. desember 2015   
 * [*Dag og Tid*](/uploads/2015-11-27-dag-og-tid.pdf), 27. november 2015   

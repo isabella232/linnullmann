@@ -64,11 +64,13 @@
   source: MARIUS WULFSBERG, DAGBLADET, Årets beste bøker 2015
   link_to_original: /uploads/Dagbladet_15-12-2015_(Best_of_the_year_2015).pdf
   book: de-urolige
+
 -
   quote: "Selvbiografisk roman om å (over)leve med berømte kunstnerforeldre. Ullmann har aldri vært bedre. Her er hun sårbar, morsom, poetisk, tenksom, rå og ømhjertet. Et rørende og uendelig nyansert stykke fortellerkunst."
   source: MAYA T. DJUVE, DAGBLADET, Årets beste bøker 2015
   link_to_original: /uploads/Dagbladet_15-12-2015_(Best_of_the_year_2015).pdf
   book: de-urolige
+
 -
   quote: "Litt medfølende, ganske selvransakende, temmelig utleverende og svært velskrevet om det å være barn i en oppløst kunstnerfamilie."
   source: FARTEIN HORGAR, ADRESSEAVISEN, Årets beste bøker 2015
@@ -96,7 +98,7 @@
 -
   quote: "Linn Ullmann syner seg som ein forfattar med djup innsikt i korleis born ser føresetnadene som universelle kjensgjerningar, til blikket ho har på dei vaksne som ikkje har funne ut kva det tyder å vera vaksen"
   source: ODD W. SURÉN, DAG OG TID
-  # link_to_original: /uploads/
+  link_to_original: http://www.nrk.no/kultur/bok/bokmelding-av-de-urolige-av-linn-ullmann-1.12664163
   book: de-urolige
 
 -
@@ -121,6 +123,18 @@
   quote: "Når barn skriver om sine foreldre, kan det fort gli over i anklagens form. Ullmann dveler i stedet ved utilgjengeligheten på en måte som gir interessante betraktninger ... en formsikker og overbevisende fortelling om hukommelse, tilhørighet og foreldre"
   source: BJØRN GABRIELSEN, DAGENS NÆRINGSLIV
   link_to_original: /uploads/Dagens_Næringsliv_21_11_2015_(review).pdf
+  book: de-urolige
+
+-
+  quote: "Sterk regi… i en egen divisjon …man [håper] at boken ikke skal ta slutt. Hver linje fylles med innhold og sterk tilstedeværelse, alvor og humor side om side, uanstrengt og formfullendt."
+  source: EVA HILDE MURVOLD, TRØNDER-AVISA
+  link_to_original: /uploads/Tronder-Avisa_8-1-2016_(review).pdf
+  book: de-urolige
+
+-
+  quote: "en helt spesiell leseropplevelse … en fascinerende historie … en enestående god roman"
+  source: STINE OKKELMO THORP, KK
+  link_to_original: /uploads/KK_8-1-2016_(review).pdf
   book: de-urolige
 
 -
