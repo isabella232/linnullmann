@@ -9,8 +9,7 @@ class: dev
 category: home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
-
-![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg)Linn Ullmann&acute;s novel&nbsp;[*De urolige*](/boker/2015/11/17/de-urolige/)&nbsp;(*The Register of Disquiet*) will be published by forlaget Oktober in Norway on November 21st 2015.
+![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg) Linn Ullmann´s novel [*De urolige*](/boker/2015/11/17/de-urolige/) (Working title: _The Register of Disquiet_) was published by Forlaget Oktober in Norway on November 21st 2015 and received excellent reviews. For this novel she received the prestigious literary award “P2-lytternes romanpris 2015” (the P2’s listeners prize) - in Norway. This is the National Public Broadcasting literary prize. Ullmann was also nominated for the recognized National Critic’s Prize in Norway 2015 (Kritikerprisen 2015).
 
 &nbsp;
 
