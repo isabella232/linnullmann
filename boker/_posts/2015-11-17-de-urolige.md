@@ -2,7 +2,6 @@
 title: De Urolige
 date: 2015-11-17
 name: de-urolige
-categories:
 language: no
 layout: book
 cover_image_path: /uploads/2015-ullmann-de-urolige-500px.jpg
