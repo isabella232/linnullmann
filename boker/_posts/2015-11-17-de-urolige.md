@@ -7,7 +7,6 @@ language: no
 layout: book
 cover_image_path: /uploads/2015-ullmann-de-urolige-500px.jpg
 ---
-
 &Aring; se, &aring; huske, &aring; begripe. Alt kommer an p&aring; hvor du st&aring;r. F&oslash;rste gang hun kom til Hammars, var hun knapt ett &aring;r gammel og visste ingenting om den store og omveltende kj&aelig;rligheten som hadde brakt henne dit.
 
 Egentlig var det tre kj&aelig;rligheter.
