@@ -9,7 +9,7 @@ class: dev
 category: home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
-![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg) Linn Ullmann´s novel [*De urolige*](/boker/2015/11/17/de-urolige/) was published by Forlaget Oktober in Norway on November 21st 2015 to critical success. For this novel Linn Ullmann received the National Broadcasting´s literary prize (*P2-lytternes romanpris 2015*) and was shortlisted for the National Critic’s Prize (*Kritikerprisen 2015*). Linn Ullmann is one of two Norwegian nominees for the Nordic Council´s Literary Prize ([Nordisk Råds Litteraturpris 2016](http://www.norden.org/no/aktuelt/nyheter/14-nominerte-til-nordisk-raads-litteraturpris-2016)).
+![](/uploads/versions/2015-ullmann-de-urolige-500px---x0-0-500-778-500-778x---.jpg) Linn Ullmann´s novel [*De urolige*](/en/books/2016/02/18/the-register-of-disquiet/) was published by Forlaget Oktober in Norway on November 21st 2015 to critical success. For this novel Linn Ullmann received the National Broadcasting´s literary prize (*P2-lytternes romanpris 2015*) and was shortlisted for the National Critic’s Prize (*Kritikerprisen 2015*). Linn Ullmann is one of two Norwegian nominees for the Nordic Council´s Literary Prize ([Nordisk Råds Litteraturpris 2016](http://www.norden.org/no/aktuelt/nyheter/14-nominerte-til-nordisk-raads-litteraturpris-2016)).
 
 &nbsp;
 
