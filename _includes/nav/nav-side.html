@@ -5,11 +5,20 @@
 				{{site.sitename}}
 			</a>
 		</h1>
+		{% if page.url contains '/en/' %}
 		{% for item in site.data.quote-sidebar limit: '1' %}
 			<p class="quote"><span>“</span>{{item.quote}}<span>”</span> <br />
-				<em>— {{item.source}}</em>
+				<em>— {{item.source | markdownify | remove: '<p>' | remove: '</p>' }}</em>
 			</p>
 		{% endfor %}
+		{% else %}
+			{% for item in site.data.quote-sidebar-no limit: '1' %}
+				<p class="quote"><span>“</span>{{item.quote}}<span>”</span> <br />
+					<em>— {{item.source | markdownify | remove: '<p>' | remove: '</p>' }}</em>
+				</p>
+			{% endfor %}
+
+		{% endif %}
 	</header>
 	{% include nav/navigation.html %}
 </aside>
