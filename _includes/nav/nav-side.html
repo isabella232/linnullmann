@@ -13,7 +13,7 @@
 		{% endfor %}
 		{% else %}
 			{% for item in site.data.quote-sidebar-no limit: '1' %}
-				<p class="quote"><span>“</span>{{item.quote}}<span>”</span> <br />
+				<p class="quote"><span>“</span><small>{{item.quote}}</small><span>”</span> <br />
 					<em>— {{item.source | markdownify | remove: '<p>' | remove: '</p>' }}</em>
 				</p>
 			{% endfor %}
