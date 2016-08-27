@@ -1,23 +1,33 @@
-url: http://www.linnullmann.no
-sitename: 'Linn Ullmann'
+# jekyll-seo-tag
+title: "Linn Ullmann"
+sitename: 'Linn Ullmann' #old
 description: 'Linn Ullmann is an award winning novelist and journalist and the author of five novels: Before You Sleep, Stella Descending, Grace, A Blessed Child and The Cold Song.'
-# do not include  https://github.com/...
-repo: 'sonnetmedia/linnullmann'
-branch: gh-pages
-default_author: "Bud Parr"
+url: "https://www.linnullmann.no" # the base hostname & protocol for your site
+author: []
+twitter:
+  username: therealhermanmelville
+facebook:
+  app_id:
+  publisher:
+  admins:
+logo: /uploads/2015-ullmann-de-urolige-500px.jpg
+google_site_verification:
+github:
+  username: budparr
+owner: Linn Ullman
+# manifest
+short_name: Linn Ullman
+display: fullscreen
 
-#Jekyll Options
-# if using more than one Jekyll instance on your local machine
-port: 3575
-# paginate tells Jekyll how many posts per page
-# paginate: 1
+gems:
+  - jekyll-seo-tag
+
+
 # Permalinks
 permalink:  pretty
-# Dependencies
-# markdown: kramdown
-# pygments: true
-#Pages - store all pages in the _pages directory
-include: ['_pages']
+
+include:
+  - _pages
 # relative_permalinks: false # won't need this as of 2.0: Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Also will change exclude directory
 exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile', 'bower.json', 'node_modules', 'package.json', 'gruntfile.js', 'Gemfile.lock', 'gemfile']
 
