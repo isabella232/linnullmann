@@ -1,8 +1,0 @@
----
-layout: null
-title: reviews
----
-{"reviews": [{% assign first = true %}{% for review in site.data.reviews-en %}
-{% assign quote = review.quote | markdownify | remove: '<p>' | remove: '</p>' %}
-
-{% if first == false %},{% endif %}{% if first == true %}{% assign first = false %}{% endif %}{"date":"{{ review.date }}",{% if review.categories %}"category":"{{ review.categories }}",{% endif %}"source": "{{ review.source review.quote | markdownify | remove: '<p>' | remove: '</p>' }}",{% if review.link_to_original %}"link_to_original":"{{ review.link_to_original }}",{% endif %}"quote": "{{quote}}"}{% endfor %}]}
