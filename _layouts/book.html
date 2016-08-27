@@ -35,7 +35,7 @@ section: book
       {% endfor %}
     </div>
   {% endif %}
-  {% if page.published || page.rights || page.world_rights %}
+  {% if page.published or page.rights or page.world_rights %}
     <div class="panel row">
       {% if page.published  %}
         {% if page.url contains '/en/' %}<h5>Published In</h5>{% else %}<h5>Utgitt i</h5>{% endif %}
