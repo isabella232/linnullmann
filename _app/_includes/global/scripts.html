@@ -1,0 +1,5 @@
+ {% if page.url contains '/en/' %}
+ 	{% assign url  = site.categories.books %}
+ {% else %}
+ 	{% assign url = site.categories.boker %}
+ {% endif %}

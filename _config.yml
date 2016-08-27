@@ -21,7 +21,9 @@ display: fullscreen
 
 gems:
   - jekyll-seo-tag
-
+plugins_dir:  ./_app/_plugins
+layouts_dir:  ./_app/_layouts
+includes_dir: ./_app/_includes
 
 # Permalinks
 permalink:  pretty
