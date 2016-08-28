@@ -2,7 +2,7 @@
 layout: default
 section: list
 ---
-{% if page.splash_image %}
+{% if page.featured_image_path %}
   {% include global/page-splash.html %}
 {% endif %}
 <article class="hentry">
@@ -13,11 +13,9 @@ section: list
     {% if page.subtitle %}
       <h2>{{page.subtitle}}</h2>
     {% endif %}
-  </header> 
+  </header>
   {{content}}
 </article>
 {% if page.include %}
   {% include {{page.include}} %}
 {% endif %}
-
-

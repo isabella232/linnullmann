@@ -5,7 +5,7 @@ include: "snippets/news-list-featured.html"
 published: true
 category: home
 tite: Hjem
-splash_image: ullmann_linn_agnete_brun-1200x400.jpg
+featured_image_path: /uploads/ullmann_linn_agnete_brun-1200x400.jpg
 ---
 
 &nbsp;
