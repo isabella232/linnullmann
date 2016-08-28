@@ -2,7 +2,6 @@
 title: Kontakt
 permalink: /kontakt/
 en_landing_page: contact
-class: dev
 ---
 <h4>Norsk forlegger</h4>
 <p><strong>Forlaget Oktober AS</strong><br />

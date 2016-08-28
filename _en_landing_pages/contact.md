@@ -2,7 +2,6 @@
 title: Contact
 permalink: /en/contact/
 no_landing_page: kontakt
-class: dev
 ---
 
 <h4>For UK and translation rights queries:</h4>

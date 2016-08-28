@@ -2,9 +2,6 @@
 permalink: /en/
 # include: "books/books-list-covers.html"
 include: "snippets/news-list-featured.html"
-sharing: false
-published: true
-class: dev
 category: home
 splash_image: ullmann_linn_agnete_brun-1200x400.jpg
 ---
