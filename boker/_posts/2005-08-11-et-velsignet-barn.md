@@ -1,6 +1,7 @@
 ---
 title: 'Et velsignet barn, roman'
-subtitle: ''
+subtitle:
+publication_date: 2005-08-11T12:00:00.000Z
 name: et-velsignet-barn
 english: books/2009/08/11/a-blessed-child
 layout: book

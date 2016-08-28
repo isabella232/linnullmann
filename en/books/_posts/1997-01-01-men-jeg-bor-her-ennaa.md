@@ -1,6 +1,7 @@
 ---
 title: "Men jeg bor her ennå: norsk samtid i prosa (ed)"
 subtitle: An anthology of contemporary Norwegian literature
+publication_date: 1997-01-01T12:00:00.000Z
 name: men-jeg-bor-her-ennaa
 norsk: boker/1997/01/01/men-jeg-bor-her-ennaa
 layout: book-alt

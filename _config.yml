@@ -5,7 +5,7 @@ description: 'Linn Ullmann is an award winning novelist and journalist and the a
 url: "https://www.linnullmann.no" # the base hostname & protocol for your site
 author: []
 twitter:
-  username: therealhermanmelville
+  username:
 facebook:
   app_id:
   publisher:
@@ -62,12 +62,15 @@ collections:
   no_landing_pages:
     output: true
     permalink: '/:path/'
-  # events:
-  #   output: true
-  #   permalink: '/event/:path/'
-  # books:
-  #   output: true
-  #   permalink: '/:collection/:path/'
+  en_books:
+    output: true
+    permalink: '/en/books/:path/'
+  no_books:
+    output: true
+    permalink: '/boker/:path/'
+
+
+
 _comments:
    permalink: 'permalink looks like: /link-name/'
    no_landing_page: 'choose the alternative language version of this page'

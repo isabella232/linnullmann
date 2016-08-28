@@ -1,6 +1,7 @@
 ---
 title: "De urolige"
 subtitle:
+publication_date: 2016-02-18T12:00:00.000Z
 # translator: "Barbara Haveland"
 name: the-register-of-disquiet
 norsk: boker/2015/11/17/de-urolige/

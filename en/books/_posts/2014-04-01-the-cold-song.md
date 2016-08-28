@@ -1,5 +1,7 @@
 ---
 title: "The Cold Song"
+subtitle:
+publication_date: 2014-04-01T12:00:00.000Z
 name: the-cold-song
 norsk: boker/2011/03/15/det-dyrebare
 layout: book
@@ -42,5 +44,3 @@ Siri Brodal, a chef and restaurant owner, is married to Jon Dreyer, a famous nov
 Siri and Jon’s marriage is loving but difficult, and troubled by painful secrets. They have a strained relationship with their elder daughter, Alma, who struggles to find her place in the family constellation. When Milla is hired as a nanny to allow Siri to work her long hours at the restaurant and Jon to supposedly meet the deadline on his book, life in the idyllic summer community takes a dire turn. One rainy July night, Milla disappears without a trace. After her remains are discovered and a suspect is identified, everyone who had any connection with her feels implicated in her tragedy and haunted by what they could have done to prevent it.
 
 In this novel about life and love, rendered like a thriller, Ullmann captures a constellation of characters as complex as they are paradoxical—neither fully guilty nor fully innocent.
-
-

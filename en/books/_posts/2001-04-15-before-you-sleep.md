@@ -1,6 +1,7 @@
 ---
 title: "Before You Sleep"
 subtitle:
+publication_date: 2001-04-15T12:00:00.000Z
 name: before-you-sleep
 norsk: boker/1998/04/15/for-du-sovner
 layout: book

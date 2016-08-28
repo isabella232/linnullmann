@@ -1,6 +1,7 @@
 ---
 title: Når jeg er hos deg
-subtitle: ''
+subtitle:
+publication_date: 2001-03-31T12:00:00.000Z
 name: nar-jeg-er-hos-deg
 english: books/2004/07/13/stella-descending
 layout: book

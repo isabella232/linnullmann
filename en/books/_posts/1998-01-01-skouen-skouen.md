@@ -1,6 +1,7 @@
 ---
 title: "Profession: Director. Arne Skouen and his films"
 subtitle: Norwegian Film Institute Publications Series No. 8
+publication_date: 1998-01-01T12:00:00.000Z
 name: skouen-skouen
 norsk: boker/1998/03/31/skouen
 layout: book-alt

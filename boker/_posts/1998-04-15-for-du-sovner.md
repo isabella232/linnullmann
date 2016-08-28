@@ -1,6 +1,7 @@
 ---
 title: Før du sovner
-subtitle: ''
+subtitle:
+publication_date: 1998-04-15T12:00:00.000Z
 name: for-du-sovner
 english: books/2001/04/15/before-you-sleep
 layout: book

@@ -1,6 +1,6 @@
 ---
 title: De Urolige
-date: 2015-11-17
+publication_date: 2015-11-17T12:00:00.000Z
 name: de-urolige
 language: no
 layout: book
