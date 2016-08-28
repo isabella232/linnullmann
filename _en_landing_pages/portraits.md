@@ -1,7 +1,7 @@
 ---
 title: Portraits
 permalink: /en/portraits/
-landing_page_no: portretter
+no_landing_page: portretter
 include: snippets/images-gallery.html
 splash_image: LU-Morgan-Norman-1.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: "News, Events, and Interviews"
 permalink: /en/news/
-landing_page_no: nyheter
+no_landing_page: nyheter
 include: "snippets/news-list.html"
 published: true
 layout: list

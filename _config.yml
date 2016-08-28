@@ -56,10 +56,10 @@ google_analytics_id: UA-365683-21
 
 # CONTENT
 collections:
-  landing_pages_no:
+  en_landing_pages:
     output: true
     permalink: '/:path/'
-  landing_pages_en:
+  no_landing_pages:
     output: true
     permalink: '/:path/'
   events:
@@ -79,7 +79,12 @@ defaults:
       layout: page-single
   - scope:
       path: ''
-      type: 'landing_pages'
+      type: 'en_landing_pages'
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: 'no_landing_pages'
     values:
       layout: page-single
   - scope:

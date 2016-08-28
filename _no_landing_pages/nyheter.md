@@ -1,7 +1,7 @@
 ---
 title: "Nyheter, opplesninger og samtaler"
 permalink: /nyheter/
-landing_page_en: news
+en_landing_page: news
 include: "snippets/news-list.html"
 published: true
 layout: list

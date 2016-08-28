@@ -1,8 +1,8 @@
 ---
-title: Books
+title: Bøker
 cat: books
-permalink: /en/books/
-landing_page_no: boker
+permalink: /boker/
+en_landing_page: books
 include: "books/books-list-titles.html"
 layout: books
 ---
