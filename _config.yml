@@ -21,6 +21,7 @@ display: fullscreen
 
 gems:
   - jekyll-seo-tag
+
 plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
@@ -36,7 +37,6 @@ exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile',
 # dev options (true/false)
 # if site is in production, 'production: true'
 production: true
-use_jquery_cdn: true
 include_addthis_sharing: false
 
 # options (data)
