@@ -14,7 +14,7 @@ featured_image_path: /uploads/ullmann_linn_agnete_brun-1200x400.jpg
 
 ---
 
-[![The Cold Song](/assets/img/cover/the-cold-song-L.jpg)](/en/books/2014/04/01/the-cold-song/)
+[![The Cold Song](/uploads/the-cold-song-L.jpg)](/en/books/2014/04/01/the-cold-song/)
 
 ##### [*The Cold Song*](/en/books/2014/04/01/the-cold-song/), published by Other Press
 
