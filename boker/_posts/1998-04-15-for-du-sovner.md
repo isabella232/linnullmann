@@ -9,7 +9,6 @@ cat: Skjønnlitteratur
 isbn: 9780140298338
 cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
 publisher: Penguin Group
-synopsis: ''
 next_book: nar-jeg-er-hos-deg
 previous_book: skouen
 published:

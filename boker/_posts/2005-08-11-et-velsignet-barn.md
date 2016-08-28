@@ -11,7 +11,6 @@ isbn: 9780307277817
 isbn_digital: ''
 cover_image_path: /uploads/2015-ullmann-et-velsignet-barn-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-synopsis: ''
 next_book: det-dyrebare
 previous_book: nade
 ---

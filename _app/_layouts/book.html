@@ -2,14 +2,19 @@
 layout: default
 section: book
 ---
+
+
 {% if page.url contains '/en/' %}
   {% assign language = 'en' %}
 {% endif %}
+
 <section class='splash_book'>
   {% include books/cover.html %}
   {% include books/related-review.html show="1" language="language" %}
   <div><a href="#reviews">&#10553;<small>{% if page.url contains '/en/' %}more reviews{% else %}skrevet{% endif %}</small></a></div>
 </section>
+
+
 <article class="hentry page-layout">
   <header>
     <hr />

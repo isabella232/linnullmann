@@ -11,7 +11,6 @@ isbn:
 isbn_digital:
 cover_image_path: /uploads/men-jeg-bor-her-ennaa-L.jpg
 publisher:  Knopf Doubleday
-synopsis:
 next_book: skouen
 ---
 Denne antologien inneholder 22 tekster, hvorav de aller fleste er noveller. Tekstene er skrevet i 1980- og 1990-årene.

@@ -10,7 +10,6 @@ isbn: ''
 isbn_digital: ''
 cover_image_path: /uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-synopsis: ''
 next_book: nade
 previous_book: for-du-sovner
 covers:
