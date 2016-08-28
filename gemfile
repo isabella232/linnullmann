@@ -8,8 +8,8 @@ group :jekyll_plugins do
   # gem 'jekyll-archives'
   # gem 'jekyll-sitemap'
   # gem 'jekyll-paginate'
-  # gem 'sass', "3.2.9"
-  # gem 'sass-globbing', ">= 1.1.0"
-  # gem 'compass'
+  gem 'sass', "3.2.9"
+  gem 'sass-globbing', ">= 1.1.0"
+  gem 'compass'
 
 end
