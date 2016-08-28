@@ -29,16 +29,7 @@ layout: compress
     <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
         <!-- Stylesheets -->
 
-    {% if site.use_pure_css == true %}
-      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
-      {% else %}
-      <link href='{{ site.url }}/assets/css/screen.css?151117104026' rel='stylesheet' type="text/css" />
-    {% endif %}
-
-    {% if site.include_font_awesome %}
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    {% endif %}
-
+        <link href='{{ site.url }}/assets/css/screen.css?151117104026' rel='stylesheet' type="text/css" />
 
     <meta name="google-site-verification" content="_VEi468Iwo7Iq_XlX6HU1rHeeeOAaAKBJrCtIdtMK3g" />
     {% include global/meta-data.html %}
@@ -63,6 +54,7 @@ layout: compress
 
   {% if site.production == true %}
     {% include global/analytics.html %}
+    {% include global/seo.html %}
   {% endif %}
 {% if page.english %}
 <link rel="prefetch" href="{{ site.url }}/{{page.english}}/" />
