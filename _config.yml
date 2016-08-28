@@ -68,7 +68,8 @@ collections:
   # books:
   #   output: true
   #   permalink: '/:collection/:path/'
-
+_comments:
+   permalink: 'permalink looks like: /link-name/'
 defaults:
   - scope:
       path: ''
