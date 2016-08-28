@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: /en/contact/
-norsk: kontakt
+landing_page_no: kontakt
 published: true
 class: dev
 ---

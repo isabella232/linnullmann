@@ -2,7 +2,7 @@
 language: no
 title: Om forfatteren
 permalink: /om-forfatteren/
-english: about
+landing_page_en: about
 published: true
 splash_image: LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
 ---

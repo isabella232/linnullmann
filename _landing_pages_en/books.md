@@ -2,7 +2,7 @@
 title: Books
 cat: books
 permalink: /en/books/
-norsk: boker
+landing_page_no: boker
 include: "books/books-list-titles.html"
 layout: books
 ---

@@ -1,13 +1,13 @@
 <nav>
 {% comment %}Toggle between languages{% endcomment %}
   <div class="button-group">
-    <a href="{% if page.english %}/en/{{page.english}}/{% else %}/en/{% endif %}" ><div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">Eng</div></a>
-    <a href="{% if page.norsk %}/{{page.norsk}}/{% else %}/{% endif %}" ><div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">Nor</div></a>
+    <a href="{% if page.landing_page_en %}/en/{{ page.landing_page_en }}/{% else %}/en/{% endif %}" ><div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">Eng</div></a>
+    <a href="{% if page.landing_page_no %}/{{page.landing_page_no}}/{% else %}/{% endif %}" ><div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">Nor</div></a>
   </div>
   <ul class="nav">
     {% if page.url contains '/en/' %}
       <li class="sidebar-nav-item{% if page.url == '/en/'  %} active{% endif %}"><a href="/en/">Home</a></li>
-      {% for item in site.data.navigation %}  
+      {% for item in site.data.navigation %}
       {% assign slug = {{item.slug-en}} %}
         <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
           <a href="/en/{{slug}}">
@@ -17,7 +17,7 @@
       {% endfor %}
     {% else %}
       <li class="sidebar-nav-item{% if page.url == '/'  %} active{% endif %}"><a href="/">Hjem</a></li>
-      {% for item in site.data.navigation %}  
+      {% for item in site.data.navigation %}
       {% assign slug = {{item.slug}} %}
         <li class="sidebar-nav-item{% if page.url contains /slug/  %} active{% endif %}">
           <a href="/{{slug}}/">
@@ -39,5 +39,5 @@
       <i class="fa fa-twitter-square fa-lg icon-twitter-squared"></i>
     </a>
   {% endif %}
-  
+
 </nav>
