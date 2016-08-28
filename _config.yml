@@ -44,6 +44,9 @@ exclude:
   - gruntfile.js
   - Gemfile.lock
   - gemfile
+  - Gruntfile.js
+  - notes.md
+
 
 # dev options (true/false)
 # if site is in production, 'production: true'
@@ -92,25 +95,21 @@ defaults:
       layout: page-single
   - scope:
       path: ''
-      type: pages
-      permalink: /:basename/
+      type: en_books
     values:
-      layout: page-single
+      layout: book
+  - scope:
+      path: ''
+      type: no_books
+    values:
+      layout: book
   - scope:
       path: ''
       type: posts
     values:
       layout: page-single
       schema: BlogPosting
-  - scope:
-      path: ''
-      type: books
-    values:
-      layout: book
-      schema: BlogPosting
-      _comments:
-        date: live on site date
-  - scope:
+    - scope:
       path: ''
       type: events
     values:
