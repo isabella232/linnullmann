@@ -70,6 +70,8 @@ collections:
   #   permalink: '/:collection/:path/'
 _comments:
    permalink: 'permalink looks like: /link-name/'
+   no_landing_page: 'choose the alternative language version of this page'
+   en_landing_page: 'choose the alternative language version of this page'
 defaults:
   - scope:
       path: ''
