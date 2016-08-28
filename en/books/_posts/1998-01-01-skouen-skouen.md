@@ -7,7 +7,7 @@ layout: book-alt
 cat: Non-fiction
 isbn:
 isbn_digital:
-cover_image_path: /assets/img/cover/skouen-skouen-L.jpg
+cover_image_path: /uploads/skouen-skouen-L.jpg
 publisher:  Knopf Doubleday
 next_book: before-you-sleep
 previous_book: men-jeg-bor-her-ennaa

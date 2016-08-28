@@ -7,7 +7,7 @@ cat: Fiction
 translator: "Barbara Haveland"
 isbn: 9781590516676
 isbn_digital: 9781590516683
-cover_image_path: /assets/img/cover/the-cold-song-M.jpg
+cover_image_path: /uploads/the-cold-song-M.jpg
 publisher: Other Press
 previous_book: a-blessed-child
 published:

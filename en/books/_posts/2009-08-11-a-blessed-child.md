@@ -7,7 +7,7 @@ layout: book
 cat: Fiction
 isbn: 9780307277817
 isbn_digital:
-cover_image_path: /assets/img/cover/a-blessed-child-us-pb-L.jpg
+cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
 publisher: "Knopf Doubleday"
 next_book: the-cold-song
 previous_book: grace
@@ -71,4 +71,3 @@ No one assumes responsibility for  what happens that summer, and more than twent
 - [*Mslexia*, 1 July 2008](/assets/files/Mslexia-01-07-2008.pdf)  
 - [*Jyllands-Posten* (DK), translated, 20 April 2006](/assets/files/Jyllands-Posten-EN-20-04-2006.pdf)  
 - [*Berlingske Tidende* (DK), translated, 15 April 2006](/assets/files/Berlingske-Tidende-EN-15-04-2006.pdf)  
-

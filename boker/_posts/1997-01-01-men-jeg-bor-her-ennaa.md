@@ -8,7 +8,7 @@ language: no
 cat: Editor
 isbn:
 isbn_digital:
-cover_image_path: /assets/img/cover/men-jeg-bor-her-ennaa-L.jpg
+cover_image_path: /uploads/men-jeg-bor-her-ennaa-L.jpg
 publisher:  Knopf Doubleday
 synopsis:
 next_book: skouen
