@@ -1,5 +1,4 @@
 ---
-layout: page
 language: no
 title: Om forfatteren
 permalink: /om-forfatteren/

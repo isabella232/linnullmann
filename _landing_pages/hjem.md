@@ -1,5 +1,4 @@
 ---
-layout: page
 language: no
 permalink: /
 include: "snippets/news-list-featured.html"

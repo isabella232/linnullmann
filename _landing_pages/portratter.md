@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Portretter
 permalink: /portretter/
 english: portraits

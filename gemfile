@@ -1,15 +1,15 @@
-
-
 source 'https://rubygems.org'
  # gem 'jekyll'
  gem 'github-pages'
+
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   # gem 'jekyll-archives'
   # gem 'jekyll-sitemap'
   # gem 'jekyll-paginate'
-  gem 'sass', "3.2.9"
-  gem 'sass-globbing', ">= 1.1.0"
-  gem 'compass'
-
+  gem 'jekyll-redirect-from'
 end
+
+gem 'sass', "3.2.9"
+gem 'sass-globbing', ">= 1.1.0"
+gem 'compass'

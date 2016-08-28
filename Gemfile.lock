@@ -140,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   github-pages
+  jekyll-redirect-from
   jekyll-seo-tag
   sass (= 3.2.9)
   sass-globbing (>= 1.1.0)

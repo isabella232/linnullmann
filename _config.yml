@@ -31,8 +31,19 @@ permalink:  pretty
 
 include:
   - _pages
-# relative_permalinks: false # won't need this as of 2.0: Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Also will change exclude directory
-exclude: ['readme.md','license.md','Gemfile','links.jsonp', 'CNAME', 'rakefile', 'bower.json', 'node_modules', 'package.json', 'gruntfile.js', 'Gemfile.lock', 'gemfile']
+exclude:
+  - readme.md
+  - license.md
+  - Gemfile
+  - links.jsonp
+  - CNAME
+  - rakefile
+  - bower.json
+  - node_modules
+  - package.json
+  - gruntfile.js
+  - Gemfile.lock
+  - gemfile
 
 # dev options (true/false)
 # if site is in production, 'production: true'
@@ -41,11 +52,58 @@ include_addthis_sharing: false
 
 # options (data)
 google_analytics_id: UA-365683-21
-disqus_id:
-addthis_id:
-# CONTACT FORM http://getsimpleform.com/
-simple_form_api_token:
 
-# options (social)
-# facebook_id:
-twitter_id:
+
+# CONTENT
+collections:
+  landing_pages:
+    output: true
+    permalink: '/:path/'
+  events:
+    output: true
+    permalink: '/event/:path/'
+  books:
+    output: true
+    permalink: '/:collection/:path/'
+  genres:
+    output: false
+    permalink: '/:collection/:path/'
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: 'landing_pages'
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: pages
+      permalink: /:basename/
+    values:
+      layout: page-single
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: page-single
+      schema: BlogPosting
+  - scope:
+      path: ''
+      type: books
+    values:
+      layout: book
+      schema: BlogPosting
+      _comments:
+        date: live on site date
+  - scope:
+      path: ''
+      type: events
+    values:
+      layout: page-single
+      _comments:
+        title: Event Description
+        venue: Venue name. Address is optional

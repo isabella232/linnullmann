@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Portraits
 permalink: /en/portraits/
 norsk: portretter
