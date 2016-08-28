@@ -109,11 +109,3 @@ defaults:
     values:
       layout: page-single
       schema: BlogPosting
-    - scope:
-      path: ''
-      type: events
-    values:
-      layout: page-single
-      _comments:
-        title: Event Description
-        venue: Venue name. Address is optional
