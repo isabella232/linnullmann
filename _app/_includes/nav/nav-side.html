@@ -1,7 +1,7 @@
 <aside class="sidebar-left">
 	<header>
 		<h1>
-			<a href="{% if page.url contains '/en/' %}{{site.baseurl}}/en/{% else %}{{site.baseurl}}{% endif %}">
+			<a href="{% if page.url contains '/en/' %}{{ site.url }}/en/{% else %}{{ site.url }}/{% endif %}">
 				{{site.sitename}}
 			</a>
 		</h1>

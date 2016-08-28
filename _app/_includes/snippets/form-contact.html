@@ -19,7 +19,7 @@ function validateEmail(email){
   <form action="http://getsimpleform.com/messages?form_api_token={{site.simple_form_api_token}}" method="post" role="form">
     {% comment %}
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='{{site.baseurl}}/thank-you' />
+      <input type='hidden' name='redirect_to' value='{{ site.url }}/thank-you' />
     {% endcomment %}    
     <div class="row">
       <div class="large-6 columns">

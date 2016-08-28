@@ -36,16 +36,16 @@
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
 {% if page.url %}
-  <meta content="{{site.baseurl}}{{ page.url }}" property="og:url">
+  <meta content="{{ site.url }}/{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{site.baseurl}}/about/" property="article:author">
+  <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 {% if page.cover_image_path %}
-  <meta content="{{site.baseurl}}/assets/img/cover/{{ page.image }}" property="og:image">
+  <meta content="{{ site.url }}/assets/img/cover/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="{{site.baseurl}}/assets/img/LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg" property="og:image">
+  <meta content="{{ site.url }}/assets/img/LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
