@@ -2,7 +2,6 @@
 title: Kontakt
 permalink: /kontakt/
 en_landing_page: contact
-published: true
 class: dev
 ---
 <h4>Norsk forlegger</h4>
