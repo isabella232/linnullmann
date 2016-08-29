@@ -1,8 +1,8 @@
 ---
-title: AAAAAAAA Test
+title: last test
 featured: false
 category:
-date: 2016-08-29T00:23:01.146Z
+date:
 language:
 en_book:
 no_book:
