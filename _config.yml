@@ -108,4 +108,5 @@ defaults:
       type: posts
     values:
       layout: page-single
+      _hide_content: true
       schema: BlogPosting
