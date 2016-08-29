@@ -78,9 +78,6 @@ collections:
     permalink: '/boker/:path/'
   reviews:
     output: false
-    _comments:
-       title: "The Source of the Review Quote. Use an asterisk around a word to italicize it."
-
 
 
 _comments:
@@ -124,3 +121,8 @@ defaults:
     values:
       layout: page-single
       schema: BlogPosting
+  - scope:
+      path: ''
+      type: reviews
+    values:
+      _hide_content: true
