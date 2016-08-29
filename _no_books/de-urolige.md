@@ -5,7 +5,7 @@ language: no
 cover_image_path: /uploads/2015-ullmann-de-urolige-500px.jpg
 en_book:
   - de-urolige
-  covers:
+covers:
   - cover_image_path:   
 ---
 &Aring; se, &aring; huske, &aring; begripe. Alt kommer an p&aring; hvor du st&aring;r. F&oslash;rste gang hun kom til Hammars, var hun knapt ett &aring;r gammel og visste ingenting om den store og omveltende kj&aelig;rligheten som hadde brakt henne dit.
