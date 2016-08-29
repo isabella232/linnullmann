@@ -1,18 +1,13 @@
-{% for object in site.data.reviews-en %}
+{% for book in site.en_books %}
 @@@<br />
-title: "{{object.source }}"<br />
-featured: {% if object.featured %}true{% else%}false{% endif %}<br />
-review_date: 2016-08-01T12:00:00.{{ forloop.index }}Z<br />
-language:<br />
-$$- english<br />
-en_book:<br />{% for book in object.book %}
-$$- {{ book }}<br />{% endfor %}
-no_book:<br />
-_slug: {{object.source | slugify | downcase | xml_encode }}<br />
+
+title: "Reviews for {{ book.title}}"<br />{% assign reviews = site.data.reviews-en | where: 'book', book.slug %}{% for object in reviews %}
+review:<br />
+$$source: "{{object.source }}"<br />
+$$featured: {% if object.featured %}true{% else%}false{% endif %}<br />
+$$language:<br />
+$$$$- english<br />
+$$quote_markdown: "{{ object.quote | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}"{% endfor %}<br />
+_slug: reviews-for-{{book.slug }}<br />
 ---<br /><br />
-
-{{ object.quote | markdownify }}
-
 {% endfor %}
-
-2016-08-28
