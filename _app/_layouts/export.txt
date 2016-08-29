@@ -1,19 +1,16 @@
-{% for object in site.data.news %}
+{% for object in site.data.reviews-en %}
 @@@<br />
-title: "{{object.title }}"<br />
-category: News<br />
-{% if object.summary %}
-summary: "{{object.summary}}"<br />{% endif %}
-date: {{ object.date | date: '%Y-%m-%d' }}T12:00:00.000Z<br />
-{% if object.link_to_original %}
-link_to_original: '{{ object.link_to_original }}'<br />{% endif %}
-language:<br />{% for language in object.language %}
-$$- {{language}}<br />{% endfor %}
+title: "{{object.source }}"<br />
 featured: {% if object.featured %}true{% else%}false{% endif %}<br />
+date: {{ object.date | date: '%Y-%m-%d' }}<br />
+language:<br />
+$$- english<br />
 en_book:<br />{% for book in object.book %}
 $$- {{ book }}<br />{% endfor %}
-no_book:<br />{% for book in object.book %}
-$$- {{ book }}<br />{% endfor %}
-slug: {{object.date | date: '%Y-%m-%d'}}-{{object.title | slugify | downcase | xml_encode }}<br />
----<br /><br /><br />
+no_book:<br />
+_slug: {{object.source | slugify | downcase | xml_encode }}<br />
+---<br /><br />
+
+{{ object.quote | markdownify }}
+
 {% endfor %}

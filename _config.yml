@@ -76,6 +76,10 @@ collections:
   no_books:
     output: true
     permalink: '/boker/:path/'
+  reviews:
+    output: false
+    _comments:
+      title: "The Source of the Review Quote. Use an \* asterisk around a word to italicize it."
 
 
 
