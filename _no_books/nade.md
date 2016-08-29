@@ -11,17 +11,17 @@ isbn_digital: 9780307415349
 cover_image_path: /uploads/2015-ullmann-nade-pcktserie-500px.jpg
 publisher: Knopf Doubleday
 covers:
-  - grace-us-hb-L.jpg
-  - grace-uk-hb-L.jpg
-  - grace-denmark-hb-L.jpg
-  - grace-finland-hb-L.jpg
-  - grace-denmark-hb-L.jpg
-  - grace-germany-pb-L.jpg
-  - grace-italy-hb-L.jpg
-  - grace-no-pb-L.jpg
-  - grace-spain-pb-L.jpg
-  - grace-stella-and-grace-russia-hb-L.jpg
-  - grace-sweden-film-L.jpg
+  - cover_image_path: /uploads/grace-us-hb-L.jpg
+  - cover_image_path: /uploads/grace-uk-hb-L.jpg
+  - cover_image_path: /uploads/grace-denmark-hb-L.jpg
+  - cover_image_path: /uploads/grace-finland-hb-L.jpg
+  - cover_image_path: /uploads/grace-denmark-hb-L.jpg
+  - cover_image_path: /uploads/grace-germany-pb-L.jpg
+  - cover_image_path: /uploads/grace-italy-hb-L.jpg
+  - cover_image_path: /uploads/grace-no-pb-L.jpg
+  - cover_image_path: /uploads/grace-spain-pb-L.jpg
+  - cover_image_path: /uploads/grace-stella-and-grace-russia-hb-L.jpg
+  - cover_image_path: /uploads/grace-sweden-film-L.jpg
 published:
   - Danmark
   - Estland

@@ -25,13 +25,13 @@ rights: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), Fran
 
 world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
-- the-cold-song-italian-L.jpg
-- det-dyrebare-no-pb-L.jpg
-- det-dyrebare-dk-hb-L.jpg
-- det-dyrebare-se-hb-L.jpg
-- det-dyrebare-fi-hb-L.jpg
-- det-dyrebare-hu-hb-L.jpg
-- det-dyrebare-de-hb-L.jpg
+- cover_image_path: /uploads/the-cold-song-italian-L.jpg
+- cover_image_path: /uploads/det-dyrebare-no-pb-L.jpg
+- cover_image_path: /uploads/det-dyrebare-dk-hb-L.jpg
+- cover_image_path: /uploads/det-dyrebare-se-hb-L.jpg
+- cover_image_path: /uploads/det-dyrebare-fi-hb-L.jpg
+- cover_image_path: /uploads/det-dyrebare-hu-hb-L.jpg
+- cover_image_path: /uploads/det-dyrebare-de-hb-L.jpg
 ---
 
 ***The Cold Song* has been chosen by independent booksellers as an Indie Next Pick**

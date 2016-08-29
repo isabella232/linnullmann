@@ -59,8 +59,8 @@ section: book
   {% if page.covers %}
     <h3>Editions</h3>
     <div class="book-covers row">
-      {% for fgn_covers in page.covers %}
-        <img src="/uploads/{{fgn_covers}}" class="cover-image-editions">
+      {% for object in page.covers %}
+        <img src="{{ object.cover_image_path }}" class="cover-image-editions">
       {% endfor %}
     </div>
   {% endif %}

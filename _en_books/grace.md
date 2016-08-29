@@ -28,17 +28,17 @@ published:
 - US
 world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
-- grace-uk-hb-L.jpg  
-- grace-denmark-hb-L.jpg  
-- grace-finland-hb-L.jpg  
-- grace-denmark-hb-L.jpg  
-- grace-germany-pb-L.jpg  
-- grace-italy-hb-L.jpg  
-- grace-no-hb-L.jpg  
-- grace-no-pb-L.jpg  
-- grace-spain-pb-L.jpg  
-- grace-stella-and-grace-russia-hb-L.jpg  
-- grace-sweden-film-L.jpg  
+- cover_image_path: /uploads/grace-uk-hb-L.jpg  
+- cover_image_path: /uploads/grace-denmark-hb-L.jpg  
+- cover_image_path: /uploads/grace-finland-hb-L.jpg  
+- cover_image_path: /uploads/grace-denmark-hb-L.jpg  
+- cover_image_path: /uploads/grace-germany-pb-L.jpg  
+- cover_image_path: /uploads/grace-italy-hb-L.jpg  
+- cover_image_path: /uploads/grace-no-hb-L.jpg  
+- cover_image_path: /uploads/grace-no-pb-L.jpg  
+- cover_image_path: /uploads/grace-spain-pb-L.jpg  
+- cover_image_path: /uploads/grace-stella-and-grace-russia-hb-L.jpg  
+- cover_image_path: /uploads/grace-sweden-film-L.jpg  
 ---
 Johan has bargained with Death for years: when he was a boy, he prayed that Death take his father, not his mother; when he was a man, Death kindly removed  his wife, Alice, allowing him to marry Mai, the love of his life. Now, Death has come for him, and Johan needs to strike one last bargain: when the moment arrives, he wants Mai to promise that she will help him on his way out of the  world.
 

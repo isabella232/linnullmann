@@ -29,20 +29,20 @@ published:
 
 world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
-- a-blessed-child-denmark-pb-L.jpg
-- a-blessed-child-estonia-hb-L.jpg
-- a-blessed-child-finland-hb-L.jpg
-- a-blessed-child-germany-pb-L.jpg
-- a-blessed-child-brazil-pb-L.jpg
-- a-blessed-child-lithunia-hb-L.jpg
-- a-blessed-child-no-hb-L.jpg
-- a-blessed-child-no-pb-L.jpg
-- a-blessed-child-french-hb-L.jpg
-- a-blessed-child-spain-pb-L.jpg
-- a-blessed-child-sweden-hb-L.jpg
-- a-blessed-child-sweden-pb-L.jpg
-- a-blessed-child-us-pb-L.jpg
-- a-blessed-child-no-pb-2013-L.jpg
+- cover_image_path: /uploads/a-blessed-child-denmark-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-estonia-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-finland-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-germany-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-brazil-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-lithunia-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-no-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-no-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-french-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-spain-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-sweden-hb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-sweden-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
+- cover_image_path: /uploads/a-blessed-child-no-pb-2013-L.jpg
 ---
 *A Blessed Child is* masterful storytelling, a confident and strikingly   original novel, fraught with deep empathy and black humour; an unforgettable   portrait of the three Scandinavian sisters Erika, Laura and Molly, who have   different mothers, but the same father: The prominent and temperamental   ultrasound specialist Isak Lövenstad.
 

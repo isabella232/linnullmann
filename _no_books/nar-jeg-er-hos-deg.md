@@ -11,17 +11,17 @@ isbn_digital: ''
 cover_image_path: /uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg
 publisher: Knopf Doubleday
 covers:
-  - stella-descending-us-hb-L.jpg
-  - stella-descending-no-hb-L.jpg
-  - stella-descending-finland-hb-L.jpg
-  - stella-descending-finland-pb-L.jpg
-  - stella-descending-no-pb-L.jpg
-  - stella-descending-denmark-pb-L.jpg
-  - stella-descending-spain-hb-L.jpg
-  - stella-descending-france-pb-L.jpg
-  - stella-descending-stella-and-grace-russia-hb-L.jpg
-  - stella-descending-italy-hb-L.jpg
-  - stella-descending-armenia-pb-L.jpg
+  - cover_image_path: /uploads/stella-descending-us-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-no-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-finland-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-finland-pb-L.jpg
+  - cover_image_path: /uploads/stella-descending-no-pb-L.jpg
+  - cover_image_path: /uploads/stella-descending-denmark-pb-L.jpg
+  - cover_image_path: /uploads/stella-descending-spain-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-france-pb-L.jpg
+  - cover_image_path: /uploads/stella-descending-stella-and-grace-russia-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-italy-hb-L.jpg
+  - cover_image_path: /uploads/stella-descending-armenia-pb-L.jpg
 ---
 
 Stella faller fra taket av en bygård på Frogner Plass i Oslo. Snublet hun, ble hun dyttet eller tok hun spranget selv? Når jeg er hos deg er en humoristisk og mørk roman, en skimrende studie i hengivelse, kjærlighet, høydeskrekk og svimlende ensomhet.
