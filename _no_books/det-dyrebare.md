@@ -20,14 +20,14 @@ published:
   - The Netherlands
 rights: 'Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)'
 world_rights: 'World Rights: [The Wylie Agency](http://www.wylieagency.com/)'
-covers_paths:
-  - /uploads/the-cold-song-italian-L.jpg
-  - the-cold-song-M.jpg
-  - det-dyrebare-dk-hb-L.jpg
-  - det-dyrebare-se-hb-L.jpg
-  - det-dyrebare-fi-hb-L.jpg
-  - det-dyrebare-hu-hb-L.jpg
-  - det-dyrebare-de-hb-L.jpg
+covers:
+  - cover_image_path: the-cold-song-italian-L.jpg
+  - cover_image_path: the-cold-song-M.jpg
+  - cover_image_path: det-dyrebare-dk-hb-L.jpg
+  - cover_image_path: det-dyrebare-se-hb-L.jpg
+  - cover_image_path: det-dyrebare-fi-hb-L.jpg
+  - cover_image_path: det-dyrebare-hu-hb-L.jpg
+  - cover_image_path: det-dyrebare-de-hb-L.jpg
 ---
 
 Jon Dreyers liv er i ferd med å rakne. Det store litterære prosjektet hans skulle vært fullført for flere år siden. Han kjemper med skrivesperre og er stadig utro. Alt begynte da nitten år gamle Mille forsvant uten et spor, for så å bli funnet død to år seinere. Jons kone, Siri Dreyer-Brodal, er en dreven kokk og restaurant­innehaver som har sine egne stridigheter å overkomme. Ikke bare er hun gift med en troløs mann, men hvordan skal hun forholde seg til den sterke og utrøstelige moren, Jenny Brodal, som begynner å drikke igjen etter å ha vært tørrlagt i tjue år, akkurat i tide til den lenge planlagte 75-årsfeiringen? Og verken Jon eller Siri aner hvordan de skal håndtere den uforutsigbare og uregjerlige datteren Alma.
