@@ -115,3 +115,10 @@ defaults:
       layout: page-single
       _hide_content: true
       schema: BlogPosting
+  - scope:
+      path: ''
+      type: drafts
+    values:
+      layout: page-single
+      _hide_content: true
+      schema: BlogPosting
