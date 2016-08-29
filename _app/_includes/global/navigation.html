@@ -1,23 +1,26 @@
-{% if page.no_book %}
+{% if page.slug == 'hjem' or page.slug == 'home' %}
+  {% assign en_url = '/en/' %}
+  {% assign no_url = '/' %}
+{% elsif page.no_book %}
   {% capture no_url %}/boker/{{ page.no_book }}{% endcapture %}
-{% endif %}
-
-{% if page.en_book %}
+{% elsif page.en_book %}
   {% capture en_url %}/en/books/{{ page.en_book }}{% endcapture %}
+{% elsif page.no_landing_page  %}
+  {% capture no_url %}/{{ page.no_landing_page }}{% endcapture %}
+{% elsif page.en_landing_page %}
+  {% capture en_url %}/en/{{ page.en_landing_page }}{% endcapture %}
 {% endif %}
 
 <nav>
 {% comment %}Toggle between languages{% endcomment %}
   <div class="button-group">
 
-    <a href="{% if page.en_landing_page %}/en/{{ page.en_landing_page }}/{% elsif en_url %}{{ en_url }}{% else %}/en/{% endif %}" >
+    <a href="{% if en_url %}{{ en_url }}{% else %}{{ page.url }}{% endif %}">
       <div class="button transparent center{% if page.url contains '/en/' %} active{% endif %}">
         Eng
       </div>
     </a>
-
-
-    <a href="{% if page.no_landing_page %}/{{ page.no_landing_page }}/{% elsif no_url %}{{ no_url }}{% else %}/{% endif %}" >
+    <a href="{% if no_url %}{{ no_url }}{% else %}{{ page.url }}{% endif %}">
       <div class="button transparent center{% unless page.url contains '/en/' %} active{% endunless %}">
         Nor
       </div>

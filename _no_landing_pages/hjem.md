@@ -1,11 +1,13 @@
 ---
+title: Hjem
 language: no
 permalink: /
-include: "snippets/news-list-featured.html"
+en_landing_page: /
 published: true
 category: home
-tite: Hjem
+
 featured_image_path: /uploads/ullmann_linn_agnete_brun-1200x400.jpg
+include: "snippets/news-list-featured.html"
 ---
 
 &nbsp;
