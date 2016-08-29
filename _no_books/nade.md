@@ -1,18 +1,15 @@
 ---
 title: Nåde
 subtitle:
-publication_date: 2002-12-18T12:00:00.000Z
-name: nade
-english: books/2007/12/18/grace
-layout: book
+date: 2002-12-18T12:00:00.000Z
+en_book:
+  - grace
 language: 'no'
 cat: Skjønnlitteratur
 isbn: 9781400078028
 isbn_digital: 9780307415349
 cover_image_path: /uploads/2015-ullmann-nade-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-next_book: et-velsignet-barn
-previous_book: nar-jeg-er-hos-deg
 covers:
   - grace-us-hb-L.jpg
   - grace-uk-hb-L.jpg

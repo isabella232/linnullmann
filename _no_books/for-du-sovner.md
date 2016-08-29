@@ -1,16 +1,13 @@
 ---
 title: Før du sovner
 subtitle:
-publication_date: 1998-04-15T12:00:00.000Z
-name: for-du-sovner
-english: books/2001/04/15/before-you-sleep
-layout: book
+date: 1998-04-15T12:00:00.000Z
+en_book:
+  - before-you-sleep
 cat: Skjønnlitteratur
 isbn: 9780140298338
 cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
 publisher: Penguin Group
-next_book: nar-jeg-er-hos-deg
-previous_book: skouen
 published:
   - Albania
   - Brazil

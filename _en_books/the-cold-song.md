@@ -1,17 +1,16 @@
 ---
 title: "The Cold Song"
 subtitle:
-publication_date: 2014-04-01T12:00:00.000Z
+date: 2014-04-01T12:00:00.000Z
 name: the-cold-song
-norsk: boker/2011/03/15/det-dyrebare
-layout: book
+no_book:
+  - det-dyrebare
 cat: Fiction
 translator: "Barbara Haveland"
 isbn: 9781590516676
 isbn_digital: 9781590516683
 cover_image_path: /uploads/the-cold-song-M.jpg
 publisher: Other Press
-previous_book: a-blessed-child
 published:
  - Norway
  - Denmark

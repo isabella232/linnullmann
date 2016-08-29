@@ -1,11 +1,9 @@
 ---
 title: 'Det dyrebare, roman'
 subtitle:
-publication_date: 2011-03-15T12:00:00.000Z
-name: det-dyrebare
-english: books/2014/04/01/the-cold-song
-previous_book: et-velsignet-barn
-layout: book
+date: 2011-03-15T12:00:00.000Z
+en_book:
+  - the-cold-song
 cat: Skjønnlitteratur
 isbn: ''
 isbn_digital: ''

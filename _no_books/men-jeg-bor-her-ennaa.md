@@ -1,17 +1,15 @@
 ---
 title: "Men jeg bor her ennå: norsk samtid i prosa (ed)"
 subtitle: An anthology of contemporary Norwegian literature
-publication_date: 1997-01-01T12:00:00.000Z
-name: men-jeg-bor-her-ennaa
-layout: book-alt
-english: books/1997/01/01/men-jeg-bor-her-ennaa
+date: 1997-01-01T12:00:00.000Z
+en_book:
+  - men-jeg-bor-her-ennaa
 language: no
 cat: Editor
 isbn:
 isbn_digital:
 cover_image_path: /uploads/men-jeg-bor-her-ennaa-L.jpg
 publisher:  Knopf Doubleday
-next_book: skouen
 ---
 Denne antologien inneholder 22 tekster, hvorav de aller fleste er noveller. Tekstene er skrevet i 1980- og 1990-årene.
 

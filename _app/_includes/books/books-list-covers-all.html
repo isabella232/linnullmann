@@ -1,7 +1,7 @@
 {% if page.url contains '/en/' %}
-	{% assign books = site.en_books | sort: 'publication_date' , 'last' | reverse %}
+	{% assign books = site.en_books | sort: 'date' , 'last' | reverse %}
 {% else %}
-	{% assign books = site.no_books | sort: 'publication_date', 'last' | reverse %}
+	{% assign books = site.no_books | sort: 'date', 'last' | reverse %}
 {% endif %}
 
 <div class="row" style="overflow:visible;margin-top:5%;margin-bottom:auto;">

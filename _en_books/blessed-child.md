@@ -1,17 +1,14 @@
 ---
 title: "A Blessed Child"
 subtitle:
-publication_date: 2009-08-11T12:00:00.000Z
-name: a-blessed-child
-norsk: boker/2005/08/11/et-velsignet-barn
-layout: book
+date: 2009-08-11T12:00:00.000Z
+no_book:
+  - et-velsignet-barn
 cat: Fiction
 isbn: 9780307277817
 isbn_digital:
 cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
 publisher: "Knopf Doubleday"
-next_book: the-cold-song
-previous_book: grace
 published:
 - Brazil
 - Denmark

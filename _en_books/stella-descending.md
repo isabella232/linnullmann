@@ -1,18 +1,15 @@
 ---
 title: "Stella Descending"
 subtitle:
-publication_date: 2004-07-13T12:00:00.000Z
+date: 2004-07-13T12:00:00.000Z
 translator: "Barbara Haveland"
-name: stella-descending
-norsk: boker/2001/03/31/nar-jeg-er-hos-deg
-layout: book
+no_book:
+  - nar-jeg-er-hos-deg
 cat: Fiction
 isbn: 9781400030941
 isbn_digital: 9780307427953
 cover_image_path: /uploads/stella-descending-us-hb-L.jpg
 publisher: Knopf Doubleday
-next_book: grace
-previous_book: before-you-sleep
 published:
 - Albania
 - Armenia

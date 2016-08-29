@@ -1,16 +1,13 @@
 ---
 title: "Before You Sleep"
 subtitle:
-publication_date: 2001-04-15T12:00:00.000Z
-name: before-you-sleep
-norsk: boker/1998/04/15/for-du-sovner
-layout: book
+date: 2001-04-15T12:00:00.000Z
+no_book:
+  - for-du-sovner
 cat: Fiction
 isbn: 9780140298338
 cover_image_path: /uploads/before-you-sleep-uk-hb-L.jpg
 publisher: Penguin Group
-next_book: stella-descending
-previous_book: skouen-skouen
 published:
 - Albania
 - Brazil

@@ -1,7 +1,7 @@
 {% if page.url contains '/en/' %}
-	{% assign books = site.en_books | sort: 'publication_date' , 'last' | reverse %}
+	{% assign books = site.en_books | sort: 'date' , 'last' | reverse %}
 {% else %}
-	{% assign books = site.no_books | sort: 'publication_date', 'last' | reverse %}
+	{% assign books = site.no_books | sort: 'date', 'last' | reverse %}
 {% endif %}
 
 {% for post in books %}
@@ -9,7 +9,7 @@
       <a href="{{post.url}}">
         <section class="is-typeset title-only">
           <h1 class="page-title bigtitle">
-            {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.publication_date | date: "%Y"}}, {{post.cat}}</small> {% endif %}
+            {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}, {{post.cat}}</small> {% endif %}
           </h1>
         </section>
       </a>

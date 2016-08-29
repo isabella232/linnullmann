@@ -1,8 +1,8 @@
-{% for book in site.no_books %}
+{% for book in site.en_books %}
 @@@<br />
 
 title: "Reviews for {{ book.title}}"<br />
-quotes:<br />{% assign reviews = site.data.reviews | where: 'book', book.slug | reverse %}{% for object in reviews %}
+quotes:<br />{% assign reviews = site.data.reviews-en | where: 'book', book.slug | reverse %}{% for object in reviews %}
 $$- source: "{{object.source }}"<br />
 $$$$featured: {% if object.featured %}true{% else%}false{% endif %}<br />
 $$$$language:<br />
@@ -11,6 +11,3 @@ $$$$quote_markdown: "{{ object.quote | markdownify | remove: '<p>' | remove: '</
 _slug: reviews-for-{{book.slug }}<br />
 ---<br /><br />
 {% endfor %}
-
-
-NEXT DO NORSK

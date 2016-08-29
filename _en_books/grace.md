@@ -1,17 +1,15 @@
 ---
 title: "Grace"
 subtitle:
-publication_date: 2007-12-18T12:00:00.000Z
+date: 2007-12-18T12:00:00.000Z
 name: grace
-norsk: boker/2002/12/18/nade
-layout: book
+no_book:
+  - nade
 cat: Fiction
 isbn: 9781400078028
 isbn_digital: 9780307415349
 cover_image_path: /uploads/grace-us-hb-L.jpg
 publisher: Knopf Doubleday
-next_book: a-blessed-child
-previous_book: stella-descending
 published:
 - Denmark
 - Estonia

@@ -1,17 +1,15 @@
 ---
 title: Når jeg er hos deg
 subtitle:
-publication_date: 2001-03-31T12:00:00.000Z
+date: 2001-03-31T12:00:00.000Z
 name: nar-jeg-er-hos-deg
-english: books/2004/07/13/stella-descending
-layout: book
+en_book:
+  - stella-descending
 cat: Skjønnlitteratur
 isbn: ''
 isbn_digital: ''
 cover_image_path: /uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-next_book: nade
-previous_book: for-du-sovner
 covers:
   - stella-descending-us-hb-L.jpg
   - stella-descending-no-hb-L.jpg

@@ -4,7 +4,7 @@
   {% assign review = site.reviews | where: 'no_book', page.slug %}
 {% endif %}
 
-{% for object in review  %}  
+{% for object in review  %}
   {% assign quotes_featured = object.quotes | where: "featured", true | reverse  %}
   {% assign quotes = object.quotes | where_exp: "item", "item.featured != true"  | reverse  %}
 

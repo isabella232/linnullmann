@@ -1,17 +1,14 @@
 ---
 title: "Profession: Director. Arne Skouen and his films"
 subtitle: Norwegian Film Institute Publications Series No. 8
-publication_date: 1998-01-01T12:00:00.000Z
-name: skouen-skouen
-norsk: boker/1998/03/31/skouen
-layout: book
+date: 1998-01-01T12:00:00.000Z
+no_book:
+  - skouen
 cat: Non-fiction
 isbn:
 isbn_digital:
 cover_image_path: /uploads/skouen-skouen-L.jpg
 publisher:  Knopf Doubleday
-next_book: before-you-sleep
-previous_book: men-jeg-bor-her-ennaa
 published:
 - Norwegian
 - English
