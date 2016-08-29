@@ -3,15 +3,11 @@
 {% else %}
   {% assign review = site.reviews | where: 'no_book', page.slug %}
 {% endif %}
-{% assign review = site.reviews | where: 'en_book', page.slug %}
-{{ review.title }}
+
 
 {% for object in review limit: 1 %}
-  {{ object }}
-  {% for review in object.quotes  %}
+{% assign quotes = object.quotes | reverse  %}
+  {% for review in quotes limit: 1  %}
     {% include books/format-reviews.html %}
   {% endfor %}
 {% endfor %}
-
-
-{% comment %} {% assign review = review | where: 'featured', true %} {% endcomment %}
