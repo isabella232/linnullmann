@@ -2,7 +2,11 @@
 layout: default
 section: book
 ---
-
+{% if page.url contains '/en/' %}
+  {% assign review = site.reviews | where: 'en_book', page.slug %}
+{% else %}
+  {% assign review = site.reviews | where: 'no_book', page.slug %}
+{% endif %}
 
 {% if page.url contains '/en/' %}
   {% assign language = 'en' %}
@@ -10,20 +14,40 @@ section: book
 
 <section class='splash_book'>
   {% include books/cover.html %}
-  {% include books/related-review.html show="1" language="language" %}
-  <div><a href="#reviews">&#10553;<small>{% if page.url contains '/en/' %}more reviews{% else %}skrevet{% endif %}</small></a></div>
+
+  {% for object in review limit: 1 %}
+  {% assign quotes = object.quotes | reverse  %}
+    {% for review in quotes limit: 1  %}
+      {% include books/format-reviews.html %}
+      {% if review.size > 0 %}
+      {% assign show_link = true  %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+{% if show_link %}
+  <div>
+    <a href="#reviews">
+      &#10553;<small>
+        {% if page.url contains '/en/' %}more reviews{% else %}skrevet{% endif %}
+      </small>
+    </a>
+  </div>
+{% endif %}
+
+
 </section>
 
 
 <article class="hentry page-layout">
   <header>
     <hr />
-      <h5 style="display:inline;">{{page.category}}</h5>
+    <h1 class="page-title" style="display:inline-block;margin:0;">
+      {% if page.title %} {{page.title}} {% endif %}
+    </h1>
         <div style="text-align:right;float:right;display:inline;">{% include books/prev-next.html %}</div>
     <hr />
-      <h1 class="page-title">
-        {% if page.title %} {{page.title}} {% endif %}
-      </h1>
+
       {% if page.subtitle %}<h2>{{page.subtitle}}</h2>{% endif %}
       {% if page.translator %}
         <h5>{% if page.url contains '/en/' %}Translated by {% else %}Oversatt av {% endif %}{{page.translator}}</h5>
@@ -35,8 +59,8 @@ section: book
   {% if page.covers %}
     <h3>Editions</h3>
     <div class="book-covers row">
-      {% for fgn_covers in page.covers %}
-        <img src="/uploads/{{fgn_covers}}" class="cover-image-editions">
+      {% for object in page.covers %}
+        <img src="{{ object.cover_image_path }}" class="cover-image-editions">
       {% endfor %}
     </div>
   {% endif %}
@@ -52,8 +76,23 @@ section: book
   <hr />
   {% endif %}
   <div class="row">
+    {% if show_link %}
     <h3 id="reviews">{% if page.url contains '/en/' %}Praise for {% else %}Skrevet om {% endif %}<em>{{page.title}}</em></h3>
-    {% include books/related-reviews.html language="language" %}
+    {% for object in review  %}
+      {% assign quotes_featured = object.quotes | where: "featured", true | reverse  %}
+      {% assign quotes = object.quotes | where_exp: "item", "item.featured != true"  | reverse  %}
+
+      {% for review in quotes_featured   %}
+        {% include books/format-reviews.html %}
+      {% endfor %}
+
+      {% for review in quotes   %}
+        {% include books/format-reviews.html %}
+      {% endfor %}
+
+    {% endfor %}
+
+    {% endif %}
   </div>
 </article>
 <div class="row">

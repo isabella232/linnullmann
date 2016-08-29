@@ -21,11 +21,16 @@ display: fullscreen
 
 gems:
   - jekyll-seo-tag
-
+future: true
 plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
 includes_dir: ./_app/_includes
 
+languages:
+  - english
+  - norsk
+categories:
+  - News
 # Permalinks
 permalink:  pretty
 
@@ -44,6 +49,9 @@ exclude:
   - gruntfile.js
   - Gemfile.lock
   - gemfile
+  - Gruntfile.js
+  - notes.md
+
 
 # dev options (true/false)
 # if site is in production, 'production: true'
@@ -68,7 +76,8 @@ collections:
   no_books:
     output: true
     permalink: '/boker/:path/'
-
+  reviews:
+    output: true
 
 
 _comments:
@@ -92,10 +101,14 @@ defaults:
       layout: page-single
   - scope:
       path: ''
-      type: pages
-      permalink: /:basename/
+      type: en_books
     values:
-      layout: page-single
+      layout: book
+  - scope:
+      path: ''
+      type: no_books
+    values:
+      layout: book
   - scope:
       path: ''
       type: posts
@@ -104,17 +117,14 @@ defaults:
       schema: BlogPosting
   - scope:
       path: ''
-      type: books
-    values:
-      layout: book
-      schema: BlogPosting
-      _comments:
-        date: live on site date
-  - scope:
-      path: ''
-      type: events
+      type: posts
     values:
       layout: page-single
+      schema: BlogPosting
+  - scope:
+      path: ''
+      type: reviews
+    values:
+      _hide_content: true
       _comments:
-        title: Event Description
-        venue: Venue name. Address is optional
+        title: "Add new quotes to the bottom of the list below"

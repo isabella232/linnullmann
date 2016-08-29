@@ -1,17 +1,19 @@
-{% if language == 'en' %}{% comment %}IF TEMPLATE PULLS ENGLISH{% endcomment %}
-  {% for review in site.data.reviews-en %}  
-    {% if page.name == review.book %}
-      {% if  review.featured != true and review.category != 'best' %}{% comment %}Featured Reviews are up top so pull them out, best below{% endcomment %}
-        {% include books/format-reviews.html %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% else %} {% comment %}ELSE SHOW NON ENGLISH REVIEWS{% endcomment %}
-  {% for review in site.data.reviews %}  
-    {% if page.name == review.book %}
-      {% if  review.featured != true and review.category != 'best' %}
-        {% include books/format-reviews.html %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+{% if page.url contains '/en/' %}
+  {% assign review = site.reviews | where: 'en_book', page.slug %}
+{% else %}
+  {% assign review = site.reviews | where: 'no_book', page.slug %}
 {% endif %}
+
+{% for object in review  %}
+  {% assign quotes_featured = object.quotes | where: "featured", true | reverse  %}
+  {% assign quotes = object.quotes | where_exp: "item", "item.featured != true"  | reverse  %}
+
+  {% for review in quotes_featured   %}
+    {% include books/format-reviews.html %}
+  {% endfor %}
+
+  {% for review in quotes   %}
+    {% include books/format-reviews.html %}
+  {% endfor %}
+
+{% endfor %}

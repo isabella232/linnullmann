@@ -65,7 +65,7 @@ layout: compress
 
   <body class="{{ page.category | replace: ' ','-' | downcase }} {{page.categories | first}}">
     <div class="wrapperf">
-      {% include nav/nav-side.html %}
+      {% include global/nav-side.html %}
       <div class="content is-typeset{% if page.featured_image_path %} content_splash{% endif %}">
         {{content}}
       </div>

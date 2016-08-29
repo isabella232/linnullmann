@@ -1,8 +1,8 @@
 
 
 TODO:
-
-
+- consolidate book layouts into one. Now, books without reviews have a special layout
+- redirect from date-based URLs
 
 Data files to make collections
 

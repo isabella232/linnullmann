@@ -1,0 +1,39 @@
+<div class="article">
+<article class="hentry {% if page.class %}{{page.class}}{% endif %}">
+  <header>
+    {% if page.title %}
+    <h1 class="entry-title headline">{{page.title}}</h1>
+    {% endif %}
+    {% if page.subtitle %}
+    <h2>
+      {{page.subtitle}}
+    </h2>
+    {% endif %}
+    {% if page.show_date %}
+      <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
+        <small>
+          {{ page.date | date:'%A %b %d, %Y' }}
+        </small>
+      </time>
+    {% endif %}
+  </header>
+
+{% comment %}Content Below{% endcomment %}
+  <div class="entry-content prose">
+    {% comment %}{{page.category}} remove for this site{% endcomment %}
+    {{ content }}
+    {% if page.include %}
+      {% include {{page.include}} %}
+    {% endif %}
+  </div>
+  {% if site.include_addthis_sharing %}
+    <div class="sharing">
+      {% include articles/sharing.html %}
+    </div>
+  {% endif %}
+
+
+
+
+</article>
+</div>

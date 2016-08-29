@@ -1,19 +1,20 @@
+
 {% include snippets/events-list.html %}
-<hr />
-<div class="row">
-	<div class="column-wrapper">
+
+
+
 {% if page.url contains 'en' %}
-	{% for item in site.data.news  %}
-		{% if item.language contains 'english' %}
-			{% include snippets/news-list-formatting.html %}
-		{% endif %}
-	{% endfor %}
+	{% assign news = site.posts | where: 'language', 'english' %}
 {% else %}
-	{% for item in site.data.news  %}
-		{% if item.language contains 'norsk' %}
-			{% include snippets/news-list-formatting.html %}
-		{% endif %}
-	{% endfor %}
+	{% assign news = site.posts | where: 'language', 'norsk' %}
 {% endif %}
+
+
+<hr />
+ <div class="row">
+	<div class="column-wrapper">
+	{% for item in news %}
+		{% include snippets/news-list-formatting.html %}
+	{% endfor %}
 	</div>
 </div>

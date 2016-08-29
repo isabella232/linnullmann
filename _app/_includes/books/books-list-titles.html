@@ -1,26 +1,17 @@
-
 {% if page.url contains '/en/' %}
-  {% for post in site.categories.books %} 
-    {% if post.url != page.url %}
-        <a href="{{post.url}}">
-          <section class="is-typeset title-only">
-            <h1 class="page-title bigtitle">
-              {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}, {{post.cat}}</small> {% endif %}
-            </h1>
-          </section>
-        </a>
-    {% endif %}
-  {% endfor %}  
+	{% assign books = site.en_books | sort: 'date' , 'last' | reverse %}
 {% else %}
-  {% for post in site.categories.boker %} 
-    {% if post.url != page.url %}
+	{% assign books = site.no_books | sort: 'date', 'last' | reverse %}
+{% endif %}
+
+{% for post in books %}
+  {% if post.url != page.url %}
       <a href="{{post.url}}">
         <section class="is-typeset title-only">
           <h1 class="page-title bigtitle">
-            {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}, {{post.cat}}</small>{% endif %}
+            {% if post.title %}{{post.title}} <small style="font-size:40%;">{{post.date | date: "%Y"}}, {{post.cat}}</small> {% endif %}
           </h1>
         </section>
       </a>
-    {% endif %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}

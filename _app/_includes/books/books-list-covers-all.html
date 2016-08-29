@@ -1,22 +1,13 @@
-
 {% if page.url contains '/en/' %}
-<div class="row" style="overflow:visible;margin-top:5%;margin-bottom:auto;">
-{% for cover in site.categories.books limit: '5' %}
-	<a href="{{cover.url}}">
-		<img src="{{cover.cover_image_path}}">
-	</a>
-{% endfor %}
-</div>
-
-
+	{% assign books = site.en_books | sort: 'date' , 'last' | reverse %}
 {% else %}
+	{% assign books = site.no_books | sort: 'date', 'last' | reverse %}
+{% endif %}
+
 <div class="row" style="overflow:visible;margin-top:5%;margin-bottom:auto;">
-{% for cover in site.categories.boker limit: '5' %}
-	<a href="{{cover.url}}">
-		<img src="{{cover.cover_image_path}}" style="margin-right:2em;max-height:200px;">
+{% for object in books limit: '5' %}
+	<a href="{{ object.url }}">
+		<img src="{{ object.cover_image_path }}">
 	</a>
 {% endfor %}
 </div>
-
-
-{% endif %}
