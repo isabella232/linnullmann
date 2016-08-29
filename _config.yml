@@ -127,5 +127,6 @@ defaults:
       type: reviews
     values:
       _hide_content: true
+      sitemap: false
       _comments:
         title: "Add new quotes to the bottom of the list below"
