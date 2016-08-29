@@ -21,6 +21,7 @@ display: fullscreen
 
 gems:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 future: true
 plugins_dir:  ./_app/_plugins
 layouts_dir:  ./_app/_layouts
