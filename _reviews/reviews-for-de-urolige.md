@@ -1,6 +1,6 @@
 ---
 title: "Reviews for De urolige"
-reviews:
+quotes:
 
 _slug: reviews-for-de-urolige
 ---

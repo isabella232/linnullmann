@@ -1,6 +1,6 @@
 ---
 title: "Reviews for A Blessed Child"
-reviews:
+quotes:
 
 _slug: reviews-for-blessed-child
 ---
