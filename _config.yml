@@ -29,7 +29,8 @@ includes_dir: ./_app/_includes
 languages:
   - english
   - norsk
-
+categories:
+  - News
 # Permalinks
 permalink:  pretty
 
