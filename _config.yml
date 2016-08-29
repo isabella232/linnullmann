@@ -78,7 +78,7 @@ collections:
     output: true
     permalink: '/boker/:path/'
   reviews:
-    output: true
+    output: false
 
 
 _comments:
