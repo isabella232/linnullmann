@@ -1,20 +1,17 @@
-{% assign count = '0' %}
-{% assign show_count = {{include.show}} %}
-
 {% if page.url contains '/en/' %}
-
+  {% assign review = site.reviews | where: 'en_book', page.slug %}
 {% else %}
+  {% assign review = site.reviews | where: 'no_book', page.slug %}
+{% endif %}
+{% assign review = site.reviews | where: 'en_book', page.slug %}
+{{ review.title }}
 
-
- {% endif %}
-
-  {% for review in site.data.reviews-en %}
-    {% if page.name == review.book %}
-    {% if  review.featured == true %}
-      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-      <div{% if count > show_count %} style="display:none;"{% endif %}>
-        {% include books/format-reviews.html %}
-      </div>
-    {% endif %}
-    {% endif %}
+{% for object in review limit: 1 %}
+  {{ object }}
+  {% for review in object.quotes  %}
+    {% include books/format-reviews.html %}
   {% endfor %}
+{% endfor %}
+
+
+{% comment %} {% assign review = review | where: 'featured', true %} {% endcomment %}

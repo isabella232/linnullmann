@@ -1,5 +1,8 @@
 ---
 title: "Reviews for The Cold Song"
+en_book:
+  - the-cold-song
+no_book:
 quotes:
   - source: "Gro Jørstad Nilsen, *Bergens Tidend* (Norway)"
     featured: false
