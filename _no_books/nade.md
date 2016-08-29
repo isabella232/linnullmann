@@ -38,6 +38,7 @@ published:
   - Ungarn
   - USA
 meta: 'Foreign rights/salg til utlandet: The Wylie Agency'
+redirect_from: /boker/2002/12/18/nade/
 ---
 
 Da Johan Sletten blir alvorlig syk, inngår han en avtale med sin kone Mai. Den dagen livet oppleves som uverdig eller uutholdelig, den dagen han blir en byrde for henne og sine omgivelser skal hun bistå ham med en siste handling. Uforvarende krysser ekteparet grensen til landskap de ikke kjenner; der tvilen styrer, språket forvitrer og kjærligheten er utrygg. *Nåde* er en skarp, dristig og inntrengende roman preget av svart humor, en studie i det alvorligste av alt, om sannhet og løgn, om troskap og de små umerkelige svik.

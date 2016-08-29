@@ -10,6 +10,7 @@ isbn:
 isbn_digital:
 cover_image_path: /uploads/men-jeg-bor-her-ennaa-L.jpg
 publisher:  Knopf Doubleday
+redirect_from: /boker/1997/01/01/men-jeg-bor-her-ennaa/
 ---
 Denne antologien inneholder 22 tekster, hvorav de aller fleste er noveller. Tekstene er skrevet i 1980- og 1990-årene.
 

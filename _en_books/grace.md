@@ -39,6 +39,7 @@ covers:
 - cover_image_path: /uploads/grace-spain-pb-L.jpg  
 - cover_image_path: /uploads/grace-stella-and-grace-russia-hb-L.jpg  
 - cover_image_path: /uploads/grace-sweden-film-L.jpg  
+redirect_from: /books/2007/12/18/grace/
 ---
 Johan has bargained with Death for years: when he was a boy, he prayed that Death take his father, not his mother; when he was a man, Death kindly removed  his wife, Alice, allowing him to marry Mai, the love of his life. Now, Death has come for him, and Johan needs to strike one last bargain: when the moment arrives, he wants Mai to promise that she will help him on his way out of the  world.
 

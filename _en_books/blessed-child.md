@@ -43,6 +43,7 @@ covers:
 - cover_image_path: /uploads/a-blessed-child-sweden-pb-L.jpg
 - cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
 - cover_image_path: /uploads/a-blessed-child-no-pb-2013-L.jpg
+redirect_from: /books/2009/08/11/a-blessed-child/
 ---
 *A Blessed Child is* masterful storytelling, a confident and strikingly   original novel, fraught with deep empathy and black humour; an unforgettable   portrait of the three Scandinavian sisters Erika, Laura and Molly, who have   different mothers, but the same father: The prominent and temperamental   ultrasound specialist Isak Lövenstad.
 

@@ -75,6 +75,7 @@ covers:
   - cover_image_path: /uploads/before-you-sleep-sweden-pb-b-L.jpg
   - cover_image_path: /uploads/before-you-sleep-turkey-pb-L.jpg
   - cover_image_path: /uploads/before-you-sleep-ukraina-pb-L.jpg
+redirect_from: /boker/1998/04/15/for-du-sovner/
 ---
 
 *Før du sovner* er den unge Karin Bloms fortelling om seg selv og sin store, merkelige familie. I Karins verden glir fantasi og virkelighet nesten umerkelig over i hverandre. Hun forteller, forstyrrer, gjøgler og forfører – mens alle omkring henne beveger seg ubønnhørlig mot ensomheten.
