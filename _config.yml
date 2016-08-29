@@ -117,7 +117,7 @@ defaults:
       schema: BlogPosting
   - scope:
       path: ''
-      type: drafts
+      type: posts
     values:
       layout: page-single
       _hide_content: true
