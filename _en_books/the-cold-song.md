@@ -32,6 +32,7 @@ covers:
 - cover_image_path: /uploads/det-dyrebare-fi-hb-L.jpg
 - cover_image_path: /uploads/det-dyrebare-hu-hb-L.jpg
 - cover_image_path: /uploads/det-dyrebare-de-hb-L.jpg
+redirect_from: /en/books/2014/04/01/the-cold-song/
 ---
 
 ***The Cold Song* has been chosen by independent booksellers as an Indie Next Pick**

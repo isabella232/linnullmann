@@ -28,6 +28,7 @@ covers:
   - cover_image_path: /uploads/det-dyrebare-fi-hb-L.jpg
   - cover_image_path: /uploads/det-dyrebare-hu-hb-L.jpg
   - cover_image_path: /uploads/det-dyrebare-de-hb-L.jpg
+redirect_from: /boker/2014/04/01/det-dyrebare/
 ---
 
 Jon Dreyers liv er i ferd med å rakne. Det store litterære prosjektet hans skulle vært fullført for flere år siden. Han kjemper med skrivesperre og er stadig utro. Alt begynte da nitten år gamle Mille forsvant uten et spor, for så å bli funnet død to år seinere. Jons kone, Siri Dreyer-Brodal, er en dreven kokk og restaurant­innehaver som har sine egne stridigheter å overkomme. Ikke bare er hun gift med en troløs mann, men hvordan skal hun forholde seg til den sterke og utrøstelige moren, Jenny Brodal, som begynner å drikke igjen etter å ha vært tørrlagt i tjue år, akkurat i tide til den lenge planlagte 75-årsfeiringen? Og verken Jon eller Siri aner hvordan de skal håndtere den uforutsigbare og uregjerlige datteren Alma.
