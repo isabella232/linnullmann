@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Før du sovner"
+en_book:
+no_book:
+  - for-du-sovner
 quotes:
   - source: "SARAH KERR, VOGUE (USA)"
     featured: false
@@ -119,4 +122,3 @@ quotes:
 
 _slug: reviews-for-for-du-sovner
 ---
-

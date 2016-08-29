@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Et velsignet barn, roman"
+en_book:
+no_book:
+  - et-velsignet-barn
 quotes:
   - source: "CARL JOAKIM GAGNON, MORGENBLADET"
     featured: false
@@ -134,4 +137,3 @@ quotes:
 
 _slug: reviews-for-et-velsignet-barn
 ---
-

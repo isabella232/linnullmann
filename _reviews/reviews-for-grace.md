@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Grace"
+en_book:
+  - grace
+no_book:
 quotes:
   - source: "BIRGITTE (Germany)"
     featured: false
@@ -89,4 +92,3 @@ quotes:
 
 _slug: reviews-for-grace
 ---
-

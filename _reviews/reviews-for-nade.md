@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Nåde"
+en_book:
+no_book:
+  - nade
 quotes:
   - source: "DAGBLADET (Norge)"
     featured: false
@@ -159,4 +162,3 @@ quotes:
 
 _slug: reviews-for-nade
 ---
-

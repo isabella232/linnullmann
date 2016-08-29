@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Når jeg er hos deg"
+en_book:
+no_book:
+  - nar-jeg-er-hos-deg
 quotes:
   - source: "ENTERTAINMENT WEEKLY (USA)"
     featured: false

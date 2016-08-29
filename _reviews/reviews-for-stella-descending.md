@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Stella Descending"
+en_book:
+  - stella-descending
+no_book:
 quotes:
   - source: "CAMERON WOODHEAD, THE AGE (Australia)"
     featured: false

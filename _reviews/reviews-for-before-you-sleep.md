@@ -1,5 +1,7 @@
 ---
 title: "Reviews for Before You Sleep"
+en_book:
+  - before-you-sleep
 quotes:
   - source: "SARAH KERR, VOGUE (USA)"
     featured: false
@@ -39,4 +41,3 @@ quotes:
 
 _slug: reviews-for-before-you-sleep
 ---
-

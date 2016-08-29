@@ -1,5 +1,8 @@
 ---
 title: "Reviews for De Urolige, no"
+en_book:
+no_book:
+  - de-urolige
 quotes:
   - source: "STINE OKKELMO THORP, KK"
     featured: false

@@ -1,5 +1,8 @@
 ---
 title: "Reviews for Det dyrebare, roman"
+en_book:
+no_book:
+  - det-dyrebare
 quotes:
   - source: "ANDREAS WIESE, DAGBLADET Årets beste bøker 2011"
     featured: false
@@ -124,4 +127,3 @@ quotes:
 
 _slug: reviews-for-det-dyrebare
 ---
-
