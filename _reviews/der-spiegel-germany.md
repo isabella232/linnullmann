@@ -1,7 +1,7 @@
 ---
-title: "DER SPIEGEL (Germany)"
+title: DER SPIEGEL (Germany)
 featured: false
-review_date: 2016-08-01T12:00:00.96Z
+review_date: 2016-08-01T12:00:00.960Z
 language:
   - english
 en_book:
@@ -10,5 +10,5 @@ no_book:
 _slug: der-spiegel-germany
 ---
 
-The 38 year old Norwegian author Linn Ullmann has written a subdued, lucid story on themes that are easy to grasp, slightly mocking at times, and often quite melancholy … _Grace_ shows something that is perhaps only possible to convey through literature; the unique quality of the death of each single person
 
+The 38 year old Norwegian author Linn Ullmann has written a subdued, lucid story on themes that are easy to grasp, slightly mocking at times, and often quite melancholy … *Grace* shows something that is perhaps only possible to convey through literature; the unique quality of the death of each single person.
