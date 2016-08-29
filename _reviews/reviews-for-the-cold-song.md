@@ -31,7 +31,7 @@ review:
   language:
     - english
   quote_markdown: "[Ullmann] reinvent[s] the fairy tale…" review:
-  source: "READER’S DIGEST, "7 Great Books from Small Presses That Are Worth Your Time""
+  source: "READER’S DIGEST, “7 Great Books from Small Presses That Are Worth Your Time”"
   featured: false
   language:
     - english
