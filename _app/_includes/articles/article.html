@@ -9,7 +9,7 @@
       {{page.subtitle}}
     </h2>
     {% endif %}
-    {% if page.date %}
+    {% if page.show_date %}
       <time class='date' datetime="{{ page.date | date:'%Y-%m-%d' }}">
         <small>
           {{ page.date | date:'%A %b %d, %Y' }}
@@ -17,6 +17,7 @@
       </time>
     {% endif %}
   </header>
+
 {% comment %}Content Below{% endcomment %}
   <div class="entry-content prose">
     {% comment %}{{page.category}} remove for this site{% endcomment %}
