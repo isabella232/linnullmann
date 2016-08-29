@@ -1,6 +1,6 @@
 ---
 title: "Reviews for The Cold Song"
-reviews:
+quotes:
   - source: "James Wood, The New Yorker"
     featured: true
     language:
