@@ -63,5 +63,3 @@ Far og datter sitter med en b&aring;ndopptager mellom seg. Planen var at de skul
 * [*Stavanger Aftenblad*](/uploads/Stavanger_Aftenblad_21_11_2015_(interview).pdf), 21. november 2015  
 * [*Bergens Tidende*](/uploads/Bergens_Tidende__21_11_2015_(interview).pdf), 21. november 2015  
 * [*Fædrelandsvennen*](/uploads/Fædrelandsvennen_21_11_2015_(interview).pdf), 21. november 2015
-
-...
