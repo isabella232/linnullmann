@@ -1,7 +1,7 @@
 ---
 title: "The New York Times Book Review"
 featured: true
-date:
+review_date: 2016-08-01T12:00:00.27Z
 language:
   - english
 en_book:

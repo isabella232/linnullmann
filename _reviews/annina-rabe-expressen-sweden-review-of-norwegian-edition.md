@@ -1,7 +1,7 @@
 ---
 title: "ANNINA RABE, _EXPRESSEN _(_Sweden, review of Norwegian edition_)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.25Z
 language:
   - english
 en_book:

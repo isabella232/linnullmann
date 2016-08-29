@@ -1,7 +1,7 @@
 ---
 title: "BRYNJULF JUNG TJØNN, _VG_, six out of six"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.1Z
 language:
   - english
 en_book:

@@ -1,7 +1,7 @@
 ---
 title: "*Västerbottens-Kuriren* (Sweden)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.69Z
 language:
   - english
 en_book:

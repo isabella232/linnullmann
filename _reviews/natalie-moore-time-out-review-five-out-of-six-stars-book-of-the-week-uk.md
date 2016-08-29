@@ -1,7 +1,7 @@
 ---
 title: "NATALIE MOORE, TIME OUT REVIEW, five out of six stars, 'Book of the Week' (UK)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.87Z
 language:
   - english
 en_book:

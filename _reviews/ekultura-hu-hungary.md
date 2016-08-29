@@ -1,7 +1,7 @@
 ---
 title: "ekultura.hu (Hungary)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.60Z
 language:
   - english
 en_book:

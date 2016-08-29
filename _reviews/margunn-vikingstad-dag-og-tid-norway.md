@@ -1,7 +1,7 @@
 ---
 title: "Margunn Vikingstad, *Dag og Tid* (Norway)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.72Z
 language:
   - english
 en_book:

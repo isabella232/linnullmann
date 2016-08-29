@@ -1,7 +1,7 @@
 ---
 title: "TORBORG IGLAND, FÆDRELANDSVENNEN, Best Books of the Year 2015"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.22Z
 language:
   - english
 en_book:

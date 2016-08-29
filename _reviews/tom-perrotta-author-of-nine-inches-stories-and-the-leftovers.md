@@ -1,7 +1,7 @@
 ---
 title: "Tom Perrotta, author of *Nine Inches: Stories* and *The Leftovers*"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.44Z
 language:
   - english
 en_book:

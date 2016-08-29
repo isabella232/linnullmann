@@ -1,7 +1,7 @@
 ---
 title: "MARY ELIZABETH WILLIAMS, THE NEW YORK TIMES BOOK REVIEW (USA)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.104Z
 language:
   - english
 en_book:

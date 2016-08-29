@@ -1,7 +1,7 @@
 ---
 title: "*Uppsala Nya Tidning (Sweden)*"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.68Z
 language:
   - english
 en_book:

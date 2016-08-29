@@ -1,7 +1,7 @@
 ---
 title: "Rebecca Mead, author of *My Life in Middlemarch*"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.49Z
 language:
   - english
 en_book:

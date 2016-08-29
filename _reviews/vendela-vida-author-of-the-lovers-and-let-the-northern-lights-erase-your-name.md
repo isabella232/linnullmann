@@ -1,7 +1,7 @@
 ---
 title: "Vendela Vida, author of *The Lovers* and *Let the Northern Lights Erase Your Name*"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.48Z
 language:
   - english
 en_book:

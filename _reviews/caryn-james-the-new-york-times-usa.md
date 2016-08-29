@@ -1,7 +1,7 @@
 ---
 title: "CARYN JAMES, THE NEW YORK TIMES (USA)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.120Z
 language:
   - english
 en_book:

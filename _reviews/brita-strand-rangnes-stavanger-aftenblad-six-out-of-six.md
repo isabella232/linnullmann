@@ -1,7 +1,7 @@
 ---
 title: "BRITA STRAND RANGNES, _STAVANGER AFTENBLAD, six out of six_"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.4Z
 language:
   - english
 en_book:

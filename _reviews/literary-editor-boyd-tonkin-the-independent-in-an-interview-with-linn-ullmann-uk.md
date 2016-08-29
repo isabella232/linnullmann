@@ -1,7 +1,7 @@
 ---
 title: "Literary Editor BOYD TONKIN, THE INDEPENDENT in an interview with Linn Ullmann (UK)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.90Z
 language:
   - english
 en_book:

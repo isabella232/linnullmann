@@ -1,7 +1,7 @@
 ---
 title: "Yiyun Li, award-winning author of *The Vagrants* and *Kinder Than Solitude*"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.47Z
 language:
   - english
 en_book:

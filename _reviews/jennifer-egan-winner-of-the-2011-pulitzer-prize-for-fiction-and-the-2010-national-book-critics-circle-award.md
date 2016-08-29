@@ -1,7 +1,7 @@
 ---
 title: "Jennifer Egan, winner of the 2011 Pulitzer Prize for Fiction and the 2010 National Book Critics Circle Award"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.45Z
 language:
   - english
 en_book:

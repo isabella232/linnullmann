@@ -1,7 +1,7 @@
 ---
 title: "James Wood, The New Yorker"
 featured: true
-date:
+review_date: 2016-08-01T12:00:00.26Z
 language:
   - english
 en_book:

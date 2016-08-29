@@ -1,7 +1,7 @@
 ---
 title: "Bjørn Gabrielsen, *Dagens Næringsliv* (Norway)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.70Z
 language:
   - english
 en_book:

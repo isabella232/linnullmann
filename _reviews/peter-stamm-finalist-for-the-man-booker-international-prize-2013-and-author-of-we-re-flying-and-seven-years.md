@@ -1,7 +1,7 @@
 ---
 title: "Peter Stamm, finalist for the Man Booker International Prize 2013 and author of *We’re Flying* and *Seven Years*'"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.46Z
 language:
   - english
 en_book:

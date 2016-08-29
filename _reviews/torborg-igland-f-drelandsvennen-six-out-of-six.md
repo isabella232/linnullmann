@@ -1,7 +1,7 @@
 ---
 title: "TORBORG IGLAND, _FÆDRELANDSVENNEN, six out of six_"
 featured: true
-date:
+review_date: 2016-08-01T12:00:00.3Z
 language:
   - english
 en_book:

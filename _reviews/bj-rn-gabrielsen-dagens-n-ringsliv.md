@@ -1,7 +1,7 @@
 ---
 title: "BJØRN GABRIELSEN, _DAGENS NÆRINGSLIV_"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.9Z
 language:
   - english
 en_book:

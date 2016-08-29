@@ -1,7 +1,7 @@
 ---
 title: "ODD W. SURÉN, _DAG OG TID_"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.13Z
 language:
   - english
 en_book:

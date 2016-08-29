@@ -1,7 +1,7 @@
 ---
 title: "THE NATIONAL"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.33Z
 language:
   - english
 en_book:

@@ -1,7 +1,7 @@
 ---
 title: "CAROLINE LEAVITT, THE WASHINGTON POST BOOK WORLD (USA)"
 featured: true
-date:
+review_date: 2016-08-01T12:00:00.106Z
 language:
   - english
 en_book:

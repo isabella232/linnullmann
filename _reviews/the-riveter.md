@@ -1,7 +1,7 @@
 ---
 title: "THE RIVETER"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.40Z
 language:
   - english
 en_book:

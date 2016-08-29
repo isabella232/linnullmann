@@ -1,7 +1,7 @@
 ---
 title: "olvasoterem.hu (Hungary)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.61Z
 language:
   - english
 en_book:

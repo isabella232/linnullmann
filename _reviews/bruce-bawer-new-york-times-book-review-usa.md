@@ -1,7 +1,7 @@
 ---
 title: "BRUCE BAWER, NEW YORK TIMES BOOK REVIEW (USA)"
 featured: true
-date:
+review_date: 2016-08-01T12:00:00.83Z
 language:
   - english
 en_book:

@@ -1,7 +1,7 @@
 ---
 title: "Johannes H. Christensen, *Jyllands-Posten *(Denmark)"
 featured: false
-date:
+review_date: 2016-08-01T12:00:00.66Z
 language:
   - english
 en_book:
