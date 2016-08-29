@@ -1,7 +1,7 @@
 ---
 title: "Dagbladet"
 category: News
-date: 1998-11-20T12:00:00.000Z
+date: 1998-11-20
 language:
 featured: false
 en_book:
