@@ -2,12 +2,12 @@
 @@@<br />
 
 title: "Reviews for {{ book.title}}"<br />{% assign reviews = site.data.reviews-en | where: 'book', book.slug %}{% for object in reviews %}
-review:<br />
-$$source: "{{object.source }}"<br />
-$$featured: {% if object.featured %}true{% else%}false{% endif %}<br />
-$$language:<br />
-$$$$- english<br />
-$$quote_markdown: "{{ object.quote | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}"{% endfor %}<br />
+reviews:<br />
+$$- source: "{{object.source }}"<br />
+$$$$featured: {% if object.featured %}true{% else%}false{% endif %}<br />
+$$$$language:<br />
+$$$$$$$- english<br />
+$$$$quote_markdown: "{{ object.quote | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}"{% endfor %}<br />
 _slug: reviews-for-{{book.slug }}<br />
 ---<br /><br />
 {% endfor %}
