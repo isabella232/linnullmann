@@ -133,7 +133,7 @@ defaults:
       _hide_content: true
       sitemap: false
       _comments:
-        title: "Add new quotes to the bottom of the list below"
+        quotes: "Scroll to the bottom and click 'Add Quote.' Quotes on the bottom will show at the top of the list on the site. You can move quotes' order by clicking on the arrows to the top-left of the quote."
 
 published_countries:
 - Albania
