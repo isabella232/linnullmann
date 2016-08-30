@@ -64,12 +64,12 @@ section: book
       {% endfor %}
     </div>
   {% endif %}
-  {% if page.published or page.rights or page.world_rights %}
+  {% if page.published_countries or page.rights_markdown or page.world_rights %}
     <div class="panel row">
-      {% if page.published  %}
+      {% if page.published_countries  %}
         {% if page.url contains '/en/' %}<h5>Published In</h5>{% else %}<h5>Utgitt i</h5>{% endif %}
-          {{page.published | array_to_sentence_string }}<br /><br />{% endif %}
-        {% if page.rights %}<h5>Rights Sold To</h5> {{page.rights}}<br /><br />{% endif %}
+          {{page.published_countries | array_to_sentence_string }}<br /><br />{% endif %}
+        {% if page.rights_markdown %}<h5>Rights Sold To</h5> {{page.rights_markdown}}<br /><br />{% endif %}
         {% if page.meta %}{{page.meta}}<br /><br />{% endif %}
         {% if page.world_rights %}{{page.world_rights | markdownify }}{% endif %}
     </div>

@@ -105,11 +105,15 @@ defaults:
       type: en_books
     values:
       layout: book
+      _comments:
+        no_book: 'Norsk version of this book'
   - scope:
       path: ''
       type: no_books
     values:
       layout: book
+      _comments:
+        en_book: 'English version of this book'
   - scope:
       path: ''
       type: posts
@@ -130,3 +134,34 @@ defaults:
       sitemap: false
       _comments:
         title: "Add new quotes to the bottom of the list below"
+
+published_countries:
+- Albania
+- Brazil
+- Catalan
+- Croatia
+- Denmark
+- Estonia
+- Faroe Isles
+- Finland
+- France
+- Germany
+- Greece
+- Hungary
+- Iceland
+- Israel
+- Italy
+- Latvia
+- Netherlands
+- Norway
+- Poland
+- Portugal
+- Russia
+- Serbia
+- Spain
+- Sweden
+- Taiwan
+- Turkey
+- Ukraine
+- United Kingdom
+- US

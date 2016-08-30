@@ -9,7 +9,7 @@ isbn:
 isbn_digital:
 cover_image_path: /uploads/skouen-skouen-L.jpg
 publisher:  Knopf Doubleday
-published:
+published_countries:
 - Norwegian
 - English
 - French

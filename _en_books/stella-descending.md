@@ -10,7 +10,7 @@ isbn: 9781400030941
 isbn_digital: 9780307427953
 cover_image_path: /uploads/stella-descending-us-hb-L.jpg
 publisher: Knopf Doubleday
-published:
+published_countries:
 - Albania
 - Armenia
 - Catalan
@@ -31,7 +31,7 @@ published:
 - Turkey
 - United Kingdom
 - US
-world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
 - cover_image_path: /uploads/stella-descending-us-hb-L.jpg  
 - cover_image_path: /uploads/stella-descending-no-hb-L.jpg  

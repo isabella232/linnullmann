@@ -8,7 +8,7 @@ cat: Skjønnlitteratur
 isbn: 9780140298338
 cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
 publisher: Penguin Group
-published:
+published_countries:
   - Albania
   - Brazil
   - Catalan
@@ -38,7 +38,7 @@ published:
   - Ukraine
   - United Kingdom
   - US
-world_rights: 'Foreign rights/salg til utlandet: [The Wylie Agency](http://www.wylieagency.com/)'
+world_rights_markdown: 'Foreign rights/salg til utlandet: [The Wylie Agency](http://www.wylieagency.com/)'
 meta: 'RIGHTS SOLD TO: Romania (Editura All)'
 covers:
   - cover_image_path: /uploads/before-you-sleep-brazil-pb-L.jpg

@@ -8,7 +8,7 @@ cat: Fiction
 isbn: 9780140298338
 cover_image_path: /uploads/before-you-sleep-uk-hb-L.jpg
 publisher: Penguin Group
-published:
+published_countries:
 - Albania
 - Brazil
 - Catalan
@@ -38,7 +38,7 @@ published:
 - Ukraine
 - United Kingdom
 - US
-world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 meta: "RIGHTS SOLD TO: Romania (Editura All)"
 covers:
 - cover_image_path: /uploads/before-you-sleep-brazil-pb-L.jpg  

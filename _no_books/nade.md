@@ -22,7 +22,7 @@ covers:
   - cover_image_path: /uploads/grace-spain-pb-L.jpg
   - cover_image_path: /uploads/grace-stella-and-grace-russia-hb-L.jpg
   - cover_image_path: /uploads/grace-sweden-film-L.jpg
-published:
+published_countries:
   - Danmark
   - Estland
   - Finland

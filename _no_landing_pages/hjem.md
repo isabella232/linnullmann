@@ -3,9 +3,7 @@ title: Hjem
 language: no
 permalink: /
 en_landing_page: /
-published: true
 category: home
-
 featured_image_path: /uploads/ullmann_linn_agnete_brun-1200x400.jpg
 include: "snippets/news-list-featured.html"
 ---

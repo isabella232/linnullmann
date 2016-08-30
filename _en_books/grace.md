@@ -10,7 +10,7 @@ isbn: 9781400078028
 isbn_digital: 9780307415349
 cover_image_path: /uploads/grace-us-hb-L.jpg
 publisher: Knopf Doubleday
-published:
+published_countries:
 - Denmark
 - Estonia
 - Finland
@@ -26,7 +26,7 @@ published:
 - Sweden
 - United Kingdom
 - US
-world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
 - cover_image_path: /uploads/grace-uk-hb-L.jpg  
 - cover_image_path: /uploads/grace-denmark-hb-L.jpg  

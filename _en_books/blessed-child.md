@@ -9,7 +9,7 @@ isbn: 9780307277817
 isbn_digital:
 cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
 publisher: "Knopf Doubleday"
-published:
+published_countries:
 - Brazil
 - Denmark
 - Estonia
@@ -27,7 +27,7 @@ published:
 - United Kingdom
 - US
 
-world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
 - cover_image_path: /uploads/a-blessed-child-denmark-pb-L.jpg
 - cover_image_path: /uploads/a-blessed-child-estonia-hb-L.jpg

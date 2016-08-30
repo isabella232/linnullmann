@@ -9,7 +9,7 @@ isbn: ''
 isbn_digital: ''
 cover_image_path: /uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-published:
+published_countries:
   - Norway
   - Denmark
   - Sweden
@@ -18,8 +18,8 @@ published:
   - Germany
   - Italy
   - The Netherlands
-rights: 'Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)'
-world_rights: 'World Rights: [The Wylie Agency](http://www.wylieagency.com/)'
+rights_markdown: 'Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)'
+world_rights_markdown: 'World Rights: [The Wylie Agency](http://www.wylieagency.com/)'
 covers:
   - cover_image_path: /uploads/the-cold-song-italian-L.jpg
   - cover_image_path: /uploads/the-cold-song-M.jpg

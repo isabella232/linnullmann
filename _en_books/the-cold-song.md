@@ -11,7 +11,7 @@ isbn: 9781590516676
 isbn_digital: 9781590516683
 cover_image_path: /uploads/the-cold-song-M.jpg
 publisher: Other Press
-published:
+published_countries:
  - Norway
  - Denmark
  - Sweden
@@ -21,9 +21,9 @@ published:
  - Italy
  - The Netherlands
 
-rights: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
+rights_markdown: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
 
-world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
 - cover_image_path: /uploads/the-cold-song-italian-L.jpg
 - cover_image_path: /uploads/det-dyrebare-no-pb-L.jpg
