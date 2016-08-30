@@ -2,7 +2,6 @@
 title: Når jeg er hos deg
 subtitle:
 date: 2001-03-31T12:00:00.000Z
-name: nar-jeg-er-hos-deg
 en_book:
   - stella-descending
 cat: Skjønnlitteratur

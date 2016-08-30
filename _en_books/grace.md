@@ -2,7 +2,6 @@
 title: "Grace"
 subtitle:
 date: 2007-12-18T12:00:00.000Z
-name: grace
 no_book:
   - nade
 cat: Fiction

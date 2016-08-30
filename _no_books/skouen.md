@@ -2,7 +2,6 @@
 title: "Yrke: Regissør. Om Arne Skouen og hans filmer"
 subtitle: "Norsk filminstitutts skriftserie 8"
 date: 1998-03-31T12:00:00.000Z
-name: skouen
 en_book:
   - skouen-skouen
 cat: Sakprosa

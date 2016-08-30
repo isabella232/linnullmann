@@ -2,7 +2,6 @@
 title: "The Cold Song"
 subtitle:
 date: 2014-04-01T12:00:00.000Z
-name: the-cold-song
 no_book:
   - det-dyrebare
 cat: Fiction

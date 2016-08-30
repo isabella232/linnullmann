@@ -3,7 +3,6 @@ title: "De urolige"
 subtitle:
 date: 2016-02-18T12:00:00.000Z
 translator:
-name: the-register-of-disquiet
 no_book:
   - de-urolige
 layout: book
