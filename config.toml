@@ -7,7 +7,7 @@ enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
 themesDir = "layout_modules"
-#theme = ["hugo-base-layouts"]
+theme = ["hugo-layout_module-defaults-hugo"]
 preserveTaxonomyNames = true
 
 [blackfriday]
@@ -78,4 +78,3 @@ priority = 0.5
 [social]
 
 [taxonomies]
-tag = "tags"

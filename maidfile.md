@@ -1,7 +1,5 @@
 ## build
 
-Run task `chmod`.
-
 Run tasks `hugo` and `webpack_watch` in parallel after this.
 
 
