@@ -1,0 +1,9 @@
+/* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
+
+
+@import "tailwindcss/components";
+
+/* Remove this. and add your styles here. You can import  */
+.bud {
+  color: green;
+}
