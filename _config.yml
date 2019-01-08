@@ -52,6 +52,7 @@ exclude:
   - gemfile
   - Gruntfile.js
   - notes.md
+  - vendor
 
 
 # dev options (true/false)
