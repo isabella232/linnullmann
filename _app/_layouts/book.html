@@ -77,7 +77,7 @@ section: book
   {% endif %}
   <div class="row">
     {% if show_link %}
-    <h3 id="reviews">{% if page.url contains '/en/' %}Praise for {% else %}Skrevet om {% endif %}<em>{{page.title}}</em></h3>
+    <h3 id="reviews">{% if page.url contains '/en/' %}Praise for {% else %}Skrevet om {% endif %}{% if page.url contains '/en/books/de-urolige/' %}the American edition of {% endif%}<em>{{page.title}}</em></h3>
     {% for object in review  %}
       {% assign quotes_featured = object.quotes | where: "featured", true | reverse  %}
       {% assign quotes = object.quotes | where_exp: "item", "item.featured != true"  | reverse  %}

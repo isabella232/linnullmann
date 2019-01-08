@@ -129,6 +129,61 @@ quotes:
     language:
       - english
     quote_markdown: "This is powerful stuff, but also simply brilliant… in terms of its genre, scale and content _De urolige_ is an exceptionally ambitious project and Ullmann composes, cuts and splices the whole thing together with consummate skill … It takes a truly gifted writer to succeed with a project such as this … the result is a brilliant novel. Ullmann’s language, her ability to make everything vibrate, to render even her father’s feet on his deathbed poetic, put her in a whole other league than most other contemporary Norwegian writers."
+  
+  - source: "LIT HUB, most anticipated books of 2019"
+    featured: false
+    language:
+      - english
+    quote_markdown: "Among Norway’s contemporary writers, Ullmann might be the finest sentence by sentence. Here she blasts her story into fragments and puts it back together, piece by piece, with the artistry of someone who has always secretly known the broken things are most beautiful."
+
+  - source: "KIRKUS, Starred Review"
+    featured: false
+    language:
+      - english
+    quote_markdown: "A brilliant meditation on time, mortality, and the limits of memory… Ullmann’s prose is elegant […] sharp, and occasionally funny. But the mood of this work as a whole is elegiac. ‘Can I,’ she asks, ‘mourn people who are still alive?’ Gorgeous and heartbreaking."
+
+
+  - source: "PUBLISHERS WEEKLY, Starred Review"
+    featured: false
+    language:
+      - english
+    quote_markdown: "spellbinding… Ullmann confronts the nature of growing old while subtly studying her own childhood and middle age through the lens of her father’s decline… this is a striking book about the enduring love between parents and children, and the fierce attachments that bind them even after death."
+
+  - source: "TIMES LITERARY SUPPLEMENT, Books of the Year 2018, Lydia Davis"
+    featured: false
+    language:
+      - english
+    quote_markdown: "[Unquiet] is written and translated with care, insight, a keen sensitivity to the value of every word, and a generous embrace of human strengths and weaknesses. I had the rare experience, as I read it, of at once admiring the way it was written and being engrossed in the story."
+
+  - source: "Lydia Davis, author of The End of the Story"
+    featured: false
+    language:
+      - english
+    quote_markdown: "Unquiet is a wonderfully absorbing and moving family story told with a directness, naturalness, and grace that can only result from Linn Ullmann’s close attention to the eloquent details of day-to-day life, her honest embrace of herself and the people close to her, and a keen sensitivity to language and the high demands of good writing."
+ 
+  - source: "Claire Messud, author of The Burning Girl"
+    featured: false
+    language:
+      - english
+    quote_markdown: "I’ve long admired Linn Ullmann’s fiction, and Unquiet is her masterpiece. Based on her upbringing as the child of two great artists, it is the portrait of complex loves; of a youth divided and inspired by diametrically opposed creative influences; and of the ravages of age. Calm yet fierce, exquisitely rendered, this novel imprints itself indelibly―as if you, too, had been there."
+
+  - source: "Siri Hustvedt, author of The Blazing World"
+    featured: false
+    language:
+      - english
+    quote_markdown: "Ullmann moves deftly between narrative selves over time―from the little girl’s raw bewilderments to the adult’s reflective meditations. Unquiet is a beautiful book about the emotion and the art of memory." 
+
+  - source: "Honor Moore, author of The Bishop’s Daughter"
+    featured: false
+    language:
+      - english
+    quote_markdown: "With singular imagination and generosity, Linn Ullmann breaks new ground in the art of memory, transporting us into the sources of magic in her life with her enchanting parents."
+  - source: "Lydia Davis, Times Literary Supplement"
+    featured: false
+    language:
+      - english
+    quote_markdown: "In its very form replicating the fitful progress of memory, it is written and translated (from the Norwegian, by author and translator) with care, insight, a keen sensitivity to the value of every word, and a generous embrace of human strengths and weaknesses. I had the rare experience, as I read it, of at once admiring the way it was written and being engrossed in the story."
+
 
 _slug: reviews-for-de-urolige
 ---
