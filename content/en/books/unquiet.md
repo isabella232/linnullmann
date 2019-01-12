@@ -3,17 +3,33 @@ title: "Unquiet"
 subtitle:
 date: 2016-02-18T12:00:00.000Z
 translator:
-no_book:
-  - de-urolige
+translationKey: unquiet
+# no_book:
+#   - de-urolige
 layout: book
-cat: Fiction
-isbn:
-isbn_digital:
-cover_image_path: /uploads/Unquiet.jpeg
-publisher:
+genre:  
+  - Fiction
+editions:
+- binding: hardcover
+  isbn: 9780393609943
+  date: 2019-01-15T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/Unquiet.jpeg"
+  publisher: "W.W. Norton"
+- binding: ebook
+  isbn: 9780393609950
+  date: 
+  description: ''
+  cover_image: ""
+  publisher: 
+
+# isbn:
+# isbn_digital:
+# cover_image_path: /uploads/Unquiet.jpeg
+# publisher:
 # covers:
 # - cover_image_path:
-redirect_from: /en/books/2016/02/18/de-urolige/
+#redirect_from: /en/books/2016/02/18/de-urolige/
 aliases:
  - /en/de-urolige/
 --- 

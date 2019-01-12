@@ -2,19 +2,28 @@
 title: "Profession: Director. Arne Skouen and his films"
 subtitle: Norwegian Film Institute Publications Series No. 8
 date: 1998-01-01T12:00:00.000Z
-no_book:
-  - skouen
-cat: Non-fiction
-isbn:
-isbn_digital:
-cover_image_path: /uploads/skouen-skouen-L.jpg
-publisher:  Knopf Doubleday
+translationKey: skouen-skouen
+# no_book:
+#   - skouen
+genre:  
+  - Non-fiction
+editions:
+  - binding: hardcover
+    isbn: 
+    date: 1998-01-01T12:00:00.000Z
+    description: ''
+    cover_image: "/uploads/skouen-skouen-L.jpg"
+    publisher: Knopf Doubleday
+# isbn:
+# isbn_digital:
+# cover_image_path: /uploads/skouen-skouen-L.jpg
+# publisher:  Knopf Doubleday
 published_countries:
 - Norwegian
 - English
 - French
 - German
-redirect_from: /en/books/1998/01/01/skouen-skouen/
+# redirect_from: /en/books/1998/01/01/skouen-skouen/
 ---
 Arne Skouen is a name that evokes associations. Since the 1930s he has worked as a journalist, author, dramatist, columnist, and of course film director. Starting in 1949 and for the next two decades he directed and wrote the screenplays for seventeen full-length films, many of which had a major influence on Norwegian film. His films include Street Kids, Fire in the Night!, Nine Lives, Cold Tracks, About Tilla, and An-Magritt. In 1991 Nine Lives was proclaimed the best Norwegian film, and it is one of the few films from Norway to be nominated for an Oscar.
 

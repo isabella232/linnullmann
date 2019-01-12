@@ -2,14 +2,29 @@
 title: Nåde
 subtitle:
 date: 2002-12-18T12:00:00.000Z
-related_books:
-  - grace
+translationKey: grace
+# en_book:
+#   - grace
 language: 'no'
-cat: Skjønnlitteratur
-isbn: 9781400078028
-isbn_digital: 9780307415349
-cover_image_path: /uploads/2015-ullmann-nade-pcktserie-500px.jpg
-publisher: Knopf Doubleday
+genre:  
+  - Skjønnlitteratur
+editions:
+- binding: hardcover
+  isbn: 9781400078028
+  date: 2002-12-18T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/2015-ullmann-nade-pcktserie-500px.jpg"
+  publisher: Knopf Doubleday
+- binding: ebook
+  isbn: 9780307415349
+  date: 2002-12-18T12:00:00.000Z
+  description: ''
+  cover_image: ""
+  publisher: 
+# isbn: 9781400078028
+# isbn_digital: 9780307415349
+# cover_image_path: /uploads/2015-ullmann-nade-pcktserie-500px.jpg
+# publisher: Knopf Doubleday
 covers:
   - cover_image_path: /uploads/grace-us-hb-L.jpg
   - cover_image_path: /uploads/grace-uk-hb-L.jpg
@@ -38,7 +53,7 @@ published_countries:
   - Ungarn
   - USA
 meta: 'Foreign rights/salg til utlandet: The Wylie Agency'
-redirect_from: /boker/2002/12/18/nade/
+#redirect_from: /boker/2002/12/18/nade/
 ---
 
 Da Johan Sletten blir alvorlig syk, inngår han en avtale med sin kone Mai. Den dagen livet oppleves som uverdig eller uutholdelig, den dagen han blir en byrde for henne og sine omgivelser skal hun bistå ham med en siste handling. Uforvarende krysser ekteparet grensen til landskap de ikke kjenner; der tvilen styrer, språket forvitrer og kjærligheten er utrygg. *Nåde* er en skarp, dristig og inntrengende roman preget av svart humor, en studie i det alvorligste av alt, om sannhet og løgn, om troskap og de små umerkelige svik.

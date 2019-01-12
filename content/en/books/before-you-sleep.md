@@ -2,12 +2,22 @@
 title: "Before You Sleep"
 subtitle:
 date: 2001-04-15T12:00:00.000Z
-no_book:
-  - for-du-sovner
-cat: Fiction
-isbn: 9780140298338
-cover_image_path: /uploads/before-you-sleep-uk-hb-L.jpg
-publisher: Penguin Group
+translationKey: before-you-sleep
+# no_book:
+#   - for-du-sovner
+genre: 
+  - Fiction
+editions:
+- binding: hardcover
+  isbn: 9780140298338
+  date: 2001-04-15T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/before-you-sleep-uk-hb-L.jpg"
+  publisher: Penguin Group
+
+# isbn: 9780140298338
+# cover_image_path: /uploads/before-you-sleep-uk-hb-L.jpg
+# publisher: Penguin Group
 published_countries:
 - Albania
 - Brazil
@@ -75,7 +85,7 @@ covers:
 - cover_image_path: /uploads/before-you-sleep-sweden-pb-b-L.jpg  
 - cover_image_path: /uploads/before-you-sleep-turkey-pb-L.jpg  
 - cover_image_path: /uploads/before-you-sleep-ukraina-pb-L.jpg  
-redirect_from: /en/books/2001/04/15/before-you-sleep/
+#redirect_from: /en/books/2001/04/15/before-you-sleep/
 ---
 Through the sublimely unreliable voice of its narrator Karin, *Before You Sleep* reaches back from present-day Oslo to Brooklyn in the 1930s to relate the emotional legacies of the Blom family. Karin is both playful and melancholy - a serial seductress who defines herself in contrast to the women in her life: her mother, Anni, alluring, manipulative, and melodramatic; her sister Julie, a wife and mother undone by suspicions of her husband's infidelity; her aunt Selma, the world's angriest old woman; and her soldier-grandmother June who bets that Karin will be the best damn soldier of them all. Inventive and wise, funny and disquieting, "Before You Sleep" marked the arrival of a gifted new literary voice.
 

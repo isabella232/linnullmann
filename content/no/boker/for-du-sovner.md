@@ -2,12 +2,20 @@
 title: Før du sovner
 subtitle:
 date: 1998-04-15T12:00:00.000Z
-related_books:
-  - before-you-sleep
-cat: Skjønnlitteratur
-isbn: 9780140298338
-cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
-publisher: Penguin Group
+translationKey: before-you-sleep
+genre:  
+  - Skjønnlitteratur
+editions:
+- binding: hardcover
+  isbn: 9780140298338
+  date: 1998-04-15T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg"
+  publisher: Penguin Group
+
+# isbn: 9780140298338
+# cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
+# publisher: Penguin Group
 published_countries:
   - Albania
   - Brazil
@@ -75,7 +83,7 @@ covers:
   - cover_image_path: /uploads/before-you-sleep-sweden-pb-b-L.jpg
   - cover_image_path: /uploads/before-you-sleep-turkey-pb-L.jpg
   - cover_image_path: /uploads/before-you-sleep-ukraina-pb-L.jpg
-redirect_from: /boker/1998/04/15/for-du-sovner/
+#redirect_from: /boker/1998/04/15/for-du-sovner/
 ---
 
 *Før du sovner* er den unge Karin Bloms fortelling om seg selv og sin store, merkelige familie. I Karins verden glir fantasi og virkelighet nesten umerkelig over i hverandre. Hun forteller, forstyrrer, gjøgler og forfører – mens alle omkring henne beveger seg ubønnhørlig mot ensomheten.

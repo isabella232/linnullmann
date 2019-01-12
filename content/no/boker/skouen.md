@@ -2,14 +2,23 @@
 title: "Yrke: Regissør. Om Arne Skouen og hans filmer"
 subtitle: "Norsk filminstitutts skriftserie 8"
 date: 1998-03-31T12:00:00.000Z
-related_books:
-  - skouen-skouen
-cat: Sakprosa
-isbn:
-isbn_digital:
-cover_image_path: /uploads/skouen-skouen-M.jpg
-publisher:  Knopf Doubleday
-redirect_from: /boker/1998/03/31/skouen/
+translationKey: skouen-skouen
+# en_book:
+#   - skouen-skouen
+genre:  
+  - Sakprosa
+editions:
+- binding: hardcover
+  isbn: 
+  date: 1998-03-31T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/skouen-skouen-M.jpg"
+  publisher: Knopf Doubleday
+# isbn:
+# isbn_digital:
+# cover_image_path: /uploads/skouen-skouen-M.jpg
+# publisher:  Knopf Doubleday
+# redirect_from: /boker/1998/03/31/skouen/
 ---
 Arne Skouen er et navn som vekker assosiasjoner. Siden 1930-tallet har han virket som journalist, forfatter, dramatiker, spaltist, og ikke minst filmregissør. Fra 1949 og i de tyve årene som fulgte, regisserte han og skrev manuskript til sytten spillefilmer, og mange av disse har satt solide spor etter seg i den norske filmens historie. Blant disse filmene er *Gategutter, Det brenner i natt!, Ni liv, Kalde spor, Om Tilla* og *An-Magritt*. *Ni liv *ble kåret til tidenes beste norske film i 1991, og den er en av de få norske filmene som har blitt nominert til Oscar.
 

@@ -2,15 +2,22 @@
 title: 'Et velsignet barn, roman'
 subtitle:
 date: 2005-08-11T12:00:00.000Z
-related_books:
-  - blessed-child
+translationKey: blessed-child
 language: 'no'
-cat: Skjønnlitteratur
-isbn: 9780307277817
-isbn_digital: ''
-cover_image_path: /uploads/2015-ullmann-et-velsignet-barn-pcktserie-500px.jpg
+genre:  
+  - Skjønnlitteratur
+editions:
+  - binding: hardcover
+    isbn: 9780307277817
+    date: 2005-08-11T12:00:00.000Z
+    description: ''
+    cover_image: ""
+    publisher: Knopf Doubleday
+# isbn: 9780307277817
+# isbn_digital: ''
+# cover_image_path: /uploads/2015-ullmann-et-velsignet-barn-pcktserie-500px.jpg
 publisher: Knopf Doubleday
-redirect_from: /boker/2005/08/11/et-velsignet-barn/
+#redirect_from: /boker/2005/08/11/et-velsignet-barn/
 ---
 
 Sommeren 1979 skjer det noe forferdelig på den vakre og værbitte øya Hammarsö i Østersjøen. Hvert år har halvsøstrene Erika, Laura og Molly tilbrakt sommeren her hos sin temperamentsfulle far, Isak Lövenstad. De tre unge jentene inngår skiftende og uforutsigbare allianser med andre sommergjester, blant annet med Ragnar, gutten som alltid løper og som på merkelig vis trekkes mot Isak.

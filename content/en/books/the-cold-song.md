@@ -2,14 +2,30 @@
 title: "The Cold Song"
 subtitle:
 date: 2014-04-01T12:00:00.000Z
-no_book:
-  - det-dyrebare
-cat: Fiction
+translationKey: the-cold-song
+# no_book:
+#   - det-dyrebare
+genre: 
+  - Fiction
 translator: "Barbara Haveland"
-isbn: 9781590516676
-isbn_digital: 9781590516683
-cover_image_path: /uploads/the-cold-song-M.jpg
-publisher: Other Press
+editions:
+  - binding: hardcover
+    isbn: 9781590516676
+    date: 2014-04-01T12:00:00.000Z
+    description: ''
+    cover_image: "/uploads/the-cold-song-M.jpg"
+    publisher: Other Press
+  - binding: ebook
+    isbn: 9781590516683
+    date: 2014-04-01T12:00:00.000Z
+    description: ''
+    cover_image:
+    publisher: Other Press
+
+#isbn: 9781590516676
+#isbn_digital: 9781590516683
+#cover_image_path: /uploads/the-cold-song-M.jpg
+#publisher: Other Press
 published_countries:
  - Norway
  - Denmark
@@ -20,9 +36,9 @@ published_countries:
  - Italy
  - The Netherlands
 
-rights_markdown: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
+rights: "Denmark (Lindhardt og Ringhof), Finland (WSOY), Sweden (Bonniers), France (Actes Sud), Spain (Galaxia Gutenberg), Netherlands (De Bezige Bij Antwerpen), Hungary (Scolar Kiadó), Germany (Luchterhand), Italy (Guanda), Estonia (Eesti Raamat), USA (Other Press), Lithuania (Gimtasis Zodis), Romania (Editura All)"
 
-world_rights_markdown: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
+world_rights: "World Rights: [The Wylie Agency](http://www.wylieagency.com/)"
 covers:
 - cover_image_path: /uploads/the-cold-song-italian-L.jpg
 - cover_image_path: /uploads/det-dyrebare-no-pb-L.jpg
@@ -31,7 +47,7 @@ covers:
 - cover_image_path: /uploads/det-dyrebare-fi-hb-L.jpg
 - cover_image_path: /uploads/det-dyrebare-hu-hb-L.jpg
 - cover_image_path: /uploads/det-dyrebare-de-hb-L.jpg
-redirect_from: /en/books/2014/04/01/the-cold-song/
+#redirect_from: /en/books/2014/04/01/the-cold-song/
 ---
 
 ***The Cold Song* has been chosen by independent booksellers as an Indie Next Pick**

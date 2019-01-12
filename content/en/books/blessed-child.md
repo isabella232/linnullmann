@@ -2,13 +2,23 @@
 title: "A Blessed Child"
 subtitle:
 date: 2009-08-11T12:00:00.000Z
-no_book:
-  - et-velsignet-barn
-cat: Fiction
-isbn: 9780307277817
-isbn_digital:
-cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
-publisher: "Knopf Doubleday"
+translationKey: blessed-child
+# no_book:
+#   - et-velsignet-barn
+genre:
+  - Fiction
+editions:
+- binding: hardcover
+  isbn: 9780307277817
+  date: 2009-08-11T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/a-blessed-child-us-pb-L.jpg"
+  publisher: Knopf Doubleday
+
+# isbn: 9780307277817
+#isbn_digital:
+#cover_image_path: /uploads/a-blessed-child-us-pb-L.jpg
+#publisher: "Knopf Doubleday"
 published_countries:
 - Brazil
 - Denmark

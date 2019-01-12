@@ -2,13 +2,22 @@
 title: Når jeg er hos deg
 subtitle:
 date: 2001-03-31T12:00:00.000Z
-related_books:
-  - stella-descending
-cat: Skjønnlitteratur
-isbn: ''
-isbn_digital: ''
-cover_image_path: /uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg
-publisher: Knopf Doubleday
+translationKey: stella-descending
+# en_book:
+#   - stella-descending
+genre:  
+  - Skjønnlitteratur
+# isbn: ''
+# isbn_digital: ''
+# cover_image_path: /uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg
+# publisher: Knopf Doubleday
+editions:
+- binding: hardcover
+  isbn: 
+  date: 
+  description: 
+  cover_image: "/uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg"
+  publisher: Knopf Doubleday
 covers:
   - cover_image_path: /uploads/stella-descending-us-hb-L.jpg
   - cover_image_path: /uploads/stella-descending-no-hb-L.jpg
@@ -21,7 +30,7 @@ covers:
   - cover_image_path: /uploads/stella-descending-stella-and-grace-russia-hb-L.jpg
   - cover_image_path: /uploads/stella-descending-italy-hb-L.jpg
   - cover_image_path: /uploads/stella-descending-armenia-pb-L.jpg
-redirect_from: /boker/2001/03/31/nar-jeg-er-hos-deg/
+# redirect_from: /boker/2001/03/31/nar-jeg-er-hos-deg/
 ---
 
 Stella faller fra taket av en bygård på Frogner Plass i Oslo. Snublet hun, ble hun dyttet eller tok hun spranget selv? Når jeg er hos deg er en humoristisk og mørk roman, en skimrende studie i hengivelse, kjærlighet, høydeskrekk og svimlende ensomhet.

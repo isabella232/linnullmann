@@ -2,13 +2,23 @@
 title: 'Det dyrebare, roman'
 subtitle:
 date: 2011-03-15T12:00:00.000Z
-related_books:
-  - the-cold-song
-cat: Skjønnlitteratur
-isbn: ''
-isbn_digital: ''
-cover_image_path: /uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg
-publisher: Knopf Doubleday
+translationKey: the-cold-song
+# en_book:
+#   - the-cold-song
+genre:  
+  - Skjønnlitteratur
+
+editions:
+  - binding: hardcover
+    isbn: 
+    date: 2011-03-15T12:00:00.000Z
+    description: ''
+    cover_image: "/uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg"
+    publisher: "Knopf Doubleday"
+# isbn: ''
+# isbn_digital: ''
+#cover_image_path: /uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg
+#publisher: Knopf Doubleday
 published_countries:
   - Norway
   - Denmark
@@ -28,7 +38,7 @@ covers:
   - cover_image_path: /uploads/det-dyrebare-fi-hb-L.jpg
   - cover_image_path: /uploads/det-dyrebare-hu-hb-L.jpg
   - cover_image_path: /uploads/det-dyrebare-de-hb-L.jpg
-redirect_from: /boker/2014/04/01/det-dyrebare/
+#redirect_from: /boker/2014/04/01/det-dyrebare/
 ---
 
 Jon Dreyers liv er i ferd med å rakne. Det store litterære prosjektet hans skulle vært fullført for flere år siden. Han kjemper med skrivesperre og er stadig utro. Alt begynte da nitten år gamle Mille forsvant uten et spor, for så å bli funnet død to år seinere. Jons kone, Siri Dreyer-Brodal, er en dreven kokk og restaurant­innehaver som har sine egne stridigheter å overkomme. Ikke bare er hun gift med en troløs mann, men hvordan skal hun forholde seg til den sterke og utrøstelige moren, Jenny Brodal, som begynner å drikke igjen etter å ha vært tørrlagt i tjue år, akkurat i tide til den lenge planlagte 75-årsfeiringen? Og verken Jon eller Siri aner hvordan de skal håndtere den uforutsigbare og uregjerlige datteren Alma.
