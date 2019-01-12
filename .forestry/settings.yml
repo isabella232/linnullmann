@@ -7,29 +7,63 @@ sections:
 - type: heading
   label: EN
 - type: directory
-  path: content/events
+  path: content/en/events
   label: Events
   create: documents
   match: "**/*"
   templates:
   - event
+- type: directory
+  path: content/en/news
+  label: News
+  create: documents
+  match: "**/*"
+  templates:
+  - news
+- type: directory
+  path: content/en/books
+  label: Books
+  create: documents
+  match: "**/*"
+  templates:
+  - book
+- type: directory
+  path: content/en/reviews
+  label: Reviews
+  create: documents
+  match: "**/*"
+  templates:
+  - review    
 - type: heading
   label: 'NO'
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-  templates:
-  - default
-  - home
-- type: directory
-  path: content/about
-  label: About
-  create: all
+  path: content/no/events
+  label: Events (NO)
+  create: documents
   match: "**/*"
   templates:
-  - default
+  - event
+- type: directory
+  path: content/no/nyheter
+  label: News (nyheter)
+  create: documents
+  match: "**/*"
+  templates:
+  - news
+- type: directory
+  path: content/no/boker
+  label: Books (Boker)
+  create: documents
+  match: "**/*"
+  templates:
+  - book
+- type: directory
+  path: content/no/anmeldelser
+  label: Reviews (anmeldelser)
+  create: documents
+  match: "**/*"
+  templates:
+  - review    
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
