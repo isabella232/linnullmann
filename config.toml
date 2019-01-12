@@ -1,15 +1,29 @@
 title = "Hugo Starter"
-DefaultContentLanguage = "en"
 MetaDataFormat = "yaml"
 buildFuture = true
-baseURL = "https://www.thenewdynamic.com"
+baseURL = "https://www.linnullmann.no"
 enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
-themesDir = "layout_modules"
+themesDir = "components"
 theme = ["hugo-layout_module-base-2019"]
 preserveTaxonomyNames = true
 disableAliases = true
+
+
+DefaultContentLanguage = "no"
+[languages]
+  [languages.no]
+    baseURL = "https://www.linnullmann.no"
+    languageName = "Nynorsk"
+    weight = 1
+  [languages.en]
+    baseURL = "https://www.linnullmann.com/en"
+    languageName = "English"
+    weight = 2
+  
+
+
 [blackfriday]
 extensionsmask = [
 "noIntraEmphasis"

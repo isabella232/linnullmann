@@ -12,7 +12,7 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
 
 /* purgecss start ignore */
 
-@import "modules/_pagination.css"; 
+/* @import "modules/_pagination.css";  */
 
 .bud {
   color: green;
