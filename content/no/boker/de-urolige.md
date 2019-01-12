@@ -7,12 +7,12 @@ translationKey: unquiet
 # en_book:
 #   - unquiet
 editions:
-  - binding: hardcover
-    isbn: 
-    date: 2015-11-17T12:00:00.000Z
-    description: ''
-    cover_image: "/uploads/2015-ullmann-de-urolige-500px.jpg"
-    publisher: 
+- binding: hardcover
+  isbn: 
+  date: 2015-11-17T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/2015-ullmann-de-urolige-500px.jpg"
+  publisher: 
 #redirect_from: /boker/2015/11/17/de-urolige/
 ---
 &Aring; se, &aring; huske, &aring; begripe. Alt kommer an p&aring; hvor du st&aring;r. F&oslash;rste gang hun kom til Hammars, var hun knapt ett &aring;r gammel og visste ingenting om den store og omveltende kj&aelig;rligheten som hadde brakt henne dit.

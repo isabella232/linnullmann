@@ -7,12 +7,12 @@ language: 'no'
 genre:  
   - Skjønnlitteratur
 editions:
-  - binding: hardcover
-    isbn: 9780307277817
-    date: 2005-08-11T12:00:00.000Z
-    description: ''
-    cover_image: ""
-    publisher: Knopf Doubleday
+- binding: hardcover
+  isbn: 9780307277817
+  date: 2005-08-11T12:00:00.000Z
+  description: ''
+  cover_image: ""
+  publisher: Knopf Doubleday
 # isbn: 9780307277817
 # isbn_digital: ''
 # cover_image_path: /uploads/2015-ullmann-et-velsignet-barn-pcktserie-500px.jpg

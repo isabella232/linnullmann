@@ -7,20 +7,20 @@ translationKey: grace
 #   - nade
 genre: 
   - Fiction
+
 editions:
 - binding: hardcover
-  isbn: 9781400078028
-  date: 2007-12-18T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/grace-us-hb-L.jpg"
-  publisher: Knopf Doubleday
+  isbn: 9781400078028
+  date: 2007-12-18T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/grace-us-hb-L.jpg"
+  publisher: Knopf Doubleday
 - binding: ebook
-  isbn: 9780307415349
-  date: 2007-12-18T12:00:00.000Z
-  description: 
-  cover_image:
-  publisher: 
-
+  isbn: 9780307415349
+  date: 2007-12-18T12:00:00.000Z
+  description: ''
+  cover_image: 
+  publisher: 
 
 #isbn: 9781400078028
 #isbn_digital: 9780307415349

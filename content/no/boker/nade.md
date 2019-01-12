@@ -10,17 +10,18 @@ genre:
   - Skjønnlitteratur
 editions:
 - binding: hardcover
-  isbn: 9781400078028
-  date: 2002-12-18T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/2015-ullmann-nade-pcktserie-500px.jpg"
-  publisher: Knopf Doubleday
+  isbn: 9781400078028
+  date: 2002-12-18T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/2015-ullmann-nade-pcktserie-500px.jpg"
+  publisher: Knopf Doubleday
 - binding: ebook
-  isbn: 9780307415349
-  date: 2002-12-18T12:00:00.000Z
-  description: ''
-  cover_image: ""
-  publisher: 
+  isbn: 9780307415349
+  date: 2002-12-18T12:00:00.000Z
+  description: ''
+  cover_image: 
+  publisher: 
+
 # isbn: 9781400078028
 # isbn_digital: 9780307415349
 # cover_image_path: /uploads/2015-ullmann-nade-pcktserie-500px.jpg

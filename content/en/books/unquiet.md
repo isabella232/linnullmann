@@ -11,17 +11,17 @@ genre:
   - Fiction
 editions:
 - binding: hardcover
-  isbn: 9780393609943
-  date: 2019-01-15T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/Unquiet.jpeg"
-  publisher: "W.W. Norton"
+  isbn: 9780393609943
+  date: 2019-01-15T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/Unquiet.jpeg"
+  publisher: "W.W. Norton"
 - binding: ebook
-  isbn: 9780393609950
-  date: 
-  description: ''
-  cover_image: ""
-  publisher: 
+  isbn: 9780393609950
+  date: 2019-01-15T12:00:00.000Z
+  description: ''
+  cover_image: 
+  publisher: 
 
 # isbn:
 # isbn_digital:

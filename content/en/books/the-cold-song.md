@@ -8,19 +8,20 @@ translationKey: the-cold-song
 genre: 
   - Fiction
 translator: "Barbara Haveland"
+
 editions:
-  - binding: hardcover
-    isbn: 9781590516676
-    date: 2014-04-01T12:00:00.000Z
-    description: ''
-    cover_image: "/uploads/the-cold-song-M.jpg"
-    publisher: Other Press
-  - binding: ebook
-    isbn: 9781590516683
-    date: 2014-04-01T12:00:00.000Z
-    description: ''
-    cover_image:
-    publisher: Other Press
+- binding: hardcover
+  isbn: 9781590516676
+  date: 2014-04-01T12:00:00.000Z
+  description: 
+  cover_image: "/uploads/the-cold-song-M.jpg"
+  publisher: Other Press
+- binding: ebook
+  isbn: 9781590516683
+  date: 22014-04-01T12:00:00.000Z
+  description:
+  cover_image: 
+  publisher: 
 
 #isbn: 9781590516676
 #isbn_digital: 9781590516683
