@@ -38,7 +38,7 @@ sections:
   label: 'NO'
 - type: directory
   path: content/no/events
-  label: Events (NO)
+  label: Events
   create: documents
   match: "**/*"
   templates:
