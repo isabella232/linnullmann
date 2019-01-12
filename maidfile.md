@@ -5,7 +5,7 @@ Run tasks `hugo` and `webpack_watch` in parallel after this.
 
 ## deploy
 
-Run task `chmod`, `webpack`, and then run `hugo`.
+Run task `webpack`, and then run `hugo`.
 
 ## os
 ```js
