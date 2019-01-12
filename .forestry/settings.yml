@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: EN
+- type: document
+  path: content/en/_index.md
+  label: Home
+  match: "**/*"
 - type: directory
   path: content/en/events
   label: Events
