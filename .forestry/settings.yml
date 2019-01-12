@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: heading
+  label: EN
 - type: directory
   path: content/events
   label: Events
@@ -11,6 +13,8 @@ sections:
   match: "**/*"
   templates:
   - event
+- type: heading
+  label: 'NO'
 - type: directory
   path: content
   label: Pages
