@@ -45,7 +45,7 @@ sections:
   - event
 - type: directory
   path: content/no/nyheter
-  label: News (nyheter)
+  label: Nyheter (News)
   create: documents
   match: "**/*"
   templates:
@@ -59,7 +59,7 @@ sections:
   - book
 - type: directory
   path: content/no/anmeldelser
-  label: Reviews (anmeldelser)
+  label: Anmeldelser (Reviews)
   create: documents
   match: "**/*"
   templates:
