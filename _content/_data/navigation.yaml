@@ -1,0 +1,23 @@
+-
+ name: Om forfatteren
+ slug: om-forfatteren
+ name-en: About
+ slug-en: about
+
+-
+ name: Kontakt
+ slug: kontakt
+ name-en: Contact
+ slug-en: contact
+
+-
+ name: Bøker
+ slug: boker
+ name-en: Books
+ slug-en: books
+
+-
+ name: "Nyheter og Hendelser"
+ slug: nyheter
+ name-en: "News & Events"
+ slug-en: news
