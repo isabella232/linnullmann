@@ -1,9 +1,21 @@
-/* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
+
+/*
+Uncomment to use Tailwind Utility Class CSS
+ @import "tailwind/tailwind.css"; 
+ */
 
 
-@import "tailwindcss/components";
+/* Add your styles here. You can import  */
 
-/* Remove this. and add your styles here. You can import  */
+/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS WILL NOT BE IGNORED
+https://www.purgecss.com/whitelisting#in-the-css-directly */
+
+/* purgecss start ignore */
+
+@import "modules/_pagination.css"; 
+
 .bud {
   color: green;
 }
+
+/* purgecss end ignore */
