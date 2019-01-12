@@ -1,3 +1,3 @@
 ---
-title: Home page NO
+title: Hjem
 ---
