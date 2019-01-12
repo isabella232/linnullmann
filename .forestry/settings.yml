@@ -33,7 +33,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - review    
+  - review
 - type: heading
   label: 'NO'
 - type: directory
@@ -63,7 +63,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - review    
+  - review
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''

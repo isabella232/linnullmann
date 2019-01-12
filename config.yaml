@@ -1,45 +1,45 @@
+---
 title: Hugo Starter
 MetaDataFormat: yaml
 buildFuture: true
-baseURL: 'https://www.linnullmann.no'
+baseURL: https://www.linnullmann.no
 enableRobotsTXT: true
 googleAnalytics: ''
 themesDir: components
 theme:
-  - hugo-layout_module-base-2019
+- hugo-layout_module-base-2019
 preserveTaxonomyNames: true
 disableAliases: true
 defaultContentLanguage: 'no'
-# defaultContentLanguageInSubdir: true
 languages:
-  'no':    
-    contentDir: "content/no"
+  'no':
+    contentDir: content/no
     languageName: Nynorsk
     languageCode: no-nns
     weight: 1
-  en:    
-    contentDir: "content/en"
+  en:
+    contentDir: content/en
     languageName: English
     languageCode: en-us
     weight: 2
 blackfriday:
   extensionsmask:
-    - noIntraEmphasis
+  - noIntraEmphasis
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 60
+  - identifier: about
+    name: About
+    url: "/about/"
+    weight: 2
+  - identifier: home
+    name: Hjem
+    url: "/"
+    weight: 1
 mediaTypes:
   text/netlify:
     delimiter: ''
     suffixes:
-      - ''
+    - ''
 outputFormats:
   HEADERS:
     baseName: _headers
@@ -53,9 +53,9 @@ outputFormats:
     notAlternative: true
 outputs:
   home:
-    - HTML
-    - HEADERS
-    - REDIR
+  - HTML
+  - HEADERS
+  - REDIR
 params:
   description: Build Faster Better Websites with modern tools and techniques
   logo: ''
@@ -65,5 +65,3 @@ sitemap:
   priority: 0.5
 taxonomies:
   category: categories
-
-
