@@ -15,10 +15,12 @@ DefaultContentLanguage = "no"
 [languages]
   [languages.no]
     baseURL = "https://www.linnullmann.no"
+    contentDir = "content/no"
     languageName = "Nynorsk"
     weight = 1
   [languages.en]
     baseURL = "https://www.linnullmann.com/en"
+    contentDir = "content/en"
     languageName = "English"
     weight = 2
   
