@@ -4,6 +4,6 @@ featured: false
 category:
 date:
 language:
-en_book:
+related_books:
 no_book:
 ---

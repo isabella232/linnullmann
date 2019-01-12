@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Før du sovner"
-en_book:
+related_books:
 no_book:
   - for-du-sovner
 quotes:

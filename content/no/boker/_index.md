@@ -1,0 +1,4 @@
+---
+title: Bøker
+translationKey: books
+---

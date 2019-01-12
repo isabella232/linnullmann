@@ -1,6 +1,6 @@
 ---
 title: "Reviews for De Urolige, no"
-en_book:
+related_books:
 no_book:
   - de-urolige
 quotes:

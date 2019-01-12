@@ -1,10 +1,10 @@
 ---
 title: "The Herald"
-category: News
+categories: ["News"]
 date: 2006-01-27T12:00:00.000Z
 language:
 featured: false
-en_book:
+related_books:
   - grace
 no_book:
   - nade

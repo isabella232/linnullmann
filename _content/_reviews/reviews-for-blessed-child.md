@@ -1,6 +1,6 @@
 ---
 title: "Reviews for A Blessed Child"
-en_book:
+related_books:
   - blessed-child
 no_book:
 quotes:

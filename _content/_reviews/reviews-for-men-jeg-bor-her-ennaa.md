@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Men jeg bor her ennå: norsk samtid i prosa (ed)"
-en_book:
+related_books:
 no_book:
   - men-jeg-bor-her-ennaa
 quotes:

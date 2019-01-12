@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Nåde"
-en_book:
+related_books:
 no_book:
   - nade
 quotes:

@@ -1,6 +1,6 @@
 ---
 title: "Reviews for The Cold Song"
-en_book:
+related_books:
   - the-cold-song
 no_book:
 quotes:

@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Grace"
-en_book:
+related_books:
   - grace
 no_book:
 quotes:

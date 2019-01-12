@@ -2,7 +2,7 @@
 title:
 subtitle:
 date:
-en_book:
+related_books:
 translator:
 isbn:
 isbn_digital:

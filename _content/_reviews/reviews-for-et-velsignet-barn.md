@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Et velsignet barn, roman"
-en_book:
+related_books:
 no_book:
   - et-velsignet-barn
 quotes:

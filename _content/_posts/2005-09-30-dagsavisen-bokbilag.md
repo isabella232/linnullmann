@@ -1,10 +1,10 @@
 ---
 title: "Dagsavisen bokbilag"
-category: News
+categories: ["News"]
 date: 2005-09-30T12:00:00.000Z
 language:
 featured: false
-en_book:
+related_books:
   - a-blessed-child
 no_book:
   - et-velsignet-barn

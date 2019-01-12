@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Stella Descending"
-en_book:
+related_books:
   - stella-descending
 no_book:
 quotes:

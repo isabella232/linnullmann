@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Det dyrebare, roman"
-en_book:
+related_books:
 no_book:
   - det-dyrebare
 quotes:

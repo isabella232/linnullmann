@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Når jeg er hos deg"
-en_book:
+related_books:
 no_book:
   - nar-jeg-er-hos-deg
 quotes:

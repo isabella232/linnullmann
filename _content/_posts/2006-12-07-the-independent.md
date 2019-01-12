@@ -1,12 +1,12 @@
 ---
 title: "The Independent"
-category: News
+categories: ["News"]
 date: 2006-12-07T12:00:00.000Z
 link_to_original: ''
 language:
   - english
 featured: false
-en_book:
+related_books:
   - grace
 no_book:
   - nade

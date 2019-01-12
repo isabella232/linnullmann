@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Profession: Director. Arne Skouen and his films"
-en_book:
+related_books:
   - skouen-skouen
 no_book:
 quotes:

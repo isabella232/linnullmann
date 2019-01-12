@@ -1,10 +1,10 @@
 ---
 title: "Dagbladet"
-category: News
+categories: ["News"]
 date: 1998-11-20
 language:
 featured: false
-en_book:
+related_books:
   - before-you-sleep
 no_book:
   - for-du-sovner

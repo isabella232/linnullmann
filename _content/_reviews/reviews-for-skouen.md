@@ -1,6 +1,6 @@
 ---
 title: "Reviews for Yrke: Regissør. Om Arne Skouen og hans filmer"
-en_book:
+related_books:
 no_book:
   - skouen
 quotes:
