@@ -52,7 +52,7 @@ sections:
   - news
 - type: directory
   path: content/no/boker
-  label: Books (Boker)
+  label: Boker (Books)
   create: documents
   match: "**/*"
   templates:
