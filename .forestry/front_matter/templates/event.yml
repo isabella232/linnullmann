@@ -1,5 +1,7 @@
 ---
+label: event
 hide_body: false
+is_partial: false
 fields:
 - type: include
   name: defaults
@@ -17,7 +19,7 @@ fields:
 - type: include
   name: image
   label: image
-  template: partial-images-w-credit 
+  template: partial-images-w-credit
 - type: include
   name: venue
   label: venue
