@@ -7,9 +7,9 @@ enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
 themesDir = "layout_modules"
-theme = ["hugo-layout_module-defaults-hugo"]
+theme = ["hugo-layout_module-base-2019"]
 preserveTaxonomyNames = true
-
+disableAliases = true
 [blackfriday]
 extensionsmask = [
 "noIntraEmphasis"
