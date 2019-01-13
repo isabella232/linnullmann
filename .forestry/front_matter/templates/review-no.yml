@@ -14,10 +14,6 @@ fields:
   hidden: false
   default: ''
   description: Put an asterisk around any word to *italicize* it
-- type: datetime
-  name: date
-  label: Date
-  default: ''
 - type: select
   name: book
   config:
@@ -25,6 +21,10 @@ fields:
       type: pages
       section: books-boker
   label: Book
+  default: ''
+- type: datetime
+  name: date
+  label: Date
   default: ''
 - type: text
   name: link_to_original
