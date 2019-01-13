@@ -18,7 +18,7 @@ fields:
   label: Show time
   type: boolean
   hidden: false
-  default: true
+  default: false
 - type: include
   name: image
   label: image
@@ -31,3 +31,4 @@ fields:
   hidden: true
 pages:
 - content/en/events/mcnally-jackson-unquiet-linn-ullmann-williamsburg.md
+- content/en/events/bay-area-book-festival.md
