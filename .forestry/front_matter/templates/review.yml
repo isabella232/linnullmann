@@ -46,6 +46,7 @@ fields:
   label: weight
   template: partial-weight
 pages:
+- content/en/reviews/booklist-usa-on-grace.md
 - content/en/reviews/natalie-moore-time-out-review-on-grace.md
 - content/en/reviews/the-news-agency-dpa-germany-on-grace.md
 - content/en/reviews/der-spiegel-germany-on-grace.md
@@ -64,6 +65,7 @@ pages:
 - content/en/reviews/frankfurter-allgemeine-zeitung-germany-on-grace.md
 - content/en/reviews/the-independent.md
 - content/en/reviews/birgitte-germany-on-grace.md
+- content/en/reviews/kirkus-review-usa-on-grace.md
 - content/en/reviews/ndr-germany-on-grace.md
 - content/en/reviews/sarah-kerr-vogue-usa-on-before-you-sleep.md
 - content/en/reviews/boston-globe-usa-on-before-you-sleep.md
