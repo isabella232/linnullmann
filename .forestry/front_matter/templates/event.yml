@@ -1,6 +1,6 @@
 ---
 label: event
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - type: include
@@ -11,6 +11,9 @@ fields:
   name: date
   label: date
   template: partial-date
+- type: text
+  name: link_to_original
+  label: Link
 - name: show_time
   label: Show time
   type: boolean
