@@ -3,10 +3,9 @@ label: review-no
 hide_body: false
 is_partial: false
 fields:
-- type: include
-  name: defaults
-  label: defaults
-  template: partial-default
+- type: text
+  name: title
+  label: Title
 - type: include
   name: date
   label: date
