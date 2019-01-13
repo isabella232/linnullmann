@@ -7,7 +7,7 @@ fields:
   name: title
   label: Title
   default: " on Grace"
-  description: Title is for CMS Reference
+  description: 'For CMS Reference: e.g. Times on The Cold Song'
 - name: attribution
   label: Attribution
   type: text

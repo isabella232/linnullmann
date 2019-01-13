@@ -7,7 +7,7 @@ fields:
   name: title
   label: Title
   default: " on Grace"
-  description: Title is for CMS Reference
+  description: 'For CMS Reference: e.g. Times on The Cold Song'
 - type: text
   name: attribution
   label: Attribution
@@ -53,6 +53,7 @@ pages:
 - content/en/reviews/publishers-weekly-usa-on-before-you-sleep.md
 - content/en/reviews/the-independent.md
 - content/en/reviews/birgitte-germany-on-grace.md
+- content/en/reviews/ndr-germany-on-grace.md
 - content/en/reviews/sarah-kerr-vogue-usa-on-before-you-sleep.md
 - content/en/reviews/boston-globe-usa-on-before-you-sleep.md
 - content/en/reviews/kirkus-review-usa-on-before-you-sleep.md
