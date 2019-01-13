@@ -29,7 +29,7 @@ fields:
     - blurb
     - review
   label: Type
-  default: review
+  default: blurb
 - type: datetime
   name: date
   label: Date
@@ -60,6 +60,7 @@ pages:
 - content/en/reviews/kirkus-reviews-starred-review-on-the-cold-song.md
 - content/en/reviews/jane-kramer-author-of-europeans-and-the-politics-of-memory-on-the-cold-song.md
 - content/en/reviews/rebecca-mead-author-of-my-life-in-middlemarch-on-the-cold-song.md
+- content/en/reviews/yiyun-li-award-winning-author-of-the-vagrants-and-kinder-than-solitude-on-the-cold-song.md
 - content/en/reviews/booklist-usa-on-grace.md
 - content/en/reviews/natalie-moore-time-out-review-on-grace.md
 - content/en/reviews/the-news-agency-dpa-germany-on-grace.md
