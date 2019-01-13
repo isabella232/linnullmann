@@ -7,20 +7,12 @@
     
     <div class="px-4 xl:px-16 py-8 hidden md:block font-sans ">
 				{{$reviews := where (.Site.RegularPages) "Section" "reviews"}}	
-				{{$reviews}}
+				
 			{{ range first 1 $reviews }}
 
-			{{.}}
 				{{ partial "_components/quote-fancy.html" . }} 
 				{{ end }}
-				{{/* */}}
-
-        {{/* <blockquote class="font-light leading-tighft text-sm leading-normal">
-            A brilliant meditation on time, mortality, and the limits of memory…Ullmann’s prose is elegant…sharp, and occasionally funny. But the mood of this work as a whole is elegiac. ‘Can I,’ she asks, ‘mourn people who are still alive?’ Gorgeous and heartbreaking.
-        </blockquote>
-        <div class="text-sm font-medium mt-3 leading-tight ml-4">
-            — fra juryens begrunnelse i anledning av nominasjonen til Nordisk Råds Litteraturpris
-        </div> */}}
+			
     </div>
 
   </section>
