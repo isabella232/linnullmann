@@ -6,10 +6,10 @@ fields:
 - type: text
   name: title
   label: Title
-- type: include
+- type: datetime
   name: date
-  label: date
-  template: partial-date
+  label: Date
+  default: 1998-10-01 00:00:00 -0400
 - name: attribution
   label: Attribution
   type: text
