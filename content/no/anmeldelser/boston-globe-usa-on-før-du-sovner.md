@@ -5,6 +5,5 @@ attribution: BOSTON GLOBE (USA)
 book: en/books/before-you-sleep.md
 featured: false
 weight: ''
-draft: true
 
 ---
