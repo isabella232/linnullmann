@@ -30,3 +30,5 @@ fields:
   name: weight
   label: weight
   template: partial-weight
+pages:
+- content/no/anmeldelser/sarah-kerr-vogue-usa-on.md
