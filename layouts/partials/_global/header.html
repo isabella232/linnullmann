@@ -1,13 +1,20 @@
-<header>
-  <section class="bg-primary-color-light h-100 flex flex-col items-center justify-center">
+<header class="text-grey-light">
+  <section class="px-4 py-16 bg-primary-color-light h-100 flex flex-col items-center justify-between">
     <a href="/" class="font-sans text-grey-lightest hover:text-white font-light no-underline uppercase tracking-wide text-5xl text-center"> 
       {{.Site.Title}}
     </a>
-    </section>
     
-    <section>
-      
-    </section>
+
+    <div class="px-16">
+        <blockquote class="font-light leading-tight">
+            “A brilliant meditation on time, mortality, and the limits of memory…Ullmann’s prose is elegant…sharp, and occasionally funny. But the mood of this work as a whole is elegiac. ‘Can I,’ she asks, ‘mourn people who are still alive?’ Gorgeous and heartbreaking.” 
+        </blockquote>
+        <div class="text-sm font-medium mt-2">
+            — fra juryens begrunnelse i anledning av nominasjonen til Nordisk Råds Litteraturpris
+        </div>
+    </div>
+
+  </section>
     
     {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
   
