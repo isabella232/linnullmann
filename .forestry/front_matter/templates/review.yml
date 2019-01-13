@@ -7,14 +7,17 @@ fields:
   name: title
   label: Title
   default: ''
+  description: Title is for CMS Reference
+- type: textarea
+  name: attribution
+  label: Attribution
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: datetime
   name: date
   label: Date
-  default: ''
-- name: attribution
-  label: Attribution
-  type: text
-  hidden: false
   default: ''
 - type: select
   name: book
