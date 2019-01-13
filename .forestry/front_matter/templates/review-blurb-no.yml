@@ -42,6 +42,7 @@ fields:
   label: Type
   default: blurb
 pages:
+- content/no/reviews/brynjulf-jung-tjønn-vg-on-de-urolige.md
 - content/no/reviews/vg-terningkast-6-norge-on-nade.md
 - content/no/reviews/ellen-sofie-lauritzen-årets-beste-bøker-2011-dagsavisen-on-det-dyrebare.md
 - content/no/reviews/die-welt-tyskland-on-nade.md
@@ -63,7 +64,6 @@ pages:
 - content/no/reviews/ugebladet-søndag-danmark-on-et-velsignet-barn.md
 - content/no/reviews/kirkus-review-usa-on-et-velsignet-barn.md
 - content/no/reviews/sølvi-wærhaug-årets-beste-bøker-2011-vg-on-det-dyrebare.md
-- content/no/reviews/göteborgs-posten-sverige-on-det-dyrebare.md
 - content/no/reviews/kaja-schjerven-mollerin-klassekampen-on-det-dyrebare.md
 - content/no/reviews/bjarne-tveiten-fædrelandsvennen-on-det-dyrebare.md
 - content/no/reviews/camilla-lærke-mors-ekstra-bladet-danmark-on-det-dyrebare.md
@@ -131,5 +131,4 @@ pages:
 - content/no/reviews/annette-orre-vårt-land-årets-beste-bøker-2015-on-de-urolige.md
 - content/no/reviews/torborg-igland-fædrelandsvennen-årets-beste-bøker-2015-on-de-urolige.md
 - content/no/reviews/fartein-horgar-adresseavisen-årets-beste-bøker-2015-on-de-urolige.md
-- content/no/reviews/brynjulf-jung-tjønn-vg-on-de-urolige.md
 - content/no/reviews/turid-larsen-dagsavisen-on-de-urolige.md
