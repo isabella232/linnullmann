@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Et velsignet barn"
+  default: " on Det dyrebare"
 - type: datetime
   name: date
   label: Date
-  default: 2002-04-04 00:00:00 -0500
+  default: 2002-10-04 00:00:00 -0400
 - name: attribution
   label: Attribution
   type: text
