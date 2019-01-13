@@ -6,7 +6,6 @@ attribution: SARAH KERR, VOGUE (USA)
 book: ''
 featured: false
 weight: ''
-draft: true
 
 ---
 [Ullmanns] fortellerevne og medrivende skriveglede skinner på hver eneste side
