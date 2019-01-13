@@ -37,6 +37,7 @@ sections:
   match: "**/*"
   templates:
   - review
+  - review-blurb
 - type: heading
   label: 'NO'
 - type: directory
