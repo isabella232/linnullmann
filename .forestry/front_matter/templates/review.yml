@@ -31,8 +31,6 @@ fields:
   label: weight
   template: partial-weight
 pages:
-- content/no/anmeldelser/sarah-kerr-vogue-usa-on.md
-- content/no/anmeldelser/boston-globe-usa-on-før-du-sovner.md
 - content/en/reviews/the-new-yorker-usa-on-before-you-sleep.md
 - content/en/reviews/caryn-james-the-new-york-times-usa-on-before-you-sleep.md
 - content/en/reviews/library-journal-usa-on-before-you-sleep.md
