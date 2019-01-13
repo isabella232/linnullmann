@@ -5,7 +5,6 @@ attribution: GEIR VESTAD, HAMAR ARBEIDERBLAD (Norge)
 book: no/boker/for-du-sovner.md
 featured: false
 weight: ''
-draft: true
 
 ---
 Ømskinnet og sprudlende
