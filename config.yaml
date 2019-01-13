@@ -8,6 +8,8 @@ googleAnalytics: ''
 themesDir: components
 theme:
 - hugo-layout_module-base-2019
+- hugo-layout_module-books
+- hugo-layout_module-events
 preserveTaxonomyNames: true
 disableAliases: true
 defaultContentLanguage: 'no'
@@ -17,6 +19,11 @@ languages:
     languageName: Nor
     languageCode: no-nns
     weight: 1
+    permalinks:
+      books: /boker/:title/
+      reviews: /anmeldelser/:title/
+      about: /om-forfatteren/:title/
+      news: /nyheter/:title/
     menu:
       main:
         - url: /
