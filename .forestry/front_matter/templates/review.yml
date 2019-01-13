@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: ''
+  default: " on Grace"
   description: Title is for CMS Reference
 - type: text
-  name: atrribution
-  label: Atrribution
+  name: attribution
+  label: Attribution
   description: Put an asterisk around any word to *italicize* it
 - type: select
   name: book
