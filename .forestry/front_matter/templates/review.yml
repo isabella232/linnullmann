@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Grace"
+  default: " on Stella Descending"
   description: 'For CMS Reference: e.g. Times on The Cold Song'
 - type: text
   name: attribution
@@ -19,11 +19,11 @@ fields:
       type: pages
       section: books
   label: Book
-  default: en/books/grace.md
+  default: en/books/stella-descending.md
 - type: datetime
   name: date
   label: Date
-  default: 2007-09-04 00:00:00 -0400
+  default: 2004-01-05 00:00:00 -0500
 - type: file
   name: file
   label: File
