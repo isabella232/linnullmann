@@ -20,6 +20,16 @@ fields:
       section: books
   label: Book
   default: en/books/the-cold-song.md
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    options:
+    - blurb
+    - review
+  label: Type
+  default: review
 - type: datetime
   name: date
   label: Date
@@ -31,16 +41,6 @@ fields:
 - type: boolean
   name: featured
   label: Featured
-- type: select
-  name: type
-  config:
-    source:
-      type: simple
-    options:
-    - blurb
-    - review
-  label: Type
-  default: review
 - type: include
   name: weight
   label: weight

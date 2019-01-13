@@ -22,6 +22,16 @@ fields:
       section: books-boker
   label: Book
   default: ''
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    options:
+    - blurb
+    - review
+  label: Type
+  default: review
 - type: datetime
   name: date
   label: Date
@@ -36,16 +46,6 @@ fields:
 - type: boolean
   name: featured
   label: Featured
-- type: select
-  name: type
-  config:
-    source:
-      type: simple
-    options:
-    - blurb
-    - review
-  label: Type
-  default: review
 - type: include
   name: weight
   label: weight
