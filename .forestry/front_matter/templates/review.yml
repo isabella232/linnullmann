@@ -8,13 +8,10 @@ fields:
   label: Title
   default: ''
   description: Title is for CMS Reference
-- type: textarea
-  name: attribution
-  label: Attribution
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
+- type: text
+  name: atrribution
+  label: Atrribution
+  description: Put an asterisk around any word to *italicize* it
 - type: datetime
   name: date
   label: Date
