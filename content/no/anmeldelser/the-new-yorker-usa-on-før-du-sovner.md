@@ -1,6 +1,6 @@
 ---
 title: THE NEW YORKER (USA) on Før du sovner
-date: ''
+date: 1998-10-01 00:00:00 -0400
 attribution: THE NEW YORKER (USA)
 book: no/boker/for-du-sovner.md
 featured: false

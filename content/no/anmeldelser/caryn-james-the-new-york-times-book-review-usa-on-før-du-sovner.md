@@ -1,6 +1,6 @@
 ---
 title: CARYN JAMES, THE NEW YORK TIMES BOOK REVIEW (USA) on Før du sovner
-date: ''
+date: 1998-10-01 00:00:00 -0400
 attribution: CARYN JAMES, THE NEW YORK TIMES BOOK REVIEW (USA)
 book: no/boker/for-du-sovner.md
 featured: false

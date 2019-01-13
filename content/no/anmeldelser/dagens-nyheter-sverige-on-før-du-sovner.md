@@ -1,6 +1,6 @@
 ---
 title: DAGENS NYHETER (Sverige) on Før du sovner
-date: ''
+date: 1998-10-01 00:00:00 -0400
 attribution: DAGENS NYHETER (Sverige)
 book: no/boker/for-du-sovner.md
 featured: false
