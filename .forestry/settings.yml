@@ -32,7 +32,7 @@ sections:
   - book
 - type: directory
   path: content/en/reviews
-  label: Reviews
+  label: Reviews/quotes
   create: documents
   match: "**/*"
   templates:
