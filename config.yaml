@@ -17,24 +17,35 @@ languages:
     languageName: Nynorsk
     languageCode: no-nns
     weight: 1
+    menu:
+      main:
+        - url: /
+          name: Hjem
+          weight: 0
+        - url: /boker/
+          name: Bøker
+          weight: 1
   en:
     contentDir: content/en
     languageName: English
     languageCode: en-us
     weight: 2
-blackfriday:
+    menu:
+      main:
+        - url: /
+          name: Home
+          weight: 0
+          - url: /
+          name: Books
+          weight: 1
+
+
+
+    blackfriday:
   extensionsmask:
   - noIntraEmphasis
-menu:
-  main:
-  - identifier: about
-    name: About
-    url: "/about/"
-    weight: 2
-  - identifier: home
-    name: Hjem
-    url: "/"
-    weight: 1
+
+
 mediaTypes:
   text/netlify:
     delimiter: ''
