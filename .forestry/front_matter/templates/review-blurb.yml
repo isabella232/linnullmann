@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: ''
+  default: " on Grace"
   description: Title is for CMS Reference
 - name: attribution
   label: Attribution
@@ -21,10 +21,11 @@ fields:
       type: pages
       section: books
   label: Book
+  default: en/books/grace.md
 - type: datetime
   name: date
   label: Date
-  default: ''
+  default: 2007-10-08 00:00:00 -0400
 - type: file
   name: file
   label: File
