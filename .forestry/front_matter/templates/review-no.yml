@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Det dyrebare"
+  default: " on De Urolige"
 - type: datetime
   name: date
   label: Date
-  default: 2002-10-04 00:00:00 -0400
+  default: 2015-04-06 00:00:00 -0400
 - name: attribution
   label: Attribution
   type: text
@@ -23,7 +23,7 @@ fields:
       type: pages
       section: books-boker
   label: Book
-  default: no/books/det-dyrebare.md
+  default: no/books/de-urolige.md
 - type: text
   name: link_to_original
   label: Link to Original
