@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Nar jeg er hos deg"
+  default: " on Nade"
 - type: datetime
   name: date
   label: Date
-  default: 2001-10-04 00:00:00 -0400
+  default: 2002-04-04 00:00:00 -0500
 - name: attribution
   label: Attribution
   type: text
