@@ -6,6 +6,9 @@ webhook_url:
 sections:
 - type: heading
   label: EN
+- type: document
+  path: content/en/_index.md
+  label: Home
 - type: directory
   path: content/en/events
   label: Events
@@ -33,37 +36,37 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - review    
+  - review
 - type: heading
   label: 'NO'
 - type: directory
   path: content/no/events
-  label: Events (NO)
+  label: Events
   create: documents
   match: "**/*"
   templates:
   - event
 - type: directory
   path: content/no/nyheter
-  label: News (nyheter)
+  label: Nyheter (News)
   create: documents
   match: "**/*"
   templates:
   - news
 - type: directory
   path: content/no/boker
-  label: Books (Boker)
+  label: Boker (Books)
   create: documents
   match: "**/*"
   templates:
   - book
 - type: directory
   path: content/no/anmeldelser
-  label: Reviews (anmeldelser)
+  label: Anmeldelser (Reviews)
   create: documents
   match: "**/*"
   templates:
-  - review    
+  - review
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
