@@ -7,7 +7,7 @@ fields:
   name: title
   label: Title
   default: ''
-  description: Title is for CMS Reference
+  description: 'For CMS Reference: e.g. Times on Det dyrebare'
 - name: attribution
   label: Attribution
   type: text
