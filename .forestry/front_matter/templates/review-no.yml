@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: on Når jeg er hos deg
+  default: on Nar jeg er hos deg
 - type: datetime
   name: date
   label: Date
