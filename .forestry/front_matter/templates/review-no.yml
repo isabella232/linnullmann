@@ -23,6 +23,7 @@ fields:
       type: pages
       section: books-boker
   label: Book
+  default: no/books/nade.md
 - type: boolean
   name: featured
   label: Featured
@@ -30,3 +31,5 @@ fields:
   name: weight
   label: weight
   template: partial-weight
+pages:
+- content/no/reviews/dagbladet-norge-on-nade.md
