@@ -27,6 +27,10 @@ fields:
 - type: text
   name: link_to_original
   label: Link to Original
+- type: file
+  name: file
+  label: File
+  description: PDF file
 - type: boolean
   name: featured
   label: Featured
