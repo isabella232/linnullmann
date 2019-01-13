@@ -54,14 +54,14 @@ sections:
   templates:
   - news
 - type: directory
-  path: content/no/boker
+  path: content/no/books
   label: Boker (Books)
   create: documents
   match: "**/*"
   templates:
   - book
 - type: directory
-  path: content/no/anmeldelser
+  path: content/no/reviews
   label: Anmeldelser (Reviews)
   create: documents
   match: "**/*"

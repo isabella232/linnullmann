@@ -10,7 +10,7 @@ fields:
 - type: datetime
   name: date
   label: Date
-  default: 1999-10-04 00:00:00 -0400
+  default: 1999-10-04 04:00:00 +0000
 - name: attribution
   label: Attribution
   type: text
@@ -34,9 +34,9 @@ pages:
 - content/no/anmeldelser/sarah-kerr-vogue-usa-on.md
 - content/no/anmeldelser/boston-globe-usa-on-før-du-sovner.md
 - content/en/reviews/the-new-yorker-usa-on-before-you-sleep.md
-- content/en/reviews/boston-globe-usa-on-before-you-sleep.md
-- content/en/reviews/sarah-kerr-vogue-usa-on-before-you-sleep.md
-- content/en/reviews/kirkus-review-usa-on-before-you-sleep.md
 - content/en/reviews/caryn-james-the-new-york-times-usa-on-before-you-sleep.md
 - content/en/reviews/library-journal-usa-on-before-you-sleep.md
 - content/en/reviews/publishers-weekly-usa-on-before-you-sleep.md
+- content/en/reviews/kirkus-review-usa-on-before-you-sleep.md
+- content/en/reviews/sarah-kerr-vogue-usa-on-before-you-sleep.md
+- content/en/reviews/boston-globe-usa-on-before-you-sleep.md
