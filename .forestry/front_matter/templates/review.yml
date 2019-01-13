@@ -47,6 +47,7 @@ fields:
   template: partial-weight
 pages:
 - content/en/reviews/the-news-agency-dpa-germany-on-grace.md
+- content/en/reviews/der-spiegel-germany-on-grace.md
 - content/en/reviews/the-new-yorker-usa-on-before-you-sleep.md
 - content/en/reviews/caryn-james-the-new-york-times-usa-on-before-you-sleep.md
 - content/en/reviews/library-journal-usa-on-before-you-sleep.md
