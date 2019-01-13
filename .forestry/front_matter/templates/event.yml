@@ -20,9 +20,11 @@ fields:
   name: image
   label: image
   template: partial-images-w-credit
+  hidden: true
 - type: include
   name: venue
   label: venue
   template: partial-venue
+  hidden: true
 pages:
 - content/en/events/mcnally-jackson-unquiet-linn-ullmann-williamsburg.md
