@@ -48,21 +48,21 @@ sections:
   - event
 - type: directory
   path: content/no/news
-  label: Nyheter (News)
+  label: News
   create: documents
   match: "**/*"
   templates:
   - news
 - type: directory
   path: content/no/books
-  label: Boker (Books)
+  label: Books
   create: documents
   match: "**/*"
   templates:
   - book
 - type: directory
   path: content/no/reviews
-  label: Anmeldelser (Reviews)
+  label: Reviews/quotes
   create: documents
   match: "**/*"
   templates:
