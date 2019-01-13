@@ -23,7 +23,7 @@ fields:
       type: pages
       section: books-boker
   label: Book
-  default: no/books/et-velsignet-barn.md
+  default: no/books/det-dyrebare.md
 - type: text
   name: link_to_original
   label: Link to Original
