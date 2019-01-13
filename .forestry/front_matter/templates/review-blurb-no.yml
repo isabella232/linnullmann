@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on De Urolige"
+  default: ''
 - type: datetime
   name: date
   label: Date
-  default: 2015-04-06 04:00:00 +0000
+  default: ''
 - name: attribution
   label: Attribution
   type: text
@@ -23,7 +23,7 @@ fields:
       type: pages
       section: books-boker
   label: Book
-  default: no/books/de-urolige.md
+  default: ''
 - type: boolean
   name: featured
   label: Featured

@@ -6,11 +6,11 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Before You Sleep"
+  default: ''
 - type: datetime
   name: date
   label: Date
-  default: 1999-10-04 04:00:00 +0000
+  default: ''
 - name: attribution
   label: Attribution
   type: text
