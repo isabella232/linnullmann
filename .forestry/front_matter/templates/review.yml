@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on The Cold Song"
+  default: " on Unquiet"
   description: 'For CMS Reference: e.g. Times on The Cold Song'
 - type: text
   name: attribution
@@ -19,7 +19,7 @@ fields:
       type: pages
       section: books
   label: Book
-  default: en/books/the-cold-song.md
+  default: en/books/unquiet.md
 - type: select
   name: type
   config:
@@ -33,7 +33,7 @@ fields:
 - type: datetime
   name: date
   label: Date
-  default: 2004-01-05 00:00:00 -0500
+  default: 2019-01-02 00:00:00 -0500
 - type: file
   name: file
   label: File
@@ -76,6 +76,7 @@ pages:
 - content/en/reviews/reader-s-digest-on-the-cold-song.md
 - content/en/reviews/vogue-on-the-cold-song.md
 - content/en/reviews/w-magazine-on-the-cold-song.md
+- content/en/reviews/bustle-com-on-the-cold-song.md
 - content/en/reviews/booklist-usa-on-grace.md
 - content/en/reviews/natalie-moore-time-out-review-on-grace.md
 - content/en/reviews/the-news-agency-dpa-germany-on-grace.md
@@ -91,6 +92,11 @@ pages:
 - content/en/reviews/library-journal-usa-on-grace.md
 - content/en/reviews/bruce-bawer-new-york-times-book-review-usa-on-grace.md
 - content/en/reviews/caroline-fries-süddeutsche-zeitung-germany-on-stella-descending.md
+- content/en/reviews/the-new-york-times-book-review-on-the-cold-song.md
+- content/en/reviews/james-wood-the-new-yorker-on-the-cold-song.md
+- content/en/reviews/lit-hub-on-unquiet.md
+- content/en/reviews/times-literary-supplement-on-unquiet.md
+- content/en/reviews/lydia-davi-on-unquiet.md
 - content/en/reviews/mary-elizabeth-williams-the-new-york-times-book-review-usa-on-stella-descending.md
 - content/en/reviews/petra- -germany-on-the-cold-song.md
 - content/en/reviews/the-national-on-the-cold-song.md
@@ -119,6 +125,7 @@ pages:
 - content/en/reviews/kirkus-review-usa-on-before-you-sleep.md
 - content/en/reviews/library-journal-usa-on-stella-descending.md
 - content/en/reviews/booklist-on-the-cold-song.md
+- content/en/reviews/vogue-com-on-the-cold-song.md
 - content/en/reviews/publishers-weekly-usa-on-stella-descending.md
 - content/en/reviews/emma-perry-time-out-uk-on-stella-descending.md
 - content/en/reviews/elle-usa-on-stella-descending.md
