@@ -34,3 +34,8 @@ fields:
   name: weight
   label: weight
   template: partial-weight
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  default: Blurb

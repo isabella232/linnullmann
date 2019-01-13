@@ -1,6 +1,6 @@
 ---
 title: KARIN HAUGEN, KLASSEKAMPEN, Årets beste bøker 2015 on De Urolige
-date: 2015-04-06 00:00:00 -0400
+date: 2015-04-06 04:00:00 +0000
 book: no/books/de-urolige.md
 attribution: KARIN HAUGEN, KLASSEKAMPEN, Årets beste bøker 2015
 link_to_original: ''
