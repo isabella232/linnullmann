@@ -1,24 +1,13 @@
 {{ $currentPage := .page }}
 {{ $menu := index .page.Site.Menus (.menu) }}
 {{ with $menu }}
-  <nav aria-label="{{ $.menu }}">
-    <ul name="{{ $.menu }}" class="list-reset">
+  <nav aria-label="{{ $.menu }}" class="w-full mb-2">
+    <ul name="{{ $.menu }}" class="list-reset text-lg w-full">
       {{ range . }}
-        <li class="{{ .Identifier }}">
-          <a class="color-inherit {{ if in $currentPage.URL .URL }} active{{ end }}" href="{{.URL | absLangURL}}" title="{{ .Name }} page">
+        <li class="{{ .Identifier }} inline lg:block lg:w-full leading-loose">
+          <a class="color-inherit {{ if eq ($currentPage.URL | absLangURL) (.URL | absLangURL) }} active{{ end }} lg:block color-inherit h-full text-base px-2 py-2 rounded leading-none hover:bg-primary-color-light no-underline w-full text-grey hover:text-grey-light" href="{{.URL | absLangURL}}" title="{{ .Name }} page">
             {{ .Name }}
-          </a>
-          {{ if .HasChildren }}
-            <ul class="list-reset">
-              {{ range .Children }}
-                <li{{ if $currentPage.IsMenuCurrent "main" . }} class="bg-primary-color-dark"{{ end }}>
-                  <a href="{{ .URL }}">
-                    {{ .Name }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
-          {{ end }}
+          </a>          
         </li>
       {{ end }}
     </ul>

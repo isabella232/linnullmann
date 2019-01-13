@@ -22,10 +22,6 @@
   @apply bg-grey-lightest text-grey-darkest;
 }
 
-header {
-  @apply bg-primary-color  text-grey-lightest;
-}
-
 footer {
   @apply p-4 mt-32 text-sm text-grey-dark;
 }
@@ -35,67 +31,8 @@ footer {
   @apply items-start;
 }
 
-header div {
-  /* So kill me. Because of side nav, we're overriding the default  */
-  /* @apply py-0 px-0 !important; */
-}
-
-.site-title {
-  @apply  text-5xl font-bold no-underline color-inherit inline-block py-3 px-3 leading-tight;
-}
-
-@screen md {
-  .site-title {
-    @apply text-4xl px-4;
-  }
-}
-@screen xl {
-  .site-title {
-    @apply text-5xl;
-  }
-}
-
-nav {
-  @apply w-full pl-2 mb-2;
-}
-
-nav ul {
-  @apply text-lg w-full;
-/* @apply .ml-8; */
-}
-
-/* Display the list inline-block for top-nav, block for sidenav  */
-nav li {
-  @apply inline-block;
-}
-
-nav li a {
-  @apply block color-inherit h-full px-2 py-2 rounded mb-4 leading-none  no-underline w-full;
-}
-
-nav li a:hover {
-  @apply bg-grey-darkest text-grey-light;
-}
-
 nav li a.active {
-  @apply .text-grey-lightest .bg-grey-darkest;
-}
-
-@screen lg {
-  nav {
-    @apply pl-0 mb-8;
-}
-
-nav li a:hover {
-  @apply text-grey-light bg-grey-darkest;
-}
-nav li {
-  @apply .block w-full;
-}
-
-nav li a {
-  @apply block color-inherit h-full px-4 py-4 mb-0 leading-none  no-underline rounded-none w-full;
-  }
+  @apply text-white;
 }
 
 
@@ -105,32 +42,6 @@ PAGES
 */
 .page-list_default, .page-single_default {
 @apply .max-w-xl .px-4 .pt-6;
-}
-
-
-
-/* COMPONENTS */
-.page-heading {
-  @apply .text-primary-color .text-4xl .mb-1
-}
-@screen lg {
-.page-heading {
-  @apply .text-5xl
-}
-}
-.page-description {
-  @apply .text-base .mb-2 text-2xl .text-grey-dark .mb-8
-}
-
-.sidebar-list {
-@apply .bg-grey-lighter .p-4
-}
-.btn-buylinks {
-@apply .text-xs .font-sans .text-black
-}
-
-.btn-buylinks:hover {
-@apply .bg-black .text-white
 }
 
 

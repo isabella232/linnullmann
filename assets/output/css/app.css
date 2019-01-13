@@ -678,7 +678,7 @@ dt::after {
   margin-bottom: .5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   header {
     position: fixed;
     top: 0;
@@ -695,21 +695,9 @@ dt::after {
   .content {
     margin-left: 30%;
   }
-}
-
-@media (min-width: 992px) {
-  /* make the nav sidebar */
-
-  header {
-    width: 30%;
-  }
 
   .flex-direction {
     flex-direction: column;
-  }
-
-  .content {
-    margin-left: 30%;
   }
 }
 
@@ -4006,6 +3994,10 @@ dt::after {
   min-height: 0;
 }
 
+.min-h-100 {
+  min-height: 25rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -6188,7 +6180,7 @@ dt::after {
 }
 
 .text-5xl {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .italic {
@@ -6582,11 +6574,6 @@ dt::after {
   color: #3d4852;
 }
 
-header {
-  background-color: #83292f;
-  color: #f8fafc;
-}
-
 footer {
   padding: 1rem;
   margin-top: 8rem;
@@ -6599,110 +6586,8 @@ footer {
   align-items: flex-start;
 }
 
-header div {
-  /* So kill me. Because of side nav, we're overriding the default  *//* @apply py-0 px-0 !important; */
-}
-
-.site-title {
-  font-size: 3rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  padding-left: .75rem;
-  padding-right: .75rem;
-  line-height: 1.25;
-}
-
-@media (min-width: 768px) {
-  .site-title {
-    font-size: 2.25rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .site-title {
-    font-size: 3rem;
-  }
-}
-
-nav {
-  width: 100%;
-  padding-left: .5rem;
-  margin-bottom: .5rem;
-}
-
-nav ul {
-  font-size: 1.125rem;
-  width: 100%;
-  /* @apply .ml-8; */
-}
-
-/* Display the list inline-block for top-nav, block for sidenav  */
-
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  display: block;
-  color: inherit;
-  height: 100%;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  border-radius: .25rem;
-  margin-bottom: 1rem;
-  line-height: 1;
-  text-decoration: none;
-  width: 100%;
-}
-
-nav li a:hover {
-  background-color: #3d4852;
-  color: #dae1e7;
-}
-
 nav li a.active {
-  color: #f8fafc;
-  background-color: #3d4852;
-}
-
-@media (min-width: 992px) {
-  nav {
-    padding-left: 0;
-    margin-bottom: 2rem;
-  }
-
-  nav li a:hover {
-    color: #dae1e7;
-    background-color: #3d4852;
-  }
-
-  nav li {
-    display: block;
-    width: 100%;
-  }
-
-  nav li a {
-    display: block;
-    color: inherit;
-    height: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 0;
-    line-height: 1;
-    text-decoration: none;
-    border-radius: 0;
-    width: 100%;
-  }
+  color: #fff;
 }
 
 /*
@@ -6715,44 +6600,6 @@ PAGES
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1.5rem;
-}
-
-/* COMPONENTS */
-
-.page-heading {
-  color: #83292f;
-  font-size: 2.25rem;
-  margin-bottom: .25rem;
-}
-
-@media (min-width: 992px) {
-  .page-heading {
-    font-size: 3rem;
-  }
-}
-
-.page-description {
-  font-size: 1rem;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-  color: #8795a1;
-  margin-bottom: 2rem;
-}
-
-.sidebar-list {
-  background-color: #f1f5f8;
-  padding: 1rem;
-}
-
-.btn-buylinks {
-  font-size: .75rem;
-  font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: #22292f;
-}
-
-.btn-buylinks:hover {
-  background-color: #22292f;
-  color: #fff;
 }
 
 /* Add your styles here. You can import  */
@@ -10056,6 +9903,10 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
     min-height: 0;
   }
 
+  .sm\:min-h-100 {
+    min-height: 25rem;
+  }
+
   .sm\:min-h-full {
     min-height: 100%;
   }
@@ -12222,7 +12073,7 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
   }
 
   .sm\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .sm\:italic {
@@ -15888,6 +15739,10 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
     min-height: 0;
   }
 
+  .md\:min-h-100 {
+    min-height: 25rem;
+  }
+
   .md\:min-h-full {
     min-height: 100%;
   }
@@ -18054,7 +17909,7 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
   }
 
   .md\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .md\:italic {
@@ -21720,6 +21575,10 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
     min-height: 0;
   }
 
+  .lg\:min-h-100 {
+    min-height: 25rem;
+  }
+
   .lg\:min-h-full {
     min-height: 100%;
   }
@@ -23886,7 +23745,7 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
   }
 
   .lg\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .lg\:italic {
@@ -27552,6 +27411,10 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
     min-height: 0;
   }
 
+  .xl\:min-h-100 {
+    min-height: 25rem;
+  }
+
   .xl\:min-h-full {
     min-height: 100%;
   }
@@ -29718,7 +29581,7 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
   }
 
   .xl\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .xl\:italic {
