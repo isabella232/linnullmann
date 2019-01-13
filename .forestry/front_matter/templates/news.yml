@@ -7,6 +7,10 @@ fields:
   name: defaults
   label: defaults
   template: partial-default
+- type: text
+  name: link_to_original
+  label: Link to Original
+  description: e.g. https://www.example.com
 - type: include
   name: date
   label: date
@@ -15,9 +19,14 @@ fields:
   name: image
   label: image
   template: partial-images-w-credit
+  hidden: true
 - type: tag_list
   label: Topics
   name: tags
+  hidden: true
 - type: tag_list
   label: Category
   name: categories
+  hidden: true
+  default:
+  - News
