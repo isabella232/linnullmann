@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Stella Descending"
+  default: " on The Cold Song"
   description: 'For CMS Reference: e.g. Times on The Cold Song'
 - name: attribution
   label: Attribution
@@ -21,7 +21,7 @@ fields:
       type: pages
       section: books
   label: Book
-  default: en/books/stella-descending.md
+  default: en/books/the-cold-song.md
 - type: datetime
   name: date
   label: Date

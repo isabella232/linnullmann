@@ -19,7 +19,7 @@ fields:
       type: pages
       section: books
   label: Book
-  default: en/books/stella-descending.md
+  default: en/books/the-cold-song.md
 - type: datetime
   name: date
   label: Date
