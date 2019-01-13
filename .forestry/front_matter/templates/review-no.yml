@@ -24,6 +24,9 @@ fields:
       section: books-boker
   label: Book
   default: no/books/nade.md
+- type: text
+  name: link_to_original
+  label: Link to Original
 - type: boolean
   name: featured
   label: Featured
@@ -38,5 +41,6 @@ pages:
 - content/no/reviews/aftenposten-norge-on-nade.md
 - content/no/reviews/henriette-zorn-hufvudstadsbladet-finland-on-nade.md
 - content/no/reviews/dagbladet-norge-on-nade.md
+- content/no/reviews/nyhetsbyrået-dpa-tyskland-on-nade.md
 - content/no/reviews/henne-norge-on-nade.md
 - content/no/reviews/brigitte-tyskland-on-nade.md
