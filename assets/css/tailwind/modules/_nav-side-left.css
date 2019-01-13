@@ -1,0 +1,25 @@
+@screen md {
+  header {
+    @apply .fixed .pin-t .pin-l .pin-b .z-50 .h-screen;
+  }
+  header {
+    @apply .w-1/33;
+  }
+  .content {
+    margin-left: 30%;
+  }
+
+}
+
+@screen lg {
+  /* make the nav sidebar */
+  header {
+    @apply .w-1/33 ;
+  }
+  .flex-direction {
+    @apply flex-col;
+  }
+  .content {
+    margin-left: 30%;
+  }
+}

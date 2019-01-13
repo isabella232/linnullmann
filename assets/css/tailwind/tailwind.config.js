@@ -3,13 +3,13 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'primary-color-darkest' : '#000000',
-  'primary-color-darker' : '#000000',
-  'primary-color-dark' : '#000000',
-  'primary-color' : '#000000',
-  'primary-color-light' : '#4D4D4D',
-  'primary-color-lighter' : '#999999',
-  'primary-color-lightest' : '#E6E6E6',
+  'primary-color-darkest' : '#270C0E',
+  'primary-color-darker' : '#4F191C',
+  'primary-color-dark' : '#76252A',
+  'primary-color' : '#83292F',
+  'primary-color-light' : '#962f36',
+  'primary-color-lighter' : '#CDA9AC',
+  'primary-color-lightest' : '#F3EAEA',
 
   'black': '#22292f',
   'grey-darkest': '#3d4852',
@@ -107,6 +107,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Open Sans',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -230,6 +231,7 @@ module.exports = {
     '1/4': '25%',
     '3/4': '75%',
     '1/5': '20%',
+    '1/33': '30%',
     '2/5': '40%',
     '3/5': '60%',
     '4/5': '80%',
@@ -256,6 +258,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '100': '25rem',
     'full': '100%',
     'screen': '100vh',
   },
