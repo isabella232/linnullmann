@@ -34,8 +34,13 @@ fields:
   name: weight
   label: weight
   template: partial-weight
-- type: text
+- type: select
   name: type
+  config:
+    source:
+      type: simple
+    options:
+    - blurb
+    - review
   label: Type
-  hidden: true
-  default: Blurb
+  default: blurb

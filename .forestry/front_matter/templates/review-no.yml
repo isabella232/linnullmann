@@ -34,6 +34,16 @@ fields:
 - type: boolean
   name: featured
   label: Featured
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    options:
+    - blurb
+    - review
+  label: Type
+  default: review  
 - type: include
   name: weight
   label: weight
