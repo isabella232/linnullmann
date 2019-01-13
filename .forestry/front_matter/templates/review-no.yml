@@ -36,6 +36,7 @@ fields:
   template: partial-weight
 pages:
 - content/no/reviews/vg-terningkast-6-norge-on-nade.md
+- content/no/reviews/die-welt-tyskland-on-nade.md
 - content/no/reviews/adresseavisen-norge-on-nade.md
 - content/no/reviews/marie-peterson-dagens-nyheter-sverige-on-nade.md
 - content/no/reviews/aftenposten-norge-on-nade.md
@@ -46,3 +47,4 @@ pages:
 - content/no/reviews/brigitte-tyskland-on-nade.md
 - content/no/reviews/ndr-tyskland-on-nade.md
 - content/no/reviews/der-spiegel-tyskland-on-nade.md
+- content/no/reviews/frankfurter-allgemeine-zeitung-tyskland-on-nade.md
