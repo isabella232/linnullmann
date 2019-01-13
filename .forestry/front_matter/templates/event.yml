@@ -24,3 +24,5 @@ fields:
   name: venue
   label: venue
   template: partial-venue
+pages:
+- content/en/events/mcnally-jackson-unquiet-linn-ullmann-williamsburg.md
