@@ -4,7 +4,6 @@
       {{.Site.Title}}
     </a>
     
-
     <div class="px-16">
         <blockquote class="font-light leading-tight">
             “A brilliant meditation on time, mortality, and the limits of memory…Ullmann’s prose is elegant…sharp, and occasionally funny. But the mood of this work as a whole is elegiac. ‘Can I,’ she asks, ‘mourn people who are still alive?’ Gorgeous and heartbreaking.” 
@@ -15,7 +14,20 @@
     </div>
 
   </section>
-    
-    {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
+	
+	<section>
+		<ul class="list-reset">
+			{{ range $.Site.Home.AllTranslations }}
+				<li class="inline-block">
+					<a href="{{ .Permalink }}" class="no-underline">
+						{{- .Lang -}}
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+			    
+		{{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
+
+	</section>
   
 </header>
