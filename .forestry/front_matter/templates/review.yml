@@ -6,7 +6,7 @@ fields:
 - type: text
   name: title
   label: Title
-  default: " on Stella Descending"
+  default: " on The Cold Song"
   description: 'For CMS Reference: e.g. Times on The Cold Song'
 - type: text
   name: attribution
