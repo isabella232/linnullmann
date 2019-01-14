@@ -6569,6 +6569,7 @@ dt::after {
   font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body,
 .body-color {
   background-color: #f8fafc;
   color: #3d4852;
@@ -6577,8 +6578,19 @@ dt::after {
 footer {
   padding: 1rem;
   margin-top: 8rem;
-  font-size: .875rem;
+  font-size: .75rem;
   color: #8795a1;
+}
+
+footer a,
+footer div {
+  display: inline-block;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+footer a:hover {
+  color: #606f7b;
 }
 
 .flex-direction {
@@ -6600,6 +6612,19 @@ PAGES
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1.5rem;
+}
+
+/* BOOKS */
+
+.btn-buylinks {
+  font-size: .75rem;
+  font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #22292f;
+}
+
+.btn-buylinks:hover {
+  background-color: #22292f;
+  color: #fff;
 }
 
 /* Add your styles here. You can import  */

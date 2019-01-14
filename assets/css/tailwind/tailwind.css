@@ -18,12 +18,20 @@
   @apply font-sans;
 }
 
-.body-color {
+body, .body-color {
   @apply bg-grey-lightest text-grey-darkest;
 }
 
 footer {
-  @apply p-4 mt-32 text-sm text-grey-dark;
+  @apply p-4 mt-32 text-xs text-grey-dark;
+}
+
+footer a, footer div {
+  @apply inline-block px-2;
+}
+
+footer a:hover {
+  @apply text-grey-darker;
 }
 
 .flex-direction {
@@ -45,3 +53,13 @@ PAGES
 }
 
 
+
+
+/* BOOKS */
+.btn-buylinks {
+  @apply .text-xs .font-sans .text-black
+}
+
+.btn-buylinks:hover {
+  @apply .bg-black .text-white
+}

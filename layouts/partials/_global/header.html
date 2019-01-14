@@ -6,7 +6,7 @@
     </a>
     
     <div class="px-4 xl:px-16 py-8 hidden md:block font-sans ">
-				{{$reviews := where (.Site.RegularPages) "Section" "reviews"}}	
+				{{$reviews := where (.Site.RegularPages) "Section" "review"}}	
 				
 				{{ range first 1 $reviews }}
 					{{ partial "_components/quote-fancy.html" . }} 
