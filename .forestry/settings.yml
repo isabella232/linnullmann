@@ -47,7 +47,7 @@ sections:
   templates:
   - event
 - type: directory
-  path: content/no/news
+  path: content/no/nyheter
   label: News
   create: documents
   match: "**/*"
