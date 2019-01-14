@@ -13,7 +13,7 @@ fields:
     source:
       type: pages
       section: reviews
-  label: Featured Review
+  label: Featured Quote
   description: Shows on left side below Linn's name
 pages:
 - content/en/_index.md
