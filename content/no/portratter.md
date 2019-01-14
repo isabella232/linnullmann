@@ -1,6 +1,6 @@
 ---
 title: Portretter
-#permalink: /portretter/
+#slug: /portretter/
 translationKey: portraits
 #include: snippets/images-gallery.html
 images: 

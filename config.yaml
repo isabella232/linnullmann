@@ -12,18 +12,17 @@ theme:
 - hugo-layout_module-events
 preserveTaxonomyNames: true
 disableAliases: true
-defaultContentLanguage: 'no'
+defaultContentLanguage: 'nor'
 languages:
-  'no':
+  'nor':
     contentDir: content/no
     languageName: Nor
     languageCode: no-nns
     weight: 1
     permalinks:
-      books: /boker/:title/
-      reviews: /anmeldelser/:title/
-      about: /om-forfatteren/:title/
-      news: /nyheter/:title/
+      books: /boker/
+      reviews: /anmeldelser/:title/      
+      news: /nyheter/
     menu:
       main:
         - url: /
@@ -41,7 +40,7 @@ languages:
         - url: /nyheter/
           name: Nyheter og Hendelser
           weight: 5       
-  en:
+  eng:
     contentDir: content/en
     languageName: Eng
     languageCode: en-us

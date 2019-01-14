@@ -8,9 +8,8 @@
     <div class="px-4 xl:px-16 py-8 hidden md:block font-sans ">
 				{{$reviews := where (.Site.RegularPages) "Section" "reviews"}}	
 				
-			{{ range first 1 $reviews }}
-
-				{{ partial "_components/quote-fancy.html" . }} 
+				{{ range first 1 $reviews }}
+					{{ partial "_components/quote-fancy.html" . }} 
 				{{ end }}
 			
     </div>
@@ -18,17 +17,18 @@
   </section>
 	
 	<section class="px-4 py-4 lg:py-16 text-center">
-		{{/* TODO: Style active state for translated page */}}
-		<ul class="list-reset mb-8 text-sm lg:relative absolute pin-t pin-r mt-2">
-			{{ range $.Site.Home.AllTranslations }}
-				<li class="inline-block">
-					<a href="{{ .Permalink }}" class="rounded mx-1 text-xs no-underline text-grey-lightest lg:border border-grey px-2 py-2">
-						{{- .Language.LanguageName -}}
-					</a>
-				</li>
-			{{ end }}
-		</ul>
-			    
+		{{ if .IsTranslated }}			
+			<ul class="list-reset mb-8 text-sm lg:relative absolute pin-t pin-r mt-2">
+				{{ range .Translations }}				
+					<li class="inline-block">
+						<a href="{{ .Permalink }}" class="rounded mx-1 text-xs no-underline text-grey-lightest lg:border border-grey px-2 py-2">
+							{{ .Lang | title}}
+						</a>
+					</li>
+				{{ end}}
+			</ul>
+		{{ end }}
+	    
 		{{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
 
 	</section>

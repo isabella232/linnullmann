@@ -1,6 +1,6 @@
 ---
 title: Om forfatteren
-#permalink: /om-forfatteren/
+#slug: "/om-forfatteren/"
 translationKey: about
 images: 
   - /uploads/LU-2011-Magasinet-Adrian-Ohrn-Johansen.jpg
