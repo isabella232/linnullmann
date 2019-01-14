@@ -7,7 +7,9 @@
     
     <div class="py-4 hidden md:block font-sans ">
 				{{$reviews := where (.Site.RegularPages) "Section" "review"}}					
-				{{$reviews := where ($reviews) ".Params.show_on_sidebar" true}}					
+				{{/* Not sure if we want to shuffle, becuase older reviews that don't get unchecked will then show up, and they seem to want one recent review.
+					{{$reviews := (where ($reviews) ".Params.show_on_sidebar" true) |shuffle}}					 */}}
+				{{$reviews := (where ($reviews) ".Params.show_on_sidebar" true)}}					
 				{{ range first 1 $reviews }}
 					<div class="bg-primary-color-light py-4 px-8 mb-4 text-sm xl:text-base">
 						{{ partial "_components/quote-fancy-sidebar.html" . }} 
