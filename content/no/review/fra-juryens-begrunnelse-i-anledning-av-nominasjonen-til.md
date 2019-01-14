@@ -8,6 +8,7 @@ link_to_original: http://www.norden.org/no/aktuelt/nyheter/14-nominerte-til-nord
 file: ''
 featured: false
 weight: ''
+show_on_sidebar: true
 
 ---
 Innsikten i livsfortellingers potensielt forvandlende kraft så vel som deres begrensninger, har skapt en roman som like mye handler om hvordan forstå og fortelle om et liv, som om de konkrete livsløpene som legges under lupen.
