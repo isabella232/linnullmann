@@ -19,7 +19,7 @@
 }
 
 body, .body-color {
-  @apply bg-grey-lightest text-grey-darkest;
+  @apply bg-grey-lighter text-grey-darkest;
 }
 
 footer {
@@ -43,7 +43,17 @@ nav li a.active {
   @apply text-white;
 }
 
+h1, h2, h3, h4 {
+  @apply font-light;
+}
 
+h4 {
+  @apply text-2xl;
+}
+
+.page-heading {
+  @apply text-4xl;
+}
 
 /*
 PAGES

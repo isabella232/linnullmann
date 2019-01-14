@@ -1,15 +1,17 @@
 <header class="overflow-x-auto text-grey bg-primary-color text-grey-lightest font-light">
 
-  <section class="px-4 pt-10 pb-4 lg:pb-16 bg-primary-color-light xl:min-h-100 flex flex-col items-center justify-between">
+  <section class=" xl:h-100 px-4 pt-10 pb-4 lg:pb-16 bg-primary-color-light xl:min-h-100 flex flex-col items-center justify-between">
     <a href="/" class="font-sans text-grey-lightest hover:text-white font-light no-underline uppercase tracking-wide text-3xl lg:text-4xl xl:text-5xl text-center"> 
       {{.Site.Title}}
     </a>
     
-    <div class="px-4 xl:px-16 py-8 hidden md:block font-sans ">
-				{{$reviews := where (.Site.RegularPages) "Section" "review"}}	
-				
+    <div class="py-4 hidden md:block font-sans ">
+				{{$reviews := where (.Site.RegularPages) "Section" "review"}}					
+				{{$reviews := where ($reviews) ".Params.show_on_sidebar" true}}					
 				{{ range first 1 $reviews }}
-					{{ partial "_components/quote-fancy.html" . }} 
+					<div class="bg-primary-color-light py-4 px-8 mb-4 text-sm xl:text-base">
+						{{ partial "_components/quote-fancy-sidebar.html" . }} 
+					</div>
 				{{ end }}
 			
     </div>
@@ -17,12 +19,13 @@
   </section>
 	
 	<section class="px-4 py-4 lg:py-16 text-center">
+
 		{{ if .IsTranslated }}			
 			<ul class="list-reset mb-8 text-sm lg:relative absolute pin-t pin-r mt-2">
 				{{ range .Translations }}				
 					<li class="inline-block">
 						<a href="{{ .Permalink }}" class="rounded mx-1 text-xs no-underline text-grey-lightest lg:border border-grey px-2 py-2">
-							{{ .Lang | title}}
+								{{ .Language.LanguageName }}
 						</a>
 					</li>
 				{{ end}}

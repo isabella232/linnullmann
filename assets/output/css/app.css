@@ -6571,7 +6571,7 @@ dt::after {
 
 body,
 .body-color {
-  background-color: #f8fafc;
+  background-color: #f1f5f8;
   color: #3d4852;
 }
 
@@ -6600,6 +6600,21 @@ footer a:hover {
 
 nav li a.active {
   color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.page-heading {
+  font-size: 2.25rem;
 }
 
 /*

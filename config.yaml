@@ -12,9 +12,9 @@ theme:
 - hugo-layout_module-events
 preserveTaxonomyNames: true
 disableAliases: true
-defaultContentLanguage: 'nor'
+defaultContentLanguage: 'no'
 languages:
-  'nor':
+  'no':
     contentDir: content/no
     languageName: Nor
     languageCode: no-nns
@@ -40,7 +40,7 @@ languages:
         - url: /nyheter/
           name: Nyheter og Hendelser
           weight: 5       
-  eng:
+  en:
     contentDir: content/en
     languageName: Eng
     languageCode: en-us

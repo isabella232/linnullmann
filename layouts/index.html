@@ -1,27 +1,35 @@
+{{ define "hero"}}
+{{ partial "hero.html" . }}
+{{ end }}
 {{ define "main" }}
-  <main class="max-w-3xl mx-auto px-3TK pt-5">
-    {{ range first 1 (where .Data.Pages "Section" "book") }}
+
+
+  <main class="max-w-xl mx-auto px-3TK pt-5">
+    {{ range first 1 (where .Data.Pages "Section" "books") }}
       <section class="flex flex-wrap md:flex-row flex-col-reverse mx-auto px-4 md:px-4 py-8">
-          <div class="w-full lg:w-1/2 mt-8 lg:px-8">
-            {{- partial "books/praise-featured.html" . -}}
-            <div class="mt-8 px-4 md:px-0 md:hidden xl:block">
-              {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
-            </div>
-          </div>
+          
           <div class="w-full lg:w-2/5 lg:pt-2">
             {{- partial "books/cover.html" . -}}
           </div>
-          <div class="mt-8 px-8 mx-auto hidden md:block xl:hidden">
-            {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
+          <div class="mt-8 lg:w-3/5 mx-auto">
+            <div class="px-4 leading-normal">
+                {{.Content}}
+                {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
+            </div>
+            
           </div>
       </section>
-  <section class="mx-auto relative bg-grey-light flex mb-12 mt-8 py-8 px-8 text-on-primary-color ">
+  <section class="mx-auto relative flex mb-12 mt-8 py-8 px-8 text-on-primary-color ">
         <div class="px-8">
           {{- partial "books/praise.html" (dict "count" 1 "Page" . ) -}}
           <a class="btn block btn-buylinks self-end" href="{{.URL }}">more</a>
         </div>
       </section>
     {{ end }}
+
+
+
+
     {{$news := where .Pages "Section" "news"}}
     <section class="max-w-3xl mx-auto px-8">
       <h2 class="text-4xl">Recent Updates</h2>

@@ -1,0 +1,23 @@
+{{$page_heading := .Params.page_heading }}
+{{$caption := .Params.image.caption}}
+
+<div class="mb-10 flex flex-col bg-grey-lighter">
+    {{with .Params.images}}          
+      <div class="lazyload relative w-full min-h-100  bg-cover bg-center" data-bg="{{index . 0}}">
+        <div class="absolute pin h-full w-full bg-black-50">
+          {{with $page_heading}}
+            <h2 class="text-white pl-8 pt-2 text-2xl lg:text-5xl font-brand lowercase">{{ . }}</h2>
+          {{end}}
+          {{with $caption}}
+            <span class="absolute pin-b pin-r mb-2 mr-2 text-white-80 text-xs">
+              {{.}}
+            </span>
+          {{end}}        
+        </div>
+      </div>
+    {{end}}    
+    {{ with .Params.image.credit }}
+      <span class="text-grey-darker self-end mr-2 text-xs no-underline nested_link">credit: {{ . | markdownify}}</span>
+    {{ end }}
+  </div>
+

@@ -5,7 +5,6 @@
 {{ with .Params.attribution }}
   <div class="block color-inherit text-sm mt-4 font-sans"> – {{ . | markdownify }}</div>
 {{ end }}
-{{ partial "_components/link-to-original.html" . }}
 <style media="screen">
   blockquote, blockquote p {display: inline-block}
 </style>
