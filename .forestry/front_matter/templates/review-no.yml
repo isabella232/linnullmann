@@ -50,3 +50,5 @@ fields:
   name: weight
   label: weight
   template: partial-weight
+pages:
+- content/no/review/fra-juryens-begrunnelse-i-anledning-av-nominasjonen-til.md
