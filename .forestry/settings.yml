@@ -39,6 +39,10 @@ sections:
   - review
 - type: heading
   label: 'NO'
+- type: document
+  path: no/_index.md
+  label: Hjem
+  match: "**/*"
 - type: directory
   path: content/no/events
   label: Events
