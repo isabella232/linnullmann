@@ -6,5 +6,12 @@ fields:
 - type: image_gallery
   name: images
   label: Featured Image
+- type: select
+  name: featured_review
+  config:
+    source:
+      type: pages
+      section: reviews-anmeldelser
+  label: Featured Quote
 pages:
 - content/no/_index.md
