@@ -19,7 +19,7 @@ fields:
   config:
     source:
       type: pages
-      section: books-boker
+      section: books-450a0d38-c973-4f9f-854d-fc99ff70dcda
   label: Book
   default: ''
 - type: select
