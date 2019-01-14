@@ -3,6 +3,10 @@ label: Review
 hide_body: false
 is_partial: false
 fields:
+- type: boolean
+  name: show_on_sidebar
+  label: Show on Sidebar
+  description: Display this Review on Sidebar of Site
 - type: text
   name: title
   label: Title
