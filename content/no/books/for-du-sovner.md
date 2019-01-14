@@ -3,15 +3,15 @@ title: Før du sovner
 subtitle:
 date: 1998-04-15T12:00:00.000Z
 translationKey: before-you-sleep
-genre:  
+genre:
   - Skjønnlitteratur
 editions:
 - binding: hardcover
-  isbn: 9780140298338
-  date: 1998-04-15T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg"
-  publisher: Penguin Group
+  isbn: 9780140298338
+  date: 1998-04-15T12:00:00.000Z
+  description: ""
+  cover_image: "/uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg"
+  publisher: Penguin Group
 
 # isbn: 9780140298338
 # cover_image_path: /uploads/2015-ullmann-du-sovner-pcktserie-500px.jpg
@@ -46,8 +46,8 @@ published_countries:
   - Ukraine
   - United Kingdom
   - US
-world_rights_markdown: 'Foreign rights/salg til utlandet: [The Wylie Agency](http://www.wylieagency.com/)'
-meta: 'RIGHTS SOLD TO: Romania (Editura All)'
+world_rights_markdown: "Foreign rights/salg til utlandet: [The Wylie Agency](http://www.wylieagency.com/)"
+meta: "RIGHTS SOLD TO: Romania (Editura All)"
 covers:
   - cover_image_path: /uploads/before-you-sleep-brazil-pb-L.jpg
   - cover_image_path: /uploads/before-you-sleep-denmark-hb-L.jpg
@@ -86,14 +86,14 @@ covers:
 #redirect_from: /boker/1998/04/15/for-du-sovner/
 ---
 
-*Før du sovner* er den unge Karin Bloms fortelling om seg selv og sin store, merkelige familie. I Karins verden glir fantasi og virkelighet nesten umerkelig over i hverandre. Hun forteller, forstyrrer, gjøgler og forfører – mens alle omkring henne beveger seg ubønnhørlig mot ensomheten.
+_Før du sovner_ er den unge Karin Bloms fortelling om seg selv og sin store, merkelige familie. I Karins verden glir fantasi og virkelighet nesten umerkelig over i hverandre. Hun forteller, forstyrrer, gjøgler og forfører – mens alle omkring henne beveger seg ubønnhørlig mot ensomheten.
 
-*Før du sovner* er en roman som spenner fra New York på trettitallet til Oslo på nittitallet, gjennom en vifte av fantastiske historier, burleske opptrinn og stille alvor. Slik blir dette både en dannelsesroman og et familieportrett gjennom et århundre. Men mest av alt er det en roman om kjærlighetsforsøk; om ekteskap, utroskap, familiebindinger, forfengelighet og håp.
+_Før du sovner_ er en roman som spenner fra New York på trettitallet til Oslo på nittitallet, gjennom en vifte av fantastiske historier, burleske opptrinn og stille alvor. Slik blir dette både en dannelsesroman og et familieportrett gjennom et århundre. Men mest av alt er det en roman om kjærlighetsforsøk; om ekteskap, utroskap, familiebindinger, forfengelighet og håp.
 
 ### Anmeldelser
 
-* [*New Statesman*, 3. april 2000](/assets/files/New-Statesman-03-04-2000.pdf)
-* [*New York Times*, 10. oktober 1999](http://www.nytimes.com/1999/10/10/books/more-cries-more-whispers.html?emc=eta1)
-* [*Dagbladet*, 23. november 1998](/assets/files/Dagbladet-23-11-1998.pdf)
-* [*Bergens Tidende*, 23. november 1998](/assets/files/Bergens-tidende-23-11-1998.pdf)
-* [*Dagens Næringsliv*, 23. november 1998](/assets/files/DN-23-11-1998.pdf)
+- [_New Statesman_, 3. april 2000](/assets/files/New-Statesman-03-04-2000.pdf)
+- [_New York Times_, 10. oktober 1999](http://www.nytimes.com/1999/10/10/books/more-cries-more-whispers.html?emc=eta1)
+- [_Dagbladet_, 23. november 1998](/assets/files/Dagbladet-23-11-1998.pdf)
+- [_Bergens Tidende_, 23. november 1998](/assets/files/Bergens-tidende-23-11-1998.pdf)
+- [_Dagens Næringsliv_, 23. november 1998](/assets/files/DN-23-11-1998.pdf)

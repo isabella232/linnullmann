@@ -10,11 +10,11 @@ genre:
   - Editor
 editions:
 - binding: hardcover
-  isbn: 
-  date: 1997-01-01T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/men-jeg-bor-her-ennaa-L.jpg"
-  publisher: Knopf Doubleday
+  isbn: 
+  date: 1997-01-01T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/men-jeg-bor-her-ennaa-L.jpg"
+  publisher: Knopf Doubleday
 # isbn:
 # isbn_digital:
 # cover_image_path: /uploads/men-jeg-bor-her-ennaa-L.jpg

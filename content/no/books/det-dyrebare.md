@@ -10,11 +10,11 @@ genre:
 
 editions:
 - binding: hardcover
-  isbn: 
-  date: 2011-03-15T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg"
-  publisher: "Knopf Doubleday"
+  isbn: 
+  date: 2011-03-15T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg"
+  publisher: "Knopf Doubleday"
 # isbn: ''
 # isbn_digital: ''
 #cover_image_path: /uploads/2015-ullmann-det-dyrebare-pcktserie-500px.jpg

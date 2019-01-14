@@ -9,11 +9,11 @@ genre:
   - Sakprosa
 editions:
 - binding: hardcover
-  isbn: 
-  date: 1998-03-31T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/skouen-skouen-M.jpg"
-  publisher: Knopf Doubleday
+  isbn: 
+  date: 1998-03-31T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/skouen-skouen-M.jpg"
+  publisher: Knopf Doubleday
 # isbn:
 # isbn_digital:
 # cover_image_path: /uploads/skouen-skouen-M.jpg

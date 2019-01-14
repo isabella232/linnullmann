@@ -9,7 +9,6 @@ themesDir: components
 theme:
 - hugo-layout_module-base-2019
 - hugo-layout_module-books
-- hugo-layout_module-events
 preserveTaxonomyNames: true
 disableAliases: true
 defaultContentLanguage: 'no'
@@ -20,9 +19,9 @@ languages:
     languageCode: no-nns
     weight: 1
     permalinks:
-      books: /boker/:title/
-      review: /anmeldelser/:title/      
-      news: /nyheter/:title/
+      books: /boker/:filename/
+      review: /anmeldelser/:filename/      
+      news: /nyheter/:filename/
     menu:
       main:
         - url: /

@@ -13,11 +13,11 @@ genre:
 # publisher: Knopf Doubleday
 editions:
 - binding: hardcover
-  isbn: 
-  date: 
-  description: 
-  cover_image: "/uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg"
-  publisher: Knopf Doubleday
+  isbn: 
+  date: 
+  description: 
+  cover_image: "/uploads/2015-ullmann-nar-jeg-er-hos-deg-pcktserie-500px.jpg"
+  publisher: Knopf Doubleday
 covers:
   - cover_image_path: /uploads/stella-descending-us-hb-L.jpg
   - cover_image_path: /uploads/stella-descending-no-hb-L.jpg

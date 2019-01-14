@@ -10,11 +10,11 @@ genre:
   - Fiction
 editions:
 - binding: hardcover
-  isbn: 9781400030941
-  date: 2004-07-13T12:00:00.000Z
-  description: ''
-  cover_image: "/uploads/stella-descending-us-hb-L.jpg"
-  publisher: Knopf Doubleday
+  isbn: 9781400030941
+  date: 2004-07-13T12:00:00.000Z
+  description: ''
+  cover_image: "/uploads/stella-descending-us-hb-L.jpg"
+  publisher: Knopf Doubleday
 # isbn: 9781400030941
 # isbn_digital: 9780307427953
 # cover_image_path: /uploads/stella-descending-us-hb-L.jpg
