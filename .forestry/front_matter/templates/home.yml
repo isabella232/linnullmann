@@ -1,0 +1,8 @@
+---
+label: home
+hide_body: true
+is_partial: false
+fields:
+- type: image_gallery
+  name: images
+  label: Featured Image
