@@ -2,7 +2,7 @@
 title: LitHub on Unquiet
 book: en/books/unquiet.md
 type: blurb
-date: 2019-01-02 05:00:00 +0000
+date: 2019-01-03 00:00:00 -0500
 attribution: LitHub
 file: ''
 featured: false
