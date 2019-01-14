@@ -31,7 +31,7 @@ sections:
   templates:
   - book
 - type: directory
-  path: content/en/reviews
+  path: content/en/review
   label: Reviews/quotes
   create: documents
   match: "**/*"
@@ -47,7 +47,7 @@ sections:
   templates:
   - event
 - type: directory
-  path: content/no/news
+  path: content/no/nyheter
   label: News
   create: documents
   match: "**/*"
@@ -61,7 +61,7 @@ sections:
   templates:
   - book
 - type: directory
-  path: content/no/reviews
+  path: content/no/review
   label: Reviews/quotes
   create: documents
   match: "**/*"
