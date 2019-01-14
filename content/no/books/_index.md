@@ -1,5 +1,5 @@
 ---
 title: Bøker
 translationKey: books
-#permalink: "/boker/"
+url: "/boker/"
 ---

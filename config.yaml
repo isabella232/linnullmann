@@ -20,9 +20,9 @@ languages:
     languageCode: no-nns
     weight: 1
     permalinks:
-      books: /boker/
-      reviews: /anmeldelser/:title/      
-      news: /nyheter/
+      books: /boker/:title/
+      review: /anmeldelser/:title/      
+      news: /nyheter/:title/
     menu:
       main:
         - url: /
