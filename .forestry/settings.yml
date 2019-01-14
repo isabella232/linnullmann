@@ -57,7 +57,7 @@ sections:
   templates:
   - news
 - type: directory
-  path: content/no/books
+  path: content/no/boker
   label: Bøker
   create: documents
   match: "**/*"
