@@ -6,3 +6,5 @@ fields:
 - type: image_gallery
   name: images
   label: Featured Image
+pages:
+- content/en/_index.md
