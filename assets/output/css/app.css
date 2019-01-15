@@ -980,11 +980,46 @@ p a:hover {
 
 /* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
 
+/* Add your styles here. You can import  */
+
+/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS WILL NOT BE IGNORED
+https://www.purgecss.com/whitelisting#in-the-css-directly */
+
+/* purgecss start ignore */
+
 /* BODY */
 
-body {
+.font-primary {
+  font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body,
+.body-color {
   background-color: #f3f3f3;
   color: #3d4852;
+}
+
+footer {
+  padding: 1rem;
+  margin-top: 8rem;
+  font-size: .75rem;
+  color: #8795a1;
+}
+
+footer a,
+footer div {
+  display: inline-block;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+footer a:hover {
+  color: #606f7b;
+}
+
+.flex-direction {
+  /* @apply items-end; */
+  align-items: flex-start;
 }
 
 nav li a.active {
@@ -992,8 +1027,14 @@ nav li a.active {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   font-weight: 300;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 .page-heading {
@@ -1023,19 +1064,6 @@ PAGES
 .btn-buylinks:hover {
   background-color: #22292f;
   color: #fff;
-}
-
-/* Add your styles here. You can import  */
-
-/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS WILL NOT BE IGNORED
-https://www.purgecss.com/whitelisting#in-the-css-directly */
-
-/* purgecss start ignore */
-
-/* @import "modules/_pagination.css";  */
-
-.bud {
-  color: green;
 }
 
 /* purgecss end ignore */
