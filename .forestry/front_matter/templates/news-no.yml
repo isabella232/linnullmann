@@ -1,0 +1,43 @@
+---
+label: news no
+hide_body: true
+is_partial: false
+fields:
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: text
+  name: link_to_original
+  label: Link to Original
+  description: e.g. https://www.example.com
+- type: select
+  name: related_book
+  config:
+    source:
+      type: pages
+      section: books
+  label: Related Book
+- type: include
+  name: date
+  label: date
+  template: partial-date
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit
+  hidden: true
+- type: tag_list
+  label: Topics
+  name: tags
+  hidden: true
+- type: tag_list
+  label: Category
+  name: categories
+  hidden: false
+  default:
+  - News
+  - Interviews
+pages:
+- content/en/news/read-time-for-the-eyes-to-adjust-in-the-new-yorker.md
+- content/en/news/listen-to the-new-yorker podcast-the-writer-s-voice.md
