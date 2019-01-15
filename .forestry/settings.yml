@@ -10,7 +10,7 @@ sections:
   path: content/en/_index.md
   label: Home
 - type: directory
-  path: content/en/events
+  path: content/en/event
   label: Events
   create: documents
   match: "**/*"
@@ -43,7 +43,7 @@ sections:
   path: content/no/_index.md
   label: Hjem
 - type: directory
-  path: content/no/events
+  path: content/no/event
   label: Events
   create: documents
   match: "**/*"
