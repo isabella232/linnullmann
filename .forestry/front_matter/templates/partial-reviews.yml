@@ -1,0 +1,13 @@
+---
+label: partial-reviews
+hide_body: false
+is_partial: false
+fields:
+- type: list
+  name: reviews
+  label: Reviews
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: reviews-quotes

@@ -6,5 +6,9 @@ fields:
 - type: image_gallery
   name: images
   label: Featured Image
+- type: include
+  name: reviews
+  label: Reviews
+  template: partial-reviews
 pages:
 - content/en/_index.md
