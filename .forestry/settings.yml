@@ -29,6 +29,7 @@ sections:
   label: Books
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - book
 - type: directory
@@ -36,6 +37,7 @@ sections:
   label: Reviews/quotes
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - review
 - type: heading
