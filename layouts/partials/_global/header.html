@@ -1,7 +1,7 @@
 <header class="overflow-x-auto text-grey bg-primary-color text-grey-lightest font-light">
 
   <section class=" xl:h-100 px-4 pt-10 pb-4 lg:pb-16 bg-primary-color-light xl:min-h-100 flex flex-col items-center justify-between">
-    <a href="/" class="font-sans text-grey-lightest hover:text-white font-light no-underline uppercase tracking-wide text-3xl lg:text-4xl xl:text-5xl text-center"> 
+    <a href="/{{if eq .Lang "en"}}{{ .Lang}}{{end}}" class="font-sans text-grey-lightest hover:text-white font-light no-underline uppercase tracking-wide text-3xl lg:text-4xl xl:text-5xl text-center"> 
       {{.Site.Title}}
     </a>
     
