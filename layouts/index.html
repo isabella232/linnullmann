@@ -11,21 +11,26 @@
       {{ $events_upcoming := where $events ".Date" "ge" now }}
 
       {{ with $events_upcoming.Reverse }}
-        <h1 class="page-heading">
-          Upcoming Events
-        </h1>
-        {{ range first 2 . }}
-          <div class="relative w-full mb-8 border-b">
-            {{ .Render "view-item" }}
-          </div>
-        {{ end }}
+        <div class="border-b mb-8">
+          <h1 class="page-heading">
+            Upcoming Events
+          </h1>
+          {{ range first 2 . }}
+            <div class="relative w-full mb-8">
+              {{ .Render "view-item" }}
+            </div>
+          {{ end }}
+        </div>
       {{ end }}
 
       {{/* News */}}
       {{$news_related := where $news ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
       {{with $news_related}}
-        <div class="flex flex-wrap items-center">
-          {{range first 2 .}}
+        <h1 class="page-heading">
+          News & Interviews
+        </h1>
+        <div class="">
+          {{range first 3 .}}
             {{.Render "view-item"}}
           {{end}}
         </div>
@@ -37,7 +42,7 @@
             {{- partial "books/cover.html" . -}}
           </div>
           <div class="mt-8 lg:w-3/5 mx-auto">
-            <div class="pl-8 leading-normal">
+            <div class="pl-8 text-xl font-thin leading-normal">
               {{.Content}}
               <div class="pt-4">
                   {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
@@ -60,7 +65,7 @@
 
 
     {{$news := where .Pages "Section" "news"}}
-    <section class="max-w-3xl mx-auto px-8">
+    <section class="max-w-3xl mx-auto px-8 hidden">
       <h2 class="text-4xl">Recent Updates</h2>
       <div class="list-reset flex flex-wrap">
         {{/* lg:flex flew-wrap justify-between */}}
