@@ -1,0 +1,14 @@
+<div class="py-2 font-light mb-3">
+    {{ partial "_components/time.html" (dict "context" . "classes" "text-xs block color-inherit font-sans tracked" "show_time" false ) }}
+    <h2 class="text-3xl my-0 leading-tight">
+        {{.Title | markdownify}}
+    </h2>
+  {{ with .Description }}
+    <div class="text-sm">
+        {{ . |markdownify}}
+    </div>
+  {{ end }}        
+</div>
+<div>
+    {{partial "_components/link-to-original.html" .}}
+</div>

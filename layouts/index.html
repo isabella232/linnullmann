@@ -2,27 +2,53 @@
 {{ partial "hero.html" . }}
 {{ end }}
 {{ define "main" }}
-
+{{ $news := where .Page.Site.RegularPages "Section" "news" }}
+{{ $events := where .Page.Site.RegularPages "Section" "event" }}
 
   <main class="max-w-xl mx-auto px-3TK pt-5">
-    {{ range first 1 (where .Data.Pages "Section" "books") }}
-      <section class="flex flex-wrap md:flex-row flex-col-reverse mx-auto px-4 md:px-4 py-8">
-          
+    {{ range first 1 (where .Data.Pages "Section" "books") }} 
+    
+    {{$events_related := where $events ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
+
+    {{with $events_related}}
+      <div class="flex flex-wrap items-center">
+        {{range first 2 .}}
+          {{.Render "view-item"}}
+        {{end}}
+      </div>
+    {{end}}
+
+      {{/* News */}}
+      {{$news_related := where $news ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
+      {{with $news_related}}
+        <div class="flex flex-wrap items-center">
+          {{range first 2 .}}
+            {{.Render "view-item"}}
+          {{end}}
+        </div>
+      {{end}}
+
+      {{/* THE BOOK */}}
+      <section class="flex flex-wrap md:flex-row flex-col-reverse mx-auto px-4 md:px-4 py-8"> 
           <div class="w-full lg:w-2/5 lg:pt-2">
             {{- partial "books/cover.html" . -}}
           </div>
           <div class="mt-8 lg:w-3/5 mx-auto">
-            <div class="px-4 leading-normal">
-                {{.Content}}
-                {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
+            <div class="pl-8 leading-normal">
+              {{.Content}}
+              <div class="pt-4">
+                  {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
+              </div>
             </div>
             
           </div>
       </section>
       <section class="mx-auto relative flex mb-12 mt-8 py-8 px-8 text-on-primary-color ">
-        <div class="px-8">
-          {{- partial "books/praise.html" (dict "count" 1 "Page" . ) -}}
-          <a class="btn block btn-buylinks self-end" href="{{.URL }}">more</a>
+        <div class="px-8 text-2xl">
+
+          
+          {{- partial "books/praise.html" (dict "count" 3 "Page" . ) -}}
+          {{/* <a class="btn block btn-buylinks inline-block self-end" href="{{.URL }}">more</a> */}}
         </div>
       </section>
     {{ end }}
@@ -33,15 +59,15 @@
     {{$news := where .Pages "Section" "news"}}
     <section class="max-w-3xl mx-auto px-8">
       <h2 class="text-4xl">Recent Updates</h2>
-      <div class="list-reset sm:grid grid-columns-2 lg:grid-columns-3 grid-gap-4">
+      <div class="list-reset flex flex-wrap">
         {{/* lg:flex flew-wrap justify-between */}}
         {{range first 4 $news}}
-          <div class="max-w-sm rounded overflow-hidden shadow-md mb-8">
+          <div class="max-w-sm rounded w-1/2 overflow-hidden shadow-md mb-8">
             {{/*
             <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"> */}}
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">
-              <a href="{{ .URL }}" class="no-underline border-b text-primary-color">  {{- .Title | markdownify -}}</a>
+              <a href="{{ .URL }}" class="no-underline border-b text-black">  {{- .Title | markdownify -}}</a>
               </div>
               <p class="text-grey-darker text-base">
                 {{ .Summary | safeHTML | truncate "200" }}

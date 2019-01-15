@@ -1,6 +1,5 @@
 {{ $reviews := where .Page.Site.RegularPages "Section" "review" }}
-{{ $reviews_related := where ($reviews) ".Params.book" .Page.File.Path }}
-
+{{ $reviews_related := where $reviews ".Params.book" (printf "%s%s%s" .Page.Lang "/" .Page.File.Path) }}
 {{ if $reviews_related }}
   <div id="praise">
     <h2 class="mt-5 mb-4">

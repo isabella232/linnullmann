@@ -1,0 +1,35 @@
+
+{{ define "hero"}}
+{{ partial "hero.html" . }}
+{{ end }}
+{{ define "main" }}  
+  <div class="px-4 min-h-screen max-w-xl mx-auto mb-8">
+    {{- partial "_components/page-heading.html" . -}}
+    <div class="mb-16">
+      {{ range .Pages }}
+        <div class="flex flex-wrap items-end mb-4 border-b">
+          {{template "view-news-item" .}}
+        </div>
+      {{ end }}
+    </div>
+    {{/* {{- template "_internal/pagination.html" . -}} */}}
+  </div>
+{{ end }}
+
+
+{{define "view-news-item"}}
+  <div class="py-2 font-light ">
+      {{ partial "_components/time.html" (dict "context" . "classes" "text-xs block color-inherit font-sans tracked" "show_time" false ) }}
+      <h2 class="text-2xl my-0 leading-tight">
+          {{.Title | markdownify}}
+      </h2>
+    {{ with .Description }}
+      <div class="text-sm">
+          {{ . |markdownify}}
+      </div>
+    {{ end }}        
+  </div>
+  <div>
+      {{partial "_components/link-to-original.html" .}}
+  </div>
+{{end}}

@@ -1,4 +1,4 @@
 ---
-title: "News, Events, and Interviews"
+title: "News and Interviews"
 translationKey: news
 ---

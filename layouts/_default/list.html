@@ -1,11 +1,16 @@
-{{ define "main" }}
 
-  {{- partial "_components/page-heading.html" . -}}
-  {{/* <section>    
-    {{ range .Paginator.Pages }}
-      {{- partial "summary.html" . -}}
-    {{ end }}    
-  </section>
- */}}
-{{- template "_internal/pagination.html" . -}}
+{{ define "hero"}}
+{{ partial "hero.html" . }}
 {{ end }}
+{{ define "main" }}  
+  <div class="px-4 min-h-screen max-w-xl mx-auto">
+    {{- partial "_components/page-heading.html" . -}}
+    <div class="flex flex-wrap items-center">
+    {{ range .Pages }}
+      {{.Render "view-item"}}
+    {{ end }}
+  </div>
+    {{- template "_internal/pagination.html" . -}}
+  </div>
+{{ end }}
+
