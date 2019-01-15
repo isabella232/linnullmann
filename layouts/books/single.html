@@ -12,7 +12,7 @@
         </div>
         <div class="w-full md:w-3/5 mt-4 md:mt-0 md:px-6">
             {{ partial "books/description.html" . }}
-          <div class="border-b my-4 leading-normal">
+          <div class="border-b my-4 text-xl font-light leading-normal">
             {{ .Content }}
           </div>
           {{ $count := "1" }}
@@ -24,7 +24,9 @@
       {{- partial "books/covers-editions.html" . -}}
     </section>
     <section class="mx-auto flex flex-columnd mb-32 mt-8 px-4 md:px-4 text-on-primary-color">
+      <div class="text-2xl">          
       {{- partial "books/praise.html" (dict "count" 100 "Page" . ) -}}
+      </div>
     </section>
   </div>
 {{ end }}

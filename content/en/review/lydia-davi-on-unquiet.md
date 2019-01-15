@@ -2,7 +2,7 @@
 title: Lydia Davis on Unquiet
 book: en/books/unquiet.md
 type: blurb
-date: 2019-01-02 05:00:00 +0000
+date: 2019-01-12 05:00:00 +0000
 attribution: Lydia Davis, author of *The End of the Story*
 file: ''
 featured: true

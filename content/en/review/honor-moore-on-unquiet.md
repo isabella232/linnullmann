@@ -2,7 +2,7 @@
 title: Honor Moore on Unquiet
 book: en/books/unquiet.md
 type: blurb
-date: 2019-01-02 00:00:00 -0500
+date: 2019-01-09 00:00:00 -0500
 attribution: Honor Moore, author of *The Bishop’s Daughter*
 file: ''
 featured: false

@@ -2,7 +2,7 @@
 title: Claire Messud on Unquiet
 book: en/books/unquiet.md
 type: blurb
-date: 2019-01-02 00:00:00 -0500
+date: 2019-01-11 00:00:00 -0500
 attribution: Claire Messud, author of The Burning Girl
 file: ''
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: KIRKUS, Starred Review on Unquiet
 book: en/books/unquiet.md
-date: 2019-01-02 05:00:00 +0000
+date: 2019-01-15 05:00:00 +0000
 show_on_sidebar: false
 attribution: KIRKUS, Starred Review
 file: ''

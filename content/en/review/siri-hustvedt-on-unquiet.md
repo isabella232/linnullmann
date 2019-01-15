@@ -2,7 +2,7 @@
 title: Siri Hustvedt on Unquiet
 book: en/books/unquiet.md
 type: blurb
-date: 2019-01-02 00:00:00 -0500
+date: 2019-01-10 00:00:00 -0500
 attribution: Siri Hustvedt, author of *The Blazing World*
 file: ''
 featured: false
