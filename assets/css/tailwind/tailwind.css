@@ -5,6 +5,8 @@
 
 /* Modules */
 @import "modules/_utilities";
+/* @import "modules/_hugo-internal-templates"; */
+
 @import "modules/_nav-side-left";
 
 @import "tailwindcss/utilities";

@@ -4,6 +4,13 @@
 {{ end }}
 {{ define "main" }}  
   <div class="px-4 min-h-screen max-w-xl mx-auto mb-8">
+
+
+<div class="mb-16">
+      
+    {{- partial "events.html" . -}}
+
+</div>
     {{- partial "_components/page-heading.html" . -}}
     <div class="mb-16">
       {{ range .Pages }}

@@ -1,0 +1,14 @@
+{{ $events := where .Page.Site.RegularPages "Section" "event" }}
+{{ $events_upcoming := where $events ".Date" "ge" now }}
+{{ $events_past := where $events.Reverse ".Date" "lt" now }}
+
+{{ with $events_upcoming }}
+  <h1 class="page-heading">
+    Upcoming Events
+  </h1>
+  {{ range . }}
+    <div class="relative w-full mb-8 border-b">
+      {{ .Render "view-item" }}
+    </div>
+  {{ end }}
+{{ end }}

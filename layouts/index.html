@@ -8,15 +8,18 @@
   <main class="max-w-xl mx-auto px-3TK pt-5">
     {{ range first 1 (where .Data.Pages "Section" "books") }} 
     
-    {{$events_related := where $events ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
+      {{ $events_upcoming := where $events ".Date" "ge" now }}
 
-    {{with $events_related}}
-      <div class="flex flex-wrap items-center">
-        {{range first 2 .}}
-          {{.Render "view-item"}}
-        {{end}}
-      </div>
-    {{end}}
+      {{ with $events_upcoming.Reverse }}
+        <h1 class="page-heading">
+          Upcoming Events
+        </h1>
+        {{ range first 2 . }}
+          <div class="relative w-full mb-8 border-b">
+            {{ .Render "view-item" }}
+          </div>
+        {{ end }}
+      {{ end }}
 
       {{/* News */}}
       {{$news_related := where $news ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
