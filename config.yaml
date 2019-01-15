@@ -2,7 +2,7 @@
 title: Linn Ullmann
 MetaDataFormat: yaml
 buildFuture: true
-baseURL: https://linnullmann.netlify.com/
+baseURL: https://www.linnullmann.no/
 enableRobotsTXT: true
 googleAnalytics: ''
 themesDir: components
