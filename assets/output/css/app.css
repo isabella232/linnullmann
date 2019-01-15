@@ -896,6 +896,10 @@ p a:hover {
   text-align: center;
 }
 
+.text-black {
+  color: #22292f;
+}
+
 .text-grey-darkest {
   color: #3d4852;
 }
@@ -918,6 +922,10 @@ p a:hover {
 
 .text-blue-dark {
   color: #2779bd;
+}
+
+.hover\:text-grey-darker:hover {
+  color: #606f7b;
 }
 
 .hover\:text-grey-light:hover {
@@ -1127,9 +1135,12 @@ PAGES
     display: block;
   }
 
-  .lg\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .lg\:inline-block {
+    display: inline-block;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0;
   }
 
   .lg\:py-16 {
