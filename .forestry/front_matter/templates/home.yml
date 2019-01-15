@@ -6,14 +6,5 @@ fields:
 - type: image_gallery
   name: images
   label: Featured Image
-- type: list
-- type: select
-  name: featured_review
-  config:
-    source:
-      type: pages
-      section: reviews
-  label: Featured Quote
-  description: Shows on left side below Linn's name
 pages:
 - content/en/_index.md
