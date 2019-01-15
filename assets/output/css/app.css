@@ -537,6 +537,8 @@ p a:hover {
 
 /* @import "modules/_hugo-internal-templates"; */
 
+/* purgecss start ignore */
+
 @media (min-width: 992px) {
   header {
     position: fixed;
@@ -550,7 +552,17 @@ p a:hover {
   header {
     width: 30%;
   }
+
+  .content {
+    margin-left: 30%;
+  }
+
+  .flex-direction {
+    flex-direction: column;
+  }
 }
+
+/* purgecss end ignore */
 
 .list-reset {
   list-style: none;

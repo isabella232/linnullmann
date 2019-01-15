@@ -7,8 +7,11 @@
 @import "modules/_utilities";
 /* @import "modules/_hugo-internal-templates"; */
 
+/* purgecss start ignore */
+
 @import "modules/_nav-side-left";
 
+/* purgecss end ignore */
 @import "tailwindcss/utilities";
 
 /* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
