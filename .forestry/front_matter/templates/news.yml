@@ -11,6 +11,13 @@ fields:
   name: link_to_original
   label: Link to Original
   description: e.g. https://www.example.com
+- type: select
+  name: related_book
+  config:
+    source:
+      type: pages
+      section: books
+  label: Related Book
 - type: include
   name: date
   label: date
