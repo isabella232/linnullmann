@@ -38,6 +38,3 @@ fields:
   default:
   - News
   - Interviews
-pages:
-- content/en/news/read-time-for-the-eyes-to-adjust-in-the-new-yorker.md
-- content/en/news/listen-to the-new-yorker podcast-the-writer-s-voice.md

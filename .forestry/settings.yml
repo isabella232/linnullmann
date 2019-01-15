@@ -58,7 +58,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - news
+  - news-no
 - type: directory
   path: content/no/books
   label: Bøker
