@@ -14,5 +14,6 @@ related_books:
 no_book:
 - det-dyrebare
 _slug: 2014-04-22-the-atlantic-interview
+related_book: en/books/the-cold-song.md
 
 ---
