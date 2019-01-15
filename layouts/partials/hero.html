@@ -1,7 +1,7 @@
 {{$page_heading := .Params.page_heading }}
 {{$caption := .Params.image.caption}}
 
-<div class="mb-10 flex flex-col bg-grey-lighter">
+<div class="mb-8 flex flex-col bg-grey-lighter">
     {{with .Params.images}}          
       <div class="lazyload relative w-full min-h-100 bg-cover bg-center" style="background-image:url({{index . 0}});{{with $.Params.hero_height}}height:{{.}};{{end}}">
         <div class="absolute pin h-full w-full bg-black-50">
