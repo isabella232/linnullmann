@@ -1,7 +1,7 @@
 ---
 title: PUBLISHERS WEEKLY, Starred Review on Unquiet
 book: en/books/unquiet.md
-date: 2019-01-02 05:00:00 +0000
+date: 2019-01-05 05:00:00 +0000
 attribution: PUBLISHERS WEEKLY, Starred Review
 file: ''
 featured: false

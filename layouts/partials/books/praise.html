@@ -6,7 +6,7 @@
       Praise for <i>{{ .Page.Title }}</i>
     </h2>
     {{ $count := .count | default 1 }}
-    {{ range first $count ($reviews_related) }}
+    {{ range first $count ($reviews_related.Reverse) }}
       <div class="mb-16">
         {{ partial "_components/quote-fancy.html" . }}
       </div>
