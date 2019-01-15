@@ -1,0 +1,13 @@
+{{/* News */}}
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{$news_related := where $news ".Params.related_book" (printf "%s%s%s" .Lang "/" .File.Path) }}
+{{with $news_related}}
+  <h1 class="page-heading">
+    News & Interviews
+  </h1>
+  <div class="">
+    {{range first 3 .}}
+      {{.Render "view-item"}}
+    {{end}}
+  </div>
+{{end}}

@@ -1,0 +1,15 @@
+{{/* THE BOOK */}}
+<section class="flex flex-wrap md:flex-row flex-col-reverse mx-auto py-8"> 
+    <div class="w-full lg:w-2/5 lg:pt-2">
+      {{- partial "books/cover.html" . -}}
+    </div>
+    <div class="mt-8 lg:w-3/5 mx-auto">
+      <div class="pl-8 text-xl font-thin leading-normal">
+        {{.Content}}
+        <div class="pt-4">
+            {{ partial "books/buylinks_array.html" (dict "item" . "count" "1") }}
+        </div>
+      </div>
+      
+    </div>
+</section>

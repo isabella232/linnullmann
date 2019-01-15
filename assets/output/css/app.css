@@ -661,14 +661,6 @@ p a:hover {
   font-weight: 300;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
 .h-full {
   height: 100%;
 }
@@ -774,16 +766,8 @@ p a:hover {
   margin-bottom: 8rem;
 }
 
-.max-w-sm {
-  max-width: 30rem;
-}
-
 .max-w-xl {
   max-width: 60rem;
-}
-
-.max-w-3xl {
-  max-width: 80rem;
 }
 
 .min-h-100 {
@@ -806,10 +790,6 @@ p a:hover {
   margin-left: -1rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -829,11 +809,6 @@ p a:hover {
   padding-right: .5rem;
 }
 
-.px-3 {
-  padding-left: .75rem;
-  padding-right: .75rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -842,11 +817,6 @@ p a:hover {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .py-8 {
@@ -873,10 +843,6 @@ p a:hover {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .pl-8 {
@@ -914,16 +880,8 @@ p a:hover {
   bottom: 0;
 }
 
-.shadow-md {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-black {
-  color: #22292f;
 }
 
 .text-grey-darkest {
@@ -1012,16 +970,6 @@ p a:hover {
 
 .align-baseline {
   vertical-align: baseline;
-}
-
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-full {
@@ -1139,8 +1087,9 @@ https://www.purgecss.com/whitelisting#in-the-css-directly */
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .lg\:py-16 {
