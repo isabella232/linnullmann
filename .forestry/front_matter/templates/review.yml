@@ -3,10 +3,6 @@ label: Review
 hide_body: false
 is_partial: false
 fields:
-- type: boolean
-  name: show_on_sidebar
-  label: Show on Sidebar
-  description: Display this Review on Sidebar of Site
 - type: text
   name: title
   label: Title
@@ -24,6 +20,15 @@ fields:
       section: books
   label: Book
   default: en/books/unquiet.md
+- type: boolean
+  name: show_on_sidebar
+  label: Show on Sidebar
+  description: Display this Review on Sidebar of Site for all pages other than the
+    book's page
+- type: boolean
+  name: featured
+  label: Featured
+  description: Display's the quote in the sidebar of the book's page
 - type: select
   name: type
   config:
@@ -42,9 +47,6 @@ fields:
   name: file
   label: File
   description: PDF File
-- type: boolean
-  name: featured
-  label: Featured
 - type: include
   name: weight
   label: weight
