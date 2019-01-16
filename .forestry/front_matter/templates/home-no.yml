@@ -6,5 +6,13 @@ fields:
 - type: image_gallery
   name: images
   label: Featured Image
+- type: list
+  name: reviews
+  label: Reviews
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: reviews-quotes-nor
 pages:
 - content/no/_index.md
