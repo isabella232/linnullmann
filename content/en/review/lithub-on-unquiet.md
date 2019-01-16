@@ -6,7 +6,7 @@ attribution: "*LitHub*"
 file: ''
 featured: true
 weight: ''
-show_on_sidebar: true
+show_on_sidebar: false
 book: ''
 
 ---
