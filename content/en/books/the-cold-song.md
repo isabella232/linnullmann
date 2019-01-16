@@ -51,7 +51,7 @@ covers:
 #redirect_from: /en/books/2014/04/01/the-cold-song/
 ---
 
-***The Cold Song* has been chosen by independent booksellers as an Indie Next Pick**
+**_The Cold Song_ has been chosen by independent booksellers as an Indie Next Pick**
 
 From the internationally best-selling author Linn Ullmann, hailed as a “an elegant stylist with an original voice” (New York Times Book Review) comes this taut, brilliantly acute novel of a family who when faced with tragedy must confront their guilt, their longings, and their losses.
 
