@@ -4,13 +4,9 @@
 {{ end }}
 {{ define "main" }}  
   <div class="px-4 min-h-screen max-w-xl mx-auto mb-8">
-
-
-<div class="mt-32 mb-16">
-      
-    {{- partial "events.html" . -}}
-
-</div>
+    <div class="mt-32 mb-16">      
+      {{- partial "events.html" . -}}
+    </div>
     {{- partial "_components/page-heading.html" . -}}
     <div class="mb-16">
       {{ range .Pages }}
@@ -25,17 +21,16 @@
 
 
 {{define "view-news-item"}}
-<div class="py-2 font-light mb-3">
+  <div class="py-2 font-light mb-3">
     {{ partial "_components/time.html" (dict "context" . "classes" "text-xs block color-inherit font-sans tracked" "show_time" false ) }}
     <h2 class="text-2xl my-1 leading-tight">
-        {{.Title | markdownify}}
+      {{.Title | markdownify}}
     </h2>
-  {{ with .Description }}
-    <div class="text-sm">
+    {{ with .Description }}
+      <div class="text-sm">
         {{ . |markdownify}}
-    </div>
-  {{ end }}        
-  {{partial "_components/link-to-original.html" .}}
-</div>
-
+      </div>
+    {{ end }}        
+    {{partial "_components/link-to-original.html" .}}
+  </div>
 {{end}}
