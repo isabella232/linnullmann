@@ -1,5 +1,14 @@
 <section class="mx-auto relative flex mb-12 mt-8 py-8 px-8 text-on-primary-color ">
-    <div class="text-2xl">          
-      {{- partial "books/praise.html" (dict "count" 3 "Page" . ) -}}          
+  <div class="text-2xl">          
+    {{with .Params.reviews}}
+        {{range .}}                  
+          {{$reviews := $.Site.GetPage (replace . "en/" "")}}        
+            {{with $reviews}}
+              <div class="mb-16">            
+                {{ partial "_components/quote-fancy.html" . }}
+              </div>
+            {{end}} 
+        {{end}}
+      {{end}}
     </div>
   </section>

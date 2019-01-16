@@ -10,9 +10,9 @@
         {{ range first 1 (where .Data.Pages "Section" "books") }} 
         {{ partial "home/block-book.html" . }}
         {{ partial "home/block-events.html" . }}
-        {{ partial "home/block-news.html" . }}
-        {{ partial "home/block-praise.html" . }}          
+        {{ partial "home/block-news.html" . }}        
       {{ end }}
+      {{ partial "home/block-praise.html" . }}          
     </div>
   </main>
 {{ end }}
