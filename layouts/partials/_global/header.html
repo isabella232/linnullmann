@@ -6,33 +6,40 @@
     </a>
     
     <div class="py-4 hidden md:block font-sans ">
-				{{$reviews := where (.Site.RegularPages) "Section" "review"}}					
-				{{/* Not sure if we want to shuffle, becuase older reviews that don't get unchecked will then show up, and they seem to want one recent review.
-					{{$reviews := (where ($reviews) ".Params.show_on_sidebar" true) |shuffle}}					 */}}
-				{{$reviews := (where ($reviews) ".Params.show_on_sidebar" true)}}					
-				{{ range first 1 $reviews }}
+			{{$reviews := where (.Site.RegularPages) "Section" "review"}}		
+			{{$review := (where ($reviews) ".Params.show_on_sidebar" true)}}								
+			{{$review_related := where $reviews ".Params.book" (printf "%s%s%s" .Lang "/" .File.Path)}}							
+			{{$review_featured := where $review_related ".Params.featured"  true}}
+			{{if $review_featured}}
+				{{range first 1 ($review_featured)}}
+					<div class="bg-primary-color-light py-4 px-8 mb-4 text-sm xl:text-base">						
+						{{ partial "_components/quote-fancy-sidebar.html" . }} 
+					</div>
+				{{end}}						
+			{{else}}							
+				{{range first 1 $review}}
 					<div class="bg-primary-color-light py-4 px-8 mb-4 text-sm xl:text-base">
 						{{ partial "_components/quote-fancy-sidebar.html" . }} 
 					</div>
-				{{ end }}
-			
+				{{end}}
+			{{end}}
     </div>
 
   </section>
 	
 	<section class="px-4 py-4 lg:py-16 text-center">
 
-		{{ if .IsTranslated }}			
+		{{if .IsTranslated}}			
 			<ul class="list-reset mb-8 text-sm lg:relative absolute pin-t pin-r mt-2">
-				{{ range .Translations }}				
+				{{range .Translations}}				
 					<li class="inline-block">
 						<a href="{{ .Permalink }}" class="rounded mx-1 text-xs no-underline text-grey-lightest lg:border border-grey px-2 py-2">
-								{{ .Language.LanguageName }}
+								{{.Language.LanguageName}}
 						</a>
 					</li>
-				{{ end}}
+				{{end}}
 			</ul>
-		{{ end }}
+		{{end}}
 	    
 		{{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}
 
