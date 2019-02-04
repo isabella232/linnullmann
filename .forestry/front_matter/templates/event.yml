@@ -29,3 +29,5 @@ fields:
   label: venue
   template: partial-venue
   hidden: true
+pages:
+- content/en/event/test.md
