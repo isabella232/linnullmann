@@ -30,4 +30,5 @@ fields:
   template: partial-venue
   hidden: true
 pages:
+- content/no/event/tst.md
 - content/en/event/test.no.md
