@@ -2,7 +2,7 @@
 categories:
 - News
 - Interviews
-title: New York Times Editor’s Choice Book Review
+title: "*New York Times* Editor’s Choice Book Review"
 description: ''
 link_to_original: https://www.nytimes.com/2019/01/24/books/review/9-new-books-we-recommend-this-week.html
 related_book: en/books/unquiet.md
