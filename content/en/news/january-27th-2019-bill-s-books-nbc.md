@@ -2,7 +2,7 @@
 categories:
 - News
 - Interviews
-title: Bill’s books NBC
+title: "*Bill’s books* NBC"
 description: ''
 link_to_original: https://www.nbcnewyork.com/news/local/Here-Are-Bill-Goldsteins-Book-Choices-for-Jan-27-504911181.html
 related_book: en/books/unquiet.md
