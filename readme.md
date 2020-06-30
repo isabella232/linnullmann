@@ -1,6 +1,5 @@
-# The New Dynamic Hugo Starter
-
-This is a starter repo for The New Dynamic's web projects. Do with as you wish, but keep in mind that everything here is designed for our internal workflow.
+# The New Dynamic 
+This repo uses the following technologies:
 
 We use a [Changelog](https://github.com/theNewDynamic/hugo-starter/blob/master/CHANGELOG.md) on all of our projects. Please see that file for updates.
 
